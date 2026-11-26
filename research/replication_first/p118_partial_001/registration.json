@@ -1,0 +1,17 @@
+{
+  "id": "P118_partial_001",
+  "registered_utc": "2026-11-26T06:03:01.425972+00:00",
+  "type": "Partialpaper-effectcheckdailyopenproxy;notexactnativeVWAPreplication",
+  "sample": "Predictorquarterend1993Q2..2019Q3,targetnextnonoverlappingquarter1993Q3..2019Q4,N106expected. FullmonthsFeb1993onward,firstmonthJan1993omittedbecauseinceptionpartial.",
+  "signal": "Computeovernightdailyusingadjustedcloseclose/rawopencloseidentity;compoundovernightbymonth. EWMAovernight_t=(1/121)*monthlyovernight_t+(120/121)*previousEWMA,initial0beforeFeb1993. Predictoronlycompletedquarterend. No variants/filter/assets.",
+  "target": "NextcompletequarterSPYadjustedcloseclosecompoundedreturnminusquarterRFcompoundedfromFrenchdailyRF. OLSconstant+oneEWMAsignal,rawunits. Signalavailableafterquarterendclose;executionlag/costseparatestage.",
+  "primary_gate": "Fullsampleovernightslopestrictlynegative AND95%stationarybootstrapCIupper<0allblocks4/8/12quarters,10000pathsseeds118004/118008/118012;chronologicalexpandingOLSforecastMSEimprovement>0versusexpandingmean. First40targetquartersfortraining,thenexpandingpriorcompletedquartersonly.",
+  "limits": "Dailyopenproxy,initializationanddatavintagechangesexplicit;notexactnumericalreplication. Nonoverlappingquarters,shortsample,persistentpredictorbootstrapfinite-samplelimits. Previouslyvieweddevelopmentnotindependentconfirmation.",
+  "advance": "Onlyifjointgatepassesregisterone$10000cost-awarecausalexecutionstrategyandthreeDDtiers;nostrategy/ranking/paperorderfromregression. No posthoc smoothing/training changes.",
+  "hashes": {
+    "research\\replication_first\\p118_audit\\working_2022.pdf": "ccc95082087d105a22c9b63c315c1270d89869a153aec03a8568ef989b526dfb",
+    "research\\replication_first\\p118_audit\\SPY_1993_2019.csv": "366aa739ea2ef1d252ad313581f60eebb8a5b2a4bf16197733a0d2ea59452809",
+    "research\\replication_first\\p52_audit\\F-F_Research_Data_Factors_daily.CSV": "6decccff26f54ddbe04c460e8694ee9a1cffa9120cc1ba3a63c7a20dbf9eb1d2"
+  },
+  "sealed": "No2024-2025observations"
+}

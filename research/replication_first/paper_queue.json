@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P43 originalacceptedmethodsrecovered; nativeTAQ/stockuniverse/marketcapinputsblocked",
+  "active_paper": "P118",
+  "active_stage": "Newdated2022market-levelpaperrecovered;bounded1993-2019inputsandfixedovernightforecasttestregistered",
   "papers": [
     {
       "id": "P24",
@@ -408,6 +408,16 @@
       ],
       "reason": "Native1993-2013stockpanel/TAQfirst30minuteVWAP/NYSEmarketcap/corporateactions absent; accepted2018vs2019publishedversionunreconciled",
       "reopen_condition": "Actualnativeportfolio/stockVWAP+pointintimeuniverse/weights withversionreconciled; no arbitrarySPYsubstitution"
+    },
+    {
+      "id": "P118",
+      "title": "The Day Destroys the Night, Night Extends the Day: A Clientele Perspective on Equity Premium Variation",
+      "status": "active_registered_partial",
+      "version": "April2022workingpaper",
+      "evidence": [
+        "p118_audit/METHOD_AUDIT.txt",
+        "p118_partial_001/registration.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -424,5 +434,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Find/audit datedpre2024primarymethods for market-levelovernight/intradaypredictability, separatecandidatefromP43; verifyexistingcatalogidentity andavoidcurrentdatasetsealedobservations"
+  "next_action_on_resume": "Implement/testP118overnightidentity,quarteralignmentandexpandingfit;freezeimplementationhashbeforeoutcomes"
 }

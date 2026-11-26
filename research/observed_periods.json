@@ -46,5 +46,6 @@
   "P07_native_baseline": "Authorall-firmmonthly/dailymomentumdecilesJan1927-Mar2013,N1035monthly/22791daily inspected andbaselineWMLmean/SD/SRevaluated; vieweddevelopment,no sealedobservations.",
   "P07_Table3": "AuthorWML and201507Frenchmarket/RF July1928-Mar2013N1017evaluated;1926July onwardmarketwarmup used. Full24monthstate,no sealedobservations.",
   "P09_diversification": "YaleupdatedglobalVAL/MOM1972-Jan..2011-JulN475evaluated; corrected2invaliddaylabelswithoutreturnedit. Workbooksdatebounds2012-Decinspected, later2011-Aug..2012-Decnotusedforeffectestimation. Nosealedobservations.",
-  "P09_original": "AQRexplicitoriginal1972-2011workbookacquired;globalfinitepairedJan1972-Jun2010N462evaluated;Jul2010-Jul2011globalcolumnsblank,assetcolumnsnotusedforreturntests. No sealedobservations."
+  "P09_original": "AQRexplicitoriginal1972-2011workbookacquired;globalfinitepairedJan1972-Jun2010N462evaluated;Jul2010-Jul2011globalcolumnsblank,assetcolumnsnotusedforreturntests. No sealedobservations.",
+  "P118_inputs": "BoundedSPY1993-2019OHLC/adjustedcloseacquired6780sessions,dateboundscheckedonly. Noovernightpredictor/forecastoutcomesyet. No2024-2025observations."
 }
