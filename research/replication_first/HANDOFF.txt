@@ -964,3 +964,9 @@ Meaningful progress: True
 Synthesized positive gross effects and failed payoff tests into similarities file. Added prospective incremental-payoff and access-reopening safeguards; no signal/ranking promotion or new outcomes.
 Evidence: ../../SIGNAL_SIMILARITIES.txt, TESTING_SCHEME.md
 Next step: Select next paper on native input recoverability and explicit payoff path; preserve blocked positives and avoid cost-service retry without changed evidence.
+
+CYCLE 147 UPDATE
+Meaningful progress: True
+P126 author2018methods recovered. Critical calendar-weekday/holidayzero and nextmeetingminus1 rules identified. Publisher replication zip403;184scheduled meeting calendar pending. No outcomes tested.
+Evidence: p126_audit/METHOD_AUDIT.txt
+Next step: Recover complete official historical FOMC calendar and reconcile target version before registration.

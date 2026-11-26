@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P125_incremental_hurdle_failed",
+  "active_paper": "P126",
+  "active_stage": "scheduled_calendar_recovery",
   "papers": [
     {
       "id": "P24",
@@ -778,6 +778,16 @@
         "p125_avoidance_001/results.json",
         "p125_avoidance_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P126",
+      "title": "Stock Returns over the FOMC Cycle",
+      "status": "timing_audited_calendar_pending",
+      "reproduction": "2018working methods recovered; final replication403",
+      "signal": "Untested",
+      "evidence": [
+        "p126_audit/METHOD_AUDIT.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -794,5 +804,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Next paper; weekday contrast is not strategy alpha"
+  "next_action_on_resume": "Recover184official scheduled dates1994-2016; preserve weekday holiday zeros and premeeting day assignment"
 }
