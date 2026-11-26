@@ -1,0 +1,24 @@
+{
+  "id": "P124_partial_001",
+  "utc": "2026-11-26T16:32:24.016556+00:00",
+  "paper": "BoumanJacobsen2002 AER December DOI10.1257/000282802762024683; working1997",
+  "sample_end": "1998-08",
+  "windows": {
+    "original": [
+      "1970-01",
+      "1998-08"
+    ],
+    "post_publication": [
+      "2003-01",
+      "2020-12"
+    ]
+  },
+  "construction": "US CRSP valueweighted total-return partial transfer, not MSCI nor37countries. Monthly log returns from sum log1p daily vwretd; November-April versus May-October. Bootstrap paired monthly numerators and counts; label and return travel together. No January controls or trading-cost claim.",
+  "gate": "Both original and postpublication seasonal differences positive and all3/12/24month10000path95percent lower bounds positive. No windows/months changed after outcome.",
+  "limits": "US partial mechanism only; dated2021 teaching vintage; not independent project confirmation; no native numeric match.",
+  "hashes": {
+    "researchlab\\p124_calendar.py": "12c7cb0c72042bfe0638034ae69ca4c4f2387cc6d24123a334218021aa93aa5c",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "windows": {
+    "original": {
+      "months": 344,
+      "winter_log_mean": 0.014590005961885137,
+      "summer_log_mean": 0.004230694463316118,
+      "difference": 0.010359311498569019,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 124003,
+          "difference_ci95": [
+            0.0015330302537676609,
+            0.019570207162971733
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 124012,
+          "difference_ci95": [
+            0.002668777697207624,
+            0.018220185490050705
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 124024,
+          "difference_ci95": [
+            0.003448193156279413,
+            0.01728778048025966
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "post_publication": {
+      "months": 216,
+      "winter_log_mean": 0.011265007197361895,
+      "summer_log_mean": 0.005655042848827673,
+      "difference": 0.005609964348534222,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 124103,
+          "difference_ci95": [
+            -0.00504457462558507,
+            0.016667778599003934
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 124112,
+          "difference_ci95": [
+            -0.002481333878780799,
+            0.014092914225800007
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 124124,
+          "difference_ci95": [
+            -0.0017291199276105824,
+            0.013728834251375164
+          ]
+        }
+      ],
+      "gate": false
+    }
+  },
+  "advance": false,
+  "strategy_validated": false,
+  "independent_confirmation": false,
+  "native_replication": false
+}

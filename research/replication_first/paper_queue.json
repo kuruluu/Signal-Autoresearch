@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P123_positive_effect_execution_blocked",
+  "active_stage": "P124_partial_persistence_failed",
   "papers": [
     {
       "id": "P24",
@@ -749,6 +749,19 @@
         "p123_liquid_001/results.json",
         "p123_liquid_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P124",
+      "title": "The Halloween Indicator, Sell in May and Go Away: Another Puzzle",
+      "status": "US_partial_persistence_failed",
+      "reproduction": "CRSP partial mechanism, not native MSCI multicountry",
+      "signal": "Later seasonal difference confidence includes zero",
+      "evidence": [
+        "p124_audit/METHOD_AUDIT.txt",
+        "p124_partial_001/registration.json",
+        "p124_partial_001/results.json",
+        "p124_partial_001/DISPOSITION.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -765,5 +778,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Prioritize dated constituent and weight input recovery for positive mechanisms; no sealed observations"
+  "next_action_on_resume": "Next paper; no seasonal tuning. Cost-library access held aside after second bounded-probe timeout."
 }
