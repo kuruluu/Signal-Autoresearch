@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P06archive_method_mismatch",
+  "active_stage": "P18external_persistence_failed",
   "papers": [
     {
       "id": "P24",
@@ -554,6 +554,18 @@
         "p06_audit/METHOD_AUDIT.txt",
         "p06_audit/quality_summary.json"
       ]
+    },
+    {
+      "id": "P18",
+      "status": "set_aside_external_persistence_failed",
+      "reproduction": "Nativeuntested,externalhistoricalpass",
+      "signal": "Laterfails",
+      "evidence": [
+        "p18_audit/METHOD_AUDIT.txt",
+        "p18_external_001/registration.json",
+        "p18_external_001/results.json",
+        "p18_external_001/DISPOSITION.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -570,5 +582,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Chooseotherarchivedcandidate;do nottestknownHigh52mismatch"
+  "next_action_on_resume": "Nextpaper, noP18tuning"
 }

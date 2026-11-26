@@ -1,0 +1,2 @@
+P18 EXTERNALSORT
+Historical408monthsmean4.72865%,SR.482924,allCIspositive. Later240monthsmean.522163%,SR.076568,allCIsincludezero. Jointfails; noexecutionpromotion. Notnativecrosssectionalregression, monthlyaveraging/rebalance differences. NoCAGR/cost/borrowproof. Nootherwindows.

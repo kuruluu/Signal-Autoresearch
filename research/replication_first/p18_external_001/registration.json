@@ -1,0 +1,21 @@
+{
+  "id": "P18_external_001",
+  "utc": "2026-11-26T07:12:03.427333+00:00",
+  "scope": "OSAPIlliquiditysort,notnativeAmihudregression. Monthlymeansweighted equally over12months versusnativepooledannualdays;Junerebalanceversusnativeyear-end, explicitdifferences. Noexactreplication.",
+  "windows": {
+    "original": [
+      "1964-01",
+      "1997-12"
+    ],
+    "later": [
+      "2003-01",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds180000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p18_external.py": "d0b5da1ac877a2ae9f96922b52c7b6e819edf50016b0ea03463a5394608edd58",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

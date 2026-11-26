@@ -39,7 +39,8 @@
     "P28_transfer": "BoundedSPLV/SPY2011May5-2023Dec29 dailydata/events,3185each; score115months2014Jun-2023Dec after36monthwarmup. All used;30000pairedconditionalbootstrapdraws. No2024-2025, currentmetadata discarded. Transferfailed.",
     "P53_calendar": "Dow1896May-2023Oct used;closure1914Aug-Novand61indexwarmups omitted.1284historical/118latermonths evaluated;60000conditionalbootstrapdraws. No2024-2025.",
     "P63_OSAP": "Pinned2023.08archive1926-2022acquired; onlydate/P63coverage inspected,nooutcomes. Othercolumnsnotselected. No2024-2025.",
-    "P63_external_test": "ResidualMomentum/Mom12m1930Jun-2009Decand2012-2022evaluated,60000conditionalbootstrapdraws. Noothersignalsinspectedforperformance,sealedyearsuntouched."
+    "P63_external_test": "ResidualMomentum/Mom12m1930Jun-2009Decand2012-2022evaluated,60000conditionalbootstrapdraws. Noothersignalsinspectedforperformance,sealedyearsuntouched.",
+    "P18_external": "Illiquidity1964-1997and2003-2022evaluated60000bootstrapdraws. Noothercolumnsperformance;no2024-2025."
   },
   "incidental_public_page_context": "2026-11-25 official French data-library landing page displayed current 2026 summary returns including trailing aggregates. Not used for selection, fitting or evaluation. No 2024-2025 daily/monthly input file was downloaded; avoid current landing-page numeric summaries in further source discovery.",
   "P49_source_context": "Published historical effects and qualitative follow-up disappearance after2015 viewed. Search engine also unsolicitedly displayed a 2025 news snippet including a December market decline; not used in analysis. No sealed market-data file acquired. Restrict further search to primary source domains.",
