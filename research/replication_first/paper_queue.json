@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P117",
-  "active_stage": "Recover original P117 scanned methods; audit native turn-of-month definition before registration",
+  "active_stage": "P117 original methods visually recovered; partial reconstruction registered, input calendar audit next",
   "papers": [
     {
       "id": "P24",

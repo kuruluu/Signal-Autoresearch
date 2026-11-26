@@ -1,0 +1,6 @@
+P117 original published scan inspected visually, printed pages 406-407 and 417-419 (PDF pages 4-5,15-17).
+Paper sample: first trading day January 4 1897 through June 11 1986. DJIA price index excludes dividends. Historical Saturday sessions and 1914 closure must be retained correctly; no modern weekday filter.
+Single selected effect: turn-of-month daily simple price returns, last session of month (-1), first three sessions of following month (1,2,3). Table 5 full sample means, percent/day: .122, .084, .127, .140. Their sum .473 percent; not a separately asserted compounded mean. Table reports 1052 observations per position, versus 1068 months in other tables; do not silently force an explanation or remove months to match.
+Published complete four-position results must be distinguished from a timing strategy. To earn last-day close-to-close return requires entry at the preceding close; calendar date is known in advance but closing order feasibility/costs need separate audit.
+Available stevedata historical DJIA file previously used in P50/P82 covers required dates but is not established as the original author vintage. Native reconstruction must label provenance deviations and unmatched counts.
+No outcomes calculated for P117 yet. No other seasonal anomalies selected from this paper.

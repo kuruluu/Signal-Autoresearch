@@ -1,0 +1,24 @@
+{
+  "id": "P117_partial_001",
+  "stage": "Registered before P117 effect calculations",
+  "paper": "Lakonishok and Smidt (1988), Are Seasonal Anomalies Real?",
+  "source_sha256": "899811ff8867402dee363e1c0e3b8d4be6e1a1f1e85b296cd7901b4c41446aa1",
+  "input_sha256": "53c3cba20c29c1a26b55f6388cd695b181b58c62e5ea9e2180f007bfa708b081",
+  "sample": "1897-01-04 through 1986-06-11; preceding row supplies initial return only",
+  "target": {
+    "position_percent": {
+      "-1": 0.122,
+      "1": 0.084,
+      "2": 0.127,
+      "3": 0.14
+    },
+    "sum_percent": 0.473,
+    "published_n_each": 1052
+  },
+  "calendar": "Order actual recorded index sessions; preserve Saturdays; audit duplicates, nonpositive prices, date gaps and partial boundary months before calculation. Exclude incomplete calendar boundary months from four-day aggregate, disclose resulting count. No weekend filling.",
+  "estimator": "Simple consecutive recorded close-to-close returns; per-position means and average monthly sum of four returns, not compounded. Show full-sample and pre/post June1952 descriptive splits.",
+  "numerical_gate": "All four mean differences within 0.03 percentage points/day of published values and sum within 0.08 percentage points; count mismatch explicitly reported, prevents exact replication claim. These are reconstruction tolerances, not strategy success criteria.",
+  "inference": "For complete monthly four-return sums, stationary bootstrap 10000 paths, blocks 3/12/24 months, seeds117003/117012/117024; CI for mean and contrast against four times average non-TOM daily return. No alternative windows.",
+  "advance": "Positive contrast CI for all block lengths plus numerical gate permits separately registered post-publication test; no trading validation, tier ranking or paper order from this reconstruction alone.",
+  "sealed": "No 2024-2025 observations."
+}

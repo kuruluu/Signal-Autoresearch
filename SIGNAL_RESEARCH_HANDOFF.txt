@@ -490,3 +490,9 @@ Meaningful progress: True
 P40 bounded SIP acquisition complete; synthetic alignment/causality tests pass. Quality 99.499%. Registered mechanism gate failed: slope CI spans zero for all three block lengths; expanding OLS MSE 0.9394% worse than mean on 747 sessions. Set aside without strategy tuning; P117 now active.
 Evidence: p40_contemporary_002/results.json, p40_contemporary_002/DISPOSITION.txt, ../../tests/test_p40_sessions.py, ../../tests/test_p40_effect.py
 Next step: P117 scanned published paper methods recovery, then audit original turn-of-month definitions and historical input compatibility before registration.
+
+CYCLE 68 UPDATE
+Meaningful progress: True
+Recovered original P117 scan methods visually. Fixed one last-plus-first-three-session effect, transcribed Table5 means and count. Registered partial reconstruction before outcomes, with explicit historical-calendar/vintage and 1052-month count discrepancy audit.
+Evidence: p117_audit/METHOD_AUDIT.txt, p117_partial_001/registration.json
+Next step: Audit historical DJIA session dates and partial boundaries; implement/test position alignment, then execute frozen P117 reconstruction and monthly-block inference.
