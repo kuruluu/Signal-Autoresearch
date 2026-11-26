@@ -102,3 +102,5 @@ P27: Positive partial native historical BAB effect, not validated strategy. Esti
 P28 conditional native aggregate effect: lowvolatility longportfolio Sharpe improvement and low-minus-high CAPMlogalphaspread survive3/12/24month pairedbootstrap. Similar to P27 in low-risk asset pricing, but P28 is global equalweight volatility-ranked versus P27 beta-normalized leveraged longshort. Neither is validated executableedge. Keep financing, universe, returnconvention and causality distinctions; do not infer a shared successful tradingrule.
 
 P28 transfer failure: nativeconditionalhistoricaleffect didnotcarry intooneUS ETF test. SPLVSharpe.7205vspriorbetaSPYcontrol.7980,meanadvantage.51ppuncertain. NootherETF/windowsearch. Like othernative-to-ETFfailures, implementation/universe/benchmark distinctions matter; no successfultradingsignal inferred.
+
+P105 positiveexternalcustomerleadlag survivescapscreen;executionblocked,costheadroomconditional22bps/month. Notvalidatededge,notcommonrulewithpricetrends.

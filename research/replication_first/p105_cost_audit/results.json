@@ -1,0 +1,31 @@
+{
+  "type": "Algebraiccostheadroom,notnetbacktest",
+  "gross_annual_mean": 0.09015785946970732,
+  "point_monthly_cost_bps": 75.13154955808943,
+  "weakest_annual_lower_bound": 0.02651074756717936,
+  "robust_monthly_cost_bps": 22.092289639316135,
+  "sensitivity": [
+    {
+      "monthly_cost_bps": 0,
+      "net_annual_mean": 0.09015785946970732,
+      "weakest_lower_after_cost": 0.02651074756717936
+    },
+    {
+      "monthly_cost_bps": 10,
+      "net_annual_mean": 0.07815785946970732,
+      "weakest_lower_after_cost": 0.01451074756717936
+    },
+    {
+      "monthly_cost_bps": 25,
+      "net_annual_mean": 0.06015785946970732,
+      "weakest_lower_after_cost": -0.0034892524328206387
+    },
+    {
+      "monthly_cost_bps": 50,
+      "net_annual_mean": 0.030157859469707324,
+      "weakest_lower_after_cost": -0.03348925243282064
+    }
+  ],
+  "limits": "Uniformcostdeterministicshift,notturnover/borrowmodel,notCAGR. Nochosenstrategy/gatefromgrid.",
+  "source_sha256": "fa081a67ec451ab6f68f61f8e5ecc425ca0c3205e59dbc8ce1b1d692d2f9c97b"
+}
