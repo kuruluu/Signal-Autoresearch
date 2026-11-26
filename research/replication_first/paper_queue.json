@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P27",
-  "active_stage": "native_methods_and_original_aggregate_data_recovered_coverage_discrepancy_audit",
+  "active_stage": "partial_original_aggregate_effect_passed_execution_audit_next",
   "papers": [
     {
       "id": "P24",
@@ -462,12 +462,15 @@
     },
     {
       "id": "P27",
-      "status": "active_method_input_audit",
-      "reproduction": "Published paper and original2012workbook recovered; US1929start differs from headline1926start",
-      "signal": "Untested; financing and stock holdings need separate execution audit",
+      "status": "active_partial_effect_passed",
+      "reproduction": "Original author US aggregate numerically matches Table3 closely; coverage discrepancy unresolved",
+      "signal": "Not validated; execution feasibility audit next",
       "evidence": [
         "p27_audit/METHOD_AUDIT.txt",
-        "p27_audit/quality_summary.json"
+        "p27_partial_001/registration.json",
+        "p27_partial_001/registration_addendum.json",
+        "p27_partial_001/results.json",
+        "p27_partial_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -485,5 +488,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Resolve P27 US original aggregate coverage against Table3 then preregister fixed partial reconstruction before outcomes"
+  "next_action_on_resume": "Audit P27 executable holdings/weights, financing and short-borrow requirements under10000USD; preserve historical effect pass separately"
 }

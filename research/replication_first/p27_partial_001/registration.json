@@ -1,0 +1,29 @@
+{
+  "id": "P27_partial_001",
+  "utc": "2026-11-26T06:26:10.039350+00:00",
+  "sample": "US BAB April1929-March2012 996months, original workbook decimal percentage-formatted cells. Missing1926-early1929 not filled; unresolved construction/version discrepancy. Partial, not exact replication.",
+  "targets": {
+    "monthly_mean": 0.007,
+    "annual_sd": 0.1075,
+    "annual_sharpe": 0.78,
+    "ff3_monthly_alpha": 0.0073,
+    "ff4_monthly_alpha": 0.0055
+  },
+  "numerical_tolerances": {
+    "monthly_mean": 0.0015,
+    "annual_sd": 0.015,
+    "annual_sharpe": 0.12,
+    "ff3_monthly_alpha": 0.0015,
+    "ff4_monthly_alpha": 0.0015
+  },
+  "construction": "US original BAB zero-investment excess return; do not subtract RF again. FF3 Mkt-RF SMB HML official201507 and momentum202008 vintage. OLS intercept plus factors. FF vintage mismatch explicit.",
+  "inference": "Paired stationary bootstrap10000 paths per3/12/24month expected blocks,seeds270000+block. Refit four-factor OLS per draw. 95% percentile intervals on annual arithmetic mean and monthly FF4alpha. Joint advancement gate: all numerical tolerances and all six lower bounds positive. No country/asset/endpoints/weights search.",
+  "limits": "Already historical research data; author construction, not causal portfolio rebuild or independent confirmation. Financing assumptions embedded in factor differ from broker credit; no costs/borrow/constituents supplied. Passing permits execution feasibility audit only. No trading/ranking admission.",
+  "hashes": {
+    "researchlab\\p27_bab.py": "ed647b135391a3fc91f96fb6e8ddc3339172ff2c87fbbe4ff3e1ea62bf20bd83",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p27_audit\\original.xlsx": "b660025cafe439d1d7ea282e37caab0426a25a0c14330a0914e1c01f549023c1",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor.CSV": "a0cc4f421cfe771e5afc8bd4079cd3d520d7f5ea68bca3a1586f74f98360f65f"
+  }
+}

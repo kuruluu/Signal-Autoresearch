@@ -1,0 +1,58 @@
+{
+  "sample_first": 192904,
+  "sample_last": 201203,
+  "n": 996,
+  "metrics": {
+    "monthly_mean": 0.006997730429635542,
+    "annual_sd": 0.10748961596058884,
+    "annual_sharpe": 0.7812174637075193,
+    "ff3_monthly_alpha": 0.007295855799441969,
+    "ff4_monthly_alpha": 0.0054029960077903
+  },
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 270003,
+      "annual_mean_ci95": [
+        0.056467957295669585,
+        0.11073776206548074
+      ],
+      "ff4_monthly_alpha_ci95": [
+        0.00321370484786546,
+        0.007694821041264203
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 270012,
+      "annual_mean_ci95": [
+        0.04948122191920873,
+        0.11910545719600271
+      ],
+      "ff4_monthly_alpha_ci95": [
+        0.00290950731629957,
+        0.008031821823456612
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 270024,
+      "annual_mean_ci95": [
+        0.049118570982066255,
+        0.1198515363975554
+      ],
+      "ff4_monthly_alpha_ci95": [
+        0.0028519012194839917,
+        0.007997694390834718
+      ]
+    }
+  ],
+  "advance_to_execution_audit": true,
+  "exact_replication": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}

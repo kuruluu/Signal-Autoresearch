@@ -1,0 +1,5 @@
+{
+  "reason": "Initial execution aborted before result output: NumPy2 batched solve requires explicit trailing RHS dimension. Preserve original frozen source p27_bab_v1.py; no metric/gate/sample changes. Point estimates were calculated in memory before failure; no outcome-based adaptation.",
+  "corrected_code_sha256": "c736676b90051287b76d2d1186ebd1516f7301c6517da612b2ee56e3440b0b60",
+  "original_code_sha256": "ed647b135391a3fc91f96fb6e8ddc3339172ff2c87fbbe4ff3e1ea62bf20bd83"
+}
