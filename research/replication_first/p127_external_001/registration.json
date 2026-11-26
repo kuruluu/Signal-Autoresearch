@@ -1,0 +1,26 @@
+{
+  "id": "P127_external_001",
+  "utc": "2026-11-26T16:50:17.982052+00:00",
+  "series": "COM column, XSEC - Carry1m sheet, author original and global update. Month-end rank weighting, long1/short1. One-month current curve carry, not average1-12 or timing sheets.",
+  "windows": {
+    "original": [
+      "1980-02",
+      "2012-09"
+    ],
+    "later": [
+      "2018-03",
+      "2021-07"
+    ]
+  },
+  "gate": "Original SR within0.03 of NBER2013TableII0.60; original and later mean positive with all95percent stationary bootstrap3/12/24month10000path lower bounds positive. Seeds127000+100*windowindex+block. Later only41months, uncertainty/power limited; failure is not proof of no effect. No alternative class/window/carry variant.",
+  "units": "Raw workbook units initially unresolved. SR and sign/bootstrap-positive decision invariant to positive unit scaling. Report raw mean explicitly; no percent/account/CAGR claim until unit provenance resolved. No RF subtraction on zero-investment excess series.",
+  "vintage": "Original NBER2013 method/version, final JFE2018 identity. Update methodological equivalence not independently rebuilt. Original/update overlap maxdifference reported diagnostically, never used to select a variant. Gap2012Oct-2018Feb excluded from persistence gate; working draft2013, final issue2018Feb.",
+  "limits": "Historical author series, not independent confirmation, executable futures/account strategy, or full published replication. Sealed2024-2025 untouched.",
+  "hashes": {
+    "researchlab\\p127_carry.py": "ba0cfa98f1d746fde741d9c58237d6531f20ab73a6c4b161ef344a703c9cc024",
+    "research\\replication_first\\p127_audit\\strategy_returns.xlsx": "a7a24eb4722e77d6fb9ee62b85c0c18d8a99a859910a3f4d4820aa0a474ce573",
+    "research\\replication_first\\p127_audit\\strategy_returns_-_global.xlsx": "752fe475deac4512322e42b69fcfdfcd9e3fb3a452e3d016f5cc7e5c781d9e3c",
+    "research\\replication_first\\p127_audit\\working.pdf": "6daaa0a9552e0552f94cfea778ff841f4497fa602c218f9410518fe5dc6b6612",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

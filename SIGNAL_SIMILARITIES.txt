@@ -118,3 +118,5 @@ Research priority: one paper at a time. Prefer candidates with recoverable nativ
 No validated successful-signal similarities or strategy-tier admissions established.
 
 P126: historical2018draft FOMC-cycle headline contrasts closely reproduce, while later registered nominal-calendar SPY timing fails even before costs. Like P125, calendar contrast is distinct from incremental payoff; preserve sample/instrument/calendar-vintage distinctions. No reverse-rule inference or posthoc COVID/calendar changes. No validated signal added.
+
+P127 commodity carry: original author SR matches NBER2013 target, later mean negative and persistence gate fails. Like historical calendar and accrual results, original reproduction does not establish current edge. No smoothing/timing/assetclass rescue; not a validated successful-signal commonality.

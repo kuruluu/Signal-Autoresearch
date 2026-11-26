@@ -1006,3 +1006,9 @@ Meaningful progress: True
 P127 original author carry factors and explicitlyJuly2021update recovered, safe dates verified. NBER2013method recovered. COM one-month curve signal selected before outcomes; units/construction/native-support audit pending.
 Evidence: p127_audit/METHOD_AUDIT.txt, p127_audit/completion.json
 Next step: Audit units and common construction, register one commoditycarry persistence test; no assetclass/timing selection from outcomes.
+
+CYCLE 154 UPDATE
+Meaningful progress: True
+P127 commoditycarry originalSR.5972matches.60; later41monthsSR-.5911andnegative mean,registered persistence fails. Original-update overlap checked. User requested pause after cycle.
+Evidence: p127_external_001/registration.json, p127_external_001/results.json, p127_external_001/DISPOSITION.txt
+Next step: Paused by user after cycle. On explicit resume only: next paper, preserve carry failure.

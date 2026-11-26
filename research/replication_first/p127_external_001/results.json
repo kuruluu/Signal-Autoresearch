@@ -1,0 +1,80 @@
+{
+  "windows": {
+    "original": {
+      "n": 392,
+      "mean_monthly_raw": 0.9347175826939962,
+      "annualized_SR": 0.5972382791696921,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 127003,
+          "mean_monthly_raw_ci95": [
+            0.39019256682421866,
+            1.4825409067220219
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 127012,
+          "mean_monthly_raw_ci95": [
+            0.4118191587904665,
+            1.4824779409047428
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 127024,
+          "mean_monthly_raw_ci95": [
+            0.4215464892497069,
+            1.4549848819972415
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "later": {
+      "n": 41,
+      "mean_monthly_raw": -0.9673458426265293,
+      "annualized_SR": -0.5911310278262422,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 127103,
+          "mean_monthly_raw_ci95": [
+            -2.6232288912395902,
+            0.5350071611034632
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 127112,
+          "mean_monthly_raw_ci95": [
+            -2.1222929974860216,
+            0.18708260132225582
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 127124,
+          "mean_monthly_raw_ci95": [
+            -1.9457297616040248,
+            -0.02669629657259751
+          ]
+        }
+      ],
+      "gate": false
+    }
+  },
+  "numerical_SR_match": true,
+  "overlap_months": 392,
+  "overlap_max_abs_raw_difference": 4.999622040990914e-05,
+  "advance": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}
