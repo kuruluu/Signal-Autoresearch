@@ -1,0 +1,94 @@
+{
+  "windows": {
+    "original": {
+      "n": 300,
+      "long_count_min_median": [
+        100,
+        174.0
+      ],
+      "short_count_min_median": [
+        105,
+        178.0
+      ],
+      "annual_mean": 0.13784061062795466,
+      "SR": 0.900910335193315,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 21003,
+          "annual_mean_ci95": [
+            0.07674052184118935,
+            0.19672893399959082
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 21012,
+          "annual_mean_ci95": [
+            0.06937248034972539,
+            0.19929350076087488
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 21024,
+          "annual_mean_ci95": [
+            0.06901521978824639,
+            0.19620551370201453
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "later": {
+      "n": 357,
+      "long_count_min_median": [
+        226,
+        274.0
+      ],
+      "short_count_min_median": [
+        230,
+        275.0
+      ],
+      "annual_mean": 0.13581519886127014,
+      "SR": 0.5326123356082814,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 21103,
+          "annual_mean_ci95": [
+            0.04485928106650101,
+            0.22306480495132747
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 21112,
+          "annual_mean_ci95": [
+            0.03932242147874478,
+            0.2409250420335818
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 21124,
+          "annual_mean_ci95": [
+            0.032166926392474975,
+            0.24907440391479843
+          ]
+        }
+      ],
+      "gate": true
+    }
+  },
+  "advance": true,
+  "native_replication": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}

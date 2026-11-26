@@ -874,3 +874,9 @@ Meaningful progress: True
 P02 archived Mom6m construction audited, preregistered and tested. Preliminary gross momentum effect passes original and postpublication windows; later annual arithmetic spread12.1833%,SR.4266,weakest95%lower2.74085%. Not native replication or executable signal.
 Evidence: p02_audit/METHOD_AUDIT.txt, p02_external_001/registration.json, p02_external_001/results.json, p02_external_001/DISPOSITION.txt
 Next step: Fixed NYSE20cap liquidity robustness, then execution/confirmation only if justified.
+
+CYCLE 132 UPDATE
+Meaningful progress: True
+P02 fixed size-screen gross momentum persists: later13.5815% annual arithmetic spread, SR0.5326, all CIs positive; weakest annual lower3.2167%. Execution blocked on dated holdings and costs; fractional shorts unsupported.
+Evidence: p02_liquid_001/registration.json, p02_liquid_001/results.json, p02_liquid_001/completion.json, p02_liquid_001/DISPOSITION.txt
+Next step: Next paper; reopen P02 on dated constituent inputs.

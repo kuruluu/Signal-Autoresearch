@@ -1,0 +1,9 @@
+{
+  "type": "Algebraic uniform monthly cost headroom, not net backtest",
+  "annual_arithmetic_gross": 0.13581519886127014,
+  "weakest_annual_lower": 0.032166926392474975,
+  "point_monthly_bps": 113.17933238439178,
+  "weakest_lower_monthly_bps": 26.805771993729145,
+  "source_sha256": "80e46cfe175e5c667903432e05faa3981404ed9e64861f321e44804efea7390c",
+  "limits": "Long-short spread per dollar long, not account return. No assumption about leverage or capital use; no turnover/borrow/cost estimates recovered."
+}
