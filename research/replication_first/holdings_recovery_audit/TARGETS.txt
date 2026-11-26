@@ -1,0 +1,23 @@
+Prospective single GP construction selected on paper similarity, not outcomes.
+[
+  {
+    "id":3498218,
+    "sorting_variable":"gp",
+    "min_size_quantile":0.2,
+    "min_stock_price":null,
+    "min_listing_age":24,
+    "exclude_financials":true,
+    "exclude_utilities":false,
+    "exclude_negative_book_equity":false,
+    "exclude_negative_earnings":false,
+    "sorting_variable_lag":"ff",
+    "rebalancing":"annual",
+    "n_portfolios_main":5.0,
+    "sorting_method":"univariate",
+    "breakpoints_min_size_threshold":null,
+    "n_portfolios_secondary":null,
+    "breakpoints_exchanges":"NYSE",
+    "weighting_scheme":"VW"
+  }
+]
+No return/cost values viewed.

@@ -934,3 +934,9 @@ Meaningful progress: True
 Primary market-source audit completed. Sharadar offers delisted coverage but not native PERMNO reconstruction. Public factor-library turnover/spread-cost source discovered; only docs/metadata inspected. Contains2024 and different construction, so bulk download prohibited and cost grafting invalid.
 Evidence: holdings_recovery_audit/RETURN_INPUT_AUDIT.txt
 Next step: Audit pinned factor-library metadata and sealed-safe bounded retrieval before any new observations; no construction grid search.
+
+CYCLE 142 UPDATE
+Meaningful progress: True
+Cost-library GP grid inspected without outcomes; single paper-aligned construction frozen. Filtering service splits confirmed, empty-range verification timed out, no observations returned. No bulk fallback or sealed-data access.
+Evidence: holdings_recovery_audit/TARGETS.txt, holdings_recovery_audit/CONTROL_TIMING.txt
+Next step: Retry bounded empty-filter verification or find pinned pre2024 source; register cost test before any outcomes.
