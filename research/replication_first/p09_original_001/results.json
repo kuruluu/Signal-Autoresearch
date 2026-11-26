@@ -1,0 +1,70 @@
+{
+  "type": "AQR original nativeaggregate diversification reconstruction",
+  "n_months": 462,
+  "missing_months": [
+    "2010-07",
+    "2010-08",
+    "2010-09",
+    "2010-10",
+    "2010-11",
+    "2010-12",
+    "2011-01",
+    "2011-02",
+    "2011-03",
+    "2011-04",
+    "2011-05",
+    "2011-06",
+    "2011-07"
+  ],
+  "sharpe_value_momentum": [
+    0.5371847185548579,
+    0.6329701810809787
+  ],
+  "sharpe_combo": 1.2902352410577727,
+  "correlation": -0.5880284075334475,
+  "numerical_gate_pass": false,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 90303,
+      "correlation_ci95": [
+        -0.728412415750312,
+        -0.4186630161108191
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.2848111204143514,
+        0.8423957243359013
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 90312,
+      "correlation_ci95": [
+        -0.7245472100412381,
+        -0.41273458635273796
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.30109946790361997,
+        0.8693220926065736
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 90324,
+      "correlation_ci95": [
+        -0.7069982712278846,
+        -0.4340374215766918
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.31466819352997905,
+        0.8882028423534107
+      ]
+    }
+  ],
+  "advance_to_causal_execution_audit": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

@@ -604,3 +604,9 @@ Meaningful progress: True
 P09 revisedauthoraggregateeffecttested:475pairs,corr-.5881,comboSR1.2743vs.5142/.6408; allbootstrapCIs supportdiversification. PrintednumericalSRgatefails, version/vintageunresolved; noexecutionadvancement. Parserdate-typoscorrectedbeforeoutcomeswithpreservedv1and3tests. No sealeddata.
 Evidence: p09_partial_001/results.json, p09_partial_001/DISPOSITION.txt, p09_partial_001/registration_addendum.json, ../../tests/test_p09_diversification.py
 Next step: Selectnextsinglepaper; preserveP09supportiveeffectandnumericalmismatch. ReopenonlyactualoriginalAQRvintageorimplementationerror, notposthocthreshold/weightchanges.
+
+CYCLE 87 UPDATE
+Meaningful progress: True
+P09reopenedonactualnewAQRoriginalworkbookwithsamefrozengates. Sourceglobalcolumnsblankfinal13months,N462;corr-.5880,comboSR1.2902vs.5372/.6330;allbootstrapdiversificationCIssupportedbutnumericalgatefails. Confirmedblankcellsnotparsererror. Preservebothvintages,noimputation/order.
+Evidence: p09_original_001/registration.json, p09_original_001/results.json, p09_original_001/DISPOSITION.txt
+Next step: Move to nextsingleuntestedpaper; P09reopenonlyspecificcorrectedsource/globalconstructionevidence,nothuntingversionsorretuningweights.

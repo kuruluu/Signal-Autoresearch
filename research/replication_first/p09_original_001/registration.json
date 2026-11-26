@@ -1,0 +1,15 @@
+{
+  "id": "P09_original_001",
+  "registered_utc": "2026-11-26T05:58:59.763755+00:00",
+  "reopen_reason": "New actual AQR explicitly original1972-2011workbook, obtained after revisedYalesource numericalmismatch. Preserve oldfailure. Nooutcomes fromnewvintagebefore registration.",
+  "construction": "VME Factors DATE/VAL/MOM; normalize Excel dates to monthly labels; paired1972-Jan..2011-Jul,minimum450; same fixed50/50combo,decimalexcessreturns; author ex-postglobalweights unchanged.",
+  "targets": "SRVAL.72,MOM.74,COMBO1.59,corr-.60; same.10SR/.05corr tolerances asfirsttest. Nootherweights,endpoints,thresholds.",
+  "inference": "Samepaired10000pathstationaryblocks3/12/24,seeds90303/90312/90324; negativecorrupper andpositivecombo-minus-beststandaloneSRlower allblocks; numericalgatealsorequired.",
+  "limits": "Historicalaggregateeffect,notcausalexecutableaccount; no ranking/order/independentconfirmation. No reason to search additional versions if thisfails without actualsource/implementationevidence.",
+  "hashes": {
+    "researchlab\\p09_original.py": "a033e3098379b5a24cada8973598c7ce150ba1fc9f22c8ea031a23cc52c30b34",
+    "researchlab\\p09_diversification.py": "890a8162edcd5d78bb8ca2e723c96d1b6f5e3b59cf800528bbf131aeb92a9077",
+    "research\\replication_first\\p09_audit\\AQR_original.xlsx": "242e77b204776bd3de60d7aed3a41acfc940b2c63fdade4266cbb168b1fcba6b"
+  },
+  "sealed": "No2024-2025observations"
+}
