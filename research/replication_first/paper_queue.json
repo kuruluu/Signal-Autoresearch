@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P119weeklyBTCeffectpartialmatchbutchronologicalMSEgatefailed;nextP10audit",
+  "active_stage": "P10publishedmethodsrecovered,native67marketinputblocked",
   "papers": [
     {
       "id": "P24",
@@ -437,6 +437,16 @@
       ],
       "reason": "HistoricalweeklyBTCmomentumslope/numerical/bootstrapmatch;prior-onlyMSE.8405%worsethanmean,registeredjointgatefails",
       "reopen_condition": "Materialnewevidenceorimplementationerror;noalternatecoin/horizon/trainingsearch"
+    },
+    {
+      "id": "P10",
+      "status": "set_aside_native_input_blocked",
+      "reason": "67marketroll/financing/universehistoriesandcertifiedoriginalportfoliofileunrecovered",
+      "evidence": [
+        "p10_audit/METHOD_AUDIT.txt"
+      ],
+      "prior_adaptation": "S21ETFadaptationpreserved,notreplication",
+      "reopen_condition": "Matchingnativeunderlyinginputsorcertifiedboundednativeportfolioreturnfile;noautomaticretunedETFvariant"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -453,5 +463,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "AuditP10originaltrend-followingpaperandboundedauthororiginaldata;preserveP119positiveeffect/forecastfailurewithoutcoin/windowsearch"
+  "next_action_on_resume": "Auditnextuntestedcandidatewithaccessibleprimarymethods/nativepresealeddata;prefersmall-inputpredictiveeffectswithfeasibleexecution,notautomaticETFproxies"
 }

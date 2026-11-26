@@ -652,3 +652,9 @@ Meaningful progress: True
 P119BTCweeklymomentumpartialreconstructionnumerical/bootstrapgatespass:slope.19334vs.19,weeklymean3.8444%/SD16.6899%,all3slopeCIspositive. Prior-only281forecastMSE.8405%worsethanmean,sojointgatefails. Strictdailycalendarandtwoalignment/causalitytestspass,codehashfrozen. No trade/ranking.
 Evidence: p119_partial_001/results.json, p119_partial_001/DISPOSITION.txt, p119_partial_001/analysis_freeze.json, ../../tests/test_p119_momentum.py
 Next step: AuditP10primarymethodsandboundedoriginaltrend-followingdata;preserveP119historicaleffectandcausalforecastfailure,donotsearchothercoins/horizonsorretune.
+
+CYCLE 95 UPDATE
+Meaningful progress: True
+P10published2017methodsrecoveredandversionaudited. Native1/3/12month67markettrendvoltargetrequiresroll/financing/universeinputsabsent;noequivalentboundedportfoliodatarecovered. PriorS21ETFproxyretainedseparately;noempiricalrejectionornewtest/order.
+Evidence: p10_audit/METHOD_AUDIT.txt
+Next step: Selectnextsinglepaperbyprimarymethods/nativepresealeddataandexecutionfeasibility. AvoidrepeatingETFproxiesorblindcurrentfactorfiledownloadswithsealedyears.
