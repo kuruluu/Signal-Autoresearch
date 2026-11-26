@@ -502,3 +502,9 @@ Meaningful progress: True
 P117 original-window reconstruction passed fixed numerical/robustness gates: four-day mean 0.49491% vs 0.473%, contrast 0.48941pp with all three bootstrap CIs positive. N1067 vs published1052 prevents exact replication claim. Two synthetic calendar tests pass; source and analysis hashes verified. No trading validation.
 Evidence: p117_partial_001/results.json, p117_partial_001/INTERPRETATION.txt, p117_partial_001/analysis_freeze.json, ../../tests/test_p117_reconstruction.py
 Next step: Register post-publication fixed-window persistence test on existing presealed Dow history, then assess executable ETF translation only if registered persistence gates pass.
+
+CYCLE 70 UPDATE
+Meaningful progress: True
+P117 fixed-window post-publication gate failed: N417 contrast .160059pp, all bootstrap CIs cross zero; recent N142 contrast -.022850pp, all CIs cross zero. Preserved strong historical partial reconstruction separately. No tuning or paper orders; set aside and select next candidate.
+Evidence: p117_persistence_001/registration.json, p117_persistence_001/results.json, p117_persistence_001/DISPOSITION.txt
+Next step: Choose next single untested candidate by methods/data feasibility using available presealed inputs. Preserve P117 failure and do not search calendar variants.

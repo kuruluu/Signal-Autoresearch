@@ -1,0 +1,6 @@
+P117 PERSISTENCE GATE FAILED
+Post-publication Feb1989-Oct2023 N417: four-day mean 0.274829%, contrast versus four times non-TOM mean 0.160059pp. All 3/12/24-month stationary bootstrap contrast intervals include zero.
+Recent Jan2012-Oct2023 N142: four-day mean 0.136144%, contrast -0.022850pp; all contrast intervals include zero. Both registered gates failed.
+The positive historical four-day return alone does not establish a timing advantage over ordinary equity exposure. Original-window partial reconstruction remains supportive historical evidence but current executable usefulness is not established.
+Set aside the fixed window. Do not change window, universe or subperiods to rescue this test. No ETF execution strategy or paper trade promoted.
+Data are already viewed development, not independent confirmation. No sealed observations accessed.

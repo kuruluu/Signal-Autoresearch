@@ -1,0 +1,103 @@
+{
+  "post_publication": {
+    "n_months": 417,
+    "first": "1989-02",
+    "last": "2023-10",
+    "four_day_mean_percent": 0.27482905753198605,
+    "contrast_percent": 0.16005918590955387,
+    "bootstrap": [
+      {
+        "block_months": 3,
+        "paths": 10000,
+        "seed": 117003,
+        "mean_ci95_percent": [
+          0.08675803550577041,
+          0.4586990541186887
+        ],
+        "contrast_ci95_percent": [
+          -0.05170819695444024,
+          0.3676949646546279
+        ]
+      },
+      {
+        "block_months": 12,
+        "paths": 10000,
+        "seed": 117012,
+        "mean_ci95_percent": [
+          0.10941941867062249,
+          0.4480017481833226
+        ],
+        "contrast_ci95_percent": [
+          -0.025545636886732018,
+          0.3598069458743052
+        ]
+      },
+      {
+        "block_months": 24,
+        "paths": 10000,
+        "seed": 117024,
+        "mean_ci95_percent": [
+          0.11851592087486928,
+          0.43117563424109656
+        ],
+        "contrast_ci95_percent": [
+          -0.017780373922720506,
+          0.3396157825210917
+        ]
+      }
+    ],
+    "gate_pass": false
+  },
+  "recent_2012_onward": {
+    "n_months": 142,
+    "first": "2012-01",
+    "last": "2023-10",
+    "four_day_mean_percent": 0.13614448780928062,
+    "contrast_percent": -0.02285039875042877,
+    "bootstrap": [
+      {
+        "block_months": 3,
+        "paths": 10000,
+        "seed": 117003,
+        "mean_ci95_percent": [
+          -0.11975614609949306,
+          0.39742163473157543
+        ],
+        "contrast_ci95_percent": [
+          -0.32048575904623916,
+          0.27045709451718397
+        ]
+      },
+      {
+        "block_months": 12,
+        "paths": 10000,
+        "seed": 117012,
+        "mean_ci95_percent": [
+          -0.07395149293861521,
+          0.369900657009871
+        ],
+        "contrast_ci95_percent": [
+          -0.26292529879075355,
+          0.2391252148895233
+        ]
+      },
+      {
+        "block_months": 24,
+        "paths": 10000,
+        "seed": 117024,
+        "mean_ci95_percent": [
+          -0.05583480755164679,
+          0.34782310032199404
+        ],
+        "contrast_ci95_percent": [
+          -0.24620845557833138,
+          0.20952576884639357
+        ]
+      }
+    ],
+    "gate_pass": false
+  },
+  "advance_to_ETF_execution_audit": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

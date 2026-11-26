@@ -1,0 +1,17 @@
+{
+  "id": "P117_persistence_001",
+  "registered_utc": "2026-11-26T05:30:28.216862+00:00",
+  "effect": "Fixed last trading day plus next first three trading days; no window search",
+  "primary": "1989-01-01 to 2023-11-21; same extraction omits first/last boundary months, hence Feb1989-Oct2023 receiving months",
+  "recent_gate": "Receiving months Jan2012-Oct2023 subset of primary; no reoptimization",
+  "estimators": "Mean sum of four simple close-to-close price returns; contrast minus four times pooled non-TOM daily mean",
+  "bootstrap": "10000 stationary monthly resamples, blocks3/12/24, seeds117003/117012/117024; resample TOM sum and rest sum/count jointly within each fixed period",
+  "advance": "Both primary AND recent contrast 95% CI lower bounds strictly positive for all three blocks. Otherwise set aside this fixed transfer, no tuning.",
+  "limits": "Already viewed Dow periods; post-publication historical persistence, not fresh independent confirmation or executable ETF evidence. DJIA price index omits dividends, costs and closing fills.",
+  "sealed": "No 2024-2025 observations",
+  "hashes": {
+    "researchlab\\p117_persistence.py": "24c7557a47e2d6e4064043c96fb15d42307a427325eeef2e4926dd86836c3de8",
+    "researchlab\\p117_reconstruction.py": "c4c20d957cb483dee855e205083c0b51a45b7bc69ce96235adb297674e95cbc4",
+    "research\\replication_first\\p50_audit\\DJIA.csv": "53c3cba20c29c1a26b55f6388cd695b181b58c62e5ea9e2180f007bfa708b081"
+  }
+}
