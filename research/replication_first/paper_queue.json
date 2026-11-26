@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P53",
-  "active_stage": "P53missing1914months_beforeoutcomes",
+  "active_paper": null,
+  "active_stage": "P53partial_later_persistence_failed",
   "papers": [
     {
       "id": "P24",
@@ -521,12 +521,13 @@
     },
     {
       "id": "P53",
-      "status": "active_method_audit",
-      "reproduction": "ArXivv1recovered,nativeGFDmissing;Dowpartialpossiblebuttiming/driftunresolved",
-      "signal": "Untested",
+      "status": "set_aside_partial_persistence_failed",
+      "reproduction": "Historicalpartialpass,laterfail;nativeGFDuntested",
+      "signal": "Noexecutionadvancement",
       "evidence": [
-        "p53_audit/METHOD_AUDIT.txt",
-        "p53_audit/quality_summary.json"
+        "p53_calendar_001/registration.json",
+        "p53_calendar_001/results.json",
+        "p53_calendar_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -544,5 +545,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Audit1914closures andregistercalendar-awareP53restart; do notfill/compress"
+  "next_action_on_resume": "Nextpaper; noP53lag/decaytuning"
 }

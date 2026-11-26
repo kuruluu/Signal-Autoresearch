@@ -1,0 +1,3 @@
+P53 CALENDAR-AWARE PARTIAL TEST
+Literalextra-lag,exp(-1/5),samegates. Resetat1914closure;noimputation;resamplecontiguoussegmentsseparately. Historical1284months1901Jul-1914Juland1920Feb-2013Dec:mean.15887,intercept.09205,all3boundspositive. Later118months2014Jan-2023Oct:mean.02306,intercept-.13646,allCIsincludezero. UnitsrisknormalizedpricePnL,NOTpercentagealpha/CAGR. Jointgatefails;noexecutionadvancement.
+NativeGFDmultiassetclaimuntested;partialDowfailuredoesnotrefuteit. Nootherlag/decay/windowtuning. Noorders/rankings.

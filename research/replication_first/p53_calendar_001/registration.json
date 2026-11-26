@@ -1,0 +1,27 @@
+{
+  "id": "P53_calendar_001",
+  "utc": "2026-11-26T07:05:19.254503+00:00",
+  "scope": "Dowmechanism,notnativeGFD; modernDowfromMay1896; lastcompleteOct2023 (Novsourcepartial). Pastvieweddata,notindependentconfirmation.",
+  "timing": "LiteralEq2:atclosei, signal sign(p[i-1]-EMAexcludingp[i-1]), size1/vol[i-1], outcome p[i+1]-p[i]. Deliberateextraone-monthlag, no simultaneousfillclaim. PriceEMA rhoexp(-1/5), initializefirstprice; volEMAabschanges includesi-1,initialfirstabschange. Requirei>=61, nootherdecays.",
+  "drift": "OLSintercept trendPnL onidenticallyrisknormalizedlongPnL; sameunits. Paperdriftunitsambiguous, explicitpartialinterpretation, notexactreportedTstar. Fullsampledescriptivefitonly,notentryrule.",
+  "windows": {
+    "historical": [
+      190107,
+      201312
+    ],
+    "later": [
+      201401,
+      202310
+    ]
+  },
+  "gate": "Eachwindowmeantrend>0 andOLSintercept>0 plusall3/12/24month10000pairedstationarybootstrap95%interceptlowerbounds>0,seeds530000+100*windowindex+block. NoexactnumericUSpaper target. Passingpermitsfeasibilityauditonly; failstopsbranch,nolag/decayretuning.",
+  "limits": "Priceindexexcludesdividends/financing/costs,notCAGR/account/margin. ConditionalfixedPnLbootstrap,notreformingEMApaths. Noorders/rankings. Bothwindowsalreadyused.",
+  "gap_rule": "Exactfourmissing1914Aug-Novonly. Splitatgap, resetallstates,applysame61indexwarmuppersegment. Nozero/fill, noPnLacrossclosure. Historicalwindowunchangedbutmissingandpostrestartwarmupexcluded; partialsampleexplicit. Bootstrapseparatelywithineachcontiguousscoresegment, thencombine, avoidingartificialadjacency. Nooutcomesyet.",
+  "source": "FRBNY1915firstannualreport:NYSEclosedJuly31,1914;restrictedstocktradingDecember12. https://fraser.stlouisfed.org/files/docs/historical/frbny/1915_frb_newyork.pdf",
+  "hashes": {
+    "researchlab\\p53_calendar.py": "17cc2a4fb022bda2435affee266dc4d23de71eb865a643b16cff49eef3aff0ac",
+    "researchlab\\p53_trend.py": "4753a5f604165385107cb4fd5fb0fa026889ddcd9bc9095709e3140a27437198",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p50_audit\\DJIA.csv": "53c3cba20c29c1a26b55f6388cd695b181b58c62e5ea9e2180f007bfa708b081"
+  }
+}
