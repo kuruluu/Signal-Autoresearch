@@ -1,0 +1,25 @@
+{
+  "scope": "calendar only; no returns used",
+  "weekday_rows": 6000,
+  "included_rows": 5997,
+  "week_counts": {
+    "-1": 920,
+    "0": 920,
+    "1": 920,
+    "2": 924,
+    "3": 914,
+    "4": 831,
+    "5": 448,
+    "6": 120
+  },
+  "dropped": [
+    "2004-06-21",
+    "2005-06-20",
+    "2005-06-21"
+  ],
+  "boundary_meetings": [
+    "1993-12-21",
+    "2017-02-01"
+  ],
+  "synthetic_checks": "reset-minus6, premeeting-minus1, weekday count including holidays"
+}

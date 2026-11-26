@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P126",
-  "active_stage": "cycle_boundary_alignment",
+  "active_stage": "native_effect_registration_next",
   "papers": [
     {
       "id": "P24",
@@ -782,13 +782,16 @@
     {
       "id": "P126",
       "title": "Stock Returns over the FOMC Cycle",
-      "status": "calendar_recovered_alignment_pending",
+      "status": "calendar_alignment_passed_pending_native_registration",
       "reproduction": "2018working methods recovered; final replication403",
       "signal": "Untested",
       "evidence": [
         "p126_audit/METHOD_AUDIT.txt",
         "p126_audit/completion.json",
-        "p126_audit/INPUT_RECOVERY.txt"
+        "p126_audit/INPUT_RECOVERY.txt",
+        "p126_audit/quality_summary.json",
+        "p126_audit/ERRATA.txt",
+        "p126_audit/CONTROL_TIMING.txt"
       ]
     }
   ],
@@ -806,5 +809,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Recover boundary meetings and reconcile weekday holidayzero cycle counts before P126 outcome registration"
+  "next_action_on_resume": "Freeze February2018native even-minus-odd test with archived2020Frenchdaily returns; calendarresetminus6 and holidayzeros, not minus1only"
 }

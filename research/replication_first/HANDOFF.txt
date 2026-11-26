@@ -976,3 +976,9 @@ Meaningful progress: True
 P126 official184scheduled announcement dates recovered;8peryear and138/138P49overlap exact. September15,2003 communication discussion distinguished from September16policy meeting. No outcomes used; boundary/weekday counts pending.
 Evidence: p126_audit/completion.json, p126_audit/INPUT_RECOVERY.txt
 Next step: Recover boundary meetings and synthetic/calendar alignment; preregister outcome after target version/sample reconciliation.
+
+CYCLE 149 UPDATE
+Meaningful progress: True
+P126 calendar alignment exact:5997days, evenweekcounts920/924/831/120 and3beyond33exclusions. Corrected incomplete reset interpretation to nextmeeting-minus6 before outcomes; synthetic tests pass.
+Evidence: p126_audit/quality_summary.json, p126_audit/ERRATA.txt, p126_audit/CONTROL_TIMING.txt, ../../researchlab/p126_calendar.py
+Next step: Register native2018draft effect numerical/bootstrap gates before returns; then contemporary/payoff only if passed.
