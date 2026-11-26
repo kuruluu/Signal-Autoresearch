@@ -1,0 +1,8 @@
+P40 CONTEMPORARY MECHANISM TEST - FAILED REGISTERED GATE
+Not a replication of the original 1993-2013 paper. Fixed SPY adjusted minute proxies, 2016-2023.
+Coverage: 1987/1997 full sessions (99.499%); 15 early/nonstandard sessions excluded, 8 missing-minute sessions, 2 without previous close. No imputation.
+Full-sample descriptive slope 0.0064064. All three 5000-path stationary bootstrap intervals at block lengths 5/20/60 include zero.
+Recursive expanding OLS on 747 eligible 2021-2023 sessions had 0.9394% HIGHER MSE than the expanding historical mean.
+Registered mechanism gate failed. No cost-aware strategy, drawdown-tier ranking or paper order justified. Do not tune this fixed test after failure.
+Limitations: minute boundary proxies exclude auction; all-adjusted historical bars are not executable prices or point-in-time vintages. Previously viewed market years are development evidence, not independent confirmation. Original paper remains unreplicated.
+Next: P117 original turn-of-month methods recovery and native-input audit. No 2024-2025 observations accessed.

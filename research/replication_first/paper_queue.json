@@ -1,8 +1,8 @@
 {
-  "updated_on": "2026-11-25",
+  "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P40",
-  "active_stage": "RegisteredP40contemporary002 SIPminutecollectionrunning, session3171; nooutcomescomputed",
+  "active_paper": "P117",
+  "active_stage": "Recover original P117 scanned methods; audit native turn-of-month definition before registration",
   "papers": [
     {
       "id": "P24",
@@ -305,17 +305,19 @@
     },
     {
       "id": "P117",
-      "status": "queued_source_recovered",
+      "status": "active_methods_audit",
       "selection_reason": "Newcalendar-effectcandidate afterexistingmomentumstockpanelblocker. HistoricalDowpricesalreadyrecovered; auditnative seasonal-anomaly paper andonepredefinedmulti-dayeffect, notscanallcalendarvariants. Bibliographicverificationpending."
     },
     {
       "id": "P40",
-      "status": "active_registered_data_collection",
+      "status": "set_aside_contemporary_mechanism_failed",
       "selection_reason": "AuthenticatedSIPminutequotes/tradesaddresspreviousintradaydatablocker. Native1993-2013sampleoutsideAlpacacoverage; register2016+contemporarytestseparatelyafterprimarymethods.",
       "evidence": [
-        "p40_contemporary_002/registration.json",
-        "p40_contemporary_001/ABORTED_INPUT_CHECK.txt"
-      ]
+        "p40_contemporary_002/results.json",
+        "p40_contemporary_002/DISPOSITION.txt"
+      ],
+      "reason": "Fixed SPY 2016-2023 mechanism gate failed; bootstrap intervals include zero and recursive forecast MSE worse than expanding mean",
+      "reopen_condition": "Material new native source or demonstrated implementation error; do not retune failed fixed test"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",

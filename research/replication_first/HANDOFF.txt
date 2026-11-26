@@ -484,3 +484,9 @@ Meaningful progress: True
 P40singleSPYcontemporarymechanismtestregisteredbeforedataacquisition. Frozen2016-2020training/2021-2023chronologicaldevelopmenttest,sessionpriceproxies,qualityandbootstrapgates. Inclusiveendguardcorrectedpre-requestin002; boundedSIPcollectionsession3171running.
 Evidence: p40_contemporary_002/registration.json, p40_contemporary_002/INTERPRETATION.txt, p40_contemporary_001/ABORTED_INPUT_CHECK.txt, ../../tests/test_p40_inputs.py
 Next step: Pollcollectionsession3171untilterminal; verifyinputhashes/sessioncoverage,implement/testcausalfeaturealignmentbeforeanyeffectoutcomes. Commitcheckpoint locally; remoteaccessstillblocked.
+
+CYCLE 67 UPDATE
+Meaningful progress: True
+P40 bounded SIP acquisition complete; synthetic alignment/causality tests pass. Quality 99.499%. Registered mechanism gate failed: slope CI spans zero for all three block lengths; expanding OLS MSE 0.9394% worse than mean on 747 sessions. Set aside without strategy tuning; P117 now active.
+Evidence: p40_contemporary_002/results.json, p40_contemporary_002/DISPOSITION.txt, ../../tests/test_p40_sessions.py, ../../tests/test_p40_effect.py
+Next step: P117 scanned published paper methods recovery, then audit original turn-of-month definitions and historical input compatibility before registration.

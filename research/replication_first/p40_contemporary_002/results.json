@@ -1,0 +1,43 @@
+{
+  "type": "Contemporary mechanism test; not original paper replication",
+  "n": 1987,
+  "descriptive_full_sample_slope": 0.006406404971351767,
+  "bootstrap": [
+    {
+      "block": 5,
+      "paths": 5000,
+      "seed": 40005,
+      "ci95": [
+        -0.04147810466935617,
+        0.05781214843655658
+      ]
+    },
+    {
+      "block": 20,
+      "paths": 5000,
+      "seed": 40020,
+      "ci95": [
+        -0.04560540959416984,
+        0.05725748954680129
+      ]
+    },
+    {
+      "block": 60,
+      "paths": 5000,
+      "seed": 40060,
+      "ci95": [
+        -0.049275218325003874,
+        0.053281364730757556
+      ]
+    }
+  ],
+  "recursive_2021_2023": {
+    "n": 747,
+    "model_mse": 7.906434854080664e-06,
+    "historical_mean_mse": 7.832851942930748e-06,
+    "mse_improvement": -0.009394140433909959
+  },
+  "mechanism_gate_pass": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

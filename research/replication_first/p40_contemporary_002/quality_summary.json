@@ -1,0 +1,14 @@
+{
+  "eligible_rows": 1987,
+  "full_sessions": 1997,
+  "coverage": 0.9949924887330996,
+  "status_counts": {
+    "eligible": 1987,
+    "nonstandard_session": 15,
+    "missing_minutes": 8,
+    "missing_previous_close": 2
+  },
+  "quality_gate": true,
+  "feature_code_sha256": "9fbf43c8285559494ce351143ac50233ef42f4c0ad1a94e67dfd58bf131ee6d8",
+  "note": "Coverage only; no effect estimates computed. Missing first previous close is included conservatively in denominator."
+}
