@@ -1,0 +1,16 @@
+{
+  "id": "P126_native_001",
+  "utc": "2026-11-26T16:43:03.293020+00:00",
+  "target": "February12,2018 working draft Table1A, not certified final2019 replication.1994-2016 weekdays;184 meetings plus boundaries; holidays/closures zero; beyond33 excluded.",
+  "construction": "French202008 Mkt-RF percent divided100. Even weeks0,2,4,6 versus odd-1,1,3,5; second contrast2,4,6 versus same odd baseline, omitting week0. Calendar reset nextmeeting-minus6 weekdays. Month paired return sums and day counts preserve weighted daily means.",
+  "numerical": "Overall contrast within.0002 of.00120 and246contrast within.0002 of.00109 (2bps/day tolerances for dated vintage).",
+  "gate": "Both numerical matches and all95percent lower bounds positive for both contrasts,3/12/24month stationary bootstrap10000paths seeds126000+block. Preliminary per-paper inference, not independent or project-wide confirmation. No alternate days, tolerance or sample search.",
+  "limits": "Native-window market contrast, not causal monetary policy identification, contemporary persistence, payoff or account strategy. Already viewed development history; sealed2024-2025 untouched.",
+  "hashes": {
+    "researchlab\\p126_effect.py": "510e530dbbd38efd8d25b9904a2877c2397d173541a9ae5630337c90667c84d6",
+    "researchlab\\p126_calendar.py": "6e2360f829691f98890cc3256d822fb7ee8f760c9a212393c9ace2365c424ec7",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p52_audit\\F-F_Research_Data_Factors_daily.CSV": "6decccff26f54ddbe04c460e8694ee9a1cffa9120cc1ba3a63c7a20dbf9eb1d2",
+    "research\\replication_first\\p126_audit\\completion.json": "05ee32d3c866a8d445b683f6c06a36a2b0e686b03dc43289121bb104c2e924a9"
+  }
+}

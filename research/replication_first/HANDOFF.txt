@@ -982,3 +982,9 @@ Meaningful progress: True
 P126 calendar alignment exact:5997days, evenweekcounts920/924/831/120 and3beyond33exclusions. Corrected incomplete reset interpretation to nextmeeting-minus6 before outcomes; synthetic tests pass.
 Evidence: p126_audit/quality_summary.json, p126_audit/ERRATA.txt, p126_audit/CONTROL_TIMING.txt, ../../researchlab/p126_calendar.py
 Next step: Register native2018draft effect numerical/bootstrap gates before returns; then contemporary/payoff only if passed.
+
+CYCLE 150 UPDATE
+Meaningful progress: True
+P1262018draft partialnative headline reproduced:even-minus-odd11.9823bps/dayvs12;weeks246-minus-odd10.9435vs10.9,all3/12/24monthCIspositive. No causal/strategy or later-persistence validation.
+Evidence: p126_native_001/registration.json, p126_native_001/results.json, p126_native_001/DISPOSITION.txt
+Next step: Recover later official dates and preregister contemporary persistence and incremental payoff; sealed years stay closed.
