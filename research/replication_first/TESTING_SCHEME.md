@@ -90,3 +90,7 @@ P65 uses different dependent-variable definitions in its descriptive and forecas
 
 
 P28 source-convention lesson (cycle103): distinguish the return convention in a paper from the convention of its downloadable workbook. A percentage cell format proves neither simple nor log returns. Verify units, excess versus total, and stock-versus-portfolio aggregation before numerical gates. When a documented method suggests one correction after mismatch, freeze it separately, preserve the first result, prohibit transform/endpoint searches, and label a match as inferred partial reconstruction until provenance is established. Matching published numbers does not create independent confirmation or executable performance.
+
+
+## P90 prospective amendment
+Record exact sample-end, publication issue month, and separately known working-paper date. Score post-sample/pre-publication separately from post-publication when feasible; explicitly flag omitted gap periods. Do not infer causal publication effects from decay alone. Existing results stay intact. Before any ranking admission, require a separately registered confirmation plan that accounts for the accumulated search across papers and implementations; a per-paper 95% interval is a preliminary gate, not project-wide significance. Preserve all variants, unsuccessful tests, method versions, and prior viewed periods. Never use the sealed observations to resolve this.

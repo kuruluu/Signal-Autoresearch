@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P58interaction_data_blocked",
+  "active_stage": "P90methods_amendment",
   "papers": [
     {
       "id": "P24",
@@ -643,6 +643,16 @@
       "evidence": [
         "p58_audit/METHOD_AUDIT.txt"
       ]
+    },
+    {
+      "id": "P90",
+      "status": "methods_applied_native_blocked",
+      "reproduction": "Native97panelmissing,notreplicated",
+      "signal": "Methodology,notstandalonesignal",
+      "evidence": [
+        "p90_audit/METHOD_AUDIT.txt",
+        "TESTING_SCHEME.md"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -659,5 +669,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Nextcandidate"
+  "next_action_on_resume": "Nextsignalwithpublicationtimingandsearchlimits"
 }

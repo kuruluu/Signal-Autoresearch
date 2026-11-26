@@ -838,3 +838,9 @@ Meaningful progress: True
 P58publishedmethodschecked,jointcoverage/size/momentuminteractionnotavailable. Noinvalidstandaloneproxy.
 Evidence: p58_audit/METHOD_AUDIT.txt
 Next step: Nextcandidate.
+
+CYCLE 126 UPDATE
+Meaningful progress: True
+P90publishedmethodsrecoveredandprospectiveprotocolupdated:sample/publicationseparation,searchadjustmentbeforeadmission. No97panelreplicationclaim.
+Evidence: p90_audit/METHOD_AUDIT.txt, TESTING_SCHEME.md
+Next step: Nextsignalunderamendment.
