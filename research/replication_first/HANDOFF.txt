@@ -688,3 +688,9 @@ Meaningful progress: True
 P27 native execution audit established aggregate returns cannot recover stock weights/turnover/borrow/costs. Native average gross210%needs margin/rounding adaptation; fractional shorts unsupported and paper fees/dividends/borrow omitted. Read-only currentassets5282ETB does not establish historical panel. Current5yearlookback crosses sealedyears. Pinned2020ERPtree contains noBABnative continuation. Setasideexecutionblocked, preservepositivepartialeffect.
 Evidence: p27_execution_audit/AUDIT.txt, p27_execution_audit/quality_summary.json
 Next step: Move to next feasible single paper; no nativeBABprofitability rejection or ETFproxy promotion.
+
+CYCLE 101 UPDATE
+Meaningful progress: True
+P28 original241month university decile/spread/equalweightbenchmark data andApril2007workingpaper recovered. Native loglocalexcessreturns and3yearweeklyvolatility audited. No aggregateoutcomes; rowpreview exposure recorded, journalfinal unverified.
+Evidence: p28_audit/METHOD_AUDIT.txt, p28_audit/quality_summary.json
+Next step: Freeze originalD1/Univ/D10 numerical and pairedbootstrap gates before aggregateoutcomes.

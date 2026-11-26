@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P27positive_partial_effect_native_execution_input_blocked",
+  "active_paper": "P28",
+  "active_stage": "original_global_decile_and_benchmark_inputs_recovered",
   "papers": [
     {
       "id": "P24",
@@ -474,6 +474,16 @@
         "p27_execution_audit/AUDIT.txt",
         "p27_execution_audit/quality_summary.json"
       ]
+    },
+    {
+      "id": "P28",
+      "status": "active_input_audit",
+      "reproduction": "Original241month globaldeciles+Univ andApril2007workingpaper recovered",
+      "signal": "Untested; nativeweights unavailable",
+      "evidence": [
+        "p28_audit/METHOD_AUDIT.txt",
+        "p28_audit/quality_summary.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -490,5 +500,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Choose next single paper with faithful permitted inputs and executable mechanism; preserve P27positive historical effect and exact execution blockers"
+  "next_action_on_resume": "Freeze P28originalD1/Univ/D10 numerical and pairedbootstrap protocol before aggregateoutcomes; preserve logexcessconvention"
 }

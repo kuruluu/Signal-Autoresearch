@@ -1,0 +1,25 @@
+{
+  "months": 241,
+  "first": 198601,
+  "last": 200601,
+  "columns": [
+    "",
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0,
+    9.0,
+    10.0,
+    "1-10",
+    "Univ"
+  ],
+  "aggregate_outcomes_computed": false,
+  "hashes": {
+    "library.xls": "bacd49d6dd87197c70152cbf5e9cef76004065f3e91c3003f75fd3d61c9416f1",
+    "working_2007.pdf": "3e6dba1ec56c90fc751558a692e5d3cc5de8ceb22607abd34c80620d471a1938"
+  }
+}

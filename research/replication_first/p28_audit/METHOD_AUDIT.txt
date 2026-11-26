@@ -1,0 +1,6 @@
+P28 ORIGINAL INPUT/METHOD AUDIT
+University original2007XLS:241months1986Jan-2006Jan,10deciles,1-10spread,Univ. RecoveredApril2007workingpaper inJuly2007ERIMreport23PDFpages, not verifiedjournalfinal; Robeco publishedURL BlobNotFound.
+NativeFTSEWorldDeveloped monthlyhistoricalconstituents, equalweights, past3yearweeklyvolatility, monthlyrebalance, localriskfree excessreturns logtransformed throughout. Costs ignored. Univ equallyweighted stockmarket, notSPY or marketcapindex. No secondRFsubtraction. Validate sourceunits against table.
+Workingpaper targets:D1SR.72,Univ.40,annualmeanD1-D10=5.9%,D1beta.56,annualD1CAPMalpha4.0%,spreadCAPMalpha12.0%. Pairedbootstrap must preserveUniv/deciles alignment; preregister before aggregateoutcomes. No nativeweights/weeklystockpanel to rebuild executableaccount.
+Exposure:firstfive1986Jan-MayD1-D5 monthlyvalues printed during headerinspection; no aggregateperformance calculated. All acquiredseries reproduction/development, not untouchedconfirmation.
+Sources:https://repub.eur.nl/pub/14658/Library_Data_Pim_van_Vliet.xls ; https://repub.eur.nl/pub/10460/ERS-2007-044-F%26A.pdf
