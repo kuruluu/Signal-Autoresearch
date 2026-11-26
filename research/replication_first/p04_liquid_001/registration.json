@@ -1,0 +1,10 @@
+{
+  "id": "P04_liquid_001",
+  "utc": "2026-11-26T07:15:46.978309+00:00",
+  "selection": "OnepredeclaredNYSE20capfilter;nootherliquidityfiltertesting. SameLRreversal2011archive,EWandoriginalholdingrules.",
+  "revision": "e9da46bdf1cbc05c3c55362b463fd8c7656d1fae",
+  "file": "Portfolios/Full Sets Alt/PredictorAltPorts_LiqScreen_ME_gt_NYSE20pct.parquet",
+  "sample": "1986Jan-2022Dec",
+  "gate": "All3/12/24month10000stationarymean95%lowerboundspositive,seeds401000+block. Nochangeafteroutcomes. If failsstop;passonlycostfeasibilityaudit.",
+  "limits": "Notexecutable,notnative,notindependent. NoCAGR/DD/feesclaims. Freeze code/inputs beforeoutcomes."
+}
