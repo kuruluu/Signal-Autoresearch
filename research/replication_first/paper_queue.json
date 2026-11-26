@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P07",
-  "active_stage": "P07 nativebaseline passed; crashinteraction/equation timing audit and marketwarmup gap documented",
+  "active_paper": null,
+  "active_stage": "P07 nativebaseline/conditionalbetapartial match; jointbootstrapgate failed, setaside fixedbranch",
   "papers": [
     {
       "id": "P24",
@@ -375,12 +375,15 @@
     },
     {
       "id": "P07",
-      "status": "active_registered_native_input_check",
+      "status": "set_aside_partial_mechanism_robustness_failed",
       "evidence": [
-        "p07_audit/METHOD_AUDIT.txt",
-        "p07_baseline_001/registration.json"
+        "p07_baseline_001/results.json",
+        "p07_optionality_001/results.json",
+        "p07_optionality_001/DISPOSITION.txt"
       ],
-      "native_input": "Authorarchive daily/monthlyall-firmmomentumdeciles throughMarch2013recovered"
+      "native_input": "Authorarchive daily/monthlyall-firmmomentumdeciles throughMarch2013recovered",
+      "reason": "NativebaselineandTable3coefficientsmatch;24monthblockinteractionCIcrosszero,registeredjointgatefails. Dynamicstrategyuntested.",
+      "reopen_condition": "Materialnewevidence orimplementationerror; do notretune fixedbranch"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -397,5 +400,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Register one P07 descriptiveTable3partial withstrict24monthwarmup orrecoverpre1926market; neverusecontemporaneousupindicatorforexanteentry. ThenauditpredictiveTable5 units."
+  "next_action_on_resume": "Select next singlepaper by primarymethods and presealedinputfeasibility; preserveP07mixednumerical/robustnessoutcome, no blocklengthtuning"
 }

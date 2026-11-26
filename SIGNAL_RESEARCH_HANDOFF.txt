@@ -586,3 +586,9 @@ Meaningful progress: True
 P07authornativebaseline matchesTable1:17.8576%mean,29.9868%SD,SR.5955,N1035. Schema/coveragechecksandsyntheticparsertestpass. Crashinteractioncontemporaneousupmarketnottradable; availablemarketstarts1926July requiringJuly1928firstfull24monthstate, originalwarmupgapexplicit. No crashregressionfit yet.
 Evidence: p07_baseline_001/results.json, p07_baseline_001/INTERPRETATION.txt, p07_audit/CONTROL_TIMING.txt, ../../tests/test_p07_baseline.py
 Next step: Register singleTable3partialconditionalbetaeffectwithstrict24monthwarmup orrecoverearlymarketinputs. SeparatecontemporaneousmechanismfrompredictiveTable5; auditvarianceunitsbeforecoefcomparison.
+
+CYCLE 84 UPDATE
+Meaningful progress: True
+P07 partialTable3numericalgatepassed,N1017,bBU-.79249versus-.815. PairedbootstrapCInegativeat3/12months,includeszeroat24; registeredjointrobustnessgatefails. Strictstate/parser synthetic tests pass. No predictiveTable5promotion; preserveclosehistoricalcoefficientmatch, no signal/order.
+Evidence: p07_optionality_001/registration.json, p07_optionality_001/results.json, p07_optionality_001/DISPOSITION.txt, ../../tests/test_p07_optionality.py
+Next step: Selectnextsinglepaperwithavailableprimarymethods/presealedinputs. PreserveP07partialmatchandfailedrobustness; do notretuneblocksorusecurrentupmarketindicatorforentry.

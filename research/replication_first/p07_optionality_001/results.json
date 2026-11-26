@@ -1,0 +1,50 @@
+{
+  "type": "Partial contemporaneous optionality reconstruction; not tradable forecast",
+  "n_months": 1017,
+  "coefficients": {
+    "constant": 0.0197777643406257,
+    "bear": 0.00535847655842343,
+    "market": -0.03890070973504704,
+    "bear_market": -0.6611479388946874,
+    "bear_up_market": -0.7924873059952025
+  },
+  "target_deviations": [
+    1.776434062570123e-05,
+    -0.0004715234415765702,
+    -0.006900709735047042,
+    -0.00014793889468733834,
+    0.022512694004797495
+  ],
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 5000,
+      "seed": 70303,
+      "bBU_ci95": [
+        -1.293197977428713,
+        -0.08160305429058101
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 5000,
+      "seed": 70312,
+      "bBU_ci95": [
+        -1.3160312398604836,
+        -0.01760687820379651
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 5000,
+      "seed": 70324,
+      "bBU_ci95": [
+        -1.3839882310727085,
+        0.05915803014196676
+      ]
+    }
+  ],
+  "mechanism_supported": false,
+  "trading_strategy_validated": false
+}

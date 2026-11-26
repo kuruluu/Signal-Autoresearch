@@ -1,0 +1,5 @@
+P07 partialTable3 regression3 numerical gate PASSED, jointrobustness gate FAILED.
+July1928-Mar2013 N1017,strict24completedpriormonthstate. a0=.0197778,aB=.0053585,b0=-.0389007,bB=-.6611479,bBU=-.7924873 versusprinted .01976,.00583,-.032,-.661,-.815; allfrozen tolerances met.
+Interaction95%stationarybootstrapCI blocks3:[-1.29320,-.08160],12:[-1.31603,-.01761],24:[-1.38399,.05916]. Lastintervalcrosseszero, so all-block criterion fails. This is mixed evidence with negativepointestimate/numericalreconstruction, not proof that original mechanism absent.
+Frozenadvancecriterion requiredallintervalsnegative before predictiveTable5branch. Do not relaxcriteria orretuneblocks/sampletoadvance. Preserve successfulnativebaselineandcloseregcoef separately. Nativeperiodtruncation/vintagedifference preventexactreplication.
+Currentmarket/upmarketregressorsarecontemporaneous, not executableentrydata. No strategy/paperorder/ranking. P07dynamicGJRmeanvariance strategy not replicated or empiricallyrejected; separateoutcome status required.

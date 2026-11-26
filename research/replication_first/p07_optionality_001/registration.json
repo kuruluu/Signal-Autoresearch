@@ -1,0 +1,18 @@
+{
+  "id": "P07_optionality_001",
+  "registered_utc": "2026-11-26T05:52:27.750413+00:00",
+  "type": "Descriptive partial Table3regression3, NOT predictive entry or executable signal",
+  "sample": "July1928-Mar2013; originalJan1927start truncated for strict24completepriormonthwarmup; originalauthorWML,201507vintageFrenchmonthlymarket/RF",
+  "model": "WML_t=a0+aB*bear_t-1+b0*market_excess_t+bB*bear_t-1*market_excess_t+bBU*bear_t-1*I(market_excess_t>0)*market_excess_t. OLS withconstant; bear=prior24rawmarketmonthlyreturnproduct<0, allcomplete, currentmonthexcluded.",
+  "targets": "PrintedTable3col3 a0=.01976,aB=.00583,b0=-.032,bB=-.661,bBU=-.815. Currentmarket/upindicator descriptiveonly, forbiddenforentry.",
+  "numerical_gate": "Intercepts within.002 in decimal monthlyreturn; all3betaswithin.10. Disclose truncatedsample/vintage andall deviations; no exactreplicationclaim.",
+  "inference": "5000pairedstationarymonthlyrowresamples,blocks3/12/24,seeds70303/70312/70324;95%CIforbBU. NegativebBU andallupperbounds<0 supportoptionalitymechanism only.",
+  "advance": "Numericalgate andnegativeinteractionCIs permit separatepredictiveTable5audit; no strategy/ranking/paperorder.",
+  "hashes": {
+    "researchlab\\p07_optionality.py": "ec154e918195d3eb9dcdb1d8671095803704a20edc1bc74a7acf3997453aca07",
+    "researchlab\\p07_baseline.py": "7097ef3ad5940bf849cd3183922c6566051f2b03c3b983c1b97b3f99ba074cbc",
+    "research\\replication_first\\p07_audit\\m_m_pt_tot.txt": "8cca40ce8ae2e615534b960c4c0a0760d1d281c358a831be241896c80a3e705c",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370"
+  },
+  "sealed": "No2024-2025observations"
+}
