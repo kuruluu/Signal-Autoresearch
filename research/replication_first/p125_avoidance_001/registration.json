@@ -1,0 +1,22 @@
+{
+  "id": "P125_avoidance_001",
+  "utc": "2026-11-26T16:35:34.540716+00:00",
+  "windows": {
+    "original": [
+      "1953-01",
+      "1977-12"
+    ],
+    "later": [
+      "1980-04",
+      "2020-12"
+    ]
+  },
+  "construction": "Idealized previous-session-close to Monday-close equity exposure replaced by cash. Other sessions unchanged. Cash variants zero interest and supplied daily rf. No holiday-Tuesday avoidance. Perfect index closes, zero costs; rf is a theoretical credit, not broker entitlement.",
+  "gate": "All 3/12/24month stationary bootstrap 95percent lower bounds of annual log-growth advantage positive in both windows and both cash variants. 10000 paths, seed125200+100*window+block, paired variants. No timing/holiday/period search. Failure stops executable transfer; pass requires separate costs and project-wide confirmation.",
+  "limits": "Not native replication or ETF/account validation. Window already viewed; dependent follow-up. No rank/order. No sealed2024-2025.",
+  "hashes": {
+    "researchlab\\p125_avoidance.py": "ff3b8eaf66a579744a43ae1325babe0a001ff4431156b8bf3e706e810fb5c6cd",
+    "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}
