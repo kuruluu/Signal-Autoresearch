@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P25 historical native effects reproduced but later-sample persistence failed; select P07 original crash-risk mechanism audit",
+  "active_paper": "P07",
+  "active_stage": "Native author archive/methods recovered; Table1 baseline inputcheck registered",
   "papers": [
     {
       "id": "P24",
@@ -372,6 +372,15 @@
       "scope": "OneMOMtable result;103-strategy conclusion and causal combination not yet reproduced",
       "reason": "Table1/Table5 historicalpartial match; same-rule2017-2020pointgains negative, allCIcrosszero; executionnotvalidated",
       "reopen_condition": "Materialnewsource/evidence or implementationerror; preservefrozenfailedtest"
+    },
+    {
+      "id": "P07",
+      "status": "active_registered_native_input_check",
+      "evidence": [
+        "p07_audit/METHOD_AUDIT.txt",
+        "p07_baseline_001/registration.json"
+      ],
+      "native_input": "Authorarchive daily/monthlyall-firmmomentumdeciles throughMarch2013recovered"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -388,5 +397,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Audit P07 Momentum Crashes primary methods/native factor requirements, no variant tuning ofP25"
+  "next_action_on_resume": "Parse/check nativeP07deciles thenexecuteTable1 fixedbaseline; audit24monthmarketwarmupandcrashmechanismbeforeanythingpredictive"
 }

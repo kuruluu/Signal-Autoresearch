@@ -574,3 +574,9 @@ Meaningful progress: True
 P25 same-rule nativeMOM later-sample check failed: N44Jan2017-Aug2020, combination/controlSR.3861/.5672,CER1.4489%/2.8766%,negativepointgains andallbootstrapCIscrosszero. Four causal/variance tests pass, registrationcodehash verifies. Historical positive replicas preserved; no tradingpromotion.
 Evidence: p25_persistence_001/registration.json, p25_persistence_001/results.json, p25_persistence_001/DISPOSITION.txt
 Next step: Move to P07 Momentum Crashes primarymethods/nativefactor feasibility audit. Preserve P25failures, no retuning or shorterETFwarmup torescue.
+
+CYCLE 82 UPDATE
+Meaningful progress: True
+P07authororiginalpaper,portfolio notes andnative daily/monthlymomentumdecilearchive recovered. ActualMarch2013endpointverifieddespitewebdescriptionDecember. Nativeall-firmdata avoidsFrenchproxy. PrintedTable1target preregistered; conflictingnarrativeSRdisclosedbeforeoutcomes. Noeffectfit yet.
+Evidence: p07_audit/METHOD_AUDIT.txt, p07_baseline_001/registration.json
+Next step: Implement native-decile/date/schema validation and Table1baseline; thenaudit24monthmarketwarmup/equationsandregisteronecrashmechanismtest. No ranking/order frombaseline.

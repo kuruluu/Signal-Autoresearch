@@ -1,0 +1,16 @@
+{
+  "id": "P07_baseline_001",
+  "registered_utc": "2026-11-26T05:49:51.345336+00:00",
+  "purpose": "Verify native author all-firm decile input against printedTable1 before crashmechanism regressions",
+  "sample": "Jan1927-Mar2013,N1035monthly; rawnativearchiveall-firmtotalreturns",
+  "construction": "Native monthly decile10 minus1 arithmeticzero-investmentWML; annualmean12*mean,annualSDsqrt12*sampleSD,SRsqrt12*mean/sampleSD; do notsubtractRFfromzero-investmentspread",
+  "target": "PrintedTable1 WML17.9%annualmean,30.0%annualSD,SR.60. NarrativeSR.71 conflicts; fixed tabletargetbeforeoutcomes.",
+  "gate": "Mean/SDwithin.15percentagepoints each andSRwithin.015; reportactual counts/uniquedecile10-per-date/missingchecks; rejectratherthanfill. Thisverifiesinput,notcrashmechanism/tradingedge.",
+  "advance": "Ifinputbaselinepasses, separatelyregister one nativecrashmechanism regression aftermarketwarmup/indicator/equationaudit. No optimization/crashavoidancevariantsearchfrombaseline.",
+  "hashes": {
+    "research\\replication_first\\p07_audit\\published.pdf": "e262c26de63add1e9eadf70a3c440157f572f64e1f75a2948f7426f84aa60075",
+    "research\\replication_first\\p07_audit\\m_m_pt_tot.txt": "8cca40ce8ae2e615534b960c4c0a0760d1d281c358a831be241896c80a3e705c",
+    "research\\replication_first\\p07_audit\\d_m_pt_tot.txt": "3014b6d57c3c29976d18eecca8fb89c9cbf94a8d1d5b765336a028d59fe36077"
+  },
+  "sealed": "Archiveends2013,no2024-2025observations"
+}
