@@ -940,3 +940,9 @@ Meaningful progress: True
 Cost-library GP grid inspected without outcomes; single paper-aligned construction frozen. Filtering service splits confirmed, empty-range verification timed out, no observations returned. No bulk fallback or sealed-data access.
 Evidence: holdings_recovery_audit/TARGETS.txt, holdings_recovery_audit/CONTROL_TIMING.txt
 Next step: Retry bounded empty-filter verification or find pinned pre2024 source; register cost test before any outcomes.
+
+CYCLE 143 UPDATE
+Meaningful progress: True
+P124 US seasonal test: historical effect positive, postpublication monthly log-return difference0.561percentage points with all confidence intervals including zero. Gate failed. Second cost-library bounded probe timed out; no observations received.
+Evidence: p124_partial_001/registration.json, p124_partial_001/results.json, p124_partial_001/DISPOSITION.txt
+Next step: Next paper; no seasonal retuning; cost-library access branch held aside.
