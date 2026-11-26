@@ -580,3 +580,9 @@ Meaningful progress: True
 P07authororiginalpaper,portfolio notes andnative daily/monthlymomentumdecilearchive recovered. ActualMarch2013endpointverifieddespitewebdescriptionDecember. Nativeall-firmdata avoidsFrenchproxy. PrintedTable1target preregistered; conflictingnarrativeSRdisclosedbeforeoutcomes. Noeffectfit yet.
 Evidence: p07_audit/METHOD_AUDIT.txt, p07_baseline_001/registration.json
 Next step: Implement native-decile/date/schema validation and Table1baseline; thenaudit24monthmarketwarmup/equationsandregisteronecrashmechanismtest. No ranking/order frombaseline.
+
+CYCLE 83 UPDATE
+Meaningful progress: True
+P07authornativebaseline matchesTable1:17.8576%mean,29.9868%SD,SR.5955,N1035. Schema/coveragechecksandsyntheticparsertestpass. Crashinteractioncontemporaneousupmarketnottradable; availablemarketstarts1926July requiringJuly1928firstfull24monthstate, originalwarmupgapexplicit. No crashregressionfit yet.
+Evidence: p07_baseline_001/results.json, p07_baseline_001/INTERPRETATION.txt, p07_audit/CONTROL_TIMING.txt, ../../tests/test_p07_baseline.py
+Next step: Register singleTable3partialconditionalbetaeffectwithstrict24monthwarmup orrecoverearlymarketinputs. SeparatecontemporaneousmechanismfrompredictiveTable5; auditvarianceunitsbeforecoefcomparison.

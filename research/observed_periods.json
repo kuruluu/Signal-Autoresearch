@@ -42,5 +42,6 @@
   "P25_Table1": "DatedFrench MOM monthlyJan1927-Dec2016 N1080 and prior-month daily variance evaluated in descriptive normalized reconstruction; all viewed development, no sealed observations.",
   "P25_Table5": "MOM1927-2016 inputs, causal120month expanding allocation Jan1937-Dec2016N960 evaluated. All viewed development; no sealed2024-2025 observations.",
   "P25_execution_source_context": "Issuer search incidentally displayed current2026snapshots and MSCI2024/2025 annualaggregate returns. These were not sought, not downloaded as time-series, not used for selection/fit/evaluation. Avoid current factsheets and index-performance pages; further market inputs must use explicit pre2024 bounds/pinned vintages. MTUM selected by mandate/inception before any performance test.",
-  "P25_persistence": "NativeMOM2017-Jan through2020-AugN44 evaluated under same1927onward expanding rule. All vieweddevelopment, outsideoriginal2016sample but prepublication. No sealedobservations."
+  "P25_persistence": "NativeMOM2017-Jan through2020-AugN44 evaluated under same1927onward expanding rule. All vieweddevelopment, outsideoriginal2016sample but prepublication. No sealedobservations.",
+  "P07_native_baseline": "Authorall-firmmonthly/dailymomentumdecilesJan1927-Mar2013,N1035monthly/22791daily inspected andbaselineWMLmean/SD/SRevaluated; vieweddevelopment,no sealedobservations."
 }

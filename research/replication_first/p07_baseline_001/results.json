@@ -1,0 +1,12 @@
+{
+  "type": "Native author portfolio input/Table1 verification only",
+  "monthly_rows": 1035,
+  "daily_rows": 22791,
+  "annual_mean_percent": 17.857588405797106,
+  "annual_sd_percent": 29.986800396148325,
+  "sharpe": 0.5955149655810174,
+  "baseline_gate_pass": true,
+  "narrative_discrepancy": "Fixed printedTable1SR.60 primary; narrative.71 not used for retuning",
+  "crash_mechanism_tested": false,
+  "trading_strategy_validated": false
+}
