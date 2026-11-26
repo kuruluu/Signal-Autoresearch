@@ -1,0 +1,12 @@
+{
+  "timing": "Before implementation and before all P11 performance outcomes; numerical definitions supplement frozen registration",
+  "primary_gate": "5bps: net CAGR>0 and >=0.60*buyhold CAGR; historical maxDD <=0.75*buyhold maxDD; paired bootstrap buyhold-minus-strategy maxDD 95% lower bound>0 at all3/12/24-month block lengths",
+  "stress_gate": "10bps net CAGR>0 and historical maxDD<buyhold maxDD",
+  "bootstrap_paths": 10000,
+  "seeds_by_block": {
+    "3": 11003,
+    "12": 11012,
+    "24": 11024
+  },
+  "fixed50_control": "Report net CAGR and maxDD vs fixed50 control as risk/exposure diagnostic; no unconditional superiority claim or ranking from passing screen"
+}

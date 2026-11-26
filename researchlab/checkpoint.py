@@ -10,7 +10,8 @@ RESEARCH_FILES={'research/README.md','research/observed_periods.json','research/
 OWN_RECORDS={'registration.json','results.json','result.json','completion.json','INTERPRETATION.txt',
              'DISPOSITION.txt','AUDIT.txt','METHOD_AUDIT.txt','TARGETS.txt','PREDICTOR_AUDIT.txt',
              'ABORTED_INPUT_CHECK.txt','CONTROL_TIMING.txt','ACCESS_AUDIT.txt','INPUT_RECOVERY.txt',
-             'RETURN_INPUT_AUDIT.txt','ERRATA.txt','analysis_freeze.json','quality_summary.json'}
+             'RETURN_INPUT_AUDIT.txt','ERRATA.txt','analysis_freeze.json','quality_summary.json',
+             'registration_addendum.json'}
 
 
 def allowed(path):
