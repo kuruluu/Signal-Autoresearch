@@ -1,0 +1,5 @@
+AUTHOR ERRATA recoveredthroughGoogleDriveconnector
+Source https://drive.google.com/file/d/1G9zsx25zs7ijIdjf8VDmmgz7vPIcQSTW/view
+Authorpagelinksitdirectly:https://sites.google.com/site/pedromsbarroso/
+Drivecreated2021-08-20,modified2021-08-20.
+Published equation10 incorrectly divides weights byvolatilityexposureL_t; correct turnover is x_t=0.5*sum_i abs(w_i,t*L_t - drifted_w_i,t-1*L_t-1), whereL_t=sigma_target/sigma_hat_t. Authorstatesreportedresultsalreadyusedcorrectformula. Noarticleoutcomescomputed.

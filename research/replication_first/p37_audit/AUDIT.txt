@@ -1,0 +1,13 @@
+P37 — DATA FEASIBILITY DISPOSITION, 2026-11-22
+Official source: https://www.federalreserve.gov/econres/feds/arbitrage-and-liquidity-evidence-from-panel-of-exchange-traded-funds.htm
+Official supplementary archive: https://www.federalreserve.gov/econres/feds/files/feds2020097.zip
+Archive downloaded, hashed and inventoried in manifest.json. It contains article HTML, accessible figure HTML and eight GIFs. It provides no raw ETF/constituent panel or executable replication code. Published tables and figure descriptions are not independent input observations.
+
+Targeted methods audit of existing official paper text:
+Section 3 uses 2012-02-01 through 2017-12-31 observations from Markit portfolio composition, NYSE DTAQ, FINRA TRACE and Morningstar. The quantities include ETF/constituent effective spreads and price-versus-NAV mispricing. Section 5 removes trends/calendar regularities before a five-lag panel VAR. Impulse responses depend on the Cholesky ordering, and the paper examines alternative orderings.
+
+VERDICT: DATA BLOCKED, not empirically rejected. Available daily ETF bars cannot reconstruct trade-level effective spreads or historical constituent baskets. No numerical reproduction or ETF signal test run. Reopen with lawfully obtained bounded source panels, exact cleaning rules and timestamps.
+
+Testing implication: reproduce the liquidity/mispricing estimand first. Predictability of liquidity is not automatically predictability of profitable net returns. An explanatory VAR or impulse response cannot be relabeled an executable forecast. Any forecast preprocessing, estimation and shock identification need separately registered timing and identification assumptions.
+
+The current priority queue has no remaining ready candidate. Stop under the no-progress rule; do not repeatedly re-download these accessibility materials or turn price-only proxies into purported replication.

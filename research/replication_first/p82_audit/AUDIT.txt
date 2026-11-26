@@ -1,0 +1,4 @@
+Cycle40 P82 published source recovered45pages
+Primary JournalFinance1999scan retrieved via academic teaching mirror; hash/source recorded. Original teachingdomainTLS hostname mismatch; used separate documented mirror without disabling verification.
+Native DJIA1897-1996; originalBLL26rules versus expanded7846rulefamily; stationary bootstrap jointly resamples rule-performance series for data-snooping adjustment. Distinct estimand from P50single-rule gap/persistence; recovering best rule then retuning historical failure is prohibited. ExistingDowdata span native dates, but original source/observation count and volume/riskfree requirements must be reconciled.
+Next audit full appendix rule definitions, benchmark,cash/short/transaction conventions,lag and initialstate,bootstrap tuning and targetTableII values before choosing replication scope. A26rule subset can only reproduce the BLL-family target, never claim7846family adjustment. No P82 numeric experiment yet.

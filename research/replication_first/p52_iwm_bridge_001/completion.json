@@ -1,0 +1,19 @@
+{
+  "completed_at_utc": "2026-11-25T23:36:53.269624+00:00",
+  "hashes": {
+    "exposure_control_10bps_daily.csv": "965bcfeac1840566913af3f49da58f4d29e6f89b286ff2c6b6e464483efff9e6",
+    "exposure_control_20bps_daily.csv": "168f32730ea896cf2770c29c7399690c39192c2a80d4a6a321039173e2aa12fb",
+    "exposure_control_5bps_daily.csv": "5041c4c82af64c07460372f0bd8bea788a2d185eca23697885985ed1a1059689",
+    "market_10bps_daily.csv": "2fbf981381d4dd87d38b336247fea671b9add3b2d7bb9f7108dab6136d461e6b",
+    "market_20bps_daily.csv": "9b1e7b0392a0c3e6cc39a588510c81f626678f08fec4663132a2c90bd33a00fe",
+    "market_5bps_daily.csv": "78ac78f4bdc6526d7613e9bac4ffe036cf117d66f199dbcb2c304405b9718906",
+    "MA_10bps_daily.csv": "7eb4f285f04e7d6093eb1dafaa5340f0338e894dced837afb44547d9d060eda1",
+    "MA_20bps_daily.csv": "b28f4b201da8e06aa254e9b258f50a4c3fc1d16ff688fe48f428644b99296c07",
+    "MA_5bps_daily.csv": "2b23ea5854af579a3294d6568513066383b62cce52e5eec841462ba1b9637443",
+    "registration.json": "016ed56f2648258b94ec94ebfbfbf8fcd5eaf0fe1555bca0181044153580d2ce",
+    "results.json": "62d15129518bd76ab14178a76120a94b3388471d9897b2ca11f110a13c821fd3",
+    "TSMOM_10bps_daily.csv": "2821f269c3db5debceab21cf8f21e9977221de00eb28d4300a443a1804f047b0",
+    "TSMOM_20bps_daily.csv": "08f238626f29816bbba85b3a3598186c91f4dab06de5adea456e8fe4553b4a08",
+    "TSMOM_5bps_daily.csv": "3245a5cd4182a08a2becc63a92aadf020469ef7f25cbee27f856c0bf3d8374bc"
+  }
+}

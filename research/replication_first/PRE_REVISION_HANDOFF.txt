@@ -1,0 +1,266 @@
+SIGNAL RESEARCH HANDOFF - ETF Research Lab
+This is a local research artifact, not a deployment instruction or a verified trading edge.
+Workspace: C:\Users\kuru\Documents\ChatGPT\quant
+
+OBJECTIVE AND CURRENT STATE
+Identify and compare 50 papers relevant to ETF signals and several-day holding horizons.
+{
+  "papers_found": 50,
+  "feasibility_reviewed": 50,
+  "downloaded_full_texts": 14,
+  "papers_with_abstract_metadata": 25,
+  "distinct_adaptations": 21,
+  "papers_with_adaptations": 24,
+  "papers_without_numerical_adaptation": 26,
+  "faithful_replications": 0,
+  "original_replications_blocked": 50,
+  "variant_experiments": 231,
+  "period_evaluations": 462,
+  "provisional_candidates": 0,
+  "robust_successes": 0
+}
+Downloaded full texts are not equivalent to complete equation-by-equation replication reviews.
+50 papers were bibliographically and feasibility assessed; review depth and unverified sample dates are explicit per record.
+The original paperlab forward runner was inspected and preserved. researchlab uses no order API.
+
+REPRODUCTION
+PowerShell: .\research.ps1 test
+PowerShell: .\research.ps1 catalog
+PowerShell: .\research.ps1 sources
+PowerShell: .\research.ps1 review
+PowerShell: .\research.ps1 data
+PowerShell: .\research.ps1 pilot
+PowerShell: .\research.ps1 run
+PowerShell: .\research.ps1 report
+Read research/README.md for installation and equivalent Python commands.
+
+DATA AND PROVENANCE
+12 fixed surviving ETFs: SPY, QQQ, IWM, EFA, EEM, TLT, IEF, GLD, XLF, XLE, XLK, XLV
+Yahoo chart API observations: 2007-01-03 through 2023-12-29, 4278 common XNYS sessions.
+Raw JSON, extracted CSV, checksums and URLs: research/data/manifest.json. Corporate-action payloads remain in raw JSON.
+Adjusted open = raw open * adjusted close / raw close. Synthetic total-return units, not a cash-dividend share ledger.
+Calendar source: exchange_calendars XNYS; schedule includes UTC opens/closes and accounts for holidays/early closes/DST.
+Alpaca IEX is NOT used as a historical consolidated feed. No credentials or paid data purchased.
+Survivorship, revised data, approximate opening execution, zero cash yield and transaction-cost assumptions limit inference.
+
+PROTOCOL AND IMPLEMENTATION
+Frozen protocol: research/protocol.json. Experiment/code hashes: research/results/registration.json.
+Definitions: researchlab/signals.py. Execution: researchlab/engine.py. Statistics: researchlab/bootstrap.py.
+21 signal hypotheses, each with 11 predeclared variants; all retained rather than selecting a winner.
+Base holds five exchange sessions; sensitivity holds 2/10. Additional cost2x/cost4x, delay1, 10% missed trades, lookback80/120%, equities/defensive subsets.
+Signal observes prior close; next open execution. Long-only, no leverage, 90% gross cap, 20% asset cap, 10% annual ex-ante risk ceiling.
+Complete nonoverlapping cohorts within splits; 10-session boundary gap. Cash starts fresh at each evaluation split.
+No predictive model fitting: rolling risk estimation uses past data. Walk-forward means fixed-rule chronological execution, not re-optimized machine learning.
+Primary benchmark: 90% equal-weight initial buy-and-hold of the same 12 ETFs; additional SPY/cash results saved. Different exposures mean raw active return is not pure alpha.
+Costs: 0 commission + 2bps half-spread + 3bps slippage per side; scenario assumptions, not observed bid/ask.
+Monte Carlo: 2000 synchronized stationary bootstrap resamples per period/block length (10/20/40 sessions), seed6413.
+Bootstrap is on aligned fixed-strategy active daily returns, preserving temporal blocks and contemporaneous cross-strategy dependence.
+Centered null + max studentized mean across all231variants, with conservative 50-paper Bonferroni floor. Not a refit bootstrap or proof against unrecorded searches.
+Paper-specific available samples and shared common periods are separate; related papers may map to the same signal and do not count as independent corroborations.
+
+OBSERVED AND SEALED DATA
+2007-2016 history used for warmup/retrospective own-sample tests. 2017-2020 validation USED. Common validation2019-2020 starts after all implemented-paper publication dates.
+2021-2023 walk-forward USED for research evaluation. These results are now development evidence for any future modification.
+2024-2025 FINAL REMAINS SEALED: its daily bars were not downloaded or evaluated by this project.
+Never relabel used data as untouched. Do not tune to sealed data. Before releasing it, freeze hypotheses, log a new protocol and permanently mark the final period consumed.
+An initial pilot reporting bug (boolean regime mask) was fixed; failed artifacts retained in research/pilot_failed_001. No return-driven parameter tuning followed.
+
+ESTABLISHED RESULTS
+Evidence: research/results/metrics.json, metrics.csv, success_assessment.json, *_daily.csv, *_trades.csv, *_regimes.json, asset_concentration.json.
+Provisional candidates passing all predeclared gates: 0. Robust successes: 0.
+No successful-signal similarity is established. Absence of a winner here does not refute the original papers: these are changed instruments/horizons and exposures.
+Base walk-forward returns (descriptive, not a recommendation):
+S12: netCAGR=9.7840%; activeAnnualMean=3.2928%; correctedP=1.0000
+S01: netCAGR=3.8800%; activeAnnualMean=-2.2106%; correctedP=1.0000
+S20: netCAGR=3.1063%; activeAnnualMean=-3.2718%; correctedP=1.0000
+S11: netCAGR=2.6423%; activeAnnualMean=-3.4082%; correctedP=1.0000
+S08: netCAGR=2.5262%; activeAnnualMean=-3.6146%; correctedP=1.0000
+S04: netCAGR=2.3430%; activeAnnualMean=-3.7018%; correctedP=1.0000
+S07: netCAGR=2.0610%; activeAnnualMean=-4.0638%; correctedP=1.0000
+S02: netCAGR=1.9754%; activeAnnualMean=-4.0143%; correctedP=1.0000
+S19: netCAGR=1.6428%; activeAnnualMean=-4.4034%; correctedP=1.0000
+S03: netCAGR=1.5964%; activeAnnualMean=-4.5649%; correctedP=1.0000
+S21: netCAGR=1.0613%; activeAnnualMean=-5.0615%; correctedP=1.0000
+S13: netCAGR=0.7659%; activeAnnualMean=-5.5495%; correctedP=1.0000
+S09: netCAGR=0.6709%; activeAnnualMean=-5.4147%; correctedP=1.0000
+S10: netCAGR=0.5265%; activeAnnualMean=-5.4537%; correctedP=1.0000
+S05: netCAGR=0.0302%; activeAnnualMean=-6.1712%; correctedP=1.0000
+S17: netCAGR=-0.4407%; activeAnnualMean=-6.6004%; correctedP=1.0000
+S06: netCAGR=-0.7370%; activeAnnualMean=-6.8590%; correctedP=1.0000
+S16: netCAGR=-0.9128%; activeAnnualMean=-7.2321%; correctedP=1.0000
+S18: netCAGR=-1.4059%; activeAnnualMean=-7.5437%; correctedP=1.0000
+S14: netCAGR=-2.3840%; activeAnnualMean=-8.6000%; correctedP=1.0000
+S15: netCAGR=-5.6759%; activeAnnualMean=-12.1096%; correctedP=1.0000
+
+TENTATIVE INTERPRETATIONS AND SIMILARITIES
+Top correlated active-return pairs from research/results/walk_forward_active_correlation.csv:
+S04 / S11: correlation=0.978
+S02 / S07: correlation=0.971
+S02 / S10: correlation=0.967
+S07 / S10: correlation=0.946
+S15 / S16: correlation=0.936
+S14 / S16: correlation=0.926
+S07 / S08: correlation=0.906
+S03 / S07: correlation=0.897
+These correlations are descriptive across ALL signals, not evidence about successful signals. Subtracting a shared benchmark itself induces dependence.
+Trend/momentum share price-persistence inputs. Reversal and volume rules share liquidity/attention hypotheses. Low-risk rules can primarily select bonds.
+No causal inference follows from these similarities. Compare counterexamples and exposures before choosing future experiments.
+
+BLOCKED RESEARCH AND PRIORITIES
+Read research/papers.csv and paper_records/Pxx.txt for each exact blocker. Original replications require original universes and complete method audits.
+Priority1: Audit accessible full methods for the3pilot papers; acquire point-in-time ETF universe, distributions and consolidated historical quote data without purchasing until authorized.
+Priority2: Obtain historical NAV, creations/redemptions and publication timestamps for ETF-native flow/arbitrage papers P31-P38. Do not replace flows with trading volume.
+Priority3: Obtain intraday bars/quotes and event times for P40/P42/P43/P49; ordinary daily bars cannot establish these session effects.
+Priority4: Obtain search/sentiment, options-implied variance and yield vintages for P44-P48; avoid revised or retrospectively selected inputs.
+Priority5: Add exposure-matched/risk-factor controls in a newly registered experiment; do not silently change the primary benchmark of this run.
+Priority6: Pre-register combinations of economically distinct signals on used periods, account for every new trial, then consider a once-only final evaluation.
+
+READY-TO-RUN FOLLOW-UP PROMPT
+Continue this ETF research project from this handoff. Read research/README.md, protocol.json, papers.json, results/registration.json, results/success_assessment.json, and observed_periods.json. Verify checksums and run tests. Preserve the current results. Resolve paper-specific data/method blockers, starting with the pilot full texts and ETF-native flow papers. Register any new variants before evaluating them. Treat every period through2023 as already examined. Do not read or download2024-2025 final observations without a new explicit release protocol and permanent consumption record. Never call an ETF proxy a faithful replication. Do not buy data or place real-money trades. Update this handoff with exact evidence paths and distinguish findings from hypotheses.
+
+PAPER INDEX - deduplicated canonical publications
+P01 | Time series momentum | Tobias J. Moskowitz, Yao Hua Ooi, Lasse Heje Pedersen | https://doi.org/10.1016/j.jfineco.2011.11.003 | ETF adaptation tested; original replication blocked
+P02 | Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency | NARASIMHAN JEGADEESH, SHERIDAN TITMAN | https://doi.org/10.1111/j.1540-6261.1993.tb04702.x | ETF adaptation tested; original replication blocked
+P03 | Fads, Martingales, and Market Efficiency | Bruce N. Lehmann | https://doi.org/10.2307/2937816 | ETF adaptation tested; original replication blocked
+P04 | Does the Stock Market Overreact? | Werner F. M. De Bondt, Richard Thaler | https://doi.org/10.2307/2327804 | ETF adaptation tested; original replication blocked
+P05 | When Are Contrarian Profits Due to Stock Market Overreaction? | Andrew W. Lo, A. Craig MacKinlay | https://doi.org/10.1093/rfs/3.2.175 | ETF adaptation tested; original replication blocked
+P06 | The 52‐Week High and Momentum Investing | THOMAS J. GEORGE, CHUAN‐YANG HWANG | https://doi.org/10.1111/j.1540-6261.2004.00695.x | ETF adaptation tested; original replication blocked
+P07 | Momentum crashes | Kent Daniel, Tobias J. Moskowitz | https://doi.org/10.1016/j.jfineco.2015.12.002 | Risk/methodology reference; no independent signal tested
+P08 | Momentum has its moments | Pedro Barroso, Pedro Santa-Clara | https://doi.org/10.1016/j.jfineco.2014.11.010 | ETF adaptation tested; original replication blocked
+P09 | Value and Momentum Everywhere | CLIFFORD S. ASNESS, TOBIAS J. MOSKOWITZ, LASSE HEJE PEDERSEN | https://doi.org/10.1111/jofi.12021 | Blocked; feasibility assessed, no synthetic substitute
+P10 | A Century of Evidence on Trend-Following Investing | Brian Hurst, Yao Hua Ooi, Lasse Heje Pedersen | https://doi.org/10.3905/jpm.2017.44.1.015 | ETF adaptation tested; original replication blocked
+P11 | A Quantitative Approach to Tactical Asset Allocation | Mebane T. Faber | https://doi.org/10.3905/jwm.2007.674809 | ETF adaptation tested; original replication blocked
+P12 | Do Industries Explain Momentum? | Tobias J. Moskowitz, Mark Grinblatt | https://doi.org/10.1111/0022-1082.00146 | ETF adaptation tested; original replication blocked
+P13 | Profitability of Momentum Strategies: An Evaluation of Alternative Explanations | Narasimhan Jegadeesh, Sheridan Titman | https://doi.org/10.1111/0022-1082.00342 | ETF adaptation tested; original replication blocked
+P14 | Market States and Momentum | Michael J. Cooper, Roberto C. Gutierrez, Allaudeen Hameed | https://doi.org/10.1111/j.1540-6261.2004.00665.x | ETF adaptation tested; original replication blocked
+P15 | The High‐Volume Return Premium | Simon Gervais, Ron Kaniel, Dan H. Mingelgrin | https://doi.org/10.1111/0022-1082.00349 | ETF adaptation tested; original replication blocked
+P16 | Price Momentum and Trading Volume | Charles M.C. Lee, Bhaskaran Swaminathan | https://doi.org/10.1111/0022-1082.00280 | ETF adaptation tested; original replication blocked
+P17 | Trading Volume and Serial Correlation in Stock Returns | J. Y. Campbell, S. J. Grossman, J. Wang | https://doi.org/10.2307/2118454 | ETF adaptation tested; original replication blocked
+P18 | Illiquidity and stock returns: cross-section and time-series effects | Yakov Amihud | https://doi.org/10.1016/s1386-4181(01)00024-6 | ETF adaptation tested; original replication blocked
+P19 | Liquidity Risk and Expected Stock Returns | Ľuboš Pástor, Robert F. Stambaugh | https://doi.org/10.1086/374184 | Blocked; feasibility assessed, no synthetic substitute
+P20 | Liquidity as an Investment Style | Roger G. Ibbotson, Zhiwu Chen, Daniel Y.-J. Kim, Wendy Y. Hu | https://doi.org/10.2469/faj.v69.n3.4 | Blocked; feasibility assessed, no synthetic substitute
+P21 | Evaporating Liquidity | Stefan Nagel | https://doi.org/10.1093/rfs/hhs066 | ETF adaptation tested; original replication blocked
+P22 | Short-Term Reversals, Returns to Liquidity Provision and the Costs of Immediacy | Anna Ignashkina, Kalle Rinne, Matti Suominen | https://doi.org/10.2139/ssrn.1537923 | Blocked; feasibility assessed, no synthetic substitute
+P23 | Short-Term Reversals: The Effects of Past Returns and Institutional Exits | Si Cheng, Allaudeen Hameed, Avanidhar Subrahmanyam, Sheridan Titman | https://doi.org/10.1017/s0022109016000958 | Blocked; feasibility assessed, no synthetic substitute
+P24 | Volatility‐Managed Portfolios | ALAN MOREIRA, TYLER MUIR | https://doi.org/10.1111/jofi.12513 | ETF adaptation tested; original replication blocked
+P25 | On the performance of volatility-managed portfolios | Scott Cederburg, Michael S. O’Doherty, Feifei Wang, Xuemin (Sterling) Yan | https://doi.org/10.1016/j.jfineco.2020.04.015 | Risk/methodology reference; no independent signal tested
+P26 | Risk Everywhere: Modeling and Managing Volatility | Tim Bollerslev, Benjamin Hood, John Huss, Lasse Heje Pedersen | https://doi.org/10.1093/rfs/hhy041 | Blocked; feasibility assessed, no synthetic substitute
+P27 | Betting against beta | Andrea Frazzini, Lasse Heje Pedersen | https://doi.org/10.1016/j.jfineco.2013.10.005 | ETF adaptation tested; original replication blocked
+P28 | The Volatility Effect | David C. Blitz, Pim van Vliet | https://doi.org/10.3905/jpm.2007.698039 | ETF adaptation tested; original replication blocked
+P29 | Benchmarks as Limits to Arbitrage: Understanding the Low-Volatility                     Anomaly | Malcolm Baker, Brendan Bradley, Jeffrey Wurgler | https://doi.org/10.2469/faj.v67.n1.4 | ETF adaptation tested; original replication blocked
+P30 | The Cross‐Section of Volatility and Expected Returns | ANDREW ANG, ROBERT J. HODRICK, YUHANG XING, XIAOYAN ZHANG | https://doi.org/10.1111/j.1540-6261.2006.00836.x | ETF adaptation tested; original replication blocked
+P31 | Do ETFs Increase Volatility? | ITZHAK BEN‐DAVID, FRANCESCO FRANZONI, RABIH MOUSSAWI | https://doi.org/10.1111/jofi.12727 | Blocked; feasibility assessed, no synthetic substitute
+P32 | Exchange traded funds and asset return correlations | Zhi Da, Sophie Shive | https://doi.org/10.1111/eufm.12137 | Blocked; feasibility assessed, no synthetic substitute
+P33 | Is there a dark side to exchange traded funds? An information perspective | Doron Israeli, Charles M. C. Lee, Suhas A. Sridharan | https://doi.org/10.1007/s11142-017-9400-8 | Blocked; feasibility assessed, no synthetic substitute
+P34 | Intraday arbitrage between ETFs and their underlying portfolios | Travis Box, Ryan Davis, Richard Evans, Andrew Lynch | https://doi.org/10.1016/j.jfineco.2021.04.023 | Blocked; feasibility assessed, no synthetic substitute
+P35 | ETF Arbitrage Under Liquidity Mismatch | Kevin Pan, Yao Zeng | https://doi.org/10.2139/ssrn.3723406 | Blocked; feasibility assessed, no synthetic substitute
+P36 | ETF Arbitrage, Non-Fundamental Demand, and Return Predictability | David C Brown, Shaun William Davies, Matthew C Ringgenberg | https://doi.org/10.1093/rof/rfaa027 | Blocked; feasibility assessed, no synthetic substitute
+P37 | Arbitrage and Liquidity: Evidence from a Panel of Exchange Traded Funds | David E. Rappoport, Tugkan Tuzun | https://doi.org/10.17016/feds.2020.097 | Blocked; feasibility assessed, no synthetic substitute
+P38 | Are the flows of exchange‐traded funds informative? | Liao Xu, Xiangkang Yin, Jing Zhao | https://doi.org/10.1111/fima.12396 | Blocked; feasibility assessed, no synthetic substitute
+P39 | Price pressures | Terrence Hendershott, Albert J. Menkveld | https://doi.org/10.1016/j.jfineco.2014.08.001 | Blocked; feasibility assessed, no synthetic substitute
+P40 | Market intraday momentum | Lei Gao, Yufeng Han, Sophia Zhengzi Li, Guofu Zhou | https://doi.org/10.1016/j.jfineco.2018.05.009 | Blocked; feasibility assessed, no synthetic substitute
+P41 | Overnight Returns and Firm-Specific Investor Sentiment | David Aboody, Omri Even-Tov, Reuven Lehavy, Brett Trueman | https://doi.org/10.1017/s0022109017000989 | ETF adaptation tested; original replication blocked
+P42 | The Overnight Return, One More Anomaly | Ben S. Branch, Aixin Ma | https://doi.org/10.2139/ssrn.937997 | Blocked; feasibility assessed, no synthetic substitute
+P43 | A tug of war: Overnight versus intraday expected returns | Dong Lou, Christopher Polk, Spyros Skouras | https://doi.org/10.1016/j.jfineco.2019.03.011 | Blocked; feasibility assessed, no synthetic substitute
+P44 | In Search of Attention | ZHI DA, JOSEPH ENGELBERG, PENGJIE GAO | https://doi.org/10.1111/j.1540-6261.2011.01679.x | Blocked; feasibility assessed, no synthetic substitute
+P45 | The Sum of All FEARS Investor Sentiment and Asset Prices | Zhi Da, Joseph Engelberg, Pengjie Gao | https://doi.org/10.1093/rfs/hhu072 | Blocked; feasibility assessed, no synthetic substitute
+P46 | Investor Sentiment and the Cross‐Section of Stock Returns | MALCOLM BAKER, JEFFREY WURGLER | https://doi.org/10.1111/j.1540-6261.2006.00885.x | Blocked; feasibility assessed, no synthetic substitute
+P47 | Stock Return Predictability and Variance Risk Premia: Statistical Inference and International Evidence | Tim Bollerslev, James Marrone, Lai Xu, Hao Zhou | https://doi.org/10.17016/feds.2011.52 | Blocked; feasibility assessed, no synthetic substitute
+P48 | Risk Premium Information from Treasury-Bill Yields | Jaehoon Lee | https://doi.org/10.1017/s0022109017000813 | Blocked; feasibility assessed, no synthetic substitute
+P49 | The Pre‐FOMC Announcement Drift | DAVID O. LUCCA, EMANUEL MOENCH | https://doi.org/10.1111/jofi.12196 | Blocked; feasibility assessed, no synthetic substitute
+P50 | Simple Technical Trading Rules and the Stochastic Properties of Stock Returns | WILLIAM BROCK, JOSEF LAKONISHOK, BLAKE LeBARON | https://doi.org/10.1111/j.1540-6261.1992.tb04681.x | ETF adaptation tested; original replication blocked
+
+CONTINUATION 001 — 50 ADDITIONAL CANDIDATES AND TREND CONTROLS
+Anchor assumption: P01 Time series momentum, following the immediately preceding discussion. Expansion also includes ETF-native and liquidity research.
+50 new bibliographic candidates; 100 total unique DOI records across original and expansion catalogs. 2 additional full texts retrieved, not full methods audits.
+Family counts: allocation=2, cross_asset=2, etf=6, flows=2, liquidity=5, methodology=10, momentum=11, reversal=1, technical=2, theory=2, trend=5, volatility=2
+The set includes 10 methodological papers, two allocation controls and two theoretical papers; 50 candidates does NOT mean 50 executable signals.
+Original 231 variants and results preserved. 94 original integrity checks passed; 35 tests passed including three new causal/edge-case checks.
+Method audit: research/expansion_001/METHOD_AUDIT.txt. P01/P03/P24 constructions compared with code; P36/P37 inputs and formulas clarified. Flow-data access remains unresolved.
+Important correction: original S01 selects top-three positive-return ETFs. It does not simply trade every positive own-return sign. Existing artifacts remain as historical records.
+New experiment: research/expansion_001/trend_experiment/registration.json; registered before this run, after earlier history had already been examined.
+Six portfolio arms, 36 new variants, 72 period evaluations, 24 paired contrasts. Joint family has 291 comparisons per period (231 previous +36 new +24 contrasts).
+2000 synchronized stationary bootstrap paths at block lengths 10,20,40; conservative paper-count floor increased to 100 for this follow-up only.
+Periods 2019-2020 and 2021-2023 are USED exploratory evidence, never new validation. No final 2024-2025 observations downloaded or evaluated.
+Controls use the same sizing formula, engine constraints and trade schedule; actual exposure and risk differ. Differences are not pure alpha.
+Exploratory eligible directional arms: 0; confirmed successes: 0.
+Base control-relative annualized mean DAILY return differences (percentage points; NOT differences in CAGR):
+E02 minus E01 | used_2019_2020 | +1.049 pp/year | corrected p (block20)=1.0000
+E03 minus E01 | used_2019_2020 | -0.405 pp/year | corrected p (block20)=1.0000
+E05 minus E04 | used_2019_2020 | -1.296 pp/year | corrected p (block20)=1.0000
+E06 minus E04 | used_2019_2020 | -1.941 pp/year | corrected p (block20)=1.0000
+E02 minus E01 | used_2021_2023 | -0.514 pp/year | corrected p (block20)=1.0000
+E03 minus E01 | used_2021_2023 | -0.260 pp/year | corrected p (block20)=1.0000
+E05 minus E04 | used_2021_2023 | +0.622 pp/year | corrected p (block20)=1.0000
+E06 minus E04 | used_2021_2023 | +0.554 pp/year | corrected p (block20)=1.0000
+
+INTERPRETATION
+No newly established successful-signal similarity. Return-sign and average-price filters share trend inputs, but control-relative return differences change sign across the two periods. Sizing can alter apparent ranking; these observations motivate controls, not a claim that volatility scaling causes alpha.
+Failure of these ETF rules does not refute the original futures papers. Horizons, direction constraints, costs, cash yield, universe and estimator all differ.
+
+REPRODUCTION
+.\research.ps1 audit
+.\research.ps1 test
+.\research.ps1 expand
+.\research.ps1 expand-sources
+.\research.ps1 followup
+.\research.ps1 expansion-report
+Candidate discovery reruns must preserve the frozen candidates.json hash used by registration. New definitions need a new experiment directory/version.
+
+NEXT CODEX PROMPT
+Read this continuation, research/expansion_001/METHOD_AUDIT.txt, reviewed_candidates.json, trend_experiment/registration.json, assessment.json and integrity.json. Preserve both result sets and verify hashes. All history through 2023 is used. No 2024-2025 downloads or evaluation without explicit release protocol and permanent consumption record. Do not buy data or submit trades.
+Prioritize complete methods and source data for P51/P52, then exact horizons and available data for P65 (short-run return predictability), P63 (residual momentum), and ETF-native P36/P37/P94/P95. Candidate IDs have gaps because rejected search matches are retained in screening.json. Resolve reporting timestamps for NAV/shares/flows. No volume-as-flow proxy.
+Register every new variant and comparison before measuring returns. Include all prior and new tested alternatives in search accounting; do not tune gates to obtain a winner. If testing risk-adjusted utility or drawdown reduction, predefine that different objective and comparator. Current max-T bootstrap does not eliminate adaptive human search bias.
+Update exact source versions, findings, hypotheses, blockers and consumed periods. An inaccessible full text is not a completed review. A positive backtest is not a faithful replication.
+
+NEW CANDIDATE INDEX
+P51 | Time series momentum and volatility scaling | Abby Y. Kim, Yiuman Tse, John K. Wald | https://doi.org/10.1016/j.finmar.2016.05.003 | trend | High
+P52 | Time series momentum and moving average trading rules | Ben R. Marshall, Nhut H. Nguyen, Nuttawat Visaltanachoti | https://doi.org/10.1080/14697688.2016.1205209 | trend | High
+P53 | Two centuries of trend following | Yves Lempérière, Cyril Deremble, Philip Seager, Marc Potters, Jean-Philippe Bouchaud | https://doi.org/10.21314/jois.2014.043 | trend | High
+P54 | Trends Everywhere | Abhilash Babu, Ari Levine, Yao Hua Ooi, Lasse Heje Pedersen, Erik Stamelos | https://doi.org/10.2139/ssrn.3386035 | trend | High
+P55 | Momentum Strategies | LOUIS K. C. CHAN, NARASIMHAN JEGADEESH, JOSEF LAKONISHOK | https://doi.org/10.1111/j.1540-6261.1996.tb05222.x | momentum | Medium
+P56 | International Momentum Strategies | K. Geert Rouwenhorst | https://doi.org/10.1111/0022-1082.95722 | momentum | Medium
+P57 | Momentum and Autocorrelation in Stock Returns | Jonathan Lewellen | https://doi.org/10.1093/rfs/15.2.533 | momentum | Medium
+P58 | Bad News Travels Slowly: Size, Analyst Coverage, and the Profitability of Momentum Strategies | Harrison Hong, Terence Lim, Jeremy C. Stein | https://doi.org/10.1111/0022-1082.00206 | momentum | Medium
+P59 | A Unified Theory of Underreaction, Momentum Trading, and Overreaction in Asset Markets | Harrison Hong, Jeremy C. Stein | https://doi.org/10.1111/0022-1082.00184 | theory | Mechanism
+P60 | Investor Psychology and Security Market Under‐ and Overreactions | Kent Daniel, David Hirshleifer, Avanidhar Subrahmanyam | https://doi.org/10.1111/0022-1082.00077 | theory | Mechanism
+P62 | Momentum and post-earnings-announcement drift anomalies: The role of liquidity risk | Ronnie Sadka | https://doi.org/10.1016/j.jfineco.2005.04.005 | momentum | Medium
+P63 | Residual momentum | David Blitz, Joop Huij, Martin Martens | https://doi.org/10.1016/j.jempfin.2011.01.003 | momentum | Medium
+P65 | Evidence of Predictable Behavior of Security Returns | NARASIMHAN JEGADEESH | https://doi.org/10.1111/j.1540-6261.1990.tb05110.x | reversal | High
+P67 | An Anatomy of Trading Strategies | Jennifer Conrad, Gautam Kaul | https://doi.org/10.1093/rfs/11.3.489 | methodology | Methods
+P68 | Commonality in liquidity | Tarun Chordia, Richard Roll, Avanidhar Subrahmanyam | https://doi.org/10.1016/s0304-405x(99)00057-4 | liquidity | Medium
+P69 | Market Liquidity and Trading Activity | Tarun Chordia, Richard Roll, Avanidhar Subrahmanyam | https://doi.org/10.1111/0022-1082.00335 | liquidity | Medium
+P70 | Liquidity and market efficiency☆ | T CHORDIA, R ROLL, A SUBRAHMANYAM | https://doi.org/10.1016/j.jfineco.2007.03.005 | liquidity | Medium
+P71 | Asset pricing and the bid-ask spread | Yakov Amihud, Haim Mendelson | https://doi.org/10.1016/0304-405x(86)90065-6 | liquidity | Medium
+P72 | Stock Market Liquidity and the Business Cycle | RANDI NÆS, JOHANNES A. SKJELTORP, BERNT ARNE ØDEGAARD | https://doi.org/10.1111/j.1540-6261.2010.01628.x | liquidity | Medium
+P73 | Expected stock returns and volatility | Kenneth R. French, G.William Schwert, Robert F. Stambaugh | https://doi.org/10.1016/0304-405x(87)90026-2 | volatility | Medium
+P74 | On the Relation between the Expected Value and the Volatility of the Nominal Excess Return on Stocks | LAWRENCE R. GLOSTEN, RAVI JAGANNATHAN, DAVID E. RUNKLE | https://doi.org/10.1111/j.1540-6261.1993.tb05128.x | volatility | Medium
+P77 | Optimal Versus Naive Diversification: How Inefficient is the 1/ N Portfolio Strategy? | Victor DeMiguel, Lorenzo Garlappi, Raman Uppal | https://doi.org/10.1093/rfs/hhm075 | allocation | Control
+P79 | The Properties of Equally Weighted Risk Contribution Portfolios | Sébastien Maillard, Thierry Roncalli, Jérôme Teïletche | https://doi.org/10.3905/jpm.2010.36.4.060 | allocation | Control
+P81 | Foundations of Technical Analysis: Computational Algorithms, Statistical Inference, and Empirical Implementation | Andrew W. Lo, Harry Mamaysky, Jiang Wang | https://doi.org/10.1111/0022-1082.00265 | technical | Medium
+P82 | Data‐Snooping, Technical Trading Rule Performance, and the Bootstrap | Ryan Sullivan, Allan Timmermann, Halbert White | https://doi.org/10.1111/0022-1082.00163 | technical | Medium
+P83 | A Reality Check for Data Snooping | Halbert White | https://doi.org/10.1111/1468-0262.00152 | methodology | Methods
+P84 | A Test for Superior Predictive Ability | Peter Reinhard Hansen | https://doi.org/10.1198/073500105000000063 | methodology | Methods
+P85 | The probability of backtest overfitting | David Bailey, Jonathan Borwein, Marcos López de Prado, Qiji Jim Zhu | https://doi.org/10.21314/jcf.2016.322 | methodology | Methods
+P86 | The Deflated Sharpe Ratio: Correcting for Selection Bias, Backtest Overfitting, and Non-Normality | David H. Bailey, Marcos López de Prado | https://doi.org/10.3905/jpm.2014.40.5.094 | methodology | Methods
+P87 | The Statistics of Sharpe Ratios | Andrew W. Lo | https://doi.org/10.2469/faj.v58.n4.2453 | methodology | Methods
+P88 | … and the Cross-Section of Expected Returns | Campbell R. Harvey, Yan Liu, Heqing Zhu | https://doi.org/10.1093/rfs/hhv059 | methodology | Methods
+P89 | Replicating Anomalies | Kewei Hou, Chen Xue, Lu Zhang | https://doi.org/10.1093/rfs/hhy131 | methodology | Methods
+P90 | Does Academic Research Destroy Stock Return Predictability? | R. DAVID MCLEAN, JEFFREY PONTIFF | https://doi.org/10.1111/jofi.12365 | methodology | Methods
+P91 | The Stationary Bootstrap | Dimitris N. Politis, Joseph P. Romano | https://doi.org/10.1080/01621459.1994.10476870 | methodology | Methods
+P93 | Exchange-Traded Funds, Market Structure, and the Flash Crash | Ananth Madhavan | https://doi.org/10.2469/faj.v68.n4.6 | etf | High for data research
+P94 | Do ETFs Increase the Commonality in Liquidity of Underlying Stocks? | Vikas Agarwal, Paul E. Hanouna, Rabih Moussawi, Christof W. Stahel | https://doi.org/10.2139/ssrn.3001524 | etf | High for data research
+P95 | ETF Activity and Informational Efficiency of Underlying Securities | Lawrence Glosten, Suresh Nallareddy, Yuan Zou | https://doi.org/10.1287/mnsc.2019.3427 | etf | High for data research
+P96 | The effect of ETFs on financial markets: a literature review | Luca J. Liebi | https://doi.org/10.1007/s11408-020-00349-1 | etf | High for data research
+P97 | Exchange-Traded Funds 101 for Economists | Martin Lettau, Ananth Madhavan | https://doi.org/10.1257/jep.32.1.135 | etf | High for data research
+P98 | ETF Sampling and Index Arbitrage | Jonathan Brogaard, Davidson Heath, Da Huang | https://doi.org/10.1017/s0022109025102378 | etf | High for data research
+P100 | Flow-Induced Trading Pressure and Corporate Investment | Xiaoxia Lou, Albert Y. Wang | https://doi.org/10.1017/s0022109017000953 | flows | High for data research
+P102 | Asset fire sales (and purchases) in equity markets | Joshua Coval, Erik Stafford | https://doi.org/10.1016/j.jfineco.2006.09.007 | flows | High for data research
+P105 | Economic Links and Predictable Returns | LAUREN COHEN, ANDREA FRAZZINI | https://doi.org/10.1111/j.1540-6261.2008.01379.x | cross_asset | Medium
+P106 | Cross-asset return predictability: Carry trades, stocks and commodities | Helen Lu, Ben Jacobsen | https://doi.org/10.1016/j.jimonfin.2016.02.013 | cross_asset | Medium
+P111 | Momentum, Business Cycle, and Time‐varying Expected Returns | Tarun Chordia, Lakshmanan Shivakumar | https://doi.org/10.1111/1540-6261.00449 | momentum | Medium
+P112 | Individualism and Momentum around the World | ANDY C.W. CHUI, SHERIDAN TITMAN, K.C. JOHN WEI | https://doi.org/10.1111/j.1540-6261.2009.01532.x | momentum | Medium
+P113 | Trend following with momentum versus moving averages: a tale of differences | Valeriy Zakamulin, Javier Giner | https://doi.org/10.1080/14697688.2020.1716057 | trend | High
+P114 | The 52-week high, momentum, and investor sentiment | Ying Hao, Robin K. Chou, Kuan-Cheng Ko, Nien-Tzu Yang | https://doi.org/10.1016/j.irfa.2018.01.014 | momentum | Medium
+P115 | Absolute Strength: Exploring Momentum in Stock Returns | Huseyin Gulen, Ralitsa Petkova | https://doi.org/10.2139/ssrn.2638004 | momentum | Medium
+P116 | A trend factor: Any economic gains from using information over investment horizons? | Yufeng Han, Guofu Zhou, Yingzi Zhu | https://doi.org/10.1016/j.jfineco.2016.01.029 | momentum | Medium

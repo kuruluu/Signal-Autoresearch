@@ -1,0 +1,28 @@
+{
+  "alpha_annual_pct": 4.9388337975458745,
+  "alpha_se_annual_pct": 1.5529826182936335,
+  "alpha_t": 3.180224774809459,
+  "alpha_95_normal": [
+    1.8949878656903534,
+    7.982679729401396
+  ],
+  "beta": 0.6096579745630747,
+  "beta_se": 0.05385503690411314,
+  "r_squared": 0.37168284594835055,
+  "n": 1065,
+  "normalization_c": 4.186277014171573e-05,
+  "mean_weight": 1.2699680955307908,
+  "max_weight": 14.060768425798836,
+  "min_weight": 0.017755387711158813,
+  "approx_alpha_mde_80pct": 4.348351331222173,
+  "approximation_checks": {
+    "alpha_annual_pct": true,
+    "beta": true,
+    "alpha_se_annual_pct": true,
+    "r_squared": true,
+    "n": true
+  },
+  "verdict": "Partial reproduction: numerically close, exact replication blocked by data/spec differences",
+  "exact_replication": false,
+  "tradable_signal_validated": false
+}

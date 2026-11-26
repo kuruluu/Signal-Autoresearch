@@ -1,0 +1,7 @@
+{
+  "completed": true,
+  "stages": 5,
+  "cost_scenarios": 3,
+  "evaluation_months": 108,
+  "holdout_used": false
+}

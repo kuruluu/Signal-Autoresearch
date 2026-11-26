@@ -1,0 +1,27 @@
+{
+  "id": "P50_persistence_001",
+  "parent": "P50_partial_001",
+  "stage": "Later-sample mechanism persistence, not independent confirmation",
+  "sample": [
+    "1987-01-01",
+    "2022-12-31"
+  ],
+  "warmup": "1986 index levels; continuous lagged 150-session rule; retain all observed sessions",
+  "primary": "Difference in conditional daily log returns: prior-close above SMA150 minus below SMA150",
+  "gate": "Gap >=0.00020 (2 bps/day) and all 6/12/24-month bootstrap lower95 bounds >0 and centered two-sided p<=.05",
+  "gate_reason": "Require a nontrivial surviving gross effect before spending an ETF execution stage; not a profitability threshold",
+  "inference": "Fixed-state calendar-month sufficient-statistic bootstrap, 5000 paths seed50001+block; 20000 all blocks if any p in [.04,.06]; one primary contrast",
+  "failure_action": "Set aside P50 trading-signal branch; do not retune lookback or promote variance differences as a new success",
+  "limits": [
+    "Full calendar years through 2022 deliberately exclude incomplete 2023 and all sealed years",
+    "Historical data and published follow-up findings already inspected: no fresh confirmation claim",
+    "Source switches from Pinnacle to quantmod in 1992; cannot attribute discrepancies solely to economics",
+    "Conditional log-return spread is not realized portfolio return; no costs or ETF implementation"
+  ],
+  "hashes": {
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p50_audit\\DJIA.csv": "53c3cba20c29c1a26b55f6388cd695b181b58c62e5ea9e2180f007bfa708b081",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\researchlab\\p50_reproduction.py": "7ae4685098a1cbcb25d16eb750804effae3e70d5bcf34ea75f56886f2db34589"
+  },
+  "code_hash": "b477b8145f240aa7e55dcdd6c13045d544fc32086f7849e9489f6e4dec8bb59c",
+  "registered_at_utc": "2026-11-25T23:43:49.815852+00:00"
+}

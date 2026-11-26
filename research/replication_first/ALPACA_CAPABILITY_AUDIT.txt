@@ -1,0 +1,30 @@
+ALPACA CAPABILITY AUDIT - 2026-11-25 America/New_York
+
+Documentation and small authenticated account/data probes verified.
+Update: locally saved credentials loaded successfully. Authenticated read-only checks confirmed ACTIVE paper account, exchange calendar, SIP daily bars in2016 and SIP minute bars/quotes/trades in2023. No orders submitted. Small samples verify endpoint access, not complete historical coverage or every security. Credentials were not displayed or copied into research artifacts.
+
+Official documented individual Trading API capabilities:
+- Basic equities: US stocks/ETFs, history since2016,200historical calls/minute; real-timeIEX, consolidatedSIP historical access subject to15minute restriction in the MarketDataFAQ.
+- AlgoTraderPlus equities: same published start2016, consolidatedreal-timeSIP and higher limits. Paying does not extend the historical start to1920s.
+- Bars: minute/hour/day/week/month aggregation; raw/split/dividend/spinoff/all adjustments; symbol-asof mapping. Mapping is not proof of a complete survivorship-free research universe or accounting fundamentals.
+- Historical options: sinceFebruary2024; freeindicativefeed is derivative pricing, not actualOPRAquotes. This does not reproduce1990s options papers. Existingsealedperiodpolicy remains effective.
+- Crypto historical endpoints exist; venue history and start coverage need separate validation for a selected strategy. No blanket all-asset availability claim.
+- Paper trading omits dividends, regulatoryfees, borrowfees, marketimpact/latency/queueeffects and realistic displayedsizeconstraints. Our research must model costs/corporateactions independently.
+
+Entitlement caveat: the PaperTrading page says paper-only accounts are entitled toIEX, while the MarketDataFAQ describes free delayed historicalSIP. Account type/permissions must be verified with authenticated GETprobes; do not promise SIP on this account from documentation alone.
+
+Existing code: paperlab/broker.py supports paperaccount/calendar/assets/orders and IEX/SIPquotes plus split-adjusted1Daybars. Current config.feed=iex. This is a narrow long-onlyETFexample, not the full breadth of Alpaca or a multiassetresearchengine. No livehost setting exists. New paperlab.capabilities module is read-only and tests only small2016/2023windows.
+
+Verification command: .\run.ps1 capabilities
+Report: reports/alpaca_capabilities.json
+Do not run once/run to verify data access: those commands can submit simulated orders.
+
+Sources:
+https://docs.alpaca.markets/us/docs/about-market-data-api
+https://docs.alpaca.markets/us/docs/market-data-faq
+https://docs.alpaca.markets/us/reference/stockbars
+https://docs.alpaca.markets/us/docs/historical-option-data
+https://docs.alpaca.markets/us/docs/paper-trading
+
+Authenticated probe timestampUTC: 2026-11-26T04:40:36.929186+00:00
+All6probes succeeded; reports/alpaca_capabilities.json contains credential-free summary. The earlier missing-credential finding is superseded. Current account historicalSIPaccess is now empirically confirmed for these requests. Research remains paused.

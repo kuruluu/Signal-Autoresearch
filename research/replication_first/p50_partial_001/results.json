@@ -1,0 +1,143 @@
+{
+  "verdict": "Partial numerical reproduction",
+  "estimate": {
+    "n": 24891,
+    "buy_n": 14993,
+    "sell_n": 9898,
+    "neutral_n": 0,
+    "buy_mean": 0.00042616042540044927,
+    "sell_mean": -0.00023436005168369186,
+    "gap": 0.0006605204770841411,
+    "pooled_t": 4.75987080909831,
+    "buy_t": 2.3712073711029498,
+    "sell_t": -3.124772927212467,
+    "buy_std": 0.008818771520380778,
+    "sell_std": 0.01306382054489582
+  },
+  "published": {
+    "buy_n": 14866,
+    "sell_n": 9806,
+    "buy_mean": 0.0004,
+    "sell_mean": -0.00022,
+    "gap": 0.00062,
+    "pooled_t": 4.3959
+  },
+  "checks": {
+    "means": true,
+    "gap": true,
+    "pooled_t": true,
+    "positive": true
+  },
+  "bootstrap": [
+    {
+      "block_months": 6,
+      "paths": 5000,
+      "gap_95": [
+        0.00038138413816319987,
+        0.0009337796979404483
+      ],
+      "centered_two_sided_p": 0.0001999600079984003,
+      "mc_se": 0.00019994001499650077,
+      "conditional_gap_sd": 0.00014289052895929537
+    },
+    {
+      "block_months": 12,
+      "paths": 5000,
+      "gap_95": [
+        0.0003930607978042992,
+        0.0009280970284315774
+      ],
+      "centered_two_sided_p": 0.0001999600079984003,
+      "mc_se": 0.00019994001499650077,
+      "conditional_gap_sd": 0.00013447909967045815
+    },
+    {
+      "block_months": 24,
+      "paths": 5000,
+      "gap_95": [
+        0.00042449853563696234,
+        0.000894895860410507
+      ],
+      "centered_two_sided_p": 0.0001999600079984003,
+      "mc_se": 0.00019994001499650077,
+      "conditional_gap_sd": 0.0001202852475527087
+    }
+  ],
+  "subperiods": [
+    {
+      "start": "1897-01-01",
+      "end": "1914-07-30",
+      "n": 5107,
+      "buy_n": 2925,
+      "sell_n": 2182,
+      "neutral_n": 0,
+      "buy_mean": 0.000394741821162585,
+      "sell_mean": -0.00030934679120461935,
+      "gap": 0.0007040886123672043,
+      "pooled_t": 2.4851286702658024,
+      "buy_t": 1.2952822165128877,
+      "sell_t": -1.5742649991197213,
+      "buy_std": 0.008481774139325807,
+      "sell_std": 0.011752484123706872
+    },
+    {
+      "start": "1915-01-01",
+      "end": "1938-12-31",
+      "n": 7167,
+      "buy_n": 4219,
+      "sell_n": 2948,
+      "neutral_n": 0,
+      "buy_mean": 0.0005245122222079864,
+      "sell_mean": -0.000397430365695661,
+      "gap": 0.0009219425879036473,
+      "pooled_t": 2.610852658939798,
+      "buy_t": 1.328496802189596,
+      "sell_t": -1.6861809662600098,
+      "buy_std": 0.01165802967529045,
+      "sell_std": 0.01819779893476981
+    },
+    {
+      "start": "1939-01-01",
+      "end": "1962-06-30",
+      "n": 6444,
+      "buy_n": 4205,
+      "sell_n": 2239,
+      "neutral_n": 0,
+      "buy_mean": 0.0003465622588658201,
+      "sell_mean": -7.545776624355617e-05,
+      "gap": 0.0004220200251093762,
+      "pooled_t": 2.18203541315512,
+      "buy_t": 1.0005399359607943,
+      "sell_t": -1.518482860218814,
+      "buy_std": 0.006430645546906811,
+      "sell_std": 0.008918622163457481
+    },
+    {
+      "start": "1962-07-01",
+      "end": "1986-12-31",
+      "n": 6157,
+      "buy_n": 3644,
+      "sell_n": 2513,
+      "neutral_n": 0,
+      "buy_mean": 0.00042936116001704346,
+      "sell_mean": -0.00013821593541052466,
+      "gap": 0.0005675770954275681,
+      "pooled_t": 2.5975924671612622,
+      "buy_t": 1.3153219446803355,
+      "sell_t": -1.6840332094175128,
+      "buy_std": 0.00756341354499537,
+      "sell_std": 0.009532245266823051
+    }
+  ],
+  "first_return": "1897-07-02",
+  "last_return": "1986-12-31",
+  "eligible_signal": false,
+  "limitations": [
+    "Third-party source differs from original authors and has unresolved observation-count discrepancy",
+    "Lag and warmup conventions explicit assumptions; no change after seeing result",
+    "No random-walk/AR/GARCH null-model reproduction claimed",
+    "Fixed-state block resampling is conditional uncertainty, not a fitted predictive-model validation",
+    "Conditional buy-minus-sell log return is not portfolio annual return or net alpha",
+    "Historical source differences and nonstationarity limit interpretation"
+  ]
+}

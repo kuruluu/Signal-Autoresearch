@@ -1,0 +1,30 @@
+{
+  "id": "BZ2007_partial_001",
+  "registered_at": "2026-11-26T01:11:55.930252+00:00",
+  "target": {
+    "slope": 0.86,
+    "intercept": -12.19,
+    "hac_t": 3.94,
+    "adjusted_r_squared": 0.1514
+  },
+  "sample": "60 nonoverlapping returns 1990Q2-2005Q1; lagged predictors 1990Q1-2004Q4",
+  "response": "400*log(SPX quarterend / prior quarterend) minus prior quarterend-month TB3MS annual percentage quote",
+  "estimator": "OLS constant + lagged official IV-RV; Bartlett HAC4 without small-sample correction",
+  "deviations": [
+    "Paper says Jan1990-Jan2005 in text and 1990Q1-2005Q1 in tables. No1989Q4 predictor is supplied. Fixed60pair overlap; do not search endpoints.",
+    "Yahoo historical S&P price series rather than documented original vendor vintage.",
+    "Monthly average3month discount quote used directly as annual rate, not exact investible/log bill return. Paper does not specify conversion; this is declared approximation.",
+    "TB3MS recovered from official FRED-MD December2014 vintage; not the paper original2005 vintage.",
+    "Back-calculated pre2003 VIX history is retrospective; numerical reproduction does not establish live availability."
+  ],
+  "approximate_match_gate": "All: positive slope within0.20 of0.86; intercept within5 annual percentage points; adjustedR2 within0.05 of0.1514; HACt positive>=1.96. A passing gate is partial reproduction only.",
+  "next_gate": "No ETF signal or causal predictability claim from this fullsample regression; separate preregistered recursive and cost-aware test required.",
+  "files": {
+    "researchlab\\bz2007_reproduction.py": "406a94b79bef1dcf84cd2b08d274924cb23b68bd90c016e8d4705afdb5a74a29",
+    "research\\replication_first\\bz2007_audit\\related_methods.html": "8255081cadeb15f908c0aed8cada487dc2dc59bde61417466d27c7ea1d44a770",
+    "research\\replication_first\\bz2007_audit\\related_variances.csv": "3a229108e95952bd50de0f15a441c2c59d2180e24b76e670f366f8795d5909fa",
+    "research\\replication_first\\bz2007_audit\\spx_1989_2008.json": "eb93958eef8c591d2763e21f0b28bdddf83e974e04856456094ca6833c29b834",
+    "research\\replication_first\\bz2007_audit\\TB3MS_1989_2008.csv": "53c46766005f9029c7843093952f7ad5fb7eafedc876214e4d6aa6c8ba9716fa",
+    "research\\replication_first\\bz2007_audit\\bill_archive_source.json": "009f6f21ed9afec065f9022554a73e57ec50d5dc2d32dc27610e37e89c541c86"
+  }
+}

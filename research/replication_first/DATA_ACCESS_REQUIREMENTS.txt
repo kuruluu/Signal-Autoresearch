@@ -1,0 +1,29 @@
+STATUS UPDATE2026-11-25: Alpaca localcredentialsandhistoricalSIPsmallprobesverified; noadditionalcredentialconfigurationneeded. Capital10000USD,allinstruments,DD50/DD30/DD20specified. Papertradesauthorized;liveordersnotauthorized. Olderquestionsbelowarehistoricalrequirementsandare supersededwhereanswered. Remainingoptionalinputs: externaldatabaseaccessanddata budget.
+
+RESEARCH ACCESS REQUIREMENTS - 2026-11-25
+
+Updated objective: any reproducible executable market edge. Research remains paused.
+
+WHAT IS NEEDED FROM THE USER NOW
+1. Configure Alpaca PAPER credentials locally (APCA_API_KEY_ID and APCA_API_SECRET_KEY), never in chat. Run .\run.ps1 capabilities in the same terminal. The report contains no key values. Tell us whether the account is paper-only or an approved live brokerage account with a separate paper account, and its market-data plan. No live credentials or live-order authorization required.
+2. List existing university/employer/library database access and the specific subscribed modules. A WRDS login alone does not imply CRSP, Compustat, OptionMetrics or TAQ access. Provide permitted exports or a locally configured connection, not passwords.
+3. State a monthly data budget and an optional one-time historical-data budget. No purchase is needed before the Alpaca access probe and a dataset sample/schema/coverage audit.
+4. State approximate intended capital, acceptable drawdown, whether shorts/leverage/options/futures/crypto are acceptable, and holding-period preferences. Broad research scope does not authorize live trading or presume those instruments can be executed by the existing ETF runner.
+5. If available, supply lawful full paper text, supplements or author code/data for methods-blocked papers. Missing author code is not automatically fatal when full methods and equivalent inputs suffice. Do not contact authors without explicit user authorization.
+
+PAPER-SPECIFIC GAPS
+P03/P65/P14: historical individual-stock returns/prices, identifiers, listings/share codes, distributions, delistings and portfolio formation histories. P14 needs cohort-level six-month momentum holdings, not a generic momentum factor.
+P111/P116: stock panel plus historical firm characteristics/market caps and the paper-specific construction inputs. CRSP with Compustat and a valid historical linking table would address major parts; historical availability/revisions still require audit.
+P47: country-specific option-implied and realized variance, corresponding returns/risk-free rates and historical country market-cap weights; one US option database does not supply every international input.
+P36/P37: historical ETF NAV, shares outstanding, holdings/creation baskets and relevant trades/quotes. Trading volume does not identify creations/redemptions.
+P106: historical FX spot/forward bid-ask quotes, commodity index and market inputs. Spot closes cannot reproduce spread-ranked carry trades.
+P01: underlying contract histories and roll/financing conventions across the original instrument universe; aggregate strategy returns alone are insufficient.
+P08/P48/P51/P77/P113 and some others: full methods/version or author-package access remains an independent gap; a market-price subscription alone will not fix it.
+
+FOR ANY NEW DATASET
+Require actual sample files and documentation: coverage dates, asset universe including failed/delisted names where relevant, permanent identifiers and ticker histories, raw/adjusted prices, corporate actions, timestamps/timezones, publication versus observation dates, historical revisions and licensing. Prefer bounded queries/extracts ending before2024. Do not download unrestricted current archives and filter afterwards.
+
+PRIORITY
+First verify existing Alpaca access and research feasible price-based edges. To unblock old cross-sectional equity papers, investigate existing CRSP/Compustat access. Only pursue options/intraday/ETF-basket/FX-forward datasets for an identified paper with a precise data specification; no blanket recommendation to buy all sources.
+
+Limits: no source guarantees exact replication or profitability. Preserve the sealed2024-2025 data and pause unless the user explicitly changes those instructions.

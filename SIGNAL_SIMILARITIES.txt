@@ -1,0 +1,76 @@
+ESTABLISHED RESULTS
+Evidence: research/results/metrics.json, metrics.csv, success_assessment.json, *_daily.csv, *_trades.csv, *_regimes.json, asset_concentration.json.
+Provisional candidates passing all predeclared gates: 0. Robust successes: 0.
+No successful-signal similarity is established. Absence of a winner here does not refute the original papers: these are changed instruments/horizons and exposures.
+Base walk-forward returns (descriptive, not a recommendation):
+S12: netCAGR=9.7840%; activeAnnualMean=3.2928%; correctedP=1.0000
+S01: netCAGR=3.8800%; activeAnnualMean=-2.2106%; correctedP=1.0000
+S20: netCAGR=3.1063%; activeAnnualMean=-3.2718%; correctedP=1.0000
+S11: netCAGR=2.6423%; activeAnnualMean=-3.4082%; correctedP=1.0000
+S08: netCAGR=2.5262%; activeAnnualMean=-3.6146%; correctedP=1.0000
+S04: netCAGR=2.3430%; activeAnnualMean=-3.7018%; correctedP=1.0000
+S07: netCAGR=2.0610%; activeAnnualMean=-4.0638%; correctedP=1.0000
+S02: netCAGR=1.9754%; activeAnnualMean=-4.0143%; correctedP=1.0000
+S19: netCAGR=1.6428%; activeAnnualMean=-4.4034%; correctedP=1.0000
+S03: netCAGR=1.5964%; activeAnnualMean=-4.5649%; correctedP=1.0000
+S21: netCAGR=1.0613%; activeAnnualMean=-5.0615%; correctedP=1.0000
+S13: netCAGR=0.7659%; activeAnnualMean=-5.5495%; correctedP=1.0000
+S09: netCAGR=0.6709%; activeAnnualMean=-5.4147%; correctedP=1.0000
+S10: netCAGR=0.5265%; activeAnnualMean=-5.4537%; correctedP=1.0000
+S05: netCAGR=0.0302%; activeAnnualMean=-6.1712%; correctedP=1.0000
+S17: netCAGR=-0.4407%; activeAnnualMean=-6.6004%; correctedP=1.0000
+S06: netCAGR=-0.7370%; activeAnnualMean=-6.8590%; correctedP=1.0000
+S16: netCAGR=-0.9128%; activeAnnualMean=-7.2321%; correctedP=1.0000
+S18: netCAGR=-1.4059%; activeAnnualMean=-7.5437%; correctedP=1.0000
+S14: netCAGR=-2.3840%; activeAnnualMean=-8.6000%; correctedP=1.0000
+S15: netCAGR=-5.6759%; activeAnnualMean=-12.1096%; correctedP=1.0000
+
+TENTATIVE INTERPRETATIONS AND SIMILARITIES
+Top correlated active-return pairs from research/results/walk_forward_active_correlation.csv:
+S04 / S11: correlation=0.978
+S02 / S07: correlation=0.971
+S02 / S10: correlation=0.967
+S07 / S10: correlation=0.946
+S15 / S16: correlation=0.936
+S14 / S16: correlation=0.926
+S07 / S08: correlation=0.906
+S03 / S07: correlation=0.897
+These correlations are descriptive across ALL signals, not evidence about successful signals. Subtracting a shared benchmark itself induces dependence.
+Trend/momentum share price-persistence inputs. Reversal and volume rules share liquidity/attention hypotheses. Low-risk rules can primarily select bonds.
+No causal inference follows from these similarities. Compare counterexamples and exposures before choosing future experiments.
+
+CONTINUATION 001 — 50 ADDITIONAL CANDIDATES AND TREND CONTROLS
+No additional successful signals established. All four trend-versus-control differences changed sign between used periods. All base block-20 corrected p-values were 1.0. Shared trend inputs and sensitivity to sizing are hypotheses, not independent corroboration of an edge. See research/expansion_001/trend_experiment/contrasts.json and assessment.json.
+
+REPLICATION-FIRST UPDATE
+P24 has a numerically close partial reproduction of a published factor-level effect; its constrained monthly SPY translation fails its registered net-alpha gate. This establishes no successful-signal similarity. Long-sample effect recovery and short-sample economic usefulness are different findings; matched 2012-2020 source-market and SPY diagnostic alphas are both imprecise. Do not attribute failure solely to leverage or instrument changes. Evidence: research/replication_first/CYCLE_RESULTS.txt.
+
+2026-11-25 P52 UPDATE: A second numerically close historical partial reproduction now exists, but no new successful ETF signal. P52 compares MA to TSMOM on size portfolios; its strongest advantage is in small-stock quintiles, while Q5 uncertainty includes zero. This is not corroboration of an ETF trading edge or proof that small-cap ETF timing works. Prior P24 reproduced risk-management effect failed its tested ETF bridge. Shared lesson: original empirical reproduction and executable ETF usefulness must remain separate.
+
+Cycle 11: P52 now joins P24 as a numerically close historical partial reproduction whose registered ETF translation failed. P52 matched-period source comparison also lost its advantage, indicating sample dependence before ETF implementation. No successful ETF-signal commonality is established. Next research must distinguish historical reproducibility, persistence and execution usefulness.
+
+Cycle13: P50 adds another historically reproducible conditional-return effect without demonstrated persistence or ETF usefulness. Later-period gap failed its predeclared positive gate. Historical numerical replication is useful implementation evidence, not evidence of a current signal. No common feature of successful ETF signals can yet be claimed. Next candidate P49 changes the economic mechanism to scheduled announcements.
+
+CYCLE15 P49: Another historical numerical reproduction without a validated signal. Daily announcement-day effects are broad and approximately match the paper, but stricter joint robustness fails; intraday attribution unavailable. Do not pool this with P24/P52/P50 as successful tradable signals. Preserve calendar windows and distinguish marginal from family-adjusted evidence.
+
+CYCLE18 P73: Historical numerical replication can reproduce a weak forecasting result alongside a strong contemporaneous association. The latter is not an executable predictor. Add availability-at-decision and parameter-estimation timing to cross-paper comparisons; P73 is not yet a successful tradable signal.
+
+CYCLE19 P73: Causal forecasting implementation failed;12 nonconvergences propagated through60month feature windows, leaving25.7% usable model coverage. Distinguish operational estimator failure from economic-effect rejection. No successful ETF signal added. Research paused by user after cycle19.
+
+CYCLE27 P74: Partial historical replication supports negative conditional monthly risk-return slope under signed-shock log-variance model. This differs from P73 monthly linear-forecast implementation; specification matters. No tradable success yet; causal parameter estimation and bill availability unresolved.
+
+CYCLE30 P74: Historical conditional-return relationship approximately reproduced but causal forecasting adaptation failed with100%coverage. This is distinct from P73 numerical-coverage problem. Neither is a successful tradable signal.
+
+BZ2007 cycle51: native variance-premium slope/t/adjustedR2 closely reproduced. This is a reproduced descriptive effect, NOT a successful executable signal. Difference of implied and intraday realized variance, quarterly lag/horizon, not VIXlevel alone. Prior-only predictive and economic validation pending.
+
+BZ2007 causal stage: reproduced quarterly slope did not establish reliable forecast superiority. Estimated6.98%MSEreduction,pairedlossbootstrapCIcrosses0for2/4/8quarterblocks. Classify inconclusive,not successfulsignal. Do not pool descriptive reproductions with economically validated signals.
+
+P45nativepartialreproduction: FEARS2dayreversalcoef.0040915 vs.00409,N1889; modernpairedstationarybootstrapCIpositive5/10/20sessionblocks. Successfuldescriptiveeffect, NOTsuccessfulsignal. SimilaritywithBZ2007: nativecoefficientsreproducebutdoesnotsettlecausal/executableusefulness. DistinctP45nextgate: midnightPacificsearchavailability vspriorcloseexecution; normalizevintageandETFcostsneedexplicitvalidation.
+
+P45SPYtransfer/timing: originaleffectreproduces;hypotheticalnextopenretains81.4%grossassociationwithHolm2significanceallblocks,whileextraonedaydelayCIcrosses0. Practicalcommonrequirement: matchsignalpublicationtime andeconomiccosthorizon; notyetvalidatedsignalorlicenseforliveorders.
+
+P45cost-awarestageFAILED: reproduceddailyreversalandnextopenassociationdidnottranslateintorobustfixedlong-onlyrule.378roundtrips,5bpspersideannualmean-3.95%vs50%control+.97%;risklimitalsofailed. Similaritywithpriorfailures: reproducingcoefficientdoesnotestablisheconomicvalue; short-horizonturnoverandavailabilityareseparategates. No successfulsignaladded.
+
+P46nativeconditionalMEeffectpartialreproduction1.764pp/monthvs1.71,publishedbinaryregimes,positivewholeyearbootstrapCI. Revisedcontinuousindexdifferentclassificationandcoverage; positive secondaryeffectnotpurevintagerobustness. SimilaritywithP45/BZ2007: nativeeffectreproductiondoesnotestablishETFavailability,costsorindependentpredictivevalue. Noexecutablesignalpromoted.
+
+P46ETFtransfergatefailed/inconclusive:.198pp/monthconditionalIWM-SPYcontrastvs.25minimum,yearbootstrapCIcross0. NativeEWmicrocapsizeeffectdoesnotautomaticallytransfer tocapweightedbroadsmall-capETF. No successfulsignal. Keepinstrument/universe,horizon,availabilityandcostgatesdistinct.

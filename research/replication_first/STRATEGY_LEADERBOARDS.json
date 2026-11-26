@@ -1,0 +1,11 @@
+{
+  "initial_capital_usd": 10000,
+  "ranking": "Robust net CAGR subject to registered drawdown, benchmark and evidence requirements",
+  "tiers": [
+    {"id": "DD50", "maximum_drawdown": 0.5, "eligible_strategies": []},
+    {"id": "DD30", "maximum_drawdown": 0.3, "eligible_strategies": []},
+    {"id": "DD20", "maximum_drawdown": 0.2, "eligible_strategies": []}
+  ],
+  "status": "No strategy yet meets executable economic and independent-validation requirements. Historical descriptive reproductions and failed bridges do not qualify.",
+  "capital_policy": "Independent $10000 counterfactual tiers; aggregate authorized paper research budget is $10000, not $30000"
+}

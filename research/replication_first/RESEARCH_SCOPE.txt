@@ -1,0 +1,11 @@
+CURRENT STATUS2026-11-26: ACTIVEunderusergoal. Supersedespriorpauseheaders.10000USD;allinstruments;DD50/DD30/DD20;papertradesauthorized;noliveorders;sealed2024-2025untouched. Commitnotableprogressincludingfailures tokuruluu/Signal-Autoresearchonceaccesspermits. P40soleactive;P117queued.
+
+LATEST USER STATUS: PAUSED. This supersedes earlier resume statements. P40 methods/data reaudit is pending; no orders placed. Resume only on explicit user instruction.
+
+RESUME UPDATE2026-11-25: Useractivatedupdatedgoal. AutonomousresearchactiveunderRESEARCH_MANDATE.json; earlierpausestatementsbelowarehistorical. P40issoleactivepaper;P117queued.
+
+USER RESEARCH MANDATE - UPDATED2026-11-25
+
+Find reproducible executable market edges across all instruments and horizons for10000USD initial capital. Maintain three independent risk-tier leaderboards: maximumdrawdown50%,30%,20%. DefaultbestmeanshighestrobustnetCAGR subjecttorisktier,evidenceandbenchmarkgates. Evaluate costs,financing,borrow,margin,liquidity andpath-dependentdrawdown uncertainty. PapertradingauthorizedonAlpacapaperendpointonly,with10000USDaggregatebudgetandregisteredstrategy/accountreconciliation. No liveorders. Sealed2024-2025observationsremainuntouched. Autonomousresearchremainsuserpaused.
+
+RESEARCH_MANDATE.json is the detailed prospective instruction. Each risk tier assumes its own10000USD simulated account; those comparisons do not authorize30000USDcombinedpaperexposure. Allinstrumentpermissiondoesnotmean allinstrumentsareimplementedbytheETFexamplerunner. Native-sourceblockedpapersmayreceiveexplicitlyunreplicatedmodernmechanismtestsifmethodsanddataallow; preserve original blocked/failed results.

@@ -1,0 +1,20 @@
+{
+  "symbols": ["SPY", "QQQ", "IWM"],
+  "feed": "iex",
+  "capital": 10000,
+  "lookback": 20,
+  "rebalance_sessions": 5,
+  "position_fraction": 0.25,
+  "max_order_dollars": 2500,
+  "max_quote_age_seconds": 30,
+  "max_spread_bps": 30,
+  "limit_buffer_bps": 2,
+  "minutes_after_open": 10,
+  "entry_window_minutes": 30,
+  "poll_seconds": 60,
+  "commission_per_share": 0,
+  "commission_per_order": 0,
+  "sell_fee_per_share": 0,
+  "sell_fee_bps": 0,
+  "extra_slippage_bps": 5
+}

@@ -1,0 +1,40 @@
+{
+  "n": 1889,
+  "first": "2004-07-01",
+  "last": "2011-12-28",
+  "fears_coefficient": 0.004091499992015285,
+  "published_coefficient": 0.00409,
+  "published_bootstrap_se": 0.00137,
+  "bootstrap": [
+    {
+      "block_sessions": 5,
+      "paths": 5000,
+      "bootstrap_se": 0.001559502860004214,
+      "ci95": [
+        0.0010064868847882871,
+        0.007017053005975497
+      ]
+    },
+    {
+      "block_sessions": 10,
+      "paths": 5000,
+      "bootstrap_se": 0.001604920668626609,
+      "ci95": [
+        0.0010142267244786318,
+        0.007304669916678466
+      ]
+    },
+    {
+      "block_sessions": 20,
+      "paths": 5000,
+      "bootstrap_se": 0.0017257361083391617,
+      "ci95": [
+        0.0008503625973474172,
+        0.007524909628984079
+      ]
+    }
+  ],
+  "approximate_numeric_match": true,
+  "positive_effect_robust": true,
+  "scope": "Partial controlled descriptive reproduction, not an executable or causal forecast test."
+}

@@ -1,0 +1,57 @@
+{
+  "registered_at_unix": 1795337249.2406785,
+  "spec": {
+    "id": "p24_spy_bridge_001",
+    "parent": "p24_partial_001",
+    "classification": "ETF transfer and signal feasibility; not faithful replication or independent confirmation",
+    "stages": [
+      "matched 2012-2020 CRSP daily-compounded market/full-sample scaling",
+      "SPY instrument change/full-sample scaling",
+      "SPY calibration-only scaling",
+      "SPY calibration-only scaling capped at 1",
+      "SPY next-open execution with net-order costs"
+    ],
+    "calibration": [
+      "2008-01",
+      "2011-12"
+    ],
+    "evaluation": [
+      "2012-01",
+      "2020-12"
+    ],
+    "variance": "prior full calendar-month daily excess-return variance, ddof0; RF from author archived daily data; exact date alignment required",
+    "normalization": "c = sd(monthly SPY excess)/sd(monthly SPY excess/lagged variance) on calibration only, frozen thereafter",
+    "signal": "monthly SPY weight min(1,c/prior-month variance), no shorting or leverage; no parameter sweep",
+    "execution": "previous month close signal, first exchange session open to next month first open; synthetic adjusted units; net-order fees self financed; final liquidation",
+    "cash": "compound archived daily RF from entry-session date through session preceding exit; realized cash accrual approximation, not a decision feature; monthly-close diagnostic uses matching monthly compounded RF",
+    "controls": "same-execution full SPY and fixed calibration-volatility-matched SPY allocation (ratio of capped-strategy/calibration-market standard deviations, capped at 1). No realized test-period risk matching.",
+    "cost_bps_per_side": [
+      5,
+      10,
+      20
+    ],
+    "primary": "net monthly alpha on same-execution market excess return; positive risk-adjusted usefulness requires base alpha>=1 pp/year, positive lower95 bound and Holm p<=.05 at all predeclared block lengths; positive alpha at 2x/4x costs",
+    "secondary": "return, drawdown, turnover/cost, exposure and return versus calibration risk control; not alternative success gates",
+    "inference": "5000 synchronized stationary bootstrap paths, block lengths 6/12/24 months, seed24001, refit alpha each path; Holm across 3 cost scenarios. Conditional on frozen calibration c. Diagnostic bridge alphas not additional discovery claims.",
+    "precision_rule": "If any base adjusted p in [.04,.06], increase all block runs to 20000; decision still requires all blocks. Report Monte Carlo SE.",
+    "limitations": [
+      "All periods previously examined",
+      "108 evaluation months limits power",
+      "Revised surviving SPY data",
+      "Daily RF and adjusted units approximate actual cash/dividend accounting",
+      "Academic full-sample stages explicitly noncausal",
+      "Opening prices not guaranteed fills",
+      "This is a monthly signal, not a demonstrated several-day effect"
+    ],
+    "input_hashes": {
+      "research\\data\\SPY.csv": "7019af1ceeac8b4305fc321f882de1ec3669253f250793cdc941f93744432640",
+      "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74"
+    },
+    "code_hashes": {
+      "p24_bridge.py": "f833bf7acd6bf7956683cd348627169a917efd104f1e0575717435cbde70470d",
+      "p24_reproduction.py": "17ee4f31a063eca4eca0592604027f37eefca902421aa9dc1b44734865bb98ff",
+      "bootstrap.py": "88b3a873966a521ea2d102d335dbd254646b0cf00d61ee1c1e7d2dc3cf375905"
+    },
+    "sealed_final_access": false
+  }
+}

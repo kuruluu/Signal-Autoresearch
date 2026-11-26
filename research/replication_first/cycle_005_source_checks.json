@@ -1,0 +1,24 @@
+[
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2786955",
+    "status": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://api.elsevier.com/content/article/PII:S1386418116301379?httpAccept=text/xml",
+    "status": "Retrieved landing/source response; not audited full text",
+    "content_type": "text/xml;charset=UTF-8",
+    "bytes": 1801
+  },
+  {
+    "url": "https://tylersmuir.com/data.html",
+    "status": "Public vol-managed return file advertised through 2026; not downloaded because it includes sealed observations; not original daily construction inputs"
+  },
+  {
+    "url": "https://www.aqr.com/Insights/Datasets/Time-Series-Momentum-Original-Paper-Data",
+    "status": "Original monthly factor outputs described; no underlying 58-instrument input download identified in inspected sources"
+  },
+  {
+    "url": "https://faculty.som.yale.edu/tobymoskowitz/research/data/",
+    "status": "Previously acquired aggregate factor output, no new instrument-level input found in targeted follow-up"
+  }
+]

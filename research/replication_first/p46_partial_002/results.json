@@ -1,0 +1,71 @@
+{
+  "n": 468,
+  "cases": {
+    "published_binary": {
+      "high_months": 216,
+      "low_months": 252,
+      "small_high": 0.5768981481481481,
+      "large_high": 1.0005555555555556,
+      "small_low": 2.2682936507936504,
+      "large_low": 0.9279761904761906,
+      "contrast_pp_month": 1.7639748677248677,
+      "bootstrap": [
+        {
+          "mean_block_years": 1,
+          "ci95": [
+            0.5921758392751038,
+            2.888921304563492
+          ]
+        },
+        {
+          "mean_block_years": 3,
+          "ci95": [
+            0.5201836419753085,
+            2.9673258928571427
+          ]
+        },
+        {
+          "mean_block_years": 5,
+          "ci95": [
+            0.6139855550334167,
+            2.8951101451545522
+          ]
+        }
+      ]
+    },
+    "revised_author": {
+      "high_months": 216,
+      "low_months": 216,
+      "small_high": 0.8371296296296296,
+      "large_high": 1.0919907407407408,
+      "small_low": 2.0037962962962963,
+      "large_low": 0.7861574074074075,
+      "contrast_pp_month": 1.4725000000000001,
+      "bootstrap": [
+        {
+          "mean_block_years": 1,
+          "ci95": [
+            0.1461127417474168,
+            2.7202292207792196
+          ]
+        },
+        {
+          "mean_block_years": 3,
+          "ci95": [
+            0.19005406565656568,
+            2.7937631471223514
+          ]
+        },
+        {
+          "mean_block_years": 5,
+          "ci95": [
+            0.3507560639880952,
+            2.5879370738636363
+          ]
+        }
+      ]
+    }
+  },
+  "approximate_gate": true,
+  "scope": "Partialnativeconditional-sizeeffect; noETFsignalclaim."
+}

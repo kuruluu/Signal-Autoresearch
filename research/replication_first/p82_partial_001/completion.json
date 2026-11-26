@@ -1,0 +1,10 @@
+{
+  "hashes": {
+    "interim_audit.json": "fd300302561132dabe38e42749618769880b6646e7e38b8ebc39228fa0061f40",
+    "INTERPRETATION.txt": "04d7d102b700f1bb3bfea824993aa2e8b4b25b60916556867960166bd3a1f55d",
+    "progress.json": "777635894bc4bc8eb8a1c14da5c706287c0f8c6f8f075a4081c4c95dd5b363d4",
+    "registration.json": "362e296dc1a2e9add2503a0c6c2f825cf7740c71be126240ddccd13741381408",
+    "results.json": "f2d3353d99fb70311399f2e29d0f1c2741daf8f10e4ee1ea6df1183f934feca8",
+    "run_handle.json": "ca22799b891c09ad9007a40f05df342a39734a6d8b2049c42c79c00deff82987"
+  }
+}

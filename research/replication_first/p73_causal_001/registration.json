@@ -1,0 +1,32 @@
+{
+  "id": "P73_causal_001",
+  "role": "Development test of monthly forecasting mechanism, not literal paper-table replication or fresh holdout",
+  "window": 60,
+  "volatility": "For each monthJan1933-Dec1984 fit MA3+constant to59 changes in60 PRIOR log monthly sigma values. Same estimator as partial reproduction. One-step mean with past innovation-variance lognormal correction.",
+  "return_model": "For each monthJan1938-Dec1984 fit WLS excess return=constant+predicted variance to previous60 causal forecast/realized-return pairs, row scaling1/predicted_sigma. Predict current month using its causal forecast. No current returns or realized volatility in predictors. No coefficient sign restriction, clipping or model selection.",
+  "comparators": [
+    "Prior60month arithmetic mean excess return",
+    "Prior60month WLS constant using identical forecast volatility weights"
+  ],
+  "expected_evaluation_months": 564,
+  "primary": "Mean squared-error reduction against BOTH controls; minimum1% relative reduction for each",
+  "gate": "At least95% model-used coverage, relative MSE improvement>=.01 versus both controls, positive marginal95CI and Holm2 p<=.05 for both paired loss differences at all block lengths6/12/24",
+  "fallback": "If MA fails convergence/finite-positive prediction, record missing. If current or any previous60 forecast unavailable, all return forecasts use simple mean; observations remain scored. No retry/retuning. Coverage gate prevents fallback masquerading as success.",
+  "monte_carlo": "5000 common stationary monthly resamples of two realized paired squared-loss difference series, seed73101+block; repeat20000 if any Holm p in[.04,.06]. Conditions on recursively produced forecast/loss path; does NOT refit whole learning algorithm or reproduce estimation uncertainty across hypothetical histories. Model refitted60months at every actual decision.",
+  "limits": [
+    "Same1928-1984 source already inspected: causal timing does not make it untouched",
+    "Monthly mechanism does not match desired days-long holding yet",
+    "Broad-market dependent series differs from originalNYSE, and original daily GARCH-in-mean route remains untested",
+    "No costs,ETF fill or investment utility claim; predictive gate is research screen only"
+  ],
+  "promotion": "Pass is permission for additional research, not trade approval. Failure sets aside this monthly route without retuning; do not reverse coefficient or use surprise regressors.",
+  "hashes": {
+    "researchlab\\p73_reproduction.py": "23c8c0a465ee9f884431ca3297355d84365b468668d5aa43e1a5eaf094c16c32",
+    "researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64",
+    "researchlab\\p73_causal.py": "3a1b28e18be557eccf81266de85932756430f98c844535b549bf3907798b110c",
+    "research\\replication_first\\p73_audit\\STKDATD.DAT": "4b052585e1dfc146eb3c2fcdf71664ed85e264920b983b6d131971190f2bd451",
+    "research\\replication_first\\p73_audit\\spx_1962_1984.json": "6b0850d01c1315784c3f7b1ee09625df3f5c8cc20e1952b727dc6c53a14185a8",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370"
+  },
+  "registered_at_utc": "2026-11-26T00:04:50.195656+00:00"
+}

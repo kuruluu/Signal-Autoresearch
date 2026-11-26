@@ -1,0 +1,33 @@
+{
+  "id": "P45_timing_001",
+  "registered_at": "2026-11-26T01:24:24.675716+00:00",
+  "native_target": "Table3PanelBcol4 SPY FEARScoef.00378; same1889dates andcontrols, replacingindexreturnlags withSPYtotalreturnlags",
+  "outcomes": [
+    "native_close:adjustedclose_t toadjustedclose_t+2",
+    "next_open:syntheticadjustedopen_t+1 toadjustedclose_t+2",
+    "second_open:syntheticadjustedopen_t+2 toadjustedclose_t+2"
+  ],
+  "inference": "5000common stationarypairedrow resamples perblock5/10/20, seeds45705/45710/45720, regressionrefit; centeredone-sidedpositivecoefp; Holm2 fornext_open/second_open, nativeoutsidefamilydescriptive",
+  "transfer_gate": "nativecoefficient within.0015 ofpublished.00378 andpositiveCI95everyblock",
+  "timing_gate": "next_opencoef>=50%nativecoef,positiveCI95andHolm2p<=.05everyblock; second_open reported as fixedlatencysensitivity, not substituteprimary",
+  "limitations": [
+    "Hypotheticalearliestnextopen assumesFEARScompleteandpublishedby9:30ET; actualpublicationdelaynotestablished.",
+    "Fullsample controlledassociation, retrospectiveindexnormalization/controlvintages; no prioronlyforecastorcurrentmarketclaim.",
+    "Adjustedopens are synthetic totalreturnunits, not exactquotedfills; gross diagnostic excludesfees/spread andpositionrules.",
+    "Sameviewed2004-2011developmentperiod; no independentvalidation."
+  ],
+  "files": {
+    "researchlab\\p45_timing.py": "4aefe15d836692560cf034fbc82faa2aef6478b6aa707c928ceff13a53d57670",
+    "researchlab\\p45_reproduction.py": "cd3a345811f94a46ee4af624337b2150069a14f6561f0516c3044ac836e56ee6",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64",
+    "research\\replication_first\\p45_audit\\SPY_2004_2011.json": "17a63a072961ca9dc5c89138bc9f7d2c5f02bd2c74767ab4be05dc9ac11db16b",
+    "research\\replication_first\\p45_partial_001\\registration.json": "d3dac6d0a4efc4301a57418d126f78c77a13a2542ed2ddd5cfc1c87a5de024f0",
+    "research\\replication_first\\p45_audit\\published.pdf": "0f7335dfcf0b4986b91dfb5b4754c63bd19b9fe88c33eb32995c452970dcd4bf",
+    "research\\replication_first\\p45_audit\\fears_post_20140512.csv": "31241018df935a879d989c28e0c314eea7d86adab2241705d8907649b75164a2",
+    "research\\replication_first\\p45_audit\\GSPC_2004_2011.json": "a080e360dfd7d0e6c8ac8f93db17c4f83dc7eeb77e9bdf070633c747176da3bf",
+    "research\\replication_first\\p45_audit\\VIX_2004_2011.json": "f93081f592644f193adafb08aba5fa4a5cfc60da9dfb235d5f0f1b5ab9fc8c11",
+    "research\\replication_first\\p45_audit\\EPU_archive_20120826.csv": "e4250f22a9063e91cb759d99a685abe3970aa5df4f6fb9fb8e829a8e9f4e8446",
+    "research\\replication_first\\p45_audit\\ADS_20130110_2004_2011.csv": "b0e3f3a256b82f3d919c9aa81a0190726fc1854b077eb485506a62abf747b0e8"
+  }
+}

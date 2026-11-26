@@ -1,0 +1,125 @@
+{
+  "basis": "Authenticated sixprobeaccessreport,notassumptionthatallAlpacadataorallsecuritiesavailable",
+  "papers": [
+    {
+      "paper": "P40",
+      "original_status_preserved": "Original catalog data/methods feasibility blocked; not empirically tested",
+      "decision": "priority_reaudit",
+      "reason": "RequiredETF intradayobservations now plausiblyaccessible viaverifiedhistoricalSIPminute/quote/tradeendpoints. Recoverfullmethods and auditdatecoverage/session/execution first. Do notassertoriginalsample replicated."
+    },
+    {
+      "paper": "P43",
+      "original_status_preserved": "Original catalog data/methods feasibility blocked; not empirically tested",
+      "decision": "secondary_reaudit",
+      "reason": "Session-splitstockreturns potentiallysupportedpost2016; historicaluniverse,corporateactions,originalsampleandmethods stillneedverification."
+    },
+    {
+      "paper": "P01",
+      "original_status_preserved": "set_aside_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Original futures/FXforwardquotes,rolls,spreads andotherinputs remain missing; new credentials do not establish coverage."
+    },
+    {
+      "paper": "P51",
+      "original_status_preserved": "set_aside_methods_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P03",
+      "original_status_preserved": "set_aside_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "paper": "P65",
+      "original_status_preserved": "set_aside_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "paper": "P36",
+      "original_status_preserved": "set_aside_data_and_version_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Historical quotes/trades may now support a component/modern test; NAV,shares,baskets/holdings and original coverage/version still missing. Not fully unblocked."
+    },
+    {
+      "paper": "P37",
+      "original_status_preserved": "set_aside_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Historical quotes/trades may now support a component/modern test; NAV,shares,baskets/holdings and original coverage/version still missing. Not fully unblocked."
+    },
+    {
+      "paper": "P49",
+      "original_status_preserved": "set_aside_robustness_and_intraday_data",
+      "decision": "not_automatically_unblocked",
+      "reason": "New SIPintradaydata may support a modern explicitlydifferent event-window branch. Original headlineinputs still unaudited; prior dailyappendix robustness failure remains frozen."
+    },
+    {
+      "paper": "P48",
+      "original_status_preserved": "set_aside_methods_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P42",
+      "original_status_preserved": "set_aside_methods_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P77",
+      "original_status_preserved": "set_aside_methods_access_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P106",
+      "original_status_preserved": "set_aside_native_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Original futures/FXforwardquotes,rolls,spreads andotherinputs remain missing; new credentials do not establish coverage."
+    },
+    {
+      "paper": "P116",
+      "original_status_preserved": "set_aside_native_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "paper": "P113",
+      "original_status_preserved": "set_aside_methods_access_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P111",
+      "original_status_preserved": "set_aside_methods_and_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "paper": "P47",
+      "original_status_preserved": "set_aside_native_panel_unavailable",
+      "decision": "not_automatically_unblocked",
+      "reason": "International option-implied/realizedvariances and weights still missing; SIPstockquotes cannot replace them."
+    },
+    {
+      "paper": "P08",
+      "original_status_preserved": "set_aside_methods_package_access_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "paper": "P14",
+      "original_status_preserved": "set_aside_native_cohort_data_blocked",
+      "decision": "not_automatically_unblocked",
+      "reason": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    }
+  ],
+  "priority_after_resume": [
+    "P40native-methodsandcoverageaudit",
+    "P117continuecalendarpaperfromrecovered23pagecopy",
+    "P43native-methodsanduniverseaudit"
+  ],
+  "failed_tests_policy": "No credential-based rerun of prior empiricalfailures. New risk-tier experiments/branches must be separately registered."
+}

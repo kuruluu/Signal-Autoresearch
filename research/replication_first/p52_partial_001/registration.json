@@ -1,0 +1,82 @@
+{
+  "experiment_id": "P52_partial_001",
+  "stage": "working_paper_partial_reproduction",
+  "target": "December 22 2014 manuscript, page 30 Table 1 Panel B, 50-session row",
+  "published_monthly_mean_pct": [
+    [
+      1.93,
+      1.5
+    ],
+    [
+      1.63,
+      1.23
+    ],
+    [
+      1.45,
+      1.22
+    ],
+    [
+      1.3,
+      1.1
+    ],
+    [
+      0.8,
+      0.72
+    ]
+  ],
+  "primary": "Q1 MA minus TSMOM monthly mean, reported 0.43 percentage points",
+  "date_range": [
+    "1963-01-01",
+    "2013-12-31"
+  ],
+  "warmup_start": "1962-01-01",
+  "expected_months": 612,
+  "universe": [
+    "Lo 20",
+    "Qnt 2",
+    "Qnt 3",
+    "Qnt 4",
+    "Hi 20"
+  ],
+  "window": 50,
+  "levels": "Cumulative total-return index, including dividends; price-vs-total-return ambiguity disclosed",
+  "signal": "Close > current-inclusive 50-observation SMA or close > close 50 observations ago; equality earns cash",
+  "timing": "One-session shift; gross close-to-close reproduction, not executable close fills",
+  "cash": "Contemporaneous French daily RF as realized cash return, never a signal input",
+  "aggregation": "Compound daily gross returns within calendar month; arithmetic mean across full months",
+  "deviations": [
+    "August 2020 CRSP vintage from third-party snapshot, not original author inputs",
+    "Working paper not final 2017 article",
+    "Year endpoints interpreted as full calendar years; pre-1963 warmup",
+    "Total-return levels and equality-to-cash explicit assumptions",
+    "Original mean-difference inference insufficiently specified; bootstrap is supplemental, not original inference reproduction"
+  ],
+  "numerical_check": {
+    "each_mean_tolerance_pp": 0.15,
+    "primary_difference_tolerance_pp": 0.1,
+    "reason": "Prospective approximate-match screen allowing vintage/definition discrepancy, not formal equivalence",
+    "partial_rule": "All ten means within tolerance and Q1 difference positive and within tolerance; otherwise numerical inconsistency under this implementation"
+  },
+  "uncertainty": {
+    "method": "Joint stationary calendar-month bootstrap of fixed-rule paired differences",
+    "blocks": [
+      6,
+      12,
+      24
+    ],
+    "paths": 5000,
+    "seed": 52001,
+    "correction": "Holm across five quintile contrasts separately per block; all block choices reported",
+    "escalation": "20000 paths with same seed if any primary adjusted p falls in [0.04,0.06]",
+    "scope": "Conditional on fixed strategy histories; does not undo prior research selection or establish independent investment evidence"
+  },
+  "data_hashes": {
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p52_audit\\Portfolios_Formed_on_ME_daily.CSV": "ba8ca50ef6f510445ecdb7df229f2c6ba03feeb78e484e8ef75b78c3a32cb595",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p52_audit\\F-F_Research_Data_Factors_daily.CSV": "6decccff26f54ddbe04c460e8694ee9a1cffa9120cc1ba3a63c7a20dbf9eb1d2",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p52_audit\\working_paper_2014.pdf": "a2493bb518ca1e45836ccd461108ff208917a78a7a500b7535b44cb2a6e18ded"
+  },
+  "code_hash": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64",
+  "no_heldout_access": true,
+  "costs": "None in gross reproduction; economic implementation must be separately registered",
+  "registered_at_utc": "2026-11-25T23:33:29.125476+00:00"
+}

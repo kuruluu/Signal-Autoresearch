@@ -1,0 +1,16 @@
+P50 — HISTORICAL PARTIAL REPRODUCTION, FAILED PERSISTENCE
+2026-11-25
+
+Two separately registered experiments were completed without modifying the 150-session rule after outcomes.
+
+1. P50_partial_001: historical 1897-1986 conditional daily log-return comparison. Buy-state mean 0.00042616, sell-state mean -0.00023436, difference 0.00066052 (6.6052 bps/day). Published difference 0.00062 (6.2 bps/day). Original-form pooled t=4.75987 versus 4.39590 reported. Numerical checks passed. Counts differ: 14,993 buy and 9,898 sell versus 14,866 and 9,806. Thus partial reproduction only, not identical-data replication. Twelve-month-block conditional 95% interval [3.9306,9.2810] bps/day. All three registered block lengths gave positive intervals.
+
+2. P50_persistence_001: unchanged rule on 1987-2022, with 1986 warmup. Buy-state mean 0.00018342, sell-state mean 0.00065250; difference -0.00046909 (-4.6909 bps/day). Twelve-month-block interval [-10.9755,1.1901] bps/day, centered two-sided p=0.1344. The positive-gap gate failed at all block lengths. The interval permits a small positive effect; do not claim proof of a negative effect or absence of all predictability.
+
+Both experiments used 5,000 paths per 6/12/24-month block setting; no escalation triggered. Bootstrap resamples calendar-month sufficient statistics of the fixed state/return histories. It does not recreate the original paper's random-walk/AR/GARCH simulations or provide independent investment validation.
+
+These conditional log-return differences are not annual portfolio returns, net alpha or executable ETF results. The input archive is not the original authors' dataset, and its source changes in 1992. Do not attribute the period difference solely to market adaptation. All inspected history is development evidence.
+
+Disposition: set aside this P50 trading-signal branch. Do not reverse the rule or promote observed volatility differences as a replacement success. A different risk-management hypothesis would require independent paper support and a new prospective registration. Advance to a different mechanism: P49, pre-FOMC announcement drift, starting with exact event-time/data feasibility.
+
+Validation: 53 software tests and 94 baseline integrity checks passed. Registrations, daily observations, results and completion hashes live in p50_partial_001 and p50_persistence_001.

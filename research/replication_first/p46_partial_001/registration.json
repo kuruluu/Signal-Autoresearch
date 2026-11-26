@@ -1,0 +1,24 @@
+{
+  "id": "P46_partial_001",
+  "registered_at": "2026-11-26T01:31:34.532627+00:00",
+  "target": "TableIII large-minus-small monthly spread highsentiment minus lowsentiment=1.71percentagepoints; lowbottom2.37,lowtop.92,highbottom.73,hightop.98",
+  "primary_regime": "PublishedTableIII explicitly enumerated positiveannualSENTIMENTorthogonalyears; matchpreviousCALENDARyear to eachmonth, notpreviousJune",
+  "sensitivity": "Revisedauthorv23annualSENT^sign fixedsecondary; cannotreplaceprimaryifbetter",
+  "sample": "January1963-December2001,468monthlyobservations,39wholeyears",
+  "portfolios": "Pinned2020FrenchEqualWeightReturnsMonthly Lo10andHi10,JuneformedNYSEsizebreakpoints; percentunits; nofactor/RFsubtraction",
+  "approximate_gate": "primaryconditionalcontrast within.50pp/month of1.71; low-smallminuslarge>0; high-smallminuslarge<=0; primary95%CIcontrastlower>0allblocks",
+  "inference": "10000stationaryresamplesofWHOLEcalendar-yearvectors, meanblocks1/3/5years,seeds46001/46003/46005; preserve12monthseasonalityandregimelabels; percentileCI. Two-labelcasesreportedbutonlypublishedbinaryprimaryclaim.",
+  "deviations": [
+    "Publishedregimelabels sufficefornativebinarytestwithoutrecoveringoriginalcontinuousPCAindex; theyareexpostandnotatradablepredictor.",
+    "FrenchCRSPsizeportfoliosinstead oforiginalmergedCRSPCompustatuniverse; vintage,eligibilityanddelistingtreatmentsmaydiffer. Thisispartialreproduction,notexact.",
+    "SimpleaverageofmonthlyEWportfolioreturns; originalpooledfirmweightinginterpretationrequiresauthorcodeforexactequality.",
+    "January1963startassumedfromtablesampledescription; noendpointsearch."
+  ],
+  "files": {
+    "researchlab\\p46_reproduction.py": "5ca3f790fcdf1ed764d99700c0a11ca18c1e13227eb5600e9647086f9a319bcc",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p46_audit\\published.pdf": "79e8b6042d4fbd2d6306e2dc87931fe36ac3fc7f3b497d50af22be24bca0d8b5",
+    "research\\replication_first\\p46_audit\\Portfolios_Formed_on_ME.CSV": "cb173afd68233cc02f74323a97b2429e477bb50437f14f523ea4b991642d3b4d",
+    "research\\replication_first\\p46_audit\\annual_sentiment_1962_2001.csv": "feee51f508b38eab7559f6fab0bf6933a9a60e05ba633501f218c0ff70caec7c"
+  }
+}

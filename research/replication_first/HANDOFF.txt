@@ -1,0 +1,480 @@
+CURRENT STATUS2026-11-26: ACTIVEunderusergoal. Supersedespriorpauseheaders.10000USD;allinstruments;DD50/DD30/DD20;papertradesauthorized;noliveorders;sealed2024-2025untouched. Commitnotableprogressincludingfailures tokuruluu/Signal-Autoresearchonceaccesspermits. P40soleactive;P117queued.
+
+LATEST USER STATUS: PAUSED. This supersedes earlier resume statements. P40 methods/data reaudit is pending; no orders placed. Resume only on explicit user instruction.
+
+CURRENT RESUME2026-11-25: Researchactiveundernewgoal.10000USD,allinstruments,DD50/DD30/DD20,papertradesauthorized,noliveorders,no2024-25data. SoleactiveP40intradaymomentum,newSIPaccessreaudit;P117archivedpaperqueued. Earlierpauseparagraphsarehistorical.
+
+SIGNAL RESEARCH HANDOFF — REPLICATION FIRST
+Revision: 2026-11-22. This is the current instruction for future research.
+Workspace: C:\Users\kuru\Documents\ChatGPT\quant
+
+LATEST STATUS - USER PAUSED; SCOPE EXPANDED, 2026-11-25
+Autonomous research is paused. Current queued paper P117: archived23page originalcalendarpaper recovered; methods/OCR audit remains pending. No validated executable signal. P45native andETFdescriptiveeffects reproduced but fixedcost-aware rulefailed; P46nativepartialsizeeffect reproduced butETFtransferinconclusive. P08accessblocked;P14nativecohortdatablocked. Read cycleupdatesandpaper_queue.json for evidence. New RESEARCH_SCOPE.txt overrides prior ETF-only objective prospectively. Alpaca locallysavedcredentialsverified:ACTIVEpaperaccount,calendar,historicalSIPdaily2016andminute/quotes/trades2023accessible. Smallprobesonly; completecoverageunverified.
+
+OBJECTIVE
+Find reproducible executable market edges across all instruments and horizons for10000USD initial capital. Maintain three independent risk-tier leaderboards: maximumdrawdown50%,30%,20%. DefaultbestmeanshighestrobustnetCAGR subjecttorisktier,evidenceandbenchmarkgates. Evaluate costs,financing,borrow,margin,liquidity andpath-dependentdrawdown uncertainty. PapertradingauthorizedonAlpacapaperendpointonly,with10000USDaggregatebudgetandregisteredstrategy/accountreconciliation. No liveorders. Sealed2024-2025observationsremainuntouched. Autonomousresearchremainsuserpaused. Detailedprospectiverules:RESEARCH_MANDATE.json. Before resuming readALPACA_REVISIT_AUDIT.json;P40haspriorityfeasibilityreview,notclaimedreplication.
+
+CURRENT EVIDENCE
+100 distinct bibliographic candidates have been cataloged, not faithfully replicated. Sixteen public PDFs were retrieved across both rounds; access and extracted text do not establish complete review.
+Original study: 21 ETF adaptations, 231 variants, 462 period evaluations, zero provisional candidates.
+Continuation: six portfolio arms, 36 variants, 72 evaluations, 24 paired contrasts; no directional arm passed the registered checks. All four base trend-versus-control return differences changed sign across the two used periods. These original screening results are historical. Subsequent partial native reproductions are recorded below; no independently validated executable edge has been established.
+35 software tests passed in the preceding research round. These validate specified engineering properties, not the papers' effects or future profitability.
+
+WHAT WE LEARNED
+1. A profitable portfolio is not evidence that its signal predicts returns. Separate direction, cross-sectional selection, position sizing, market exposure, cash allocation and execution costs.
+2. Original S01 chose the three strongest positive-return ETFs; this differs from P01's own-return sign rule with volatility-scaled long/short futures. Do not call S01 a reproduction of P01.
+3. Several-day long-only ETFs can materially change a monthly stock/futures effect. Preserve the paper's native horizon for replication. If a useful effect is monthly, report that limitation instead of forcing five-day trades.
+4. Same sizing rules and risk caps do not imply equal realized exposure or risk. Previous paired controls were useful diagnostics, not pure-alpha identification.
+5. The former universal requirement to beat a 90%-invested ETF benchmark in each short period is not a replication criterion. A volatility-management paper may target risk-adjusted performance; a liquidity paper may estimate a relationship rather than a trading strategy.
+6. No existing result proves the original papers false. Missing methods/data and low statistical precision must remain explicit.
+
+AUTHORITATIVE TESTING SCHEME
+Read research/replication_first/TESTING_SCHEME.md and experiment_template.json before implementing anything. This prospective framework supersedes the old next-step prompts and success rules FOR NEW WORK ONLY. Existing protocol.json, registrations, results and their interpretations remain frozen.
+The framework is a design specification, not a newly executed experiment or a completed general replication engine. The existing backtester handles long-only ETF cohorts and cannot silently stand in for monthly factor regressions, long/short futures, original overlapping portfolios or intraday liquidity models.
+
+STAGE A — SPECIFY THE PAPER'S EFFECT
+Select one primary table, figure or equation. Record exact paper version, pages, original sample/universe, units, transformations, signal timestamp, forecast/holding horizon, outcome, portfolio/regression construction, controls, standard errors, reported estimate and uncertainty. Identify data versions, exclusions, delistings and corporate actions. Record ambiguities; do not fill gaps with convenient assumptions.
+Define the numerical replication tolerance and evaluation method before running the replication. Use author code/data where lawfully available. Unknown required fields block registration, not merely a footnote.
+
+STAGE B — REPRODUCE AND VERIFY THE EFFECT
+Implement a separate paper-specific estimator at its native horizon. Verify arithmetic on small independently calculated examples, then reproduce the chosen result. Keep original-sample reproduction distinct from robustness on another sample.
+Compare effect direction, magnitude and uncertainty with the published result. A significant result with a different estimand is not a replication. A nonsignificant estimate does not alone demonstrate absence of the effect. Use the predeclared tolerance and uncertainty to label reproduced, partially reproduced, inconsistent, inconclusive or blocked; quantify discrepancies and statistical precision.
+First reproduce published inference, then add dependence-aware robustness where needed. Preserve gross results when the paper reports gross effects; trading-cost realism belongs in a separate economic implementation layer.
+
+STAGE C — TEST ETF TRANSFER
+After adequate reproduction, register a bridge experiment changing one dimension at a time: universe/instrument, horizon, long/short constraint, sizing, then execution. Identify unavoidable joint changes explicitly. Estimate the same effect in ETF data before designing a complicated trading rule.
+If original data cannot be acquired, an ETF mechanism test may proceed only as a separately registered, explicitly unreplicated branch. It does not advance the paper to replicated status. Never turn trading volume into a substitute for primary-market ETF flows.
+
+STAGE D — BUILD AND TEST A SIGNAL
+Translate only information observable at decision time into a rule. Record publication/revision lag, normalization, thresholds, holding/exit logic and expected effect decay. Start with the simplest economic mapping and a small predeclared variant set.
+Choose a primary economic objective before results: incremental net return, risk-adjusted return, or risk reduction subject to a return constraint. Fix the comparator, minimum meaningful improvement and uncertainty threshold. Report all three kinds of outcomes but do not switch the primary objective after seeing them.
+Use signal-removed controls with identical execution/sizing; independently examine sizing and cash effects. Add causal exposure/risk-matched controls and appropriate factor diagnostics. An ex-post matched diagnostic is not an executable benchmark. Use a point-in-time cash rate where available, or quantify its absence with declared scenarios.
+Model actual session timing, commissions/fees, spread/slippage, liquidity/capacity, settlement if relevant, distributions and borrow/financing if allowed. Do not apply the current adjusted-unit ETF engine to unsupported instruments or claim precise fills from daily bars.
+
+STAGE E — INDEPENDENT EVALUATION
+Every period through 2023 has been examined and is development evidence for new decisions. Paper reproduction on that history is still informative about implementation but is not new investment validation.
+Final 2024–2025 observations remain sealed. Do not read/download them without a separately frozen release protocol, one-shot decision rule, permanent consumption record and explicit release authorization. A final failure cannot be followed by tuning on the same period and another claim of independence. Later forward paper observation can provide new evidence once registered.
+
+NEXT PAPERS, IN ORDER
+Active P49: The Pre-FOMC Announcement Drift. Read its existing record, recover the primary full paper and timestamped meeting schedule, identify the native estimation window before any simulation. A daily close proxy cannot silently reproduce a 24-hour intraday window. Seek bounded original-source data or label and register a separate mechanism branch only with a defensible mapping. Preserve prior adaptations and all failed P24/P52/P50 results.
+
+STATISTICAL REQUIREMENTS
+Register an estimand and test family for each stage. Track all tried variants, outcomes, filters and researcher decisions in an append-only registry. Do not count 100 bibliographic entries as 100 independent hypotheses or blindly stack unrelated monthly regressions and daily return series into one bootstrap matrix.
+Use the original dependence structure and forecast horizon to select clustering/HAC/block bootstrap and any chronological purge/embargo. Resample calendar blocks jointly across related assets/strategies. If fitting or selecting models, rerun fitting/selection inside the resampling or use nested chronological validation. Fixed-return resampling does not cover adaptive fitting.
+Use Monte Carlo for a defined question: uncertainty, execution sensitivity, or power/minimum detectable effect. Synthetic paths do not create new historical evidence. Specify seed, path count, block choices and Monte Carlo error; increase paths when a decision is near the threshold. Small samples can remain inconclusive.
+Apply registered multiplicity corrections to the actual inferential claims and the new search family; preserve prior search history. Fresh data is still needed for confirmatory investment claims after adaptive exploration. No significance threshold proves an effect or guarantees profitability.
+
+DELIVERABLES FOR EACH PAPER
+Versioned paper_spec.json, completed registration, raw-data provenance/hashes, reproduction code and numerical checks, published-versus-reproduced table with uncertainty and discrepancies, data/method blockers, and a replication verdict.
+If justified: separate ETF transfer specification/results, signal definition, matched controls, net execution results, stress/robustness tests and a separate economic verdict.
+Update SIGNAL_SIMILARITIES.txt only with evidence-qualified statements. Separate common economic mechanisms, shared inputs, exposure correlations and independent corroboration. No successful-signal similarities are currently established.
+
+FILES AND REPRODUCTION
+Current design: research/replication_first/TESTING_SCHEME.md
+Registration skeleton: research/replication_first/experiment_template.json (incomplete; must not be executed as a registered experiment)
+Prior handoff snapshot: research/replication_first/PRE_REVISION_HANDOFF.txt
+Original catalog/results: research/papers.json, research/results/registration.json, research/results/success_assessment.json
+New candidates/results: research/expansion_001/reviewed_candidates.json, research/expansion_001/trend_experiment/registration.json, assessment.json
+Methods evidence: research/expansion_001/METHOD_AUDIT.txt
+Data use: research/observed_periods.json; original data manifest research/data/manifest.json
+Checks: .\research.ps1 audit ; .\research.ps1 test
+Old run/followup commands reproduce OLD experiments; they do not execute this new scheme.
+
+READY-TO-RUN NEXT CODEX PROMPT
+Continue from this replication-first handoff. Read the current testing scheme, registration skeleton, methods audit and original/continuation registrations. Verify hashes and run relevant tests. Start with P24 feasibility and one explicitly identified published effect; audit full methods and obtain bounded, lawful pre-2024 original inputs. Complete and freeze a paper-specific registration before calculating its empirical result. Reproduce native-horizon estimates and inference, explain discrepancies, and assign a replication verdict independently of trading profitability. Only after that, register ETF transfer and signal-development stages with appropriate sizing/exposure/cash controls and a predeclared economic objective. If replication is blocked, record why and advance the next feasible paper rather than silently substituting proxies. Preserve all prior results and trials. Treat history through 2023 as used. Keep 2024–2025 sealed. Do not buy data or submit real-money trades. Update the handoff with exact evidence, limitations and the next concrete step.
+
+CYCLE 1 UPDATE
+Meaningful progress: True
+Acquired author daily teaching snapshot pinned to April 2021 and official July 2015 monthly factor archive. Daily French archive candidate returned 404. Exact original daily input remains unavailable; partial reproduction can be registered explicitly.
+Evidence: research/replication_first/p24_inputs/manifest.json, research/replication_first/p24_inputs/archive_access.json
+Next step: Complete one P24 partial reproduction with frozen estimand and approximation thresholds; do not claim exact replication.
+
+CYCLE 2 UPDATE
+Meaningful progress: True
+P24 Table I market effect partially reproduced: alpha 4.9388% versus 4.86%, HC1 SE 1.553 versus 1.56, beta .60966 versus .61, N=1065. All predeclared approximation checks pass. Different daily data/vintage and inferred endpoint prevent exact-replication status. Maximum descriptive exposure 14.06x; no investability claim. Console serialization failed after saved results; reporting-only amendment preserves original code and result hash.
+Evidence: research/replication_first/p24_partial_001/registration.json, research/replication_first/p24_partial_001/result.json, research/replication_first/p24_partial_001/reporting_amendment.json
+Next step: Register a staged SPY transfer and causal no-leverage bridge, preserving native monthly horizon; do not claim an independently confirmed signal.
+
+CYCLE 3 UPDATE
+Meaningful progress: True
+Registered monthly SPY bridge completed on already-used 2012-2020 history, with 2008-2011 calibration. Causal no-leverage next-open signal has base net alpha 0.5165 pp/year (HAC SE 1.2728), versus a 1 pp/year minimum; 12-month-block bootstrap CI [-2.1159,2.6198], Holm p=.6689. It fails the predeclared economic gate. Net CAGR 12.01% versus market 14.96%; a 65.72% calibration-volatility control earns 10.10%, but realized exposures differ. 5000 paths at 6/12/24 monthly blocks. No independent confirmation.
+Evidence: research/replication_first/p24_spy_bridge_001/registration.json, research/replication_first/p24_spy_bridge_001/results.json, research/replication_first/p24_spy_bridge_001/diagnostic_stages.json
+Next step: Attempt to resolve remaining exact-replication source gaps for P24/P01/P51 before adding any variants. Stop if this cycle yields no usable new methods or data.
+
+CYCLE 4 UPDATE
+Meaningful progress: True
+Retrieved author-linked original P01 aggregate monthly factor workbook, January 1985-December 2009, 300 rows. It contains total/excess strategy returns but no underlying 58 instrument histories. This enables output-series auditing but cannot disentangle momentum direction from volatility sizing or reconstruct trades. No new performance claim made.
+Evidence: research/replication_first/p01_inputs/manifest.json
+Next step: Check targeted primary sources for underlying P01 instrument inputs and P51 methods. Stop if no usable new input/method resolves the construction blocker.
+
+CYCLE 5 UPDATE
+Meaningful progress: False
+No usable new data or methods resolved the exact-construction blockers in the targeted primary-source checks. P51 SSRN returned 403 and Elsevier returned only bibliographic XML; P01 sources remain aggregate outputs, not underlying instruments. Stopping under the user-defined no-meaningful-progress rule, without further parameter searches.
+Evidence: research/replication_first/cycle_005_source_checks.json, research/replication_first/cycle_005_elsevier.xml
+Next step: STOPPED. Resume only with a materially new source/access route or an explicit move to another paper; see CYCLE_RESULTS.txt.
+
+CYCLE 6 UPDATE
+Meaningful progress: True
+P65 author-linked published scan recovered and audited. Descriptive regression uses future demeaning, while forecasting explicitly switches to past-fitted raw returns. Original CRSP inputs unavailable; paper set aside as data-blocked, with no numerical test.
+Evidence: research/replication_first/p65_audit/AUDIT.txt, research/replication_first/p65_audit/manifest.json
+Next step: Continue sequentially with P36 source and data audit.
+
+CYCLE 7 UPDATE
+Meaningful progress: False
+P36 targeted author/journal checks did not yield usable data or resolve final-version reconciliation. Original share-creation/NAV/holdings blockers remain. No empirical test run.
+Evidence: research/replication_first/P36_DISPOSITION.txt
+Next step: Advance to P37 under the sequential policy; continue means research progress in this legacy log, not a scheduling command.
+
+CYCLE 8 UPDATE
+Meaningful progress: False
+P37 official supplementary ZIP inspected: accessible article/figures only, no underlying observations or executable replication code. Data blocker unresolved; no numeric test. Current priority queue has no feasible remaining action.
+Evidence: research/replication_first/p37_audit/AUDIT.txt, research/replication_first/p37_audit/manifest.json
+Next step: STOPPED under no-progress rule. Read CONTINUATION_RESULTS.txt; resumption requires a concrete new input route or feasible candidate.
+
+CYCLE-LOG INTERPRETATION
+Historical continue fields were mechanically tied to meaningful_progress by the legacy logger. Cycle 7 continued to the next queued paper under the sequential policy despite continue=false. Explicit next_step and current paper_queue.json resolve scheduling state; cycle 8 stopped. The journal remains append-only.
+
+CYCLE 9 UPDATE
+Meaningful progress: True
+P52 working paper recovered; pinned pre-2024 size-portfolio and daily-factor files obtained from a 2020 repository snapshot. Both files pass Git LFS SHA256 and date-bound checks. Native inputs now available for a registered partial reproduction; no strategy performance computed.
+Evidence: research/replication_first/p52_audit/NEXT_EXPERIMENT.txt, research/replication_first/p52_audit/input_manifest.json
+Next step: Continue with visual target-table check, preregistration, arithmetic tests and the P52 partial reproduction. User requests continuous research until stop.
+
+CYCLE 10 UPDATE
+Meaningful progress: True
+P52 registered partial reproduction passed all numerical screens: Q1 MA-minus-TSMOM 0.428724 pp/month versus 0.43 reported; all ten means within 0.044 pp/month. Supplemental paired block bootstrap supports the Q1 difference but not Q5. No ETF trading usefulness established. 47 software tests pass; 94 baseline integrity checks pass.
+Evidence: research/replication_first/p52_partial_001/INTERPRETATION.txt, research/replication_first/p52_partial_001/results.json
+Next step: Continue the same paper: separately register matched-source/IWM ETF transfer and next-open execution with costs and exposure controls.
+
+CYCLE 11 UPDATE
+Meaningful progress: True
+P52 IWM bridge failed: base MA-minus-TSMOM -0.5774 pp/year and MA-minus-exposure-control -4.9021. Matched French Q1 effect already negative before instrument substitution. Bootstrap escalated to 20000 paths per registered rule. 49 tests and 94 baseline checks passed. P52 set aside without tuning.
+Evidence: research/replication_first/p52_iwm_bridge_001/INTERPRETATION.txt, research/replication_first/p52_iwm_bridge_001/results.json
+Next step: Continue with P50 original-paper and historical Dow data feasibility; preserve old S20 proxy and P52 results.
+
+CYCLE 12 UPDATE
+Meaningful progress: True
+Recovered P50 published scan and pinned pre-2024 historical Dow series. Visually audited methods/Table II and original inference. Found 25041 target-period index levels versus paper 25036 daily returns; exact data equivalence unresolved. Prepared explicit partial-reproduction target without calculating strategy returns.
+Evidence: research/replication_first/p50_audit/AUDIT.txt, research/replication_first/p50_audit/manifest.json
+Next step: Register VMA(1,150,0) partial reproduction and original pooled-variance inference with supplemental dependence-aware uncertainty; no tuning to match counts.
+
+CYCLE 13 UPDATE
+Meaningful progress: True
+P50 historical partial reproduction passed: gap6.6052 bps/day vs6.2 reported, pooled t4.7599 vs4.3959; counts/source differ. Separate unchanged-rule 1987-2022 persistence test failed: gap -4.6909 bps/day, 12-month-block CI[-10.9755,1.1901]. P50 set aside, no rule reversal or retuning. 53 tests and94 baseline checks pass.
+Evidence: research/replication_first/P50_RESULTS.txt, research/replication_first/p50_partial_001/results.json, research/replication_first/p50_persistence_001/results.json
+Next step: Continue with P49 source/event-timing audit and historical data feasibility.
+
+CYCLE 14 UPDATE
+Meaningful progress: True
+Recovered P49 published source and visually checked original scheduled-event table; identified feasible native daily appendix target distinct from unavailable intraday headline effect. No numerical result.
+Evidence: p49_audit/AUDIT.txt, p49_audit/manifest.json, p49_audit/scheduled_events.csv
+Next step: Continue P49: reconcile final appendix, register daily size-decile reproduction, then execute. Do not substitute daily returns for preannouncement returns.
+
+CYCLE 15 UPDATE
+Meaningful progress: True
+P49 historical daily appendix approximately reproduced; stricter registered robustness gate failed. No headline intraday or tradable signal claim. P48 selected next.
+Evidence: p49_partial_001/registration.json, p49_partial_001/results.json, p49_partial_001/INTERPRETATION.txt, p49_results_evidence_hashes.json
+Next step: Audit P48 native methods, exact yield construction and bounded historical data; register before calculating outcomes.
+
+CYCLE 16 UPDATE
+Meaningful progress: True
+P48 official PDF endpoint is HTML, supplementary403; P42 indexed manuscript404. Preserved exact source failures rather than inventing proxies. Moved sequentially to P73 archival methods source.
+Evidence: p48_audit/AUDIT.txt, p48_audit/source_attempts.json, p42_audit/AUDIT.txt, p73_audit/source.json
+Next step: Continue P73: recover/read original methods, establish native data compatibility, then register reproduction before outcomes.
+
+CYCLE 17 UPDATE
+Meaningful progress: True
+Recovered P73 published paper and bounded historical S&P sources; visually verified equations and identified fullsample-fitting/contemporaneous-surprise limitations. No numerical effect calculated.
+Evidence: p73_audit/AUDIT.txt, p73_audit/coverage.json, p73_audit/manifest.json
+Next step: Continue P73: register bounded partial reproduction with exact input differences and estimator tests; separate descriptive replication from causal forecasting.
+
+CYCLE 18 UPDATE
+Meaningful progress: True
+P73 monthly published results approximately reproduced: weak predicted-volatility slopes, strong same-month volatility-surprise relation. No causal signal inferred.
+Evidence: p73_partial_001/registration.json, p73_partial_001/results.json, p73_partial_001/INTERPRETATION.txt, p73_results_evidence_hashes.json
+Next step: Register one strictly causal P73 forecast check with trailing estimation and historical-mean comparator before any ETF translation.
+
+CYCLE 19 UPDATE
+Meaningful progress: True
+P73 causal monthly implementation failed predictive and coverage gates.12 optimizer nonconvergences left145/564 model months under fixed fallback; broad economic mechanism not decisively rejected. User pause requested after cycle.
+Evidence: p73_causal_001/registration.json, p73_causal_001/results.json, p73_causal_001/INTERPRETATION.txt, p73_causal_evidence_hashes.json
+Next step: PAUSED BY USER. Do not continue research or start another candidate until explicit resume; legacy continue flag is not authorization.
+
+CYCLE 20 UPDATE
+Meaningful progress: True
+User resumed; recovered P74 published paper and audited monthly native sample and asymmetric risk-return mechanism. No P74 outcomes. P73 remains frozen.
+Evidence: p74_audit/AUDIT.txt, p74_audit/manifest.json
+Next step: Continue P74 original-model audit and preregistration. Workspace resumed; automatic app goal activation still unverified.
+
+CYCLE 21 UPDATE
+Meaningful progress: True
+Confirmed goal active. Audited P74 published modifiedEGARCH-in-mean, implemented exact signed-shock/seasonal recursion and passed4 focused tests; no real-data fitting.
+Evidence: p74_audit/MODEL_SPECIFICATION.txt, p74_audit/cycle21_validation.json, p74_audit/cycle21_evidence_hashes.json, ../../researchlab/p74_model.py
+Next step: Continue P74 joint optimizer and sandwich covariance synthetic validation; resolve units/initialization then register partial reproduction before results.
+
+CYCLE 22 UPDATE
+Meaningful progress: True
+Synthetic P74 QML validation caught false optimizer convergence at unchanged starts; preserved evidence and prevented unreliable historical fitting.
+Evidence: p74_audit/synthetic_validation_001.json, p74_audit/SYNTHETIC_VALIDATION_FINDING.txt
+Next step: Correct synthetic solver and validate stationarity before real-data registration. Continue active research.
+
+CYCLE 23 UPDATE
+Meaningful progress: True
+Launched synthetic alternative optimizer experiment with objective-improvement and independent finite-difference stationarity checks. Verified session22531 remains live; no historical fit.
+Evidence: p74_audit/synthetic_validation_002_run.json
+Next step: Poll live session22531 and inspect synthetic_validation_002.json on completion; preserve original false-convergence run.
+
+CYCLE 24 UPDATE
+Meaningful progress: True
+Added numerical QML sandwich covariance and verified against analytic normal-mean covariance at two derivative steps; flat unidentified likelihood rejected. Existing synthetic optimizer session22531 verified live, no restart.
+Evidence: ../../researchlab/qml_covariance.py, ../../tests/test_qml_covariance.py, p74_audit/NUMERICAL_ACCEPTANCE.txt
+Next step: Poll session22531; apply stationarity checks and then validate sandwich derivative stability on fitted synthetic P74 model. No historical fit yet.
+
+CYCLE 25 UPDATE
+Meaningful progress: True
+Synthetic P74 solver passed two-start objective and gradient criteria; sandwich SE stable at smaller derivative steps, with weak identification disclosed. Both sessions terminal exit0.
+Evidence: p74_audit/synthetic_validation_002.json, p74_audit/synthetic_covariance_001.json, p74_audit/SYNTHETIC_RESULT.txt
+Next step: Prepare P74 historical partial-reproduction registration with frozen numerical procedure, input deviations and acceptance tolerances before fitting.
+
+CYCLE 26 UPDATE
+Meaningful progress: True
+Registered P74 TableV Model5-L partial reproduction before historical fitting, including data-universe deviations, fixed optimizer starts and numerical/effect gates. Historical run launched.
+Evidence: p74_partial_001/registration.json, ../../researchlab/p74_reproduction.py
+Next step: Poll historical run session returned this cycle; inspect both fits and derivative stability before any empirical claim.
+
+CYCLE 27 UPDATE
+Meaningful progress: True
+P74 historical partial reproduction passed registered fidelity and effect gates, with two-start convergence and stable robust uncertainty. No signal promoted.
+Evidence: p74_partial_001/registration.json, p74_partial_001/results.json, p74_partial_001/INTERPRETATION.txt, p74_partial_001/completion.json
+Next step: Continue same paper: register causal predictive evaluation with prior-only inputs and bill timing, solver coverage and mean controls.
+
+CYCLE 28 UPDATE
+Meaningful progress: True
+Resolved causal branch timing conservatively using lagged completed bill returns, implemented matching one-step forecast mapping, passed independent hand-calculation tests; specified annual-refit proposal before outcomes.
+Evidence: p74_audit/CAUSAL_DESIGN.txt, ../../researchlab/p74_forecast.py, ../../tests/test_p74_forecast.py
+Next step: Finalize causal annual-refit runner and matched control, test timing, register before evaluating1994-2014 development history.
+
+CYCLE 29 UPDATE
+Meaningful progress: True
+Registered and launched P74 causal annual-refit development forecast test1994-2014. Fixed lagged bill inputs,240month training, two mean controls, fallback coverage and paired-loss gates before outcomes.
+Evidence: p74_causal_001/registration.json, ../../researchlab/p74_causal.py
+Next step: Poll running P74 causal experiment; preserve failed annual fits and all months. No ETF promotion before result audit.
+
+CYCLE 30 UPDATE
+Meaningful progress: True
+P74 causal forecast completed and independently audited:100%coverage but worse MSE than both controls, registered gate failed. Selected P77 next without retuning.
+Evidence: p74_causal_001/results.json, p74_causal_001/INTERPRETATION.txt, p74_causal_001/completion.json
+Next step: Audit P77 original native portfolio inputs and methods before registration.
+
+CYCLE 31 UPDATE
+Meaningful progress: True
+P77 publication/version and claim scope audited; located original-paper and implementation-appendix leads but downloads failed. Determined allocation robustness claim cannot be treated as directional signal or validated by one comparison.
+Evidence: p77_audit/AUDIT.txt, p77_audit/source_attempts.json
+Next step: Check author-hosted original/supplement and native datasets; if no concrete feasible reproduction route, set aside and continue next candidate.
+
+CYCLE 32 UPDATE
+Meaningful progress: True
+Verified P77 original publisher PDF403 after indexed sources failed; documented source blocker and moved sequentially to distinct P106 mechanism. No invented proxy test.
+Evidence: p77_audit/publisher_attempt.json, p106_audit/catalog_record.json
+Next step: Recover P106 primary methods and audit native cross-asset predictors/timing and bounded data before registration.
+
+CYCLE 33 UPDATE
+Meaningful progress: True
+Recovered169page P106 author thesis; audited original bid/ask-ranked G10carry construction and identified exact input requirement that spot-only proxies cannot satisfy.
+Evidence: p106_audit/source.json, p106_audit/AUDIT.txt
+Next step: Audit original author code/data or historical forward bid/ask availability and reconcile2016paper before registration.
+
+CYCLE 34 UPDATE
+Meaningful progress: True
+P106 source audit establishes exact unavailable native input requirement; no author dataset found. Preserved data-blocked disposition and selected P116 from existing catalog.
+Evidence: p106_audit/DISPOSITION.txt, p116_audit/catalog_record.json
+Next step: Recover P116 primary methods and inspect original multi-horizon construction, native universe and data feasibility before registration.
+
+CYCLE 35 UPDATE
+Meaningful progress: True
+Recovered63page P116 primary manuscript after two source failures; initial methods establish individual-stock cross-sectional inputs and multi-horizon estimation requirements.
+Evidence: p116_audit/github_paper_source.json, p116_audit/AUDIT.txt
+Next step: Audit coefficient timing and native universe; check obtainable author factor/code before deciding faithful reproduction feasibility.
+
+CYCLE 36 UPDATE
+Meaningful progress: True
+P116 native two-stage regression timing and universe filters established; precise missing-stockpanel blocker documented. Moved to P113 original-effect feasibility audit without proxy fitting.
+Evidence: p116_audit/DISPOSITION.txt, p113_audit/catalog_record.json
+Next step: Recover P113 original methods; ensure distinct paper-supported effect and obtainable native inputs before registration.
+
+CYCLE 37 UPDATE
+Meaningful progress: True
+P113 original primary indexed text identifies distinct uncertain-AR-order simulation target, potentially reproducible without stockpanel; direct fulltext403 leaves parameters unaudited, no invented simulation run.
+Evidence: p113_audit/AUDIT.txt, p113_audit/source_attempt.json
+Next step: Find institutional full manuscript; audit random-order AR assumptions and exact Figure9/Table4 target before registration.
+
+CYCLE 38 UPDATE
+Meaningful progress: True
+Located authoritative institutional P113 PDF record and author corroboration, but verified DNS/502/handle access failures. New migration-route question remains; no synthetic assumptions invented.
+Evidence: p113_audit/institutional_source.json, p113_audit/INSTITUTIONAL_ROUTE.txt
+Next step: Inspect author fulltext link for migrated archive destination; if no obtainable primary methods, set aside rather than repeat exhausted URLs.
+
+CYCLE 39 UPDATE
+Meaningful progress: True
+Traced P113 author link to exact migratedNVAidentifier and verified personalpage loops to blocked publisher. Preserved access-blocked disposition; P82selected for native family-adjusted inference audit.
+Evidence: p113_audit/DISPOSITION.txt, p113_audit/migration_attempts.json, p82_audit/catalog_record.json
+Next step: Recover P82 original methods and predefine distinct family-inference reproduction; inspect whether existingDowdata satisfy sample/inputs.
+
+CYCLE 40 UPDATE
+Meaningful progress: True
+Recovered full45page P82 published paper via verified academic mirror and identified26-versus7846rule-family inference target with nativeDJIA1897-1996.
+Evidence: p82_audit/source.json, p82_audit/AUDIT.txt
+Next step: Audit rule definitions, original data/benchmark and bootstrap specification; register exact family target before outcomes.
+
+CYCLE 41 UPDATE
+Meaningful progress: True
+P82 exact short-position logreturn and centered familymaximum definitions audited; implemented bootstrap primitives and passed3hand/invariance tests. Corrected mean-return target table identification. No market outcomes.
+Evidence: p82_audit/BOOTSTRAP_SPEC.txt, ../../researchlab/reality_check.py, ../../tests/test_reality_check.py
+Next step: Audit26rule state semantics, benchmark and visualTableIII target then register partial reproduction before fitting historical family.
+
+CYCLE 42 UPDATE
+Meaningful progress: True
+Visually verified P82 exactTableIII numeric targets and resolved null-exposure versus riskfree/market benchmark distinction; historical and laterperiod family results differ.
+Evidence: p82_audit/TARGETS.txt, p82_audit/table-17.png
+Next step: Finalize26rule grid/state transitions and sample provenance, then register historical and laterperiod partial reproduction jointly before outcomes.
+
+CYCLE 43 UPDATE
+Meaningful progress: True
+OriginalBLL26rule grid visually audited and reconstructed; synthetic holding/causality tests passed. Fixed-entry semantics documented as assumptions rather than hidden implementation choices.
+Evidence: p82_audit/RULE_SEMANTICS.txt, ../../researchlab/p82_rules.py, ../../tests/test_p82_rules.py
+Next step: Freeze registration for26family joint historical/laterperiod study and run without changing state assumptions after outcomes.
+
+CYCLE 44 UPDATE
+Meaningful progress: True
+Registered bounded P82 BLL26 partialreconstruction, joint historical/laterperiodtargets and5000pathfamilybootstrap before outcomes; launchedrun.
+Evidence: p82_partial_001/registration.json, ../../researchlab/p82_reproduction.py
+Next step: Poll P82run; verifyall3periods and exactscope26rules, preserve discrepancies without changing stateassumptions.
+
+CYCLE 45 UPDATE
+Meaningful progress: True
+P82completed approximate26familyreproduction: historicalsignificant,laterfamilyfailure; selectionadjustment removesnominalsignificance. Preservedallresults,selectedP111next.
+Evidence: p82_partial_001/results.json, p82_partial_001/INTERPRETATION.txt
+Next step: AuditP111native conditionalmomentum definition and inputfeasibility beforeoutcomes.
+
+CYCLE 46 UPDATE
+Meaningful progress: True
+P111primarypublisherclaim distinguishes explanatorymacro-adjustmentfromtimingsignal; stock-specificnativeinputrequirement identified as lead, with fullmethodreconciliationpending.
+Evidence: p111_audit/catalog_record.json, p111_audit/AUDIT.txt
+Next step: FinishP111fulltextlink/nativeinputaudit; ifnotobtainable,setasidepreciselywithoutaggregateproxyclaim.
+
+CYCLE 47 UPDATE
+Meaningful progress: True
+P111publisherPDF403 andmissingnativepanel documented; unsupportedSSRNfileidentifierattempt explicitlyqualified. SelectedP47officialFedsourcefornativevariance-risk-premiumaudit.
+Evidence: p111_audit/DISPOSITION.txt, p111_audit/source_attempts.json, ../paper_records/P47.txt
+Next step: RecoverP47officialmethods; auditnativeimplied/realizedvariance andavailabledecision-timeinputs beforetesting.
+
+CYCLE 48 UPDATE
+Meaningful progress: True
+Recovered P47 official full methods and separate earlier-paper official variance-premium table; distinguished daily intraday calibration from monthly international estimand. No outcomes tested.
+Evidence: p47_audit/AUDIT.txt, p47_audit/source_attempts.json, p47_audit/related_data.html
+Next step: Audit historical table bounds/definitions and P47 input feasibility; register any earlier-paper replication separately.
+
+CYCLE 49 UPDATE
+Meaningful progress: True
+Official BZ2007 predictor table validated:228monthly rows, IV-RV identities and61quarter means match all3published Table1means to2decimals. P47 set aside for missing native international panel; earlier paper selected separately.
+Evidence: bz2007_audit/predictor_audit.json, bz2007_audit/TARGETS.txt, p47_audit/DISPOSITION.txt
+Next step: Reconcile BZ2007 native S&P quarterly log excess returns,3monthbill convention and lag/sample endpoints; register reproduction before return outcomes.
+
+CYCLE 50 UPDATE
+Meaningful progress: True
+Acquired bounded S&P historical prices and implemented explicit60pair/HAC4 partial-reproduction pipeline. Native3monthbill acquisition failed through FRED and dated2015vintage; registration requires bill input and no regression was run.
+Evidence: bz2007_audit/return_source_attempts.json, bz2007_audit/bill_retry.json, bz2007_audit/RETURN_INPUT_AUDIT.txt, ../../researchlab/bz2007_reproduction.py
+Next step: Recover dated or bounded TB3MS input; verify lag alignment, freeze registration and run without endpoint/benchmark selection.
+
+CYCLE 51 UPDATE
+Meaningful progress: True
+Recovered official dated bill inputs; lag-alignment synthetic test passed. Registered BZ2007partial reproduction closely matches slope0.86023,t3.9512,adjustedR2 15.1437%; intercept differs. No causal or executable signal claim.
+Evidence: bz2007_audit/bill_archive_source.json, bz2007_partial_001/registration.json, bz2007_partial_001/results.json, bz2007_partial_001/INTERPRETATION.txt
+Next step: Register prior-only quarterly forecast comparison against historical mean; retain sample limitations and develop executable bridge only if justified.
+
+CYCLE 52 UPDATE
+Meaningful progress: True
+Registered prior-only BZ2007test completed:100%coverage,6.98%MSEimprovement but allbootstrapCIcross0,p.166-.181. Setaside inconclusive withoutretuning.79testspassed; P45daily FEARS mechanism selected next.
+Evidence: bz2007_causal_001/registration.json, bz2007_causal_001/results.json, bz2007_causal_001/INTERPRETATION.txt
+Next step: Audit P45author fullmethods and dated FEARS series before native daily effect registration.
+
+CYCLE 53 UPDATE
+Meaningful progress: True
+Recovered P45author published paper and dated2004-2011 FEARSCSV; audited native2dayreversal target and criticalmidnightPacific availability mismatch. Predictor data bounds/quality checked, no returnoutcomes.
+Evidence: p45_audit/source.json, p45_audit/data_source.json, p45_audit/data_audit.json, p45_audit/METHOD_AUDIT.txt
+Next step: Recover native VIX/EPU/ADS controls and precisebootstrap specification; register one primary2dayeffect before outcomes, preserve causal timing distinction.
+
+CYCLE 54 UPDATE
+Meaningful progress: True
+Audited P45control definitions and nativebootstrap ambiguity. Established ADSfirstrelease2008 timing limitation for pre2008liveclaims; currentunboundedcontrolfiles deliberatelynotacquired. Dated ADS/EPU stillmissing, no returnoutcomescomputed.
+Evidence: p45_audit/control_source_audit.json, p45_audit/CONTROL_TIMING.txt, p45_audit/pinned_control_file_leads.json
+Next step: Try specificallydated providerarchive or paper supplement for ADS/EPU controls; if unavailable, setaside nativecontrolledeffect withoutomitted-controlproxyclaim.
+
+CYCLE 55 UPDATE
+Meaningful progress: True
+Recovered dated official EPU and ADS controls throughWebArchive plusboundedSPX/VIXprices. ADS2013column extracted; nativecontrolledpartialreproduction now feasible with declaredvintage/bootstrapdeviations. No return outcomes.
+Evidence: p45_audit/archive_recovery.json, p45_audit/ads_page_links.json, p45_audit/ads_provisional_source.json, p45_audit/ads_bounds.json, p45_audit/market_sources.json
+Next step: Poll optionalADSdownloadsession89545; validatecalendar/returnalignment, registerpartialTable2col4 andrun withoutvintageorcontrolselection.
+
+CYCLE 56 UPDATE
+Meaningful progress: True
+P45registeredcontrolledreproductioncompleted:coef.0040915matches.00409,N1889; all5000pathstationarybootstrapCIpositiveforblocks5/10/20. Advance samepaper toETFtransfer/entrydelaydiagnostic; noexecutablesignalclaim.
+Evidence: p45_partial_001/registration.json, p45_partial_001/results.json, p45_partial_001/INTERPRETATION.txt, p45_audit/ads_recovery.json
+Next step: RecoverboundedSPYopen/closedata; register nativeETFtransfer andavailability-corrected2dayentrydiagnostic beforeoutcomes, thenassessprioronlycostawareimplementationifjustified.
+
+CYCLE 57 UPDATE
+Meaningful progress: True
+RegisteredP45SPYtransfer/timingdiagnosticcompleted: nativecoef.003793vs.00378; nextopenretains81.4%,Holm2p.018-.026allblocks;extraonedaydelayCIcrosses0. Next singlecostawarerule,publicationtimingstillunverified.
+Evidence: p45_timing_001/registration.json, p45_timing_001/results.json, p45_timing_001/INTERPRETATION.txt, p45_audit/spy_source.json
+Next step: Registerfixedlong-onlySPY/cashrule,overlap/benchmark/coststressandpriordataonlycalibration; verifyrawfill/corporateactionaccountingbeforeoutcomes. IndependentlyauditFEARSpublicationavailability.
+
+CYCLE 58 UPDATE
+Meaningful progress: True
+RegisteredP45fixedSPY/cashrulecompletedandfailed:378roundtrips,grossannualmean4.43%,5bps-3.95%,10bps-12.33%;risklimitandbootstrapgatefail. Preservednativeeffectseparately;P46selectednext.
+Evidence: p45_strategy_001/registration.json, p45_strategy_001/results.json, p45_strategy_001/INTERPRETATION.txt
+Next step: AuditP46authorfulltext anddatedsentiment/nativeportfoliosbeforetesting; do notretuneP45failedrule.
+
+CYCLE 59 UPDATE
+Meaningful progress: True
+Recovered P46authorfullpaper, archived2015annual/monthlyworkbook andpinned2020Frenchmonthlysizeportfolios. Detectedmaterialsentimentyearclassificationrevisions; identified(old)columnsasthree-proxyseriesnotoriginalvintage. NativeconditionalMEtargetaudited,nooutcomes.
+Evidence: p46_audit/source_checks.json, p46_audit/sentiment_source.json, p46_audit/PREDICTOR_AUDIT.txt, p46_audit/TARGETS.txt, p46_audit/portfolio_source.json
+Next step: Seekpaper-eraauthorannualsentimentversion; auditFrenchEWsizeportfolioeligibilityandoriginalsamplebeforefreezingpartialconditionalspreadtest.
+
+CYCLE 60 UPDATE
+Meaningful progress: True
+P46nativeconditionalMEeffectapproximatelyreproduced1.764pp/monthvs1.71,CIpositiveallwholeyearblocks.001inputcoverageabortpreserved;002primaryunchangedandsecondarylimitedtoavailable1966+. NextETFtransfer.
+Evidence: p46_partial_001/ABORTED_INPUT_CHECK.txt, p46_partial_002/registration.json, p46_partial_002/results.json, p46_partial_002/INTERPRETATION.txt
+Next step: AcquireboundedIWM/SPYearlyETFhistory, auditannualsentimentcoverage andpublicationtiming; registerfixedconditionalETFsizecontrastbeforeoutcomes.
+
+CYCLE 61 UPDATE
+Meaningful progress: True
+RegisteredP46ETFtransfercompleted:conditionalcontrast.198pp/month,below.25minimum;allwholeyearbootstrapCIcross0,p.265-.300. Setasideinconclusivewithouttuning;P08momentumvolatilitymechanismselectednext.
+Evidence: p46_etf_001/registration.json, p46_etf_001/results.json, p46_etf_001/INTERPRETATION.txt
+Next step: AuditP08originaleffect,publishedmethods and datednativefactorinputs/costassumptionsbeforeoutcomes; preserveP24failedbridgeasdistinct.
+
+CYCLE 62 UPDATE
+Meaningful progress: True
+RecoveredP08authorerrata correctingturnoverformula andpinnedpre2024monthly/dailymomentuminputs. Authorreplicationlink404; fullmethodsnotyetrecovered. Preservedpreciseaccessfailures; noP08outcomes.
+Evidence: p08_audit/ERRATA.txt, p08_audit/ACCESS_AUDIT.txt, p08_audit/factor_manifest.json
+Next step: Seekarchivedauthorreplicationpackageorprimaryacademicpaper copy; reconcilefactorconstruction,timing,volatilitytargetandcostformula before registration.
+
+CYCLE 63 UPDATE
+Meaningful progress: True
+P08newarchivedauthorrouteverifiedsameunavailablepackage;acceptedmanuscriptmirrorTLSfailureandarchive404 documented. Setasideaccessblockedwithoutempiricalrejection. P14conditionalmomentumselectednext.
+Evidence: p08_audit/DISPOSITION.txt, p08_audit/archive_source.json, p08_audit/manuscript_source.json, p08_audit/manuscript_archive_source.json
+Next step: AuditP14primarymethods and historicalmarket/momentumfactorcompatibility; noP08risk-scalingproxyclaim.
+
+CYCLE 64 UPDATE
+Meaningful progress: True
+P14authorfullmethods revealcohort-specific6monthmomentumCARandentry-marketstate; availableFrench12-2factorwouldtestdifferenthypothesis. Setasideexactmissingstock/cohortinputswithoutproxytest. SelectednewcalendarcandidatefornativeDowdatafeasibility.
+Evidence: p14_audit/source.json, p14_audit/DISPOSITION.txt
+Next step: VerifyP117primaryseasonalanomalypaper; auditthepublishedturn-of-monthtargetandhistoricalDowtimingbeforeanyoutcomes orvariantsearch.
+
+USER MANDATE UPDATE2026-11-25
+10000USD;allinstruments;separateDD50/DD30/DD20goals;papertradesexplicitlyauthorized,liveordersnotauthorized. Do notrestoreoldETF-onlyrestrictionoraskagainforpaperpermission. Userpausepersists. Credential-dependent feasibility reviews prioritized; old failedtestsfrozen.
+
+CYCLE 65 UPDATE
+Meaningful progress: True
+Resumedexpandedgoal; recoveredP40author14pageappendix andidentifiednative1993-2013vsavailable2016+coverage distinction. Preparedallowlistedresearchcheckpointand3emptyrisk-tierleaderboards. GitHubstillauthenticateskuruluu6413,soauthorizedkuruluuremotecreation/push remainsblocked.
+Evidence: p40_audit/appendix_source.json, p40_audit/AUDIT.txt, RESEARCH_MANDATE.json, REPOSITORY_POLICY.txt, STRATEGY_LEADERBOARDS.json, ../../researchlab/checkpoint.py
+Next step: Createverifiedlocalcheckpoint; continueP40singlemechanismregistration/sessiondataaudit. Pushonlytokuruluu/Signal-Autoresearchoncecorrectaccountaccessisavailable.

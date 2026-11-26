@@ -1,0 +1,56 @@
+{
+  "id": "P49_partial_001",
+  "target": "NY Fed August2013 sr512 Appendix Table B.3 size-decile dummy coefficients",
+  "version": "Working-version numerical target. JF2015 text confirms daily size-portfolio result; final Internet Appendix unavailable (publisher403); exact final replication not claimed.",
+  "columns": [
+    "Lo 10",
+    "Dec 2",
+    "Dec 3",
+    "Dec 4",
+    "Dec 5",
+    "Dec 6",
+    "Dec 7",
+    "Dec 8",
+    "Dec 9",
+    "Hi 10"
+  ],
+  "published_coefficient_pp": [
+    0.2,
+    0.4,
+    0.42,
+    0.44,
+    0.46,
+    0.4,
+    0.39,
+    0.39,
+    0.37,
+    0.31
+  ],
+  "sample": [
+    "1994-09-01",
+    "2011-03-30"
+  ],
+  "definition": "100*(log1p(daily value-weighted total return)-log1p(French daily RF)); OLS constant plus same-session scheduled FOMC dummy; HC1 standard errors",
+  "calendar": "Table B.1 included events (132 within sample); retain July1 1998 because missing intraday price is irrelevant to available daily prices. Excluded March26 1996 remains omitted as event but remains an ordinary daily observation. Original daily exclusion handling uncertain.",
+  "sensitivity": "Descriptive only: include March26 1996 as scheduled full-day event, giving133. Cannot rescue primary result.",
+  "numerical_gate": "All10 positive and all10 within0.10 percentage point of published coefficients; approximate fidelity screen not formal equivalence",
+  "uncertainty": "5000 common stationary calendar-month resamples; blocks6/12/24; recompute10 conditional mean contrasts; centered two-sided p and Holm10; percentile95 intervals marginal, not simultaneous",
+  "escalation": "If any Holm p in[.04,.06], repeat all blocks at20000 paths",
+  "robust_daily_gate": "At least8 of10 positive coefficients with positive marginalCI and Holm p<=.05 at every block length; separate from numerical reproduction gate",
+  "limits": [
+    "2020 revised vintage is not original author data",
+    "Daily windows include announcement reaction; no intraday drift attribution",
+    "Conditional resampling is not a trading Monte Carlo or predictive validation",
+    "No execution/cost or subsequent-period results; no usable signal claim"
+  ],
+  "hashes": {
+    "research\\replication_first\\p49_audit\\sr512.pdf": "c7cb0f335c60cb9fc305189935fb7c51e98fa8461c2b33efd51eb5a5c3f2e34b",
+    "research\\replication_first\\p49_audit\\published.pdf": "5044b85e77998c05023d0fd51b47021fef602ff7bef9ba5c0968e7b9388e7364",
+    "research\\replication_first\\p49_audit\\scheduled_events.csv": "346e5ffb0dc7ed744f2dfc62c9fd85b023195ac8c4acf42e247d6fef1c1a25d9",
+    "research\\replication_first\\p52_audit\\Portfolios_Formed_on_ME_daily.CSV": "ba8ca50ef6f510445ecdb7df229f2c6ba03feeb78e484e8ef75b78c3a32cb595",
+    "research\\replication_first\\p52_audit\\F-F_Research_Data_Factors_daily.CSV": "6decccff26f54ddbe04c460e8694ee9a1cffa9120cc1ba3a63c7a20dbf9eb1d2",
+    "researchlab\\p49_reproduction.py": "bfa8b978b00fd27e41318eb482ca3bfad13fff8fd5a5782d0e5053201d63dd7f",
+    "researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64"
+  },
+  "registered_at_utc": "2026-11-25T23:51:04.304980+00:00"
+}

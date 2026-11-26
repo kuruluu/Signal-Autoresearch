@@ -1,0 +1,24 @@
+{
+  "id": "P74_causal_001",
+  "sample": "1994Jan-2014Dec,252months, development already viewed",
+  "training": "Each December fit prior240months, initialvariance.0025; two fixed starts and solver/numerical gates identical to partial reproduction. Refit annually, freeze parameters for12months. Refilter from fixed training start as completed months accumulate.",
+  "timing": "Every training and forecasting conditional variance uses previous completed calendar month logRF, never currentRF. Forecast nextmonth using completed returns only. Revised archival data not point-in-time vintages.",
+  "controls": [
+    "Mean excess log return over previous240completed months",
+    "Constant fitted with inverse conditional-variance weights from same annual model and240training observations; frozen next12months"
+  ],
+  "fallback": "Failed annual numerical gate: both model and weighted control use current rolling240mean for all12months. Invalid individual forecast uses same fallback; retain and score every month. Coverage>=95% required.",
+  "objective": "Both paired squared-error reductions>=1% relative controlMSE; both marginal95CI positive and Holm2 p<=.05 at blocks6/12/24. At least95% model coverage. No coefficient sign restriction or clipping.",
+  "uncertainty": "5000 joint stationary resamples of realized paired monthly loss differences using p73_causal.block_test; escalate20000 if Holm p in[.04,.06]. Conditional on actual learning path, not complete hypothetical-history refitting.",
+  "interpretation": "Forecast research screen only; neither ETF execution nor economic utility. Lagged-bill adaptation differs from original. Failure preserved without changing optimizer/window/threshold.",
+  "hashes": {
+    "researchlab\\p74_causal.py": "1945c27c327b70f3309f7872df2bf6314d4e5f7a9a3768a960cdf4f8b150db92",
+    "researchlab\\p74_forecast.py": "a6dcbd170e0f98e0f823125c53b83a63057bc3da1ac431cf3cf33021dca2fda9",
+    "researchlab\\p74_model.py": "9a005f4e73e7e3a0272627c3460426e4453de7f8a23d47e240143f77440102ed",
+    "researchlab\\p74_reproduction.py": "2dad0b3ca32713c6d583e67eec15a96175271b7cb61d4e1577f4ce05264b6655",
+    "researchlab\\p73_causal.py": "3a1b28e18be557eccf81266de85932756430f98c844535b549bf3907798b110c",
+    "researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370"
+  },
+  "registered_at_utc": "2026-11-26T00:37:33.388868+00:00"
+}

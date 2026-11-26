@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.0",
+  "status": "incomplete_template_not_registered",
+  "experiment_id": null,
+  "stage": "paper_reproduction",
+  "parent_experiment_id": null,
+  "paper": {
+    "catalog_id": null,
+    "doi": null,
+    "version_and_source_hash": null,
+    "target_table_figure_equation_and_pages": null,
+    "reported_estimate_units_and_uncertainty": null
+  },
+  "effect": {
+    "economic_claim": null,
+    "estimand": null,
+    "native_horizon": null,
+    "original_sample_and_universe": null,
+    "input_definitions_and_units": null,
+    "availability_timestamps_and_lags": null,
+    "transformations_filters_and_weights": null,
+    "estimator_controls_and_original_inference": null,
+    "gross_or_net_and_cash_convention": null,
+    "deviations_and_unresolved_ambiguities": null
+  },
+  "replication_decision": {
+    "numerical_tolerance_and_justification": null,
+    "effect_discrepancy_assessment": null,
+    "uncertainty_method": null,
+    "verdict_rules": null
+  },
+  "transfer_or_signal_stage_only": {
+    "status": "not_applicable_until_separately_registered",
+    "changed_dimension_and_parent_effect": null,
+    "causal_signal_definition": null,
+    "primary_economic_objective": null,
+    "minimum_meaningful_improvement": null,
+    "no_signal_sizing_and_exposure_controls": null,
+    "cash_borrow_financing_execution_and_costs": null,
+    "trade_timing_holding_and_exit": null
+  },
+  "statistics": {
+    "null_alternative_and_primary_endpoint": null,
+    "hypothesis_family_and_trial_ledger": null,
+    "multiplicity_method_and_alpha": null,
+    "dependence_and_resampling_design": null,
+    "path_count_seed_block_choices_and_precision_rule": null,
+    "power_or_minimum_detectable_effect": null,
+    "fit_selection_nested_validation_if_applicable": null
+  },
+  "data_and_execution": {
+    "bounded_source_requests_and_vintages": null,
+    "raw_data_code_and_spec_hashes": null,
+    "known_used_history": "All previously inspected history through 2023 is development evidence",
+    "sealed_period": ["2024-01-01", "2025-12-31"],
+    "sealed_access_authorized": false,
+    "engine_capability_check": null,
+    "registration_timestamp_before_evaluation": null
+  }
+}

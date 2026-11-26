@@ -1,0 +1,8 @@
+{
+  "completed_at_utc": "2026-11-25T23:43:58.935992+00:00",
+  "hashes": {
+    "conditional_daily.csv": "b37b2ebcfdf8bf27e166cccd3b8b00a92ed35dd48963011dd80e4b0a0819a991",
+    "registration.json": "b44f8f1215d246d18f24a21f00c58affa00aff92587324882b65ba32c7ad30bd",
+    "results.json": "b616e119c8909ac4ca5698c25553ce54a59aff33de83bd40594a0b528f0f3263"
+  }
+}

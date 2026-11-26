@@ -1,0 +1,33 @@
+{
+  "id": "P82_partial_001",
+  "target": "PublishedTableIII BLL26 meancriterion,1897-1986/1987-1996/1897-1996 jointly",
+  "target_annual_percent": [
+    10.11,
+    8.63,
+    9.39
+  ],
+  "target_white_p": [
+    0,
+    0.154,
+    0
+  ],
+  "inputs": "ThirdpartyhistoricalDowarchive; originalsource/countdifferences unresolved; partialreproduction only. Restrict1897-1996prices first,250observationwarmup,continuousstates across1987boundary.",
+  "rule_definition": "p82_rules.py26rules; VMAneutral insideband; FMAentry into nonzero bandstate triggers10sessionhold,eventsignored whileholding; TRBpriorwindow excludingcurrent,10sessionhold. Ambiguousoriginalstates explicitly assumed.",
+  "performance": "log1p(simpleprice_return*previouscloseposition),nullbenchmark0; nofees/RF/dividends.252*meandailylogreturn,notCAGR. Originalfamily26only,not7846.",
+  "bootstrap": "5000 common stationary daily-index resamples of fixed26performancevectors; q.1,seed82001; centered maxmean WhiteRealityCheck, finitecorrection(1+exceedances)/(B+1). Nominal pfor observedbest only. No future rule selectionfor trading.",
+  "gates": "Approximate numerical match if all3bestannualmeanswithin2percentagepoints and historical2Whitep<=.05,laterWhitep>.05. Unmatched means or inference=>inconsistentpartialimplementation; no retuning. This is replication criterion,not signal usefulness.",
+  "limits": [
+    "PriorP50alreadyinspectedDowperformance",
+    "Noindependentconfirmation",
+    "NoETFexecutableclaim",
+    "OriginalB500versusour5000paths;MCuncertaintydisclosed"
+  ],
+  "hashes": {
+    "researchlab\\p82_reproduction.py": "b65a1922fc5c5dc3f2ca691956da3bab75c36494b0b10e69a1ccabe9a515167d",
+    "researchlab\\p82_rules.py": "90f4d0e3c75098b8e6de0766d721069c4921b5ec82c337b26905edd7a8ec44c0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p50_audit\\DJIA.csv": "53c3cba20c29c1a26b55f6388cd695b181b58c62e5ea9e2180f007bfa708b081",
+    "research\\replication_first\\p82_audit\\published.pdf": "4f0292c3d3adea992cfa55014b363840254143f18e7908021ed2109d5a4d7a54"
+  },
+  "registered_at_utc": "2026-11-26T00:55:53.581433+00:00"
+}

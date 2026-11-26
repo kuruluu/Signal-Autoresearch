@@ -1,0 +1,10 @@
+{
+  "completed_at_utc": "2026-11-26T00:07:12.014451+00:00",
+  "hashes": {
+    "progress.json": "b6d7bdfd5aa79be9e0acee164ee676ee2f21db6ff7a861fc43453c39ed2b4571",
+    "registration.json": "aef55272765aa6071542e2838c567b42f08c5047c7814e677571fa9452040ff9",
+    "results.json": "a0264c0788a1471c67fda36218e48929c89e09efd67cc256a4105fe1e331e283",
+    "return_forecasts.csv": "9eaf68affc0b30e85afc11db6847e63c14d32fa592d2ec287a06907c733680e7",
+    "volatility_forecasts.csv": "c644e96aa2784dc3d4547fcc183c358c2d47a77ff5f582b276ac002d4550f792"
+  }
+}

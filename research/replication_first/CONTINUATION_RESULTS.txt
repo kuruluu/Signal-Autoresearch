@@ -1,0 +1,15 @@
+SEQUENTIAL CONTINUATION — 2026-11-22
+
+Ran three further research cycles, P65 then P36 then P37. No new backtests, Monte Carlo results or successful signals were generated. The useful new result is a better source/method audit, not empirical validation.
+
+Cycle 6: recovered P65's author-linked published PDF and visually checked its descriptive and forecasting methods. They deliberately differ: the descriptive outcome uses future demeaning; the forecasting procedure uses past-fitted raw returns. Required original stock histories remain unavailable locally. Marked data-blocked.
+
+Cycle 7: checked P36 author/journal routes and later manuscript availability. No usable original primary-market inputs recovered; final-paper reconciliation remains unresolved. Marked data/version-blocked and advanced.
+
+Cycle 8: inspected P37's official accessible-materials ZIP. It contains publication/figure representations, not source observations or replication code. Required trades, quotes, baskets and NAV data remain unavailable. Marked data-blocked.
+
+STOPPED: no meaningful new usable input in the final cycle and no feasible remaining action in the current priority queue. This does not mean every one of the 100 catalog candidates has been exhaustively investigated. The run did not launch a scheduled background process.
+
+Next work must start from a concrete data-access route or a prospectively chosen, feasible remaining catalog candidate. Keep one paper active; do not choose it by prior backtest profitability. Do not reopen the failed P24 bridge by retuning. All 2024-2025 final observations remain sealed, and prior empirical artifacts remain frozen.
+
+Evidence: p65_audit/AUDIT.txt and manifest.json; P36_DISPOSITION.txt; p37_audit/AUDIT.txt and manifest.json; cycles.jsonl; paper_queue.json.

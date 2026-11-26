@@ -1,0 +1,112 @@
+{
+  "id": "P73_causal_001",
+  "sample": [
+    "1938-01",
+    "1984-12"
+  ],
+  "months": 564,
+  "coverage": 0.2570921985815603,
+  "volatility_missing": 12,
+  "model_mse": 0.002117812958818976,
+  "control_mse": [
+    0.0020851455002905838,
+    0.002098871320841435
+  ],
+  "relative_mse_improvement": [
+    -0.015666752523428196,
+    -0.009024678068376035
+  ],
+  "mean_loss_differences": [
+    -3.2667458528392885e-05,
+    -1.894163797754286e-05
+  ],
+  "bootstrap": [
+    {
+      "block_months": 6,
+      "paths": 5000,
+      "ci95": [
+        [
+          -9.53780189989306e-05,
+          1.3081246373728086e-05
+        ],
+        [
+          -4.9907873165854475e-05,
+          5.32217482810231e-06
+        ]
+      ],
+      "centered_two_sided_p": [
+        0.24055188962207558,
+        0.17456508698260348
+      ],
+      "holm_p": [
+        0.34913017396520696,
+        0.34913017396520696
+      ],
+      "p_mc_se": [
+        0.006044007743074557,
+        0.0053677426303505625
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 5000,
+      "ci95": [
+        [
+          -0.00010564599904283037,
+          1.4768993227957955e-05
+        ],
+        [
+          -5.3211477010174886e-05,
+          6.017773853535079e-06
+        ]
+      ],
+      "centered_two_sided_p": [
+        0.28314337132573486,
+        0.19536092781443712
+      ],
+      "holm_p": [
+        0.39072185562887424,
+        0.39072185562887424
+      ],
+      "p_mc_se": [
+        0.006370755309644477,
+        0.005606489150570506
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 5000,
+      "ci95": [
+        [
+          -0.0001037072376825203,
+          1.36751540407492e-05
+        ],
+        [
+          -5.207802207517498e-05,
+          4.379307072812128e-06
+        ]
+      ],
+      "centered_two_sided_p": [
+        0.2917416516696661,
+        0.19016196760647872
+      ],
+      "holm_p": [
+        0.38032393521295743,
+        0.38032393521295743
+      ],
+      "p_mc_se": [
+        0.006427863454090121,
+        0.005549226968913035
+      ]
+    }
+  ],
+  "predictive_gate": false,
+  "tradable_signal_validated": false,
+  "limitations": [
+    "Same1928-1984 source already inspected: causal timing does not make it untouched",
+    "Monthly mechanism does not match desired days-long holding yet",
+    "Broad-market dependent series differs from originalNYSE, and original daily GARCH-in-mean route remains untested",
+    "No costs,ETF fill or investment utility claim; predictive gate is research screen only"
+  ],
+  "uncertainty_scope": "5000 common stationary monthly resamples of two realized paired squared-loss difference series, seed73101+block; repeat20000 if any Holm p in[.04,.06]. Conditions on recursively produced forecast/loss path; does NOT refit whole learning algorithm or reproduce estimation uncertainty across hypothetical histories. Model refitted60months at every actual decision."
+}

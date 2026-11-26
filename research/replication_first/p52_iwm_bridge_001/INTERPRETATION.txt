@@ -1,0 +1,12 @@
+P52 IWM TRANSLATION — FAILED REGISTERED USEFULNESS GATE
+Evaluation 2011-2019; calibration 2008-2010; 50-session signal fixed throughout.
+
+Matched-period diagnostics: gross French Q1 MA-minus-TSMOM mean return is -0.2613 percentage points/year; IWM close-to-close counterpart is -0.4245. The historical advantage already disappears in the source portfolio over this period. Do not attribute the failure solely to changing instruments or introducing costs.
+
+Next-session-open execution, 5 bps per side: MA-minus-TSMOM is -0.5774 pp/year; MA-minus-past-calibrated-exposure control is -4.9021 pp/year. At 10/20 bps both contrasts worsen. All three registered gates fail. MA CAGR is 1.30%, TSMOM 1.85%, exposure control 6.50%, full IWM 10.22%. Arithmetic mean differences and CAGR are different statistics.
+
+Supplemental joint stationary bootstrap escalated to 20,000 paths under the registered near-threshold rule. At 12-month blocks, annualized MA-minus-TSMOM interval is [-3.4466, 2.2433] pp/year, Holm p=1.0. The exposure-control difference interval is [-8.7447, -0.9707], but its six-test Holm p=0.0524; do not confuse marginal percentile intervals with simultaneous inference. No positive usefulness finding.
+
+Constraints: synthetic revised adjusted-price units; assumed all-in costs, not observed spreads; realized daily cash approximation for open-to-open intervals; monthly grouping by entry session; no intraday drawdown/fill-capacity claims. Exposure control calibrated to 58.39% IWM, while MA actual entry exposure averaged 67.98%; it is not an ex-post risk match. Original smallest-stock portfolio differs from Russell 2000. All evaluation history is development evidence, not fresh confirmation.
+
+Disposition: set aside this P52 ETF signal. Historical partial reproduction remains informative, but it did not yield a useful tested ETF rule. Do not search alternate lookbacks, sample cuts or objectives to rescue this branch. Any future reopening requires materially new evidence or a demonstrated error and a distinct registration.

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "registration.json": "12e039b12e17f41e78b027a92ace7f347f500570554c57f95ca2df0d627bf361",
+    "results.json": "eca11d7ac704e130e69e80be0d464faf16388ee9feeb0131aa3b7c6bb4d062b5",
+    "INTERPRETATION.txt": "4103910789b277000e29dc7409efe104424c29cad39373d24b1d34c4fa1f7e86",
+    "account_0bps.csv": "1ad454909cdee05079e4589afdadb04af7ed9d5ef40956da3a040433e20cc7ad",
+    "account_5bps.csv": "2c477a83b8b14870183b9cd4e920ecdae100349101445ca191c692e2cd517d4e",
+    "account_10bps.csv": "d33756cbbe063799eaf99b7bf152d3bd16cb4f0583c8c05e501c4c9604dddad2",
+    "trades_0bps.json": "ba5da5a03942ba9018a2fa8882c9d1a9bea19eaa6fbe65c1ad29ab84d0354bf3",
+    "trades_5bps.json": "e09fa83e5092fbe661811bd9fc03055844bbedca23c999a89e6436b4fda9964e",
+    "trades_10bps.json": "6510a614c4eaaa76a43886d1970c8656cca1f5ca92579a9c60e2e06536b27519"
+  },
+  "gate_passed": false,
+  "signal_validated": false
+}

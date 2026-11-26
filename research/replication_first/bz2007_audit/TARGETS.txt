@@ -1,0 +1,4 @@
+BZ2007: Expected Stock Returns and Variance Risk Premia, Bollerslev and Zhou, March2007 FEDS2007-11. Separate from P47.
+Official historical table228months1990-01 through2008-12. AllIV-RV identities pass rounding tolerance. Quarterends1990Q1-2005Q1 N61 match Table1 means21.40/36.30/14.90 within.002. No return outcomes computed.
+Native Table2 target: lagged quarterend predictor, annualized quarterly logarithmic S&P500 excess return relative to3monthbill; slope.86, intercept-12.19, NW4 t3.94, adjustedR2 15.14%. Need reconcile sample lag endpoints (table61quarters but predictor startsJanuary1990), exact bill definition and underlying index return series before registration. Means match is data provenance evidence, not predictive validation.
+Potential causal development test must use prior-only fits and nonoverlapping quarters; quarterly horizon may not meet desired days-long holding preference. No ETF signal promotion without separate executable bridge.

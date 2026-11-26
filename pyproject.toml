@@ -1,0 +1,19 @@
+[project]
+name = "etf-paper-lab"
+version = "0.1.0"
+description = "Auditable Alpaca ETF forward-testing runner"
+requires-python = ">=3.11"
+dependencies = ["tzdata>=2025.1; sys_platform == 'win32'"]
+
+[project.optional-dependencies]
+research = ["numpy>=2", "pandas>=2.2", "exchange-calendars==4.13.3", "pypdf>=5", "fonttools>=4"]
+
+[project.scripts]
+etf-paper = "paperlab.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["paperlab*", "researchlab*"]

@@ -1,0 +1,39 @@
+{
+  "n": 36,
+  "coverage": 1.0,
+  "model_mse": 1287.6103184473761,
+  "historical_mean_mse": 1384.2973765427287,
+  "relative_mse_improvement": 0.06984558356733128,
+  "bootstrap": [
+    {
+      "mean_block_quarters": 2,
+      "ci95": [
+        -86.49300303498755,
+        308.1010414068948
+      ],
+      "one_sided_centered_p": 0.17328267173282672
+    },
+    {
+      "mean_block_quarters": 4,
+      "ci95": [
+        -92.61019758222152,
+        302.5924328357876
+      ],
+      "one_sided_centered_p": 0.18088191180881913
+    },
+    {
+      "mean_block_quarters": 8,
+      "ci95": [
+        -91.6398787295051,
+        294.3474496108939
+      ],
+      "one_sided_centered_p": 0.1663833616638336
+    }
+  ],
+  "later_period": {
+    "n": 15,
+    "relative_mse_improvement": 0.025725068855275146
+  },
+  "passes_gate": false,
+  "scope": "Prior-only numerical development forecast test; no executable signal validated."
+}

@@ -1,0 +1,11 @@
+{
+  "n": 60,
+  "first": "1990Q2",
+  "last": "2005Q1",
+  "intercept": -14.376197696007445,
+  "slope": 0.860228235756866,
+  "hac_t": 3.9512440295359035,
+  "adjusted_r_squared": 0.1514373885675082,
+  "approximate_match": true,
+  "scope": "Partial numerical reproduction; no out-of-sample or executable signal claim."
+}

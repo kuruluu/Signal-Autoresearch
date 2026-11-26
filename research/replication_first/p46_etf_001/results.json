@@ -1,0 +1,45 @@
+{
+  "n": 132,
+  "high_months": 60,
+  "low_months": 72,
+  "small_minus_large_low": 0.4768988979480646,
+  "small_minus_large_high": 0.27904452717749934,
+  "contrast_pp_month": 0.19785437077056528,
+  "bootstrap": [
+    {
+      "block_years": 1,
+      "valid_fraction": 0.9984,
+      "invalid_draws": 16,
+      "ci95": [
+        -0.5476088663072113,
+        0.9086782664407078
+      ],
+      "p": 0.300050075112669,
+      "p_mc_se": 0.004586464848818771
+    },
+    {
+      "block_years": 2,
+      "valid_fraction": 0.9995,
+      "invalid_draws": 5,
+      "ci95": [
+        -0.5213739648021657,
+        0.8061550255296157
+      ],
+      "p": 0.2916166466586635,
+      "p_mc_se": 0.004546204107925361
+    },
+    {
+      "block_years": 3,
+      "valid_fraction": 0.9999,
+      "invalid_draws": 1,
+      "ci95": [
+        -0.4842124118575347,
+        0.7649218498576502
+      ],
+      "p": 0.2649,
+      "p_mc_se": 0.004413020108117282
+    }
+  ],
+  "passes_gate": false,
+  "scope": "ETFconditionalassociationdevelopmenttest, not trading signal."
+}

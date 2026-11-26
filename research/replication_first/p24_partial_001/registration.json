@@ -1,0 +1,38 @@
+{
+  "registered_before_run_unix": 1795337060.5867915,
+  "spec": {
+    "id": "p24_partial_001",
+    "stage": "partial_paper_reproduction",
+    "paper": "10.1111/jofi.12513",
+    "source": "research/fulltext/P24.pdf, PDF page 9, Table I Panel A column Mkt; equations 1-3 on pages 6-7",
+    "target": {
+      "alpha_annual_pct": 4.86,
+      "alpha_se_annual_pct": 1.56,
+      "beta": 0.61,
+      "beta_se": 0.05,
+      "r_squared": 0.37,
+      "n": 1065
+    },
+    "sample": "August 1926 through April 2015; exact endpoint inferred from 1065 observations starting after July 1926 variance. Not independently certified from author replication code.",
+    "data": "Monthly French July-2015 archive; daily CRSP vwretd minus French RF in author teaching snapshot from April 2021, ending December 2020. Not the original daily FF market-factor vintage.",
+    "estimator": "Monthly factor excess return divided by prior calendar-month daily excess-return variance (population denominator). Full-target-sample standard-deviation normalization for descriptive reproduction only. OLS managed excess return on original factor and constant.",
+    "inference": "HC1 primary, HC0 and Bartlett Newey-West six monthly lags sensitivity. Paper states heteroskedasticity adjustment but not exact finite-sample variant.",
+    "primary_endpoint": "Annualized alpha; beta, SE, R-squared and N are replication diagnostics, not independent discoveries.",
+    "fixed_sensitivities": [
+      "ddof1 daily variance with HC1",
+      "ddof0 with HC0",
+      "ddof0 with HAC6"
+    ],
+    "decision": "At best partial reproduction: known data mismatch precludes exact. Numerically close if N=1065, alpha within 0.50 pp/year, beta within .05, alpha SE within .25 pp/year and R2 within .05. These are descriptive approximation tolerances, not equivalence tests. Otherwise mark inconclusive discrepancy unless audited exact inputs support inconsistency.",
+    "tolerance_reason": "Approximately 10% of reported alpha, 8% of beta and 16% of alpha SE; fixed practical diagnostics for known data differences, not rounding tolerances.",
+    "power_note": "Normal 80%-power two-sided alpha MDE approximated by (1.96+.84)*robust SE; descriptive precision only, data-dependent.",
+    "tradeability": "No fees, leverage limits or causal scaling normalization. No economic signal verdict or fresh confirmation.",
+    "inputs": {
+      "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74",
+      "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370",
+      "research\\fulltext\\P24.pdf": "9c0c8f7c669e9205847548edd3a7a46d5f175733db62b14937a2ba93641a5a34"
+    },
+    "code_sha256": "94fe7b54006f60618396d3e124f1324d734fef559429671287f93a48d9dc4b53",
+    "final_access": false
+  }
+}

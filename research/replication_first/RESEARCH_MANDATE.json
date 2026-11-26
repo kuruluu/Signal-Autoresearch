@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "effective_local_date": "2026-11-25",
+  "objective": "Discover and independently validate reproducible executable market edges across any instrument and holding period.",
+  "initial_capital_usd": 10000,
+  "instrument_scope": "All instruments allowed for research, including stocks, ETFs, options, futures, FX and crypto; verify provider coverage, account eligibility and implementation support for each. Shorting and leverage require explicit strategy-level financing, borrow and margin specifications.",
+  "ranking_objective": "For each risk tier, seek the highest robust net compound annual growth rate (CAGR) among eligible strategies; require appropriate benchmark/exposure comparisons and evidence of a reproducible edge, not just the largest backtest return.",
+  "drawdown_definition": "Peak-to-trough decline of total marked-to-market strategy equity after costs and liabilities, relative to its running high-water mark. Measure intraday when data permit; disclose coarser sampling, which can miss deeper drawdowns.",
+  "risk_targets": [
+    {
+      "id": "DD50",
+      "maximum_drawdown": 0.5
+    },
+    {
+      "id": "DD30",
+      "maximum_drawdown": 0.3
+    },
+    {
+      "id": "DD20",
+      "maximum_drawdown": 0.2
+    }
+  ],
+  "capital_interpretation": "Each tier is an independent10000USD counterfactual account. Maintain separate shadow ledgers; do not interpret as30000USD authorized capital or combine conflicting orders.",
+  "risk_evidence": "Evaluate observed and resampled/path-dependent drawdown distributions, net returns, uncertainty, stressed costs, financing, liquidity and margin. Do not claim an observed/simulated drawdown cap guarantees future losses remain below that cap. Fix risk overlay and any drawdown breach rule before evaluation.",
+  "paper_trade_authorization": {
+    "authorized": true,
+    "authorized_by_user": "You may also run paper trades on my account",
+    "mode": "Alpaca paper endpoint only",
+    "aggregate_research_capital_usd": 10000,
+    "rules": [
+      "Use a registered strategy and supported validated execution/accounting code.",
+      "Reconcile positions, open orders and buying power before acting; preserve unrelated account activity.",
+      "Attribute all paper trades to a strategy and risk tier; keep other tiers in shadow ledgers or isolated paper accounts.",
+      "Paper fills alone do not validate an edge; independently account for omitted fees, dividends, borrow and execution effects."
+    ]
+  },
+  "live_trade_authorization": false,
+  "sealed_market_observations": [
+    "2024",
+    "2025"
+  ],
+  "autonomous_run_status": "active_until_user_pause_or_stop",
+  "resume_condition": "Activeusergoal2026-11-26",
+  "research_policy": [
+    "One paper or registered hypothesis branch at a time.",
+    "Prefer exact/partial native reproduction when inputs exist. If unavailable but methods are sufficient, allow a separately preregistered contemporary mechanism test, explicitly not an original-paper replication.",
+    "Native descriptive reproduction, target-market transfer and executable economic validation remain distinct.",
+    "Do not retune failed registered tests. Materially different paper-supported branches need a new registration and disclosure of prior outcomes.",
+    "Reaudit access-blocked papers against newly verified Alpaca endpoints; distinguish credentials from historical coverage, universe, methods and proprietary inputs.",
+    "Maintain a trial ledger and multiplicity control across searched strategies and all three risk tiers; do not cherry-pick the winning tier after outcomes.",
+    "Lock model selection/risk scaling on development data, then validate on a registered fresh period; no sealed data release without user instruction."
+  ],
+  "repository": {
+    "owner": "kuruluu",
+    "name": "Signal-Autoresearch",
+    "checkpoint_policy": "Commitandpushnotableresearchprogressincludingmeaningfulfailures;excludecredentials,restrictedrawdataandthirdpartypapertext",
+    "remote_status": "Pendingcorrectaccountaccess;connectorstillkuruluu6413"
+  }
+}

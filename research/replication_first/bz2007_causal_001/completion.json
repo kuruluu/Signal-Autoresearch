@@ -1,0 +1,10 @@
+{
+  "files": {
+    "registration.json": "ef94db492915bcf9401dcb2fd73c87723631b25645bfe3b3dce21a4514ac4084",
+    "results.json": "fdc838f41578d1c0afda716ab3cd358a7388eb4f26119b10f0b1ba3a6695e9d8",
+    "forecast_panel.csv": "ffbf25d2ab778b77d6739153a5dc6b178cea17dad7c9287d76108c9eb90c0d98",
+    "INTERPRETATION.txt": "41904660c1093ca6b57d4a7c63f545878e36885695f92723dd0a4d3fb86ac23f"
+  },
+  "gate_passed": false,
+  "signal_validated": false
+}

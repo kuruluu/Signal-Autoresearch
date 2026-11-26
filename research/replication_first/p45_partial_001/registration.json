@@ -1,0 +1,26 @@
+{
+  "id": "P45_partial_001",
+  "registered_at": "2026-11-26T01:22:01.985053+00:00",
+  "primary": "Published Table2col4 FEARS coefficient.00409,bootSE.00137,N1889",
+  "response": "Simple compounded S&P price return from close_t through close_t+2, session horizons, no weekend calendar shift",
+  "controls": "Constant; FEARS30; contemporaneous VIX level; calendar-day first difference EPU and ADS; current simple return and5sessionlags",
+  "sample": "Author FEARS dates2004-07-01 through2011-12-30; intersect complete controls and availablefuture2; expected1889pairs",
+  "inference": "5000pairedstationaryrow bootstrap fits each block5/10/20sessions, seeds45005/45010/45020; fixed source index; modern dependence inference, not exactauthor unspecifiedbootstrap",
+  "approximate_gate": "coefficient within.0015 of.00409 and block5SE within.0007 of.00137; positiveeffect robust only if all3CI95lower>0",
+  "deviations": [
+    "2012EPU and2013ADS archival vintages; YahooSPX/VIX history not originalauthor inputvintage",
+    "Originalbootstrapspecification unspecified; modernstationarypairedbootstrap declared",
+    "Cumulative return assumedcompound; macro changes takenonecalendarday, notmarket-sessiongap; definitions needauthorcode for exactclaim"
+  ],
+  "execution_caveat": "FEARSday ends midnightPacific after marketclose. This regression includes return intervals before fullsignal availability; no causal or tradableclaim. Macrocontrols retrospective.",
+  "files": {
+    "researchlab\\p45_reproduction.py": "cd3a345811f94a46ee4af624337b2150069a14f6561f0516c3044ac836e56ee6",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p45_audit\\published.pdf": "0f7335dfcf0b4986b91dfb5b4754c63bd19b9fe88c33eb32995c452970dcd4bf",
+    "research\\replication_first\\p45_audit\\fears_post_20140512.csv": "31241018df935a879d989c28e0c314eea7d86adab2241705d8907649b75164a2",
+    "research\\replication_first\\p45_audit\\GSPC_2004_2011.json": "a080e360dfd7d0e6c8ac8f93db17c4f83dc7eeb77e9bdf070633c747176da3bf",
+    "research\\replication_first\\p45_audit\\VIX_2004_2011.json": "f93081f592644f193adafb08aba5fa4a5cfc60da9dfb235d5f0f1b5ab9fc8c11",
+    "research\\replication_first\\p45_audit\\EPU_archive_20120826.csv": "e4250f22a9063e91cb759d99a685abe3970aa5df4f6fb9fb8e829a8e9f4e8446",
+    "research\\replication_first\\p45_audit\\ADS_20130110_2004_2011.csv": "b0e3f3a256b82f3d919c9aa81a0190726fc1854b077eb485506a62abf747b0e8"
+  }
+}

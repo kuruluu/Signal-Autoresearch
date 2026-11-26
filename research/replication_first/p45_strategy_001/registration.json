@@ -1,0 +1,21 @@
+{
+  "id": "P45_strategy_001",
+  "registered_at": "2026-11-26T01:26:45.043923+00:00",
+  "sample": "2007-07-02 through2011-12-30, previouslyvieweddevelopment; initial100000cash, no fittedparameters",
+  "rule": "Whenflat atopen, previousmarket-sessionFEARS30>0 buysSPYallcash; exitatcloseofsecondholdingsession; ignoreinterveningsignals, noleverage/shorts; noentryifinsufficientexitbars",
+  "accounting": "Rawopens/closes,fractionalshares,adversefillcostperside0/5/10bps; dividendexdateentitlementfrompreviousclose, creditedcashsameexdate (paydatelagapproximation); cashyieldzero; rejectsplits;terminalflat",
+  "controls": "cash and fixed50%SPY/50%cash constantmix, usingrawclose-to-close totalreturns incldistributions; controlignoresrebalancingfees, makingcomparisonharder; fullSPYbuyholdreporteddiagnostic",
+  "primary": "At5bpsperside:annualizedmean dailyreturnadvantage over50%control>=2percentagepoints andpositiveCI95allblocks5/10/20 andone-sidedcenteredp<=.05; netmeanabovezero; strategyvol<=1.25controlvol. Also10bpscase mustmeanoutperformcontrol,notseparateprimaryclaim.",
+  "inference": "10000pairedstationarydailyreturnpaths perblock5/10/20, seeds45905/45910/45920; conditionalfixedstrategyreturns,no fullhistoryresimulation; annualmeans252,notCAGR. ReportpMonteCarlostandarderror; ifpwithin2SEof.05,100000same-seedpathsforblock.",
+  "limitations": [
+    "HypotheticalFEARSavailabilitybynextopen; actualpostingtimeandretrospectivenormalizationunverified.",
+    "Rawvendorhistoricalopens are reportedauctionprices, noorderbook/liquidityreconstruction; coststressassumptionnotexactfills.",
+    "No livebrokerorders,no2024-2025data,no independentconfirmation; desiredobjectiveeconomicincrementalreturn,notjustvolatilityreduction."
+  ],
+  "files": {
+    "researchlab\\p45_strategy.py": "1832783bce952910add91b40b87f5731a48891ecc7b6ad280616e1ee0897a45a",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p45_audit\\SPY_2004_2011.json": "17a63a072961ca9dc5c89138bc9f7d2c5f02bd2c74767ab4be05dc9ac11db16b",
+    "research\\replication_first\\p45_audit\\fears_post_20140512.csv": "31241018df935a879d989c28e0c314eea7d86adab2241705d8907649b75164a2"
+  }
+}

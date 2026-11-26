@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.egg-info/
+state/
+reports/
+Stock-Portfolio/
+.research-deps/
+research/fulltext/
+research/data/
+research/source_fetch.log
+research/replication_first/p73_audit/STKDATD.DAT
+research/replication_first/p73_audit/stkdatd.zip
+research/replication_first/p73_partial_001/monthly_panel.csv
+research/replication_first/p73_causal_001/volatility_forecasts.csv
+research/replication_first/p73_causal_001/return_forecasts.csv

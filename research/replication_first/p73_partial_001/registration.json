@@ -1,0 +1,40 @@
+{
+  "id": "P73_partial_001",
+  "target": "JFE1987 Table1 fullsample volatility and Table4 PanelA monthly regressions, Feb1928-Dec1984 N683",
+  "deviations": [
+    "Monthly dependent return: July2015 French broad-market Mkt-RF instead of original NYSE-only CRSP less original bill yield",
+    "S&P capital-gain series combines Schwert1990 author data throughJuly2 1962 with Yahoo daily closes thereafter; revised price vintage and rounding",
+    "Exclude Jan3 1928 Dow-composite return; January1928 volatility has only S&P observations fromJan4",
+    "Modern exact state-space Gaussian MA estimation/initialization may differ from original estimator"
+  ],
+  "definition": "Within-month sum(r^2)+2sum(adjacent products), no demeaning/cross-month products/clipping. 684 monthly sigma values.",
+  "forecast": "ARIMA(0,0,3) plus constant fit to683 first differences of log sigma, enforce invertibility, statespace maximum likelihood maxiter1000. One-step fitted difference plus prior log sigma. Fullsample parameters intentionally descriptive, not causal trading.",
+  "correction": "MA innovation sigma2; E[sigma]=exp(logprediction+.5sigma2); E[variance]=exp(2logprediction+2sigma2)",
+  "regressions": "Table4 equations6 and7 for both sigma and variance; constant; divide all X and y rows by predicted sigma. HC0 matches White asymptotic estimator, HAC12 additional diagnostic. No selection among four regressions.",
+  "target_values": {
+    "sigma_mean": 0.0474,
+    "sigma_sd": 0.0325,
+    "predictable_sigma_beta": 0.023,
+    "predictable_variance_beta": 0.335,
+    "surprise_sigma_gamma": -1.01,
+    "surprise_variance_gamma": -4.438
+  },
+  "gate": "Approximate partial numerical reproduction iff sigma mean and sd each within.003, equation6 sigma beta within.15 and variance beta within1.5, equation7 sigma gamma within.25 and variance gamma within1.5; both gammas negative. Tolerances account for altered inputs, not formal equivalence or investment success.",
+  "inference": "Descriptive HC0 and HAC12 condition on generated forecasts; no full-model bootstrap claim. No Monte Carlo trading inference in this stage. Later causal forecast test must be separately registered and account for parameter estimation.",
+  "promotion": "Passing descriptive reproduction never validates a signal. Before ETF work register strictly causal forecast/persistence test; same-month volatility surprises forbidden as earlier predictors.",
+  "failure": "If optimizer fails convergence or variance nonpositive, record problem without tuning specification or clipping.",
+  "dependencies": {
+    "statsmodels": "0.14.6",
+    "patsy": "1.0.2",
+    "scipy": "1.16.3"
+  },
+  "hashes": {
+    "research\\replication_first\\p73_audit\\STKDATD.DAT": "4b052585e1dfc146eb3c2fcdf71664ed85e264920b983b6d131971190f2bd451",
+    "research\\replication_first\\p73_audit\\spx_1962_1984.json": "6b0850d01c1315784c3f7b1ee09625df3f5c8cc20e1952b727dc6c53a14185a8",
+    "research\\replication_first\\p73_audit\\published.pdf": "20e0920262810eea70edb30e2be894655fd0ce80ca119ae3250b51d11d16669f",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370",
+    "researchlab\\p73_reproduction.py": "23c8c0a465ee9f884431ca3297355d84365b468668d5aa43e1a5eaf094c16c32",
+    "researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64"
+  },
+  "registered_at_utc": "2026-11-26T00:01:20.401479+00:00"
+}

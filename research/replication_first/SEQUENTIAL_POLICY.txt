@@ -1,0 +1,36 @@
+CURRENT STATUS2026-11-26: ACTIVEunderusergoal. Supersedespriorpauseheaders.10000USD;allinstruments;DD50/DD30/DD20;papertradesauthorized;noliveorders;sealed2024-2025untouched. Commitnotableprogressincludingfailures tokuruluu/Signal-Autoresearchonceaccesspermits. P40soleactive;P117queued.
+
+LATEST USER STATUS: PAUSED. This supersedes earlier resume statements. P40 methods/data reaudit is pending; no orders placed. Resume only on explicit user instruction.
+
+RESUME UPDATE2026-11-25: Useractivatedupdatedgoal. AutonomousresearchactiveunderRESEARCH_MANDATE.json; earlierpausestatementsbelowarehistorical. P40issoleactivepaper;P117queued.
+
+SEQUENTIAL PAPER RESEARCH POLICY
+Effective: 2026-11-22, following the user's instruction to focus on one paper and move on if it does not work.
+
+Work on exactly one active paper at a time. Read HANDOFF.txt, TESTING_SCHEME.md and paper_queue.json before each cycle. Do not expand the literature catalog while an active candidate can be evaluated.
+
+For the active paper:
+1. Audit one specific published effect and the availability of its required data.
+2. Register the effect, implementation, acceptance tolerances and statistical procedure before computing outcomes.
+3. Reproduce the effect at its native horizon. Distinguish exact and partial reproduction from an explicitly unreplicated mechanism test.
+4. If adequately reproduced, evaluate any necessary registered instrument/market transfer, then an executable signal with costs and appropriate controls. A natively tradable effect needs no forced ETF translation.
+5. Record separate reproduction and trading-usefulness verdicts, evidence paths, limitations and the next action. Update the handoff before continuing.
+
+Move-on rules:
+- Failed registered criterion: preserve the result and move to the next paper. Do not rescue it by changing thresholds, sample, objective or parameters after seeing outcomes.
+- Inconclusive: report estimate, uncertainty and power limitations. If no concrete obtainable input can resolve it, set it aside and move on.
+- Blocked: record the exact missing data/method, sources already checked and what would reopen it. Do not repeat exhausted source searches without a new lead. Move to the next paper.
+- Successful reproduction: this is progress toward an ETF bridge, not evidence of a tradable edge. Continue that same paper through the next stage.
+- Successful signal: retain as a development candidate, document independent-validation requirements, and finish its handoff before moving on. Never call it independently confirmed on previously viewed history.
+
+A coding defect may be corrected with an auditable amendment; it is not a reason to change the scientific hypothesis. Preserve failed runs and disclose any outcome already seen.
+
+Reopening a set-aside paper requires a materially new source, a demonstrated implementation error, or a genuinely different paper-supported hypothesis registered as a new branch. A promising secondary metric alone is not sufficient.
+
+Amendment 2026-11-25: user requests continuation until an explicit stop. A no-progress cycle triggers adaptation or selection of another feasible candidate instead of automatic termination. A single failed or data-blocked paper does not stop the queue. Rewording a handoff, rotating paper IDs, repeating searches or rerunning unchanged tests is not meaningful empirical progress. Never invent activity to prolong the loop.
+
+All prior registrations and results remain frozen. The 2024-2025 final observations remain sealed under the existing release rules. No live trading is authorized by this research workflow.
+
+Scope amendment2026-11-25: RESEARCH_SCOPE.txt broadens prospective objective beyond ETFs/long-only/holding-period restrictions. Userpause remains effective; noautomaticresearchcycles. Native replication and executable economic usefulness remain distinct gates. Frozen historical protocols unchanged.
+
+Mandateupdate2026-11-25: RESEARCH_MANDATE.json sets10000USD and50/30/20percentdrawdowntracks. Allinstrumentsandpapertradingauthorized;liveordersnotauthorized. Explicitlyregisteredmodernmechanismtestallowedwhen nativehistoricalinputs unavailable andmethodssufficient; labelunreplicatednativeeffect. Failedoldprotocolsfrozen. Userpausepersists. RevisitaccessblockersusingALPACA_REVISIT_AUDIT.json.

@@ -1,0 +1,59 @@
+{
+  "verdict": "Fails registered persistence gate",
+  "estimate": {
+    "n": 9073,
+    "buy_n": 6521,
+    "sell_n": 2552,
+    "neutral_n": 0,
+    "buy_mean": 0.0001834151596228378,
+    "sell_mean": 0.0006525037103658986,
+    "gap": -0.00046908855074306085,
+    "pooled_t": -1.7369887836009892,
+    "buy_t": -0.7026816042434382,
+    "sell_t": 1.3009410970452684,
+    "buy_std": 0.00829992589075712,
+    "sell_std": 0.017305853005882253
+  },
+  "bootstrap": [
+    {
+      "block_months": 6,
+      "paths": 5000,
+      "gap_95": [
+        -0.0010825752146876254,
+        0.00010636910424398535
+      ],
+      "centered_two_sided_p": 0.12917416516696661,
+      "mc_se": 0.004742693476896183,
+      "conditional_gap_sd": 0.0003066374422173191
+    },
+    {
+      "block_months": 12,
+      "paths": 5000,
+      "gap_95": [
+        -0.0010975479477956602,
+        0.0001190114727129645
+      ],
+      "centered_two_sided_p": 0.13437312537492502,
+      "mc_se": 0.004822732209151541,
+      "conditional_gap_sd": 0.0003125116873598873
+    },
+    {
+      "block_months": 24,
+      "paths": 5000,
+      "gap_95": [
+        -0.001077234955660795,
+        9.141269915420901e-05
+      ],
+      "centered_two_sided_p": 0.11757648470305938,
+      "mc_se": 0.004554810833529783,
+      "conditional_gap_sd": 0.00029898043371531194
+    }
+  ],
+  "eligible_signal": false,
+  "limitations": [
+    "Full calendar years through 2022 deliberately exclude incomplete 2023 and all sealed years",
+    "Historical data and published follow-up findings already inspected: no fresh confirmation claim",
+    "Source switches from Pinnacle to quantmod in 1992; cannot attribute discrepancies solely to economics",
+    "Conditional log-return spread is not realized portfolio return; no costs or ETF implementation"
+  ]
+}

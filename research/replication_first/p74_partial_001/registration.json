@@ -1,0 +1,32 @@
+{
+  "id": "P74_partial_001",
+  "target": "Published TableV Model5-L a1=-6.119 robust t=-2.426; nominal monthly log excess return1951Apr-1989Dec",
+  "deviations": [
+    "July2015 French broad-market return instead of original NYSE-only index; revised Ibbotson bill vintage",
+    "Initialization original unspecified: fixed fundamental variance.0025 first month; score all465months",
+    "Exact original solver/initialization unavailable; declared modern optimizer"
+  ],
+  "transform": "Market simple return=Mkt-RF+RF; y=log1p(market)-log1p(RF); bill=log1p(RF); monthly decimal units",
+  "estimator": "Published Model5-L signed-shock recursion with g2=0; joint Gaussian QML; no clipping; initial variance.0025. Seasonal standard-deviation factors squared in variance.",
+  "solver": "Nelder-Mead scaled coordinates, maxiter3500,xatol1e-7,fatol1e-10; two starts0.9 and1.1 times[.01,-4,-3,.5,25,-.2,.3,.2]; scale[.01,5,3,.5,30,.3,.5,.5]; invalid path penalty1e8",
+  "numerical_gate": "Both successful, improve initial objectives, scaled central gradient at1e-5 <=1e-4, objective difference<=1e-6. Failure => numerically inconclusive; no historical retries.",
+  "inference": "Independent-observation robust QML sandwich, summed Hessian/per-observation scores, scaled derivative steps3e-4 and1e-4; require positive information and allSE relative difference<=5%; no inverse-Hessian-only claims",
+  "numerical_match": "Conditional on numerical gate: a1 negative and abs(a1+6.119)<=3.0; a0 within.01 of.01536;g1 within.15 of-.338. Approximate fidelity screen, not equivalence.",
+  "effect_gate": "a1 negative with robust abs(t)>=1.96 at both derivative steps; separate from numerical match; no signal validated by fullsample result",
+  "other_targets": {
+    "b1": 0.281,
+    "b2": 81.002,
+    "lambda_oct": 0.349,
+    "lambda_jan": 0.299,
+    "loglik": 1279.081
+  },
+  "units_note": "Published b0 scaling label unresolved; fit freely in decimal log-variance units and report without using it as match gate.",
+  "hashes": {
+    "researchlab\\p74_reproduction.py": "2dad0b3ca32713c6d583e67eec15a96175271b7cb61d4e1577f4ce05264b6655",
+    "researchlab\\p74_model.py": "9a005f4e73e7e3a0272627c3460426e4453de7f8a23d47e240143f77440102ed",
+    "researchlab\\qml_covariance.py": "3f1abaec475e136e888b0aef730903a850cd33f09f2dc022d41ec7e361049033",
+    "research\\replication_first\\p24_inputs\\monthly_archive.txt": "71ea6c26c71429883da00786308b40bfd72eea2dbc4cfc89f237d0b793b13370",
+    "research\\replication_first\\p74_audit\\published.pdf": "8c8f93a66d40ffb4e86c2efd67c673e01b2f239f39119f136e1afc3a59a2e182"
+  },
+  "registered_at_utc": "2026-11-26T00:34:43.187762+00:00"
+}

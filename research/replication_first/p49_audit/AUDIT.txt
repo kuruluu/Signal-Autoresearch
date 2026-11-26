@@ -1,0 +1,12 @@
+P49 SOURCE AUDIT - cycle 14, 2026-11-25
+Recovered official NY Fed sr512 August 2013 revision and author-hosted final JF2015 paper (43 pages). Old author /documents/ URL failed; current /files/papers/ URL succeeded.
+Headline effect requires 2pm-to-2pm cum-dividend log excess SPX returns, September 1994-March 2011. Intraday TickHistory/Tickdata inputs and Bloomberg dividends are not available locally. Daily OHLC cannot isolate the headline preannouncement effect.
+Recovered Table B.1 event dates/times, visually inspected PDF page58. Machine extraction:138 scheduled events,6 marked excluded;132 included, with July1 1998 additionally missing from original intraday analysis (131). Preserve missing-observation distinction for daily analysis rather than mechanically dropping it.
+Feasible narrower target: working-paper Appendix Table B.3 daily size-decile regressions Sept1 1994-Mar30 2011, explicitly full-day announcement returns. Inputs are already archived in P52 French size file (2020 vintage). Final published paper pp near cross-sectional section confirms daily size analysis, but final Internet Appendix numeric reconciliation remains pending. This is not yet a reproduction and cannot establish the headline intraday effect.
+Next: reconcile final appendix if obtainable, otherwise explicitly register a working-version partial reproduction of all10 size-decile coefficients. Use log(1+return)-log(1+RF), exact dated dummy, robust SE, joint uncertainty and multiplicity; register tolerances/code hashes before outcomes. No ETF translation until reviewing the result and independent persistence feasibility.
+No P49 numerical outcome calculated this cycle. Follow-up paper qualitative disappearance after2015 has already been seen; any later evaluation is development evidence.
+Sources:
+https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr512.pdf
+https://www.emanuelmoench.com/files/papers/Lucca_Moench(JF2015).pdf
+https://www.emanuelmoench.com/journal-publications
+https://pmc.ncbi.nlm.nih.gov/articles/PMC7525326/

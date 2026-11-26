@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-11-25T23:33:45.809162+00:00",
+  "hashes": {
+    "ma_monthly.csv": "5c2d3a8d2ac0561904ab213b32ec47b8429537a47dc9106fc509ecebe7e7dac0",
+    "registration.json": "9bbafe3418d47eee8da8cdeb684f1f543d62e0fb78da17f2e8827b8493e3c59b",
+    "results.json": "782550ce740d704e3c75d49855cf825ba7a5fa3fda0e3b3668ade8b5aaabbb66",
+    "tsmom_monthly.csv": "f7c9f770fbb090c859a680a716a3885a709c1fb055d3dc605eb082ab3323be98"
+  }
+}

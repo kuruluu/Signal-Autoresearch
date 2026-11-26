@@ -1,0 +1,11 @@
+{
+  "files": {
+    "registration.json": "d3dac6d0a4efc4301a57418d126f78c77a13a2542ed2ddd5cfc1c87a5de024f0",
+    "results.json": "f564d0057d574a5d0f05e3836bdb18fb6f9023246ff8ef71e435dcb8d35f81df",
+    "scored_panel.csv": "4cb41575fc6cf93ba97e16b4950a09c1883926c1aea68e3e799a18a6e2566bcb",
+    "INTERPRETATION.txt": "a6b13442132c5e9ec9ec729a6077ea73f9c8b9cf3b6adb27c6d57bccfa54dbb2"
+  },
+  "approximate_match": true,
+  "positive_effect_robust": true,
+  "executable_signal_validated": false
+}

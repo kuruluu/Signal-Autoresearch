@@ -1,0 +1,10 @@
+{
+  "files": {
+    "registration.json": "394230e84378cdf144673ceea9810efc7c0bd15653190f59ce2fc9a1b0f04899",
+    "results.json": "4b72679b3d4479c8c08c98f2ec4bc649346c8482120f106f7f149ffff150badb",
+    "scored_panel.csv": "d396e87451972d3f60fb3ebcfc2474a3fc643eab30069a2e85e3adc8122d5f48",
+    "INTERPRETATION.txt": "f07b52fdb2394e2f167c8087b70a5ac0d7aa8acc5f96597a553b12862f7758ac"
+  },
+  "gate_passed": false,
+  "signal_validated": false
+}

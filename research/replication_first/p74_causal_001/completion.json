@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "fit_progress.json": "34d25ee9e2ac4480fd747dedae14c4778f7608e101c3ab498c53d30b562442d8",
+    "forecasts.csv": "d59085c9470dfafa317b3ed0696b8a09d38e7086e9f4f9499b6ed04046961f85",
+    "INTERPRETATION.txt": "13dea714631b7d60b41a3b080f3f11f6935b122ea651a643f0185272318ff662",
+    "registration.json": "185518c18fddf35a4d88ef5779ba177f04d75bf9d2965a60c60b877d2c4836df",
+    "results.json": "f63eaf13a9806442ba7e0135ce499b32ac2900bd6af8c2d89d4734ab331c3018",
+    "RESULT_AUDIT_PLAN.txt": "e55e8bd23741dfe9c21e78af199651d049cb4483d08bc0603c09de6a91076646",
+    "run_handle.json": "d52a007318e7adb329e0a8948ba841c7860f9c8afd521ec42790b48cddbef48d"
+  }
+}

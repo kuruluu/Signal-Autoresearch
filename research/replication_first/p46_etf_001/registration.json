@@ -1,0 +1,21 @@
+{
+  "id": "P46_etf_001",
+  "registered_at": "2026-11-26T01:34:25.105334+00:00",
+  "estimand": "MeanIWMminusSPYmonthlytotalreturnlowsentiment minusmeanIWMminusSPYhighsentiment; sameconditionalspreadorientationasnativeeffect",
+  "sample": "Jan2001-Dec2011,132months,11wholecalendaryears; previouscalendar-year annualSENT^fromarchivedv23, nootherthresholdorwindow",
+  "transfer_gate": "Contrast>=.25percentagepoints/month andCI95lower>0andcenteredone-sidedp<=.05forALLblocks1/2/3years; >=95%bootstrapdrawsnondegenerateeachblock",
+  "inference": "10000wholecalendar-yearstationarybootstrapresamples eachblock1/2/3,seed46101/46102/46103; resamplemonthlyspreadandregimetogether; reportinvalidsingle-regimedrawsandconditionalonvaliddrawCI",
+  "limits": [
+    "ETFcapweightedRussell2000/SP500differsmateriallyfromEWNYSEbottom/topsize-deciles; noexactreplicationclaim.",
+    "Short11yearhistoryandfewregimechanges; conditionalvalidbootstrapcanbesensitive; gatefailureisinconclusiveifprecisionpoor.",
+    "RevisedretrospectivePCAseriesandpublicationtimeunresolved, nohistoricalcausalavailabilityclaim.",
+    "Adjustedclosemonthlytotalreturns, grossassociationnotcostawareexecution. Alreadyvieweddevelopmentnotindependentholdout."
+  ],
+  "files": {
+    "researchlab\\p46_etf.py": "ddc7c89a73edabb50ae7391e58b7ad0b1c0887f5acac243f797ecbab82c89dc9",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p46_audit\\sentiment_v23_archived.xlsx": "13627fcb4af1cf4cf7100813967fb3cd8e910cf799829c9024b7e1e880ecbf7d",
+    "research\\replication_first\\p46_audit\\IWM_2000_2011.json": "02219babf1c439e57ff722b5ab9ea06ec73d5bbfd03efd41d06d1a4c642faa2b",
+    "research\\replication_first\\p46_audit\\SPY_2000_2011.json": "5aac28b5f74c73f1da1e6a3e0802ca9d88a0eb7a3200719f7b9681820c7d215b"
+  }
+}

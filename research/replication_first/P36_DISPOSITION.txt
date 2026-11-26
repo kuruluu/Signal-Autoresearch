@@ -1,0 +1,13 @@
+P36 — SET ASIDE: DATA AND VERSION BLOCKERS, 2026-11-22
+
+Existing source: research/fulltext/P36.pdf and P36.txt, AEA 2018 working copy. Its appendix describes a 2,196-ETF sample in 2007-2016 and Bloomberg/CRSP inputs including shares outstanding, NAV, splits and holdings. Portfolio constituent weights connect ETF creations/redemptions to stock-level pressure. The current daily ETF price/volume panel lacks these inputs. Trading volume is not a substitute for net primary-market creations/redemptions.
+
+Targeted new source checks:
+- https://www.davidclaytonbrown.com/research lists the publication but exposes no replication dataset link in the retrieved page.
+- https://www.shaunwdavies.com/research links the journal article, without a replication-data link for this paper.
+- https://revfin.org/etf-arbitrage-non-fundamental-demand-and-return-predictability/ identifies the 2021 publication, DOI 10.1093/rof/rfaa027.
+- Its journal link https://academic.oup.com/rof/article/25/4/937/5919085 failed in the browsing tool with an inaccessible redirected endpoint.
+- Indexed later manuscript https://assets.super.so/e46b77e7-ee08-445e-b43f-4ffd88ae0a0e/files/c75bc9e5-6673-438a-b108-97703f2773a9.pdf returned 404.
+
+No new usable data or reconciled final manuscript obtained. This is an access/feasibility disposition, not a failed empirical test. Original working-copy results remain distinct from the final publication. No new regression or trading simulation run.
+Reopen only with bounded historical shares/NAV/holdings/split records, availability timestamps and the target paper version. Advance to P37.

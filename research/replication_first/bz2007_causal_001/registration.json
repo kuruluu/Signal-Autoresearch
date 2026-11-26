@@ -1,0 +1,27 @@
+{
+  "id": "BZ2007_causal_001",
+  "registered_at": "2026-11-26T01:13:50.163828+00:00",
+  "sample": "Training initially1990Q2-1999Q4 N39; expanding quarterly OLS; evaluation2000Q1-2008Q4 N36",
+  "predictor": "Previous quarter-end official IV-RV; constant and slope fit only on earlier completed quarters; no clipping/tuning",
+  "response": "Same annualized SPX price log excess return and lagged monthly bill approximation as partial reproduction",
+  "control": "Expanding arithmetic mean of exactly the same earlier quarterly responses",
+  "fallback": "If rank/nonfinite fit invalid, use mean and score all quarters; require100%valid model coverage",
+  "gate": "All: coverage100%; modelMSE at least1% lower than historical-meanMSE; paired loss-gainCI lower>0 and centered one-sidedp<=.05 for every block2/4/8",
+  "inference": "10000 paired stationary bootstrap paths for loss gains; seeds200702/200704/200708. Conditional on fitted forecast path, no refits inside resamples; not structural paperDGP MonteCarlo.",
+  "secondary": "Report2005Q2-2008Q4 N15 descriptive MSE only; no separate success claim",
+  "limitations": [
+    "Already observed development sample, not untouched holdout.",
+    "VIX pre2003 back-calculation and realized-variance publication availability unresolved; prior-only numerical test not executable real-time backtest.",
+    "Short36quarter evaluation, end2008, no current-market evidence.",
+    "No dividend correction, bill-conversion changes or sample search after outcomes.",
+    "Quarterly horizon differs from desired days-long ETF positions. Separate economic/execution test required."
+  ],
+  "files": {
+    "researchlab\\bz2007_causal.py": "76ba70c16423fc8781b2ae91cf13c390a50443ebe3368f191243c99c95bbb13f",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\bz2007_audit\\related_variances.csv": "3a229108e95952bd50de0f15a441c2c59d2180e24b76e670f366f8795d5909fa",
+    "research\\replication_first\\bz2007_audit\\spx_1989_2008.json": "eb93958eef8c591d2763e21f0b28bdddf83e974e04856456094ca6833c29b834",
+    "research\\replication_first\\bz2007_audit\\TB3MS_1989_2008.csv": "53c46766005f9029c7843093952f7ad5fb7eafedc876214e4d6aa6c8ba9716fa",
+    "research\\replication_first\\bz2007_partial_001\\results.json": "759773bc0405182f443b168ecd5a104a46220f78d93c3e217952f75801e8797c"
+  }
+}

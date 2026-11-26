@@ -1,0 +1,332 @@
+{
+  "updated_on": "2026-11-25",
+  "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
+  "active_paper": "P40",
+  "active_stage": "Primarymethods and SIPsession-data audit for registeredcontemporaryintradaymomentumtest",
+  "papers": [
+    {
+      "id": "P24",
+      "status": "set_aside_signal_failed",
+      "reproduction": "Partial reproduction numerically close to the published result; exact replication not established",
+      "signal": "Registered unleveraged monthly SPY translation failed its economic usefulness criterion",
+      "evidence": [
+        "p24_partial_001/result.json",
+        "p24_spy_bridge_001/results.json"
+      ],
+      "reopen_condition": "Material new source or demonstrated implementation error; do not tune this failed bridge"
+    },
+    {
+      "id": "P01",
+      "status": "set_aside_data_blocked",
+      "reason": "Author aggregate strategy returns recovered, but underlying 58-instrument histories and construction inputs unavailable in the acquired materials",
+      "evidence": [
+        "p01_inputs/manifest.json",
+        "cycle_005_source_checks.json"
+      ],
+      "reopen_condition": "Obtain original instrument-level inputs with roll, excess-return and financing definitions",
+      "access_reaudit_2026_11_25": "Original futures/FXforwardquotes,rolls,spreads andotherinputs remain missing; new credentials do not establish coverage."
+    },
+    {
+      "id": "P51",
+      "status": "set_aside_methods_blocked",
+      "reason": "Previous source checks obtained bibliographic XML only; full methods required for the competing scaling explanation",
+      "evidence": [
+        "cycle_005_source_checks.json",
+        "cycle_005_elsevier.xml"
+      ],
+      "reopen_condition": "Accessible full methods and appropriate underlying data",
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P03",
+      "status": "set_aside_data_blocked",
+      "reason": "Working-copy methods require NYSE/AMEX CRSP daily stock histories July 1962-December 1986, native weekly weights and microstructure/listing treatments. Existing ETF data cannot reproduce this effect. Published versus working-copy differences also need reconciliation.",
+      "evidence": [
+        "../paper_records/P03.txt",
+        "../fulltext/P03.txt"
+      ],
+      "reopen_condition": "Original stock-level inputs and reconciled target paper version; no new empirical test was run for this queue update",
+      "access_reaudit_2026_11_25": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "id": "P65",
+      "status": "set_aside_data_blocked",
+      "title": "Evidence of Predictable Behavior of Security Returns",
+      "reason": "Author scan recovered; original CRSP stock panel and exact eligibility treatments unavailable locally",
+      "evidence": [
+        "p65_audit/AUDIT.txt",
+        "p65_audit/manifest.json"
+      ],
+      "access_reaudit_2026_11_25": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "id": "P36",
+      "status": "set_aside_data_and_version_blocked",
+      "entry_gate": "Historical ETF shares, NAV, baskets and timestamp feasibility",
+      "evidence": [
+        "P36_DISPOSITION.txt"
+      ],
+      "reason": "Missing primary-market shares/NAV/holdings data and final-version reconciliation",
+      "access_reaudit_2026_11_25": "Historical quotes/trades may now support a component/modern test; NAV,shares,baskets/holdings and original coverage/version still missing. Not fully unblocked."
+    },
+    {
+      "id": "P37",
+      "status": "set_aside_data_blocked",
+      "entry_gate": "Historical ETF arbitrage/liquidity inputs and timestamp feasibility",
+      "evidence": [
+        "p37_audit/AUDIT.txt",
+        "p37_audit/manifest.json"
+      ],
+      "reason": "Official ZIP contains accessible publication only; underlying trades, quotes, baskets and NAV data unavailable",
+      "access_reaudit_2026_11_25": "Historical quotes/trades may now support a component/modern test; NAV,shares,baskets/holdings and original coverage/version still missing. Not fully unblocked."
+    },
+    {
+      "id": "P52",
+      "status": "set_aside_signal_failed",
+      "selection_reason": "Price-only published comparison with explicit algebraic mechanism; assess original daily size-portfolio data feasibility before computing results, not selected on backtest performance",
+      "reproduction": "Partial numerical reproduction of 2014 working-paper Table 1 50-session row",
+      "signal": "Registered IWM translation failed all gates; native matched-period source advantage also absent",
+      "evidence": [
+        "p52_partial_001/registration.json",
+        "p52_partial_001/results.json",
+        "p52_partial_001/INTERPRETATION.txt",
+        "p52_iwm_bridge_001/results.json",
+        "p52_iwm_bridge_001/INTERPRETATION.txt"
+      ]
+    },
+    {
+      "id": "P50",
+      "status": "set_aside_persistence_failed",
+      "selection_reason": "Newly located primary-paper full text and author follow-up provide a concrete lead for original daily-index replication; original ETF breakout proxy is not repeated",
+      "evidence": [
+        "P50_RESULTS.txt",
+        "p50_partial_001/results.json",
+        "p50_persistence_001/results.json"
+      ],
+      "reproduction": "Partial numerical reproduction of historical conditional-return contrast",
+      "signal": "Later-period positive persistence gate failed; no ETF signal promoted"
+    },
+    {
+      "id": "P49",
+      "status": "set_aside_robustness_and_intraday_data",
+      "selection_reason": "Change mechanism from price-trend rules to scheduled announcement timing; exact original effect and data availability must be established before a test",
+      "reproduction": "Working-version daily appendix partial numerical reproduction passed; registered joint robustness gate failed",
+      "evidence": [
+        "p49_partial_001/INTERPRETATION.txt",
+        "p49_partial_001/results.json"
+      ],
+      "signal": "Headline intraday effect unreplicated; no ETF signal established",
+      "access_reaudit_2026_11_25": "New SIPintradaydata may support a modern explicitlydifferent event-window branch. Original headlineinputs still unaudited; prior dailyappendix robustness failure remains frozen."
+    },
+    {
+      "id": "P48",
+      "status": "set_aside_methods_blocked",
+      "selection_reason": "Next macro-family catalog candidate; Treasury-bill yield inputs may allow original monthly return-predictability reproduction. Selected on mechanism and source feasibility, not inspected backtest performance.",
+      "evidence": [
+        "p48_audit/AUDIT.txt",
+        "p48_audit/source_attempts.json"
+      ],
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P42",
+      "status": "set_aside_methods_blocked",
+      "selection_reason": "Sequential overnight-mechanism feasibility screen after P48 access failure",
+      "evidence": [
+        "p42_audit/AUDIT.txt"
+      ],
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P73",
+      "status": "set_aside_monthly_implementation_failed",
+      "selection_reason": "Original aggregate market volatility/return relation may be testable with already archived native market returns. Select on input feasibility, not unseen strategy results.",
+      "evidence": [
+        "p73_partial_001/registration.json",
+        "p73_partial_001/results.json",
+        "p73_partial_001/INTERPRETATION.txt",
+        "p73_causal_001/results.json",
+        "p73_causal_001/INTERPRETATION.txt"
+      ],
+      "reproduction": "Monthly Table1/Table4 partial numerical reproduction passed; predictable effect weak and contemporaneous surprise effect strong",
+      "signal": "Causal monthly forecast failed coverage and predictive gates; low coverage prevents decisive mechanism rejection. Daily GARCH-in-mean branch untested."
+    },
+    {
+      "id": "P74",
+      "status": "set_aside_causal_forecast_failed",
+      "selection_reason": "Distinct monthly asymmetric volatility/expected-return hypothesis after P73 monthly implementation failed; selected from existing catalog on methodological relevance and archived input feasibility, not a new backtest result",
+      "evidence": [
+        "p74_audit/AUDIT.txt",
+        "p74_audit/source.json",
+        "p74_partial_001/results.json",
+        "p74_partial_001/INTERPRETATION.txt",
+        "p74_causal_001/results.json",
+        "p74_causal_001/INTERPRETATION.txt"
+      ],
+      "reproduction": "Model5-L approximate numerical and effect gates passed",
+      "signal": "100%coverage; both paired forecastMSE objectives failed"
+    },
+    {
+      "id": "P77",
+      "status": "set_aside_methods_access_blocked",
+      "selection_reason": "Existing catalog portfolio estimation study; changes mechanism from monthly risk-return forecasting to estimation-aware allocation. Native portfolio inputs may be public; selection precedes outcomes.",
+      "evidence": [
+        "p77_audit/AUDIT.txt",
+        "p77_audit/source_attempts.json",
+        "p77_audit/publisher_attempt.json"
+      ],
+      "reopen_condition": "Accessible original full methods and precise native data; no empirical rejection claimed",
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P106",
+      "status": "set_aside_native_data_blocked",
+      "selection_reason": "Existing catalog cross-asset predictive mechanism, distinct from previous monthly volatility models. Selected for original signal and input feasibility audit before outcomes.",
+      "evidence": [
+        "p106_audit/AUDIT.txt",
+        "p106_audit/DISPOSITION.txt",
+        "p106_audit/source.json"
+      ],
+      "access_reaudit_2026_11_25": "Original futures/FXforwardquotes,rolls,spreads andotherinputs remain missing; new credentials do not establish coverage."
+    },
+    {
+      "id": "P116",
+      "status": "set_aside_native_data_blocked",
+      "selection_reason": "Existing catalog multi-horizon trend-factor hypothesis; assess native original effect and public portfolio input compatibility before outcomes. No retuning of prior moving-average bridges.",
+      "evidence": [
+        "p116_audit/paper_copy.pdf",
+        "p116_audit/DISPOSITION.txt"
+      ],
+      "access_reaudit_2026_11_25": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "id": "P113",
+      "status": "set_aside_methods_access_blocked",
+      "selection_reason": "Existing catalog analytical comparison potentially reproducible on index histories; must identify distinct original estimand rather than retune failed P52bridge.",
+      "evidence": [
+        "p113_audit/DISPOSITION.txt",
+        "p113_audit/migration_attempts.json"
+      ],
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P82",
+      "status": "set_aside_laterperiod_family_failed",
+      "selection_reason": "Existing catalog rule-family inference study may use recovered historicalDowindex. Distinct target is family-adjusted evidence, not tuning failed P50rule.",
+      "evidence": [
+        "p82_partial_001/results.json",
+        "p82_partial_001/INTERPRETATION.txt"
+      ],
+      "reproduction": "Approximate26familyhistorical/laterpatternmatched; data/state/countdeviations",
+      "signal": "Laterperiodfamilyp.152,noETFsignalpromoted"
+    },
+    {
+      "id": "P111",
+      "status": "set_aside_methods_and_data_blocked",
+      "selection_reason": "Existingcatalog conditionalmomentum mechanism, selectedbeforelocaloutcomes; assessoriginalinputsfirst.",
+      "evidence": [
+        "p111_audit/AUDIT.txt",
+        "p111_audit/DISPOSITION.txt",
+        "p111_audit/source_attempts.json"
+      ],
+      "access_reaudit_2026_11_25": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "id": "P47",
+      "status": "set_aside_native_panel_unavailable",
+      "selection_reason": "Existingcatalog variance-risk-premium mechanism; officialFedsourceoffersnewmethods/data route. Native implied/realizedvariance and timing required; noVIXlevelproxyassumption.",
+      "evidence": [
+        "p47_audit/AUDIT.txt",
+        "p47_audit/DISPOSITION.txt"
+      ],
+      "access_reaudit_2026_11_25": "International option-implied/realizedvariances and weights still missing; SIPstockquotes cannot replace them."
+    },
+    {
+      "id": "BZ2007",
+      "title": "Expected Stock Returns and Variance Risk Premia",
+      "status": "set_aside_causal_evidence_inconclusive",
+      "selection_reason": "Official historical predictor inputs recovered; original quarter-end summary means match. Separate earlier two-author study, not P47.",
+      "evidence": [
+        "bz2007_partial_001/results.json",
+        "bz2007_causal_001/results.json",
+        "bz2007_causal_001/INTERPRETATION.txt"
+      ],
+      "reproduction": "Partial slope/t/adjustedR2 match; intercept and declared input limitations remain",
+      "signal": "6.98%estimatedMSEimprovement; CIincludes0allblocks; no validatedsignal"
+    },
+    {
+      "id": "P45",
+      "status": "set_aside_cost_aware_rule_failed",
+      "selection_reason": "Existing catalog investor-sentiment daily FEARS reversal mechanism, distinct from quarterly variance predictor and closer to requested days-long holding horizon. Need native author-series and exact effect before registration.",
+      "reproduction": "Controlled2daycoefficient andNcloselymatched;5000pathCIpositiveforall3blocks",
+      "evidence": [
+        "p45_partial_001/results.json",
+        "p45_timing_001/results.json",
+        "p45_strategy_001/results.json",
+        "p45_strategy_001/INTERPRETATION.txt"
+      ],
+      "transfer": "SPYnativecoef.003793vs.00378;nextopen81.4%retentionandHolm2significant;extraonedaydelayinconclusive",
+      "signal": "FixedFEARSpositiveSPYrulefails5/10bpscosts,risklimit,andbootstrapgate; nativeeffectnotrejected"
+    },
+    {
+      "id": "P46",
+      "status": "set_aside_etf_transfer_inconclusive",
+      "selection_reason": "Existingcatalog conditionalinvestorsentimentcross-section. Auditauthorhistoricalsentimentandnativeportfolioinputs, distinctfromfailedP45dailyFEARSrule.",
+      "reproduction": "Primarypublishedregimecontrast1.764pp/monthvs1.71,positiveCIallblocks; revisedsecondary1.4725differentcoverage",
+      "evidence": [
+        "p46_partial_002/results.json",
+        "p46_etf_001/results.json",
+        "p46_etf_001/INTERPRETATION.txt"
+      ],
+      "signal": "IWM-SPYconditionalcontrast.198pp/month,CIcross0allblocks,belowregisteredminimum"
+    },
+    {
+      "id": "P08",
+      "status": "set_aside_methods_package_access_blocked",
+      "selection_reason": "Existingcatalog MomentumHasItsMoments; auditnativefactor-volatility mechanism and obtainablehistoricalmomentumfactorinputs, notretuningfailedP24market-scalingbridge.",
+      "evidence": [
+        "p08_audit/ERRATA.txt",
+        "p08_audit/DISPOSITION.txt",
+        "p08_audit/archive_source.json",
+        "p08_audit/manuscript_source.json",
+        "p08_audit/manuscript_archive_source.json"
+      ],
+      "access_reaudit_2026_11_25": "Fullmethods/version/packageaccess blocker is independent of Alpaca credentials; reopen only on an actual new source."
+    },
+    {
+      "id": "P14",
+      "status": "set_aside_native_cohort_data_blocked",
+      "selection_reason": "Existingcatalog MarketStatesandMomentum; conditionmomentumfactoronlaggedmarketstate, potentiallyauditablewithhistoricalfactorinputs. DistinctfromP08risk-scalingandP24failedbridge.",
+      "evidence": [
+        "p14_audit/source.json",
+        "p14_audit/DISPOSITION.txt"
+      ],
+      "access_reaudit_2026_11_25": "Native historical stock/cohort panel, point-in-time universe/characteristics or methods still missing. Alpaca post2016data does not supply originalperiod. A new modern branch requires separate methods/universe audit."
+    },
+    {
+      "id": "P117",
+      "status": "queued_source_recovered",
+      "selection_reason": "Newcalendar-effectcandidate afterexistingmomentumstockpanelblocker. HistoricalDowpricesalreadyrecovered; auditnative seasonal-anomaly paper andonepredefinedmulti-dayeffect, notscanallcalendarvariants. Bibliographicverificationpending."
+    },
+    {
+      "id": "P40",
+      "status": "active_reaudit_new_data_access",
+      "selection_reason": "AuthenticatedSIPminutequotes/tradesaddresspreviousintradaydatablocker. Native1993-2013sampleoutsideAlpacacoverage; register2016+contemporarytestseparatelyafterprimarymethods."
+    }
+  ],
+  "run_status": "active_until_user_pause_or_stop",
+  "resume_condition": "Activeusergoal2026-11-26",
+  "research_scope": "Find reproducible executable market edges across all instruments and horizons for10000USD initial capital. Maintain three independent risk-tier leaderboards: maximumdrawdown50%,30%,20%. DefaultbestmeanshighestrobustnetCAGR subjecttorisktier,evidenceandbenchmarkgates. Evaluate costs,financing,borrow,margin,liquidity andpath-dependentdrawdown uncertainty. PapertradingauthorizedonAlpacapaperendpointonly,with10000USDaggregatebudgetandregisteredstrategy/accountreconciliation. No liveorders. Sealed2024-2025observationsremainuntouched. Autonomousresearchremainsuserpaused.",
+  "alpaca_access": "Verifiedread-onlypaperaccount/calendar and historicalSIPdaily2016,minute/quotes/trades2023; smallsamplesonly",
+  "research_mandate": "RESEARCH_MANDATE.json",
+  "capital_usd": 10000,
+  "maximum_drawdown_targets": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "paper_trading_authorized": true,
+  "live_trading_authorized": false,
+  "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
+  "next_action_on_resume": "PrioritizeP40methods/sessiondatafeasibilityaudit usingnewSIPaccess; P117archivedpaperpreservedasqueuedcontinuation."
+}

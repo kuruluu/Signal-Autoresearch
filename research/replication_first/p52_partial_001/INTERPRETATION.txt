@@ -1,0 +1,13 @@
+P52 PARTIAL REPRODUCTION — COMPLETED 2026-11-25
+
+Target: December 22, 2014 working paper, Table 1 Panel B, 50-session rules. Daily source data: archived August 2020 French size portfolios and risk-free returns. Evaluation: January 1963-December 2013, 612 months.
+
+All ten monthly mean returns passed the prospectively registered approximation tolerances. Q1 moving average minus time-series momentum: 0.428724 percentage points/month versus 0.43 reported. The largest individual mean discrepancy is 0.043757 percentage points/month, below the registered 0.15 tolerance.
+
+Supplemental paired stationary bootstrap: 5,000 joint paths for each of 6, 12 and 24 calendar-month blocks. For Q1, the 12-month-block percentile interval is [0.266189, 0.602525] percentage points/month; Holm-adjusted p is approximately 0.001 across five quintile contrasts. Q1's interval excludes zero for all three block lengths. Q5's interval includes zero for all three. These are conditional historical uncertainty estimates; very small p-values are limited by Monte Carlo resolution and do not erase prior adaptive research.
+
+Verdict: partial numerical reproduction of the working-paper comparison, not exact replication of the final publication. Vintage, total-return-index construction, year endpoint conventions and incomplete original-inference specification remain explicit deviations. The chosen numerical tolerances are screening rules, not statistical proof of equivalence.
+
+No tradable ETF signal established. These are gross theoretical portfolio returns. The advantage over another timing rule is not automatically alpha or an advantage over passive exposure. The strongest effect occurs in a small-stock portfolio whose composition differs from a readily tradable small-cap ETF. ETF transfer, realistic timing and costs, control exposure and independent confirmation remain untested.
+
+NEXT: stay on P52. Register a separately frozen IWM transfer study. Use matched source/ETF periods to separate changed sample from changed instrument, then add next-session-open timing and costs. Preserve 50 sessions; do not search other lookbacks because the reproduced result looks attractive. Treat 2014+ already-viewed history as development evidence. Document the market-cap/universe mismatch explicitly. Use cash, TSMOM and a past-calibrated exposure control. No independent trading claim before an authorized independent evaluation.

@@ -1,0 +1,60 @@
+AUTONOMOUS RESEARCH CYCLES — 2026-11-22
+Status: stopped after cycle 5 produced no meaningful progress. No scheduled/background automation was created. Completed cycles and their continuation decisions are recorded in cycles.jsonl.
+
+Cycle 1: Input recovery.
+Recovered the author's 2021 daily teaching-data snapshot and official French July 2015 monthly archive. The daily file ends in 2020 and was decoded as raw numeric arrays without executing pickle instructions. The matching daily French archive candidate returned 404. Data/vintage differences remain documented.
+
+Cycle 2: P24 partial reproduction.
+Target: Volatility-Managed Portfolios, Table I Panel A market-factor column, monthly historical excess-return regression. The target window is inferred as August 1926–April 2015 from 1,065 observations; exact original endpoint/code was not certified.
+
+Measure                       Published      Reproduced
+Annualized alpha (%)             4.86           4.9388
+Alpha standard error (pp/year)   1.56           1.5530
+Market beta                     0.61           0.6097
+R-squared                       0.37           0.3717
+Observations                    1065           1065
+
+All approximation thresholds were fixed before evaluation and passed. Verdict: numerically close partial reproduction, NOT exact replication. The archived daily teaching series differs from the original factor input/vintage, and inference conventions have remaining ambiguity. HC0, HC1, alternative variance denominator and HAC-six-month sensitivity are reported. No new tradeable edge follows merely from matching the published result.
+The historical normalization uses the full sample, with mean exposure 1.27x and maximum exposure 14.06x. This is descriptive reproduction, not a causal or unleveraged portfolio. The author teaching example's code is not assumed to be the original publication code.
+The first run saved all results and then failed while printing a numpy boolean to JSON. A reporting-only amendment preserves the registered source, original specification and saved-result hash; no numerical tuning was performed.
+
+Cycle 3: Registered monthly SPY bridge.
+Calibration: 2008–2011. Evaluation: 2012–2020, 108 months, all already-used history. Kept the monthly horizon. Stages separate matched-period source market, SPY transfer, calibration-only scale, leverage cap and next-open net-order execution.
+Signal: weight = min(1, fixed calibration constant / previous month's daily excess-return variance). Cash earns an archived RF approximation. Fees are charged on net order size, with explicit final liquidation.
+
+At 5 basis points per side:
+- Net annualized regression alpha: 0.5165%, HAC standard error 1.2728 pp/year.
+- 12-month-block bootstrap 95% interval: -2.1159% to +2.6198%; Holm-adjusted p=0.6689.
+- Net CAGR: signal 12.01%, same-execution full market 14.96%.
+- Calibration-volatility-matched fixed allocation: 65.72% SPY; CAGR 10.10%. Actual test-period risk/exposure differ, so the signal's higher return than this control is not pure alpha.
+- Average entry exposure: 93.83%; maximum 100%.
+- Month-end sampled maximum drawdown: -16.57%; this is NOT daily/intraday worst drawdown.
+
+The primary objective required at least 1 percentage point/year net alpha and positive corrected evidence at each registered block length. It failed. Cost stresses of 10 and 20 bps did not change that conclusion. Bootstrap: 5,000 synchronized paths at 6/12/24-month blocks, alpha refitted on every resample, Holm across the three cost cases, conditional on frozen calibration. No p-value was close enough to the registered threshold to trigger the 20,000-path escalation.
+Matched 2012–2020 full-sample-normalized diagnostic alpha was already uncertain for the CRSP source market (-0.48 pp/year, SE 4.54) and SPY (+0.37, SE 4.45). Therefore we cannot attribute the absence of a clear tradable effect solely to leverage restrictions or ETF transfer. The shorter evaluation sample and market regime also matter.
+
+Cycle 4: P01 source recovery.
+Retrieved the author-linked original 1985–2009 aggregate strategy-return workbook. It contains 300 monthly observations and total/excess factor outputs. It does not contain the 58 underlying instrument histories. No new P01 performance claim or independent reconstruction is made.
+
+Cycle 5: No meaningful progress; stop condition reached.
+Targeted primary-source checks did not provide the missing original daily factor vintage, underlying P01 instrument data or full P51 methods. SSRN returned 403; Elsevier's response contained bibliographic metadata only. The current Muir return series extends through 2026 and was not downloaded because it includes sealed observations. Aggregate TSMOM returns cannot identify the separate contributions of direction and volatility sizing. This is a blocker in the inspected sources, not proof the data are unavailable everywhere.
+
+WHAT IS NOW SUPPORTED
+One published P24 effect has a numerically close partial reproduction. A causal, no-leverage monthly ETF translation was specified and tested, but did not establish risk-adjusted economic usefulness. No independent confirmation or successful-signal similarity is claimed. Do not shorten the horizon or sweep parameters to manufacture success.
+
+HOW TO RESUME PRODUCTIVELY
+Obtain exact original construction inputs/code for the identified discrepancies, or explicitly move to the next paper's feasibility audit (P03/P65). Contacting authors or buying data is not authorized by this run. Additional research would need a new meaningful task, not repetition of the unsuccessful source checks. Final 2024–2025 observations remain sealed.
+
+EVIDENCE
+cycles.jsonl; p24_inputs/manifest.json and archive_access.json;
+p24_partial_001/registration.json, result.json, sensitivity.json and reporting_amendment.json;
+p24_spy_bridge_001/registration.json, results.json, diagnostic_stages.json and execution_dates.json;
+p01_inputs/manifest.json; cycle_005_source_checks.json; cycle_005_elsevier.xml.
+
+COMMANDS FROM WORKSPACE ROOT
+.\research.ps1 audit
+.\research.ps1 test
+.\research.ps1 replication-data
+.\research.ps1 replicate-p24
+.\research.ps1 bridge-p24
+The last two reproduce existing frozen experiments; they are not new independent tests.

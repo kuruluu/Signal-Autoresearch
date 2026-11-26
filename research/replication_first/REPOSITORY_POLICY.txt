@@ -1,0 +1,7 @@
+REPOSITORY CHECKPOINT POLICY - 2026-11-26
+Authorized destination: kuruluu/Signal-Autoresearch. Initial visibility private unless user specifies otherwise.
+Commit and push notable progress: frozen registrations, completed empirical tests including meaningful failures, source/input discoveries changing feasibility, material implementation corrections, and substantive handoff updates. Do not manufacture commits for unchanged status or repeat failed searches.
+Use python -m researchlab.checkpoint --commit --message "Concrete research outcome". Add --push only when the authorized remote is available and authenticated.
+Explicit allowlist publishes code, tests, own-authored audit/interpretation documents, registrations and aggregate results. Raw data, downloaded papers, extracted third-party paper text, archives, accounts/orders, credentials and environment files remain local. Locally configured secrets are checked against every selected file without being displayed.
+Preserve hashes and failure records. A completion manifest may refer to locally retained licensed data not in Git; absence from the repository does not grant redistribution rights or imply a clean clone has the data.
+Current connector identity remains kuruluu6413; it is not authorization to create a substitute repo under that account. Browser fallback was stopped by URL-verification policy. Continue useful local research and queue publishing until correct account access exists.

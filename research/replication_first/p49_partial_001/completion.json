@@ -1,0 +1,9 @@
+{
+  "completed_at_utc": "2026-11-25T23:51:20.928035+00:00",
+  "hashes": {
+    "daily_panel.csv": "069c7e7101bed4665c22490913ddef6ee2a378f81f17f3de6ecd0a0abbd7cbe3",
+    "registration.json": "5e0e2a60a41175d63095b776cde16d55152cf0c3c61f96862db26dc1fe7cfda4",
+    "results.json": "1306e0e93625dce08efdf35d3fa321607d39f489818cf13eae5ef9a11841df6f",
+    "run_output.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

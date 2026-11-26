@@ -1,0 +1,61 @@
+{
+  "n": 1136,
+  "cases": {
+    "0": {
+      "trades": 378,
+      "annual_mean": 0.044331630133397595,
+      "terminal_equity": 110453.3854251015,
+      "annual_vol": 0.21124174060014442
+    },
+    "5": {
+      "trades": 378,
+      "annual_mean": -0.03951741639149624,
+      "terminal_equity": 75687.47568379596,
+      "annual_vol": 0.21113437215830866
+    },
+    "10": {
+      "trades": 378,
+      "annual_mean": -0.12332457896711353,
+      "terminal_equity": 51864.349654229794,
+      "annual_vol": 0.21109354213727585
+    }
+  },
+  "control_annual_mean": 0.009735872091944247,
+  "control_annual_vol": 0.13841299424269785,
+  "buyhold_annual_mean": 0.019471744183888494,
+  "annual_active_mean_5bps": -0.04925328848344049,
+  "bootstrap": [
+    {
+      "block": 5,
+      "paths": 10000,
+      "annual_ci95": [
+        -0.185069890589265,
+        0.08409996513243571
+      ],
+      "p": 0.765023497650235,
+      "p_mc_se": 0.004239841337753523
+    },
+    {
+      "block": 10,
+      "paths": 10000,
+      "annual_ci95": [
+        -0.18796922228933025,
+        0.0839110563212153
+      ],
+      "p": 0.7627237276272373,
+      "p_mc_se": 0.004254130262952102
+    },
+    {
+      "block": 20,
+      "paths": 10000,
+      "annual_ci95": [
+        -0.1858092059012996,
+        0.08031506554495194
+      ],
+      "p": 0.7768223177682232,
+      "p_mc_se": 0.004163765175720514
+    }
+  ],
+  "passes_gate": false,
+  "scope": "Conditionaldevelopmentstrategy; FEARSreal-timeavailabilityunproven."
+}

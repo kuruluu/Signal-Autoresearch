@@ -1,0 +1,12 @@
+P65 — SOURCE RECOVERY AND METHODS AUDIT, 2026-11-22
+Source: author publication list https://sites.google.com/view/njegadeesh/home
+Author-linked published scan: https://drive.google.com/file/d/1nsKMbrErjgqmUTXICSgaCv0lC9NjtMLv/view
+DOI: 10.1111/j.1540-6261.1990.tb05110.x
+The 19-page scan was retrieved using the Drive connector. Text extraction returned no substantive text; rendered PDF pages 3-5 and 8-10 were visually reviewed. This is a targeted methods audit, not a full-paper review.
+
+Important distinction: descriptive equation (2), printed p.883, subtracts each stock's subsequent 60-month mean return from its dependent variable. Its 14 predictors are lags 1-12, 24 and 36; monthly cross-sectional OLS estimates are aggregated using Fama-MacBeth inference. CRSP inputs span 1926-1987, with estimation in 1929-1982.
+The forecasting procedure on p.887 deliberately removes that future-dependent transformation. It uses raw-return regressions estimated over the previous 60 months, updates monthly, and forms equally weighted forecast deciles. January coefficients use prior January regressions. Trading evaluation covers 1934-1987. Page 888 uses the CRSP equal-weighted market, one-month Treasury bills and White heteroskedasticity-consistent inference.
+
+VERDICT: DATA BLOCKED, not empirically rejected. Original CRSP stock histories, original eligibility/delisting treatments and market/T-bill series are not present locally. The abstract's spread is not a ready-to-use ETF backtest target. No numeric experiment registered or run.
+
+ACTION: Set aside and advance to P36. Reopen with original inputs and a complete target-table audit. Never use the descriptive future-demeaned outcome to train an executable forecast. A shorter modern stock panel or twelve ETFs would change the estimand and cannot be labeled original replication.

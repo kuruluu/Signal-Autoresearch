@@ -1,0 +1,11 @@
+{
+  "files": {
+    "registration.json": "5ac10a913c06ca7fd0c305df11d211fa77ec5dd82d7ff77ca0ffa42b0fa66d83",
+    "results.json": "4a29cae2c1a68df4e89140b10a1c2212fdfa77dd6d67098d6f2bc7e89ad87009",
+    "scored_panel.csv": "06b14059b43e6fdd4aabd41c6db19e6d994195141c564b4390dc8c1cf1bef12b",
+    "INTERPRETATION.txt": "fca898db2e3c2e78af3306163ce7e5f5f6c8f13ab0e717e117cd5ce6b3b4d6bf"
+  },
+  "transfer_gate": true,
+  "timing_gate": true,
+  "executable_signal_validated": false
+}

@@ -1,0 +1,57 @@
+{
+  "id": "p52_iwm_bridge_001",
+  "parent": "P52_partial_001",
+  "status": "Development transfer and economic feasibility, no independent confirmation",
+  "window": 50,
+  "calibration": [
+    "2008-01-01",
+    "2010-12-31"
+  ],
+  "evaluation": [
+    "2011-01-01",
+    "2019-12-31"
+  ],
+  "months": 108,
+  "sequence": [
+    "Matched-period French Q1 gross MA versus TSMOM",
+    "Same-period IWM gross close-to-close rules",
+    "IWM previous-close signal executed next session open, with costs"
+  ],
+  "instrument_difference": "IWM Russell 2000 ETF is not the French NYSE-breakpoint smallest quintile; universe, fund costs and data source change jointly",
+  "signal": "Long if adjusted close exceeds current-inclusive SMA50; TSMOM long if close exceeds close 50 sessions ago; otherwise cash; no shorts/leverage",
+  "execution": "Previous session close controls entry at current open; hold to next session open. Synthetic adjusted units. Include initial entry and final liquidation costs. Monthly returns grouped by entry date, so month-end overnight belongs to entry month.",
+  "cash": "French daily RF on entry session as realized open-to-open cash approximation; not a decision feature",
+  "costs_bps_per_side": [
+    5,
+    10,
+    20
+  ],
+  "cost_model": "All-in proportional adverse execution cost on net traded notional, self financed. Scenario assumptions, not measured historical spreads; no separate double-counted commission.",
+  "controls": [
+    "TSMOM50 with identical execution",
+    "Daily rebalanced constant IWM fraction equal to MA average lagged entry weight in 2008-2010; rest cash",
+    "Fully invested IWM context"
+  ],
+  "objective": "Incremental net arithmetic mean monthly return over TSMOM and past-calibrated exposure control, annualized by 12",
+  "gate": "At 5 bps, both primary contrasts >=1 percentage point/year, each lower 95% bootstrap bound positive and Holm p<=.05 for all blocks. Both contrasts positive at 10 and 20 bps. Otherwise fails registered usefulness gate; uncertainty remains explicit.",
+  "inference": "Joint stationary bootstrap of six monthly paired differences (two controls times three costs); Holm over all six separately at each block 6/12/24 months; 5000 paths seed52101. Escalate all blocks to 20000 if any base primary adjusted p in [.04,.06]. Conditional on frozen calibration and fixed rule histories; not fitting-aware model selection inference.",
+  "secondary": "CAGR, drawdown sampled at opens, average exposure and costs; cannot replace failed primary objective",
+  "assumptions": [
+    "Previously observed history is development evidence",
+    "Adjusted prices are revised synthetic units, not historical quotes",
+    "No capacity/partial fill/borrow simulation; daily data cannot establish precise fills",
+    "Past-calibrated exposure control need not match realized test exposure or risk",
+    "Gross close-to-close diagnostic is theoretical; next-open stage is the executable approximation"
+  ],
+  "sealed_access": false,
+  "input_code_hashes": {
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\data\\IWM.csv": "9ba73e5c19cb1b373bd34f8d3f87a0b44e0418265b15c645b0b98f0bf8413cc4",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\data\\exchange_schedule.csv": "eebcc2cc14a53e537876c07158781fadff3cd0ead7795d52047019aa6a67dcdb",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p52_audit\\Portfolios_Formed_on_ME_daily.CSV": "ba8ca50ef6f510445ecdb7df229f2c6ba03feeb78e484e8ef75b78c3a32cb595",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\research\\replication_first\\p52_audit\\F-F_Research_Data_Factors_daily.CSV": "6decccff26f54ddbe04c460e8694ee9a1cffa9120cc1ba3a63c7a20dbf9eb1d2",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\researchlab\\p52_reproduction.py": "18cc66e6dc19ce297749d98bc5963e96d281e9f730681e2efc44e1b5b07acf64",
+    "C:\\Users\\kuru\\Documents\\ChatGPT\\quant\\researchlab\\p24_bridge.py": "f833bf7acd6bf7956683cd348627169a917efd104f1e0575717435cbde70470d"
+  },
+  "code_hash": "74fc1039793295f050649abea1e2bea03d59e8b89079c885a77a4d33d520ba08",
+  "registered_at_utc": "2026-11-25T23:36:34.025551+00:00"
+}
