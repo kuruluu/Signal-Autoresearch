@@ -1,0 +1,5 @@
+P06 HIGH52 SOURCE AUDIT
+Recovered32pagepublishedJF2004paper. OSAP2023archivehasHigh52butnooutcomesinspected. Datedv1.3.0Statausesmax(l1.maxpr,...l12.maxpr),excludingcurrentmonth. Paperhighwindowendscurrentmonth. Currentv2.1.0Pythonexplicitlags0..11andratio<=1, documentscorrection. Cannotfixoldaggregatereturnswithoutstockpanel;donottestknownmismatch.
+Splitadjustmenthistoryalsochanged;currentcodeexplainsvintagefactorcancelsinratio. Do notassertpricebackadjustmentalonecauseslookahead. Morematerialwindowmismatch confirmed. Onlycodedownloadedfromcurrentrelease,nosealedobservations.
+NativeCRSPdaily/monthlypanelmissing. Reopenonsafecorrecteddatedseriesorfullpanel,notcurrentdatafilteredafterdownload. Noempiricalrejection.
+Sources:https://sabercapitalmgt.com/wp-content/uploads/2019/11/52-Week-High-and-Momentum-Investing.pdf ; https://github.com/OpenSourceAP/CrossSection/tree/v1.3.0 ; https://github.com/OpenSourceAP/CrossSection/tree/v2.1.0
