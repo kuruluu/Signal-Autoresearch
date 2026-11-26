@@ -832,3 +832,9 @@ Meaningful progress: True
 P16externalhistoricalpass,later11.16%uncertainallCIszero;stop.
 Evidence: p16_audit/METHOD_AUDIT.txt, p16_external_001/registration.json, p16_external_001/results.json, p16_external_001/DISPOSITION.txt
 Next step: Nextpaper.
+
+CYCLE 125 UPDATE
+Meaningful progress: True
+P58publishedmethodschecked,jointcoverage/size/momentuminteractionnotavailable. Noinvalidstandaloneproxy.
+Evidence: p58_audit/METHOD_AUDIT.txt
+Next step: Nextcandidate.
