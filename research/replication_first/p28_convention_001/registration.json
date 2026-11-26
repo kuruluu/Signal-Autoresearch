@@ -1,0 +1,37 @@
+{
+  "id": "P28_convention_001",
+  "utc": "2026-11-26T06:32:41.594824+00:00",
+  "reason": "Paper explicitly uses logtransformed localexcessreturns. Workbook says equalweightedreturns, no log label or cell notes, percentageformat not decisive. Firststored-as-log numericaltestfailed. One diagnostic treats storedseries as simple excess and applies log1p separately to D1,D10,Univ. Not proven source correction.",
+  "fixed_transform": "np.log1p ofeachstoredleg andUniv, then unchanged metrics. Do NOT log1p ofspread. Same241months,targets,tolerances; nooffset/endpoints/othertransforms searched.",
+  "targets": [
+    0.72,
+    0.4,
+    0.059,
+    0.56,
+    0.04,
+    0.12
+  ],
+  "tolerances": [
+    0.05,
+    0.05,
+    0.01,
+    0.05,
+    0.01,
+    0.015
+  ],
+  "metric_order": [
+    "low_SR",
+    "market_SR",
+    "annual_mean_spread",
+    "low_beta",
+    "annual_low_alpha",
+    "annual_spread_alpha"
+  ],
+  "decision": "If numericalmatch improves, evidence of convention mismatch only. Never promote solely from matching published numbers; require independent source confirmation or reconstruct correct stocklevel excess logaggregation. If fails, preserve both without searching transforms. No repeatedbootstrap required for this source diagnosis.",
+  "limits": "log1p(simpleexcess) differs from logtotal minuslogriskfree; mean(logindividual) differs from log(meanindividual). Missing perstock/localRFinputs prevents resolving aggregation exactly. Priorresults known; diagnostic notindependentconfirmation or validatedreplication.",
+  "hashes": {
+    "researchlab\\p28_convention.py": "25015834939a945015030d2b72e6d97ad88e9562333f0dbd5e7eca94f950665d",
+    "researchlab\\p28_volatility.py": "20742b6c07ee854c67dd2fdad0292930eff9989d87c020200db4ae3c1196cda9",
+    "research\\replication_first\\p28_audit\\library.xls": "bacd49d6dd87197c70152cbf5e9cef76004065f3e91c3003f75fd3d61c9416f1"
+  }
+}

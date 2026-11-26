@@ -1,0 +1,15 @@
+{
+  "metrics": {
+    "low_SR": 0.7198541269193225,
+    "market_SR": 0.3961991736042511,
+    "annual_mean_spread": 0.05914357046840562,
+    "low_beta": 0.5610701985926182,
+    "annual_low_alpha": 0.03957407036790318,
+    "annual_spread_alpha": 0.12000460340058862
+  },
+  "numerical_tolerances_met": true,
+  "source_convention_confirmed": false,
+  "exact_replication": false,
+  "strategy_validated": false,
+  "advance_to_execution": false
+}

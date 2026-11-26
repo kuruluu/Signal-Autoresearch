@@ -700,3 +700,9 @@ Meaningful progress: True
 P28firstfrozenstoredreturn test: lowSR.78985 vsmarket.48356,mean spread2.73326%annual,lowbeta.55708,lowalpha3.88396%,spreadalpha10.10893%. Allbootstrapqualitativebounds positive but numericalgatefails. Workbooklogconvention unverified; audit before correcting, no promotion. SyntheticOLS/batchvalidation and hashespass.
 Evidence: p28_partial_001/registration.json, p28_partial_001/results.json, p28_partial_001/DISPOSITION.txt
 Next step: Audit primary raw/logconvention, preserve initialfailure; register any documented correction separately.
+
+CYCLE 103 UPDATE
+Meaningful progress: True
+P28onepreregistered log1pdiagnostic matches allsixunchangedtargets:SR.719854/.396199,annualspread5.914357%,beta.561070,lowalpha3.957407%,spreadalpha12.000460%. Strong convention evidence, notexplicitmetadata confirmation. Preserve initialerrorassumption/mismatch; no executionpromotion. Testing scheme updated to verify workbookconvention separately frompaper.
+Evidence: p28_convention_001/registration.json, p28_convention_001/results.json, p28_convention_001/DISPOSITION.txt, TESTING_SCHEME.md
+Next step: Freeze pairedbootstrap for same inferredlogconvention, then executionaudit only ifgatespass; no extra transforms.
