@@ -520,3 +520,9 @@ Meaningful progress: True
 P11 timing/data audit completed. Registered one SPY monthly10-month next-open contemporary risk-reduction screen for2008-2023 before outcomes. Explicit synthetic adjusted units/zero cash yield,5/10bps costs, paired monthly-path bootstrap, no ranking/paper-order admission without separate raw-account validation.
 Evidence: p11_contemporary_001/registration.json, p11_audit/INPUT_RECOVERY.txt
 Next step: Implement and synthetically test month-end alignment, next-open overnight accounting and paired month-path resampling; freeze analysis hash and run fixed screen without tuning.
+
+CYCLE 73 UPDATE
+Meaningful progress: True
+P11 causal synthetic monthly screen completed with alignment/accounting tests. CAGR6.81%, DD25.85% vs buyhold9.74%/52.42%; stress passes but all bootstrap drawdown-reduction CIs cross zero. Primary gate fails, no raw-account advancement or paper order. Preserve descriptive risk reduction separately from robustness failure.
+Evidence: p11_contemporary_001/results.json, p11_contemporary_001/DISPOSITION.txt, ../../tests/test_p11_screen.py
+Next step: Select next single untested paper by methods/data feasibility. Preserve P11 frozen failure; no window/asset/cash-rate tuning. No leaderboard admission.

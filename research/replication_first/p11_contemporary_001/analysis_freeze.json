@@ -1,0 +1,6 @@
+{
+  "timing": "Synthetic tests passed; before P11 performance calculations",
+  "code_sha256": "e75758e6275002416d48ec055c220d2d905b9b771baac09603acba3780696172",
+  "bootstrap_detail": "Resample full daily return sequences by stationary monthly indices; zero-pad end of each month only, preserving all within-month drawdowns. CAGR uses fixed month-count/12 for resampled paths. Historical CAGR uses elapsed days/365.25.",
+  "limits": "Conditional bootstrap of already realized causal returns, not signals re-estimated on synthetic prices; no independent confirmation"
+}

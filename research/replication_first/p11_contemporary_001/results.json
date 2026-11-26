@@ -1,0 +1,76 @@
+{
+  "type": "Synthetic adjusted-unit contemporary screen, not executable validation",
+  "sessions": 4027,
+  "trades": 27,
+  "summary": {
+    "strategy": {
+      "cagr": 0.06807989345306376,
+      "max_drawdown": 0.25854575280964387,
+      "ending_10000": 28664.6459568768
+    },
+    "buyhold": {
+      "cagr": 0.09738138411562347,
+      "max_drawdown": 0.5242305734786741,
+      "ending_10000": 44185.466566044546
+    },
+    "fixed50": {
+      "cagr": 0.05309948848777202,
+      "max_drawdown": 0.29219459461383857,
+      "ending_10000": 22869.90484690626
+    },
+    "stress10bps": {
+      "cagr": 0.06717848889582512,
+      "max_drawdown": 0.2607667836348051,
+      "ending_10000": 28280.283969992113
+    }
+  },
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 11003,
+      "drawdown_reduction_ci95": [
+        -0.08847838744861704,
+        0.39118420150840827
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.01567983652980634,
+        0.0684529937265751
+      ],
+      "strategy_drawdown_95_percentile": 0.4367120378849283
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 11012,
+      "drawdown_reduction_ci95": [
+        -0.07548680970990063,
+        0.42338040578302666
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.021393363224151675,
+        0.06854740594482311
+      ],
+      "strategy_drawdown_95_percentile": 0.40161723601347565
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 11024,
+      "drawdown_reduction_ci95": [
+        -0.059158183892173095,
+        0.4042377099561182
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.028751986002658547,
+        0.06773600160660465
+      ],
+      "strategy_drawdown_95_percentile": 0.36765473437525015
+    }
+  ],
+  "primary_gate_pass": false,
+  "stress_gate_pass": true,
+  "advance_to_raw_account_test": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}
