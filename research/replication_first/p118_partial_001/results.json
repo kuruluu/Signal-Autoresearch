@@ -1,0 +1,47 @@
+{
+  "type": "P118 daily-open proxy partial mechanism; not exact VWAP replication",
+  "n_quarters": 106,
+  "target_period": [
+    "1993Q3",
+    "2019Q4"
+  ],
+  "slope": -9.290315820218591,
+  "bootstrap": [
+    {
+      "block_quarters": 4,
+      "paths": 10000,
+      "seed": 118004,
+      "slope_ci95": [
+        -22.717795683415076,
+        -1.570126592604671
+      ]
+    },
+    {
+      "block_quarters": 8,
+      "paths": 10000,
+      "seed": 118008,
+      "slope_ci95": [
+        -27.77259020219938,
+        -0.7275796297597652
+      ]
+    },
+    {
+      "block_quarters": 12,
+      "paths": 10000,
+      "seed": 118012,
+      "slope_ci95": [
+        -32.16172536437191,
+        -0.5032674666729596
+      ]
+    }
+  ],
+  "expanding_forecast": {
+    "n": 66,
+    "model_mse": 0.00503688234548716,
+    "mean_mse": 0.005191060341454691,
+    "mse_improvement": 0.029700674973145325
+  },
+  "gate_pass": true,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}
