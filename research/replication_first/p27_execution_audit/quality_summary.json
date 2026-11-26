@@ -1,0 +1,7 @@
+{
+  "active_us_equities": 14442,
+  "tradable": 13525,
+  "tradable_marginable": 13186,
+  "tradable_shortable_etb": 5282,
+  "interpretation": "Current asset metadata only; no historical eligibility, prices, borrow rates, holdings or portfolio weights. Not a native CRSP universe. No orders or account change."
+}

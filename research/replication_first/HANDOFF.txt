@@ -682,3 +682,9 @@ Meaningful progress: True
 P27 partial original US BAB reconstruction passed numerical and bootstrap gates: mean0.699773%monthly, SD10.748962%annual, SR0.781217, FF3alpha0.729586%monthly,FF4alpha0.540300%. All six bootstrap lower bounds positive. Coverage mismatch remains; no executable validation. Corrected documented NumPy2 RHS error without protocol changes; synthetic least-squares comparison passed.
 Evidence: p27_partial_001/registration.json, p27_partial_001/registration_addendum.json, p27_partial_001/results.json, p27_partial_001/DISPOSITION.txt
 Next step: Audit native executable weights/financing/borrow under10000USD before strategy promotion.
+
+CYCLE 100 UPDATE
+Meaningful progress: True
+P27 native execution audit established aggregate returns cannot recover stock weights/turnover/borrow/costs. Native average gross210%needs margin/rounding adaptation; fractional shorts unsupported and paper fees/dividends/borrow omitted. Read-only currentassets5282ETB does not establish historical panel. Current5yearlookback crosses sealedyears. Pinned2020ERPtree contains noBABnative continuation. Setasideexecutionblocked, preservepositivepartialeffect.
+Evidence: p27_execution_audit/AUDIT.txt, p27_execution_audit/quality_summary.json
+Next step: Move to next feasible single paper; no nativeBABprofitability rejection or ETFproxy promotion.

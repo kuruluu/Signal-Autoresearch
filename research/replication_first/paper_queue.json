@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P27",
-  "active_stage": "partial_original_aggregate_effect_passed_execution_audit_next",
+  "active_paper": null,
+  "active_stage": "P27positive_partial_effect_native_execution_input_blocked",
   "papers": [
     {
       "id": "P24",
@@ -462,15 +462,17 @@
     },
     {
       "id": "P27",
-      "status": "active_partial_effect_passed",
+      "status": "set_aside_positive_effect_execution_blocked",
       "reproduction": "Original author US aggregate numerically matches Table3 closely; coverage discrepancy unresolved",
-      "signal": "Not validated; execution feasibility audit next",
+      "signal": "Native weights/point-in-time stock panel/borrow and broker financing missing; current5yearlookback crosses sealedyears. No validated strategy.",
       "evidence": [
         "p27_audit/METHOD_AUDIT.txt",
         "p27_partial_001/registration.json",
         "p27_partial_001/registration_addendum.json",
         "p27_partial_001/results.json",
-        "p27_partial_001/DISPOSITION.txt"
+        "p27_partial_001/DISPOSITION.txt",
+        "p27_execution_audit/AUDIT.txt",
+        "p27_execution_audit/quality_summary.json"
       ]
     }
   ],
@@ -488,5 +490,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Audit P27 executable holdings/weights, financing and short-borrow requirements under10000USD; preserve historical effect pass separately"
+  "next_action_on_resume": "Choose next single paper with faithful permitted inputs and executable mechanism; preserve P27positive historical effect and exact execution blockers"
 }
