@@ -1,0 +1,5 @@
+P17 CONTEMPORARY TRANSFER - INCONCLUSIVE, REGISTERED GATE FAILED
+N4025 predictor-target rows, 2008-2023. SPY share-volume interaction coefficient -0.0617513, expected negative direction, but all5000-path stationary bootstrap95% intervals include0: blocks5 [-.142460,.024375],20 [-.129324,.027914],60 [-.123278,.034538].
+Chronological2016-2023 N2012 expanding forecast MSE improved0.082323% versus fixed weekday-return baseline. This tiny positive point estimate does not offset the failed coefficient uncertainty gate, nor establish economic profitability after costs.
+Set aside fixed modern test. No threshold/window/universe tuning, no strategy promotion, no leaderboard admission or paper order. Not evidence that original1962-1987 NYSE-turnover effect is false: original input vintage/turnover denominator absent; SPY share volume and next-open target change the estimand.
+Synthetic alignment/normalization/current-target-exclusion tests passed; implementation SHA256 frozen and verified before results. All observations viewed development; no sealed2024-2025 data accessed.

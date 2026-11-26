@@ -1,0 +1,6 @@
+{
+  "code_sha256": "938ab1b80697dec2ce9778717be7dd4e6040249aedb2ee9efe4121fbfee516d1",
+  "timing": "Before all P17 effect outcomes; synthetic alignment/causality tests passed",
+  "bootstrap": "5000 row stationary resamples per block; unscaled OLS lstsq for 7-regressor design",
+  "target_boundary": "Chronological split by target date, prior target outcome available before next target open"
+}

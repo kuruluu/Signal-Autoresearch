@@ -1,0 +1,45 @@
+{
+  "type": "Contemporary SPY volume proxy/next-open target; not native replication",
+  "n": 4025,
+  "first_predictor_date": "2008-01-03",
+  "last_target_date": "2023-12-29",
+  "interaction_coefficient": -0.061751326436790197,
+  "bootstrap": [
+    {
+      "block_sessions": 5,
+      "paths": 5000,
+      "seed": 17005,
+      "ci95": [
+        -0.14246038682884757,
+        0.024374542845911895
+      ]
+    },
+    {
+      "block_sessions": 20,
+      "paths": 5000,
+      "seed": 17020,
+      "ci95": [
+        -0.12932439626527445,
+        0.0279135947343985
+      ]
+    },
+    {
+      "block_sessions": 60,
+      "paths": 5000,
+      "seed": 17060,
+      "ci95": [
+        -0.12327801215164873,
+        0.03453758551272988
+      ]
+    }
+  ],
+  "forecast": {
+    "n": 2012,
+    "candidate_mse": 7.085593092572369e-05,
+    "baseline_mse": 7.09143096764439e-05,
+    "mse_improvement": 0.0008232294862148271
+  },
+  "gate_pass": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

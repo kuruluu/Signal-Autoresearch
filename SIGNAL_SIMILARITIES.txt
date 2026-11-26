@@ -78,3 +78,5 @@ P46ETFtransfergatefailed/inconclusive:.198pp/monthconditionalIWM-SPYcontrastvs.2
 P117 cycle70: native-period calendar effect approximately reproduced, but post-publication contrast uncertain and recent contrast slightly negative. Like P50/P52, numerical reproduction does not establish persistence. Positive gross equity return alone is insufficient: compare with ordinary exposure and preserve execution/cost gates. No successful executable-signal commonality established.
 
 P11 cycle73: historical risk reduction passes descriptive thresholds but drawdown advantage not robust to registered paired monthly blocks. Distinguish risk reduction from return enhancement; historical DD25.85% versus resampled95th DD36.77-43.67% shows why tier admission needs uncertainty and execution validation. No validated successful-signal similarities yet.
+
+P17 cycle75: expected coefficient direction and tiny positive MSE change do not establish a signal when registered dependence-aware intervals cross zero. Keep native effect, instrument/volume transfer, entry timing and economic utility separate; no validated successful-signal commonality yet.

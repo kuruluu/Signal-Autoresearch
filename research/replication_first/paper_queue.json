@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P17",
-  "active_stage": "P17 native methods audited; contemporary proxy/next-open test registered before outcomes",
+  "active_paper": null,
+  "active_stage": "Select next untested single paper; P17 contemporary coefficient gate failed",
   "papers": [
     {
       "id": "P24",
@@ -340,13 +340,15 @@
     },
     {
       "id": "P17",
-      "status": "active_registered_contemporary",
+      "status": "set_aside_contemporary_inconclusive",
       "selection_reason": "Primary methods available and contemporary daily return/volume inputs already cached",
       "native_replication": "Blocked on original NYSE turnover denominator/CRSP vintage",
       "evidence": [
-        "p17_audit/METHOD_AUDIT.txt",
-        "p17_contemporary_001/registration.json"
-      ]
+        "p17_contemporary_001/results.json",
+        "p17_contemporary_001/DISPOSITION.txt"
+      ],
+      "reason": "Coefficient expected sign but all confidence intervals cross zero; small forecast MSE improvement insufficient for registered gate",
+      "reopen_condition": "Material new native inputs or demonstrated implementation error; no tuning failed contemporary test"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -363,5 +365,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Implement P17 row alignment/causal normalization and expanding fit tests; freeze code hash before outcome calculation"
+  "next_action_on_resume": "Select by original methods and presealed input feasibility; preserve all frozen failures"
 }
