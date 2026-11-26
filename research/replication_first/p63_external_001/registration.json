@@ -1,0 +1,24 @@
+{
+  "id": "P63_external_001",
+  "utc": "2026-11-26T07:09:37.974399+00:00",
+  "scope": "OSAP2023.08externalreconstruction. Nativeunreproduced: rollingendpointresidualaggregation androwlags differ; do notequate.",
+  "windows": {
+    "original_partial": [
+      "1930-06",
+      "2009-12"
+    ],
+    "later": [
+      "2012-01",
+      "2022-12"
+    ]
+  },
+  "construction": "ResidualMomentum andMom12m samearchive, percentdivide100,pairedcompletecalendar. Zero-investmentnoRFsubtraction. PrimarymeanResidual>0 andSRadvantage>0 inbothwindows. Noalpha numericaltarget claim; noothercolumn/horizon/windowsearch.",
+  "inference": "10000pairedstationarypaths3/12/24months seeds630000+100*windowindex+block. Both95%lowerboundspositiveallblocks andwindows. Fixedreturnsnotstockreformation; notindependentconfirmation. NoCAGR/account/costs. Passonlyfeasibilityaudit.",
+  "hashes": {
+    "researchlab\\p63_external.py": "243af96e5e337d3a129dfcb2a8bdc48da4622bd2fd8cefb80618c5a1f54a4ac4",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "research\\replication_first\\p63_archive\\ZZ1_ResidualMomentum6m_ResidualMomentum.do": "54f8dc94f4bfe877ba0ad017971b1195c5d561e1a21c71e4dafeb2aaa4ac478c",
+    "research\\replication_first\\p63_archive\\11_ProcessCRSP.R": "566e7418db6d7deb5347addb1d1b9959fafce65987cb51127e537c6968b62adb"
+  }
+}

@@ -1,0 +1,3 @@
+P63 EXTERNAL RECONSTRUCTION
+Original955months:annualmean11.4971%,SRadvantage.609745;allboundspositive. Later132months2012-2022:mean3.98118%,SRadvantage-.199023;all6CIsincludezero. Jointgatefails. Noexecutionpromotion.
+Notnative:OSAProllingendpointresiduals androwlags differ. Nativeblockpreserved;noothersignal/windowtuning. UnitspercentconvertedusingdatedRcode. NoCAGR/cost/accountproof.
