@@ -724,3 +724,9 @@ Meaningful progress: True
 P28SPLVtransfer failed115months:annualmeanadvantage.5102pp,Sharpeadvantage-.0775;all6bootstrapCIsincludezero. Prioronlycontrolsynthetics andhashespass. Nativepositiveeffectpreserved, norescue/leaderboard/order.
 Evidence: p28_transfer_001/registration.json, p28_transfer_001/analysis_freeze.json, p28_transfer_001/results.json, p28_transfer_001/DISPOSITION.txt
 Next step: Move to nextpaper; preservefailures and do nottuneSPLVbranch.
+
+CYCLE 107 UPDATE
+Meaningful progress: True
+P26finalpublishedmethods recovered:58instrument1992-2014highfrequencyRV,5offsetsamples,overnight,roll/calendarandglobaltimingrequirements. No nativepanel/appendixrecovered; no empiricalrejection. UtilitygainconditionalonSharpe isnotCAGR/alpha.
+Evidence: p26_audit/METHOD_AUDIT.txt, p26_audit/quality_summary.json
+Next step: Move tonextpaper; preserveP26nativeblock, noETFcloseproxy.

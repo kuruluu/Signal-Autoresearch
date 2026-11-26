@@ -1,0 +1,8 @@
+{
+  "paper_sha256": "4263f53727363351f32c2d17318a7356f4b52d4123d835068894617ec39697b1",
+  "pdf_pages": 46,
+  "native_inputs_recovered": false,
+  "empirical_test_performed": false,
+  "source": "CBSfinalpublishedversion",
+  "extraction": "pdfplumber selectedpages; pypdf failed"
+}
