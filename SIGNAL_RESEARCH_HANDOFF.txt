@@ -538,3 +538,9 @@ Meaningful progress: True
 P17 registered causal SPY volume test completed: coefficient-.061751 expected sign, but all3bootstrap CIs crosszero. Expanding2016-2023 N2012 MSE improves0.082323%, insufficient to satisfy joint gate. Set aside without tuning; three synthetic tests pass and codehash verified. No order or ranking.
 Evidence: p17_contemporary_001/results.json, p17_contemporary_001/DISPOSITION.txt, p17_contemporary_001/analysis_freeze.json, ../../tests/test_p17_effect.py
 Next step: Select next single untested paper by methods/presealed data feasibility, preserving P17 inconclusive failure. Do not tune its windows/thresholds/assets.
+
+CYCLE 76 UPDATE
+Meaningful progress: True
+P12 original43-page publication recovered. Native20 custom value-weighted SIC industry universe and overlapping6/6 strategy distinguished from public French industry groups and prior S03sector proxy. Methods blocker resolved; exact inputs still absent, no empirical test or rejection. Set aside and prioritize P25 native methods/package audit.
+Evidence: p12_audit/METHOD_AUDIT.txt
+Next step: P25 author methods/package audit; assess whether existing factor inputs support a native partial test. Do not retest P12 sector variants or label proxies as native replication.

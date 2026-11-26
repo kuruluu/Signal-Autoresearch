@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "Select next untested single paper; P17 contemporary coefficient gate failed",
+  "active_stage": "P12 original methods recovered; native input blocker established; select next candidate",
   "papers": [
     {
       "id": "P24",
@@ -349,6 +349,16 @@
       ],
       "reason": "Coefficient expected sign but all confidence intervals cross zero; small forecast MSE improvement insufficient for registered gate",
       "reopen_condition": "Material new native inputs or demonstrated implementation error; no tuning failed contemporary test"
+    },
+    {
+      "id": "P12",
+      "status": "set_aside_native_data_blocked",
+      "reason": "20 custom CRSP/COMPUSTAT SIC industry portfolios absent; public industry groupings and prior fourETF S03 not native inputs",
+      "methods": "Primary published article newly recovered",
+      "evidence": [
+        "p12_audit/METHOD_AUDIT.txt"
+      ],
+      "reopen_condition": "Matching20 native portfolio series or underlying point-in-time stock/membership/weight panel; no empirical rejection inferred"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -365,5 +375,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Select by original methods and presealed input feasibility; preserve all frozen failures"
+  "next_action_on_resume": "Audit P25 author methods/package for native volatility-managed factor tests, one paper at a time"
 }

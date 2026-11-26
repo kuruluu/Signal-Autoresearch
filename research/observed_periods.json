@@ -37,5 +37,6 @@
   "P117_reconstruction": "DJIA 1897-01-04 through 1986-06-11 price returns evaluated, 1067 complete TOM vectors; all viewed development, no sealed observations.",
   "P117_persistence": "Fixed DJIA TOM vectors Feb1989-Oct2023 N417 and Jan2012-Oct2023 N142 evaluated; all development, no sealed observations.",
   "P11_contemporary": "SPY2007warmup/2008-2023 next-open monthly10-month screen evaluated N4027sessions; all viewed development, no sealed observations.",
-  "P17_contemporary": "SPY2007warmup and2008-2023 N4025 volume/next-open rows evaluated; chronological2016-2023 N2012 forecast scores viewed. All development; no sealed observations."
+  "P17_contemporary": "SPY2007warmup and2008-2023 N4025 volume/next-open rows evaluated; chronological2016-2023 N2012 forecast scores viewed. All development; no sealed observations.",
+  "P12_source_discovery": "Primary published1999 methods read. Search incidentally showed secondary replication summary with aggregate post1999performance, not used for selecting parameters or evaluating; no underlying sealed2024-2025 observations acquired."
 }
