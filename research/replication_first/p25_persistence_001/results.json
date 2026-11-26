@@ -1,0 +1,64 @@
+{
+  "type": "Native MOM later-sample historical persistence, not postpublication validation",
+  "n_months": 44,
+  "period": [
+    "2017-01",
+    "2020-08"
+  ],
+  "sharpe_combination_control": [
+    0.3861263831537383,
+    0.5672281294142495
+  ],
+  "cer_percent_combination_control": [
+    1.4489458953434238,
+    2.876590719174276
+  ],
+  "sharpe_gain": -0.18110174626051118,
+  "cer_gain_pp": -1.4276448238308523,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 25703,
+      "sharpe_gain_ci95": [
+        -0.6635847370558104,
+        0.33193951710208347
+      ],
+      "cer_gain_ci95_percent": [
+        -5.727194406368543,
+        3.0485759892460327
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 25712,
+      "sharpe_gain_ci95": [
+        -0.5731936174160763,
+        0.23571439491336424
+      ],
+      "cer_gain_ci95_percent": [
+        -4.797535255578345,
+        2.0991262953123297
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 25724,
+      "sharpe_gain_ci95": [
+        -0.5099981341835736,
+        0.15639799375872165
+      ],
+      "cer_gain_ci95_percent": [
+        -4.256292698127554,
+        1.4165768860259025
+      ]
+    }
+  ],
+  "gate_pass": false,
+  "exposure_min": 0.057212458328481805,
+  "exposure_max": 1.8468018103055341,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

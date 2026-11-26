@@ -568,3 +568,9 @@ Meaningful progress: True
 P25 executionfeasibility clarified: nativefactor holdings/borrow/costmissing; AlpacaMTUM currentlytradable but longonlyproxy differs. Issuerinception2013means native120month warmup leaves7testmonths before2024, insufficient. Future2026split creates rawprice-vintage audit requirement. No silentshortertraining, no orders. Native later-sample2017-2020 data available for next preregistered check.
 Evidence: p25_execution_audit/AUDIT.txt
 Next step: Register same-rule nativeMOM2017-Aug2020 later-sample persistence before outcomes, label outsideauthorsample but prepublication and alreadyviewedperiod. Audit any ETF adaptation separately; no currentedge claim.
+
+CYCLE 81 UPDATE
+Meaningful progress: True
+P25 same-rule nativeMOM later-sample check failed: N44Jan2017-Aug2020, combination/controlSR.3861/.5672,CER1.4489%/2.8766%,negativepointgains andallbootstrapCIscrosszero. Four causal/variance tests pass, registrationcodehash verifies. Historical positive replicas preserved; no tradingpromotion.
+Evidence: p25_persistence_001/registration.json, p25_persistence_001/results.json, p25_persistence_001/DISPOSITION.txt
+Next step: Move to P07 Momentum Crashes primarymethods/nativefactor feasibility audit. Preserve P25failures, no retuning or shorterETFwarmup torescue.

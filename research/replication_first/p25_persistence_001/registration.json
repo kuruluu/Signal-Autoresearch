@@ -1,0 +1,19 @@
+{
+  "id": "P25_persistence_001",
+  "registered_utc": "2026-11-26T05:47:08.322842+00:00",
+  "sample": "Native monthly MOM1927-Jan through2020-Aug inputs; score2017-Jan through2020-Aug,N44 expected; no other endpoint. Outside original2016sample, prepublication, not independentconfirmation.",
+  "rule": "Unchanged p25_causal.allocate: initial120months, expanding all prior history, gamma5, training-only variance scale, same original-only control, collapsed factor exposure clip[-5,5]. No reset2017, no new parameter/window/asset.",
+  "input": "Monthly native MOM outcome and previous-calendar-month daily22*mean squares. Reject missing months, zero variance or changed pinned inputhash; no fullsample scale used in allocation.",
+  "metrics": "Annual SR and excessCER as previous native test, not CAGR or actual dollar account return. Report exposures and paired SR/CER gains.",
+  "gate": "Both point gains positive AND both95%CI lower bounds>0 for all3/12/24-month stationarybootstrap block lengths,10000paths each,seeds25703/25712/25724; otherwise unsupported/inconclusive, no parameter rescue.",
+  "bootstrap": "Paired fixed causal return rows,conditional no synthetic-history re-estimation. N44 short,24-month blocks imply very few independent blocks; no strong modern validation from passing alone.",
+  "advance": "Only if gate passes, seek later bounded/pinned native data and feasible executable representation; no order/ranking. If fails, retain historical reproduction and set aside current signal transfer.",
+  "hashes": {
+    "researchlab\\p25_persistence.py": "35cba2dc2f8c6b0d5859d37d5064aff99a29ab35fb922a992e76354483c4b77c",
+    "researchlab\\p25_causal.py": "7775a64046c021ff3300ce56945aa5f30dd53125c6b0084f57a121f12521870c",
+    "researchlab\\p25_reconstruction.py": "d0afec2a24f25573e28dcd19ab2723a4a32fb0b50ae16e242a2969eb4d7a321c",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor.CSV": "a0cc4f421cfe771e5afc8bd4079cd3d520d7f5ea68bca3a1586f74f98360f65f",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor_daily.CSV": "92558f90228917110e5e7715992a89293ab48d4802b44f8649808852d3022897"
+  },
+  "sealed": "No2024-2025observations"
+}
