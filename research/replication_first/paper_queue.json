@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P53",
-  "active_stage": "P53methods_recovered_partial_scope_timing_audit",
+  "active_stage": "P53missing1914months_beforeoutcomes",
   "papers": [
     {
       "id": "P24",
@@ -544,5 +544,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "ResolveP53equationtiming/decay/drift visually; freezeDowpartialscope beforeoutcomes"
+  "next_action_on_resume": "Audit1914closures andregistercalendar-awareP53restart; do notfill/compress"
 }

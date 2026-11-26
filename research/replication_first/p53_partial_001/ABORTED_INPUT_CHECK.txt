@@ -1,0 +1,2 @@
+P53 ABORTED BEFORE OUTCOMES
+Syntheticcausality/driftchecks passed. Initialcoverageerror revealedmissingregistereddatefilter, correctedunderaddendum withoriginalpreserved. Correctedguard finds1914Aug-Novabsent. Do notcompressmonthlags orforwardfillclosure. Noempiricalresults. Nextresolveexplicitgapmodel/restart usinghistoricalclosure provenance;registerbeforeoutcomes.
