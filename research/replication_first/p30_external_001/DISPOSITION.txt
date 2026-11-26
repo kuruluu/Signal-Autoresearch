@@ -1,0 +1,1 @@
+Historical449monthsannualmean11.729%,allboundspositive. Later192months2007-2022mean5.8297%,SR.30586,all3boundsincludezero. Fixedgatefails. Nootherfactor/quantile/windowsearch. Nativeeffectnotrejected,externaluncertain;noexecutionpromotion.
