@@ -2,7 +2,7 @@
   "updated_on": "2026-11-25",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P40",
-  "active_stage": "Primarymethods and SIPsession-data audit for registeredcontemporaryintradaymomentumtest",
+  "active_stage": "RegisteredP40contemporary002 SIPminutecollectionrunning, session3171; nooutcomescomputed",
   "papers": [
     {
       "id": "P24",
@@ -310,8 +310,12 @@
     },
     {
       "id": "P40",
-      "status": "active_reaudit_new_data_access",
-      "selection_reason": "AuthenticatedSIPminutequotes/tradesaddresspreviousintradaydatablocker. Native1993-2013sampleoutsideAlpacacoverage; register2016+contemporarytestseparatelyafterprimarymethods."
+      "status": "active_registered_data_collection",
+      "selection_reason": "AuthenticatedSIPminutequotes/tradesaddresspreviousintradaydatablocker. Native1993-2013sampleoutsideAlpacacoverage; register2016+contemporarytestseparatelyafterprimarymethods.",
+      "evidence": [
+        "p40_contemporary_002/registration.json",
+        "p40_contemporary_001/ABORTED_INPUT_CHECK.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",

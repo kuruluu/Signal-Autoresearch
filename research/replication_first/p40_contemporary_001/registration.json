@@ -1,0 +1,24 @@
+{
+  "id": "P40_contemporary_001",
+  "registered_at": "2026-11-26T05:20:10.021784+00:00",
+  "type": "Contemporarymechanismtest, NOT1993-2013originalpaperreplication",
+  "primary_sources": [
+    "https://guofuzhou.github.io/zpublications.html",
+    "https://guofuzhou.github.io/Appendix_IntraDay.pdf"
+  ],
+  "instrument": "SPY only",
+  "development": "2016-2020",
+  "chronological_test": "2021-2023; alreadyviewedmarketperiod,notindependentconfirmation",
+  "feature": "Adjusted09:59minuteclose/previousregularsessionlastminuteclose-1; includesovernightreturn",
+  "target": "Adjusted15:59minuteclose/15:30minuteopen-1; earlycloseandnonstandardopensessionsomitted",
+  "implementation_limits": [
+    "Thesearefixedminute-barproxiesforboundaryprices; closingauctionexcluded,notexactTAQpaperprices.",
+    "Useadjustmentall toavoidmechanicaldividend/splitovernightgaps; syntheticadjustedunitsnotexecutablefillprices.",
+    "Anyfuturetradingtestmustseparatelymodelbidask/latency,costs,borrow,capitaland3drawdowntiers."
+  ],
+  "data_quality": "Noimputation; requireall390regularsessionminutebarsanduniquetimestamps; reportallmissingdays; at least95%completeeligiblefullsessionsrequired. Firstsessionwithoutpriorcloseexcluded.",
+  "mechanism_gate": "PositiveOLSslope and95%stationarybootstrapCIstrictlyabove0atblocks5/20/60sessions (5000paths,seeds40005/40020/40060); pluspositive2021-2023recursiveOLSforecastMSEimprovementoverexpandinghistoricalmeanafterinitial2016-2020training. Noalternativefilters/assets/windows.",
+  "estimation": "OLSconstantandonefirsthalf-hourfeature; initialtraining2016-2020,refitexpandingdailyusingonlycompletedpriorsessions; whole2016-2023slopeisdescriptive.",
+  "sealed_policy": "No2024-2025marketobservations; requireexplicitendbefore2024forEVERYrequest.",
+  "code_sha256": "ec2233e163ae8dbb964dfc690c24a3e28f4e270ae060040f2af1e4a4e66150e3"
+}
