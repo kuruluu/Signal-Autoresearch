@@ -946,3 +946,9 @@ Meaningful progress: True
 P124 US seasonal test: historical effect positive, postpublication monthly log-return difference0.561percentage points with all confidence intervals including zero. Gate failed. Second cost-library bounded probe timed out; no observations received.
 Evidence: p124_partial_001/registration.json, p124_partial_001/results.json, p124_partial_001/DISPOSITION.txt
 Next step: Next paper; no seasonal retuning; cost-library access branch held aside.
+
+CYCLE 144 UPDATE
+Meaningful progress: True
+P125 abstract-defined Monday weekday contrast passes historical/later bootstrap gates, but later Monday mean only-1.2786bps/session. Contrast is not avoidance alpha; actual incremental cash/cost payoff remains untested. Native fullpaper methods unresolved.
+Evidence: p125_audit/METHOD_AUDIT.txt, p125_partial_001/registration.json, p125_partial_001/results.json, p125_partial_001/DISPOSITION.txt
+Next step: Freeze incremental Monday-avoidance versus buyhold test with cash and execution; no contrast-to-profit shortcut.

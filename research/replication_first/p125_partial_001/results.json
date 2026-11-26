@@ -1,0 +1,80 @@
+{
+  "windows": {
+    "original": {
+      "months": 300,
+      "Mondaymean": -0.0014638221183423204,
+      "Othermean": 0.0008205649690327391,
+      "difference": 0.0022843870873750596,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 125003,
+          "difference_ci95": [
+            0.001793071442739579,
+            0.0028028693257239824
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 125012,
+          "difference_ci95": [
+            0.0017259697411479463,
+            0.0028204846851937475
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 125024,
+          "difference_ci95": [
+            0.001719721546538506,
+            0.0027663981234217257
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "post_publication": {
+      "months": 489,
+      "Mondaymean": -0.00012785747814381094,
+      "Othermean": 0.0006492843811789917,
+      "difference": 0.0007771418593228027,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 125103,
+          "difference_ci95": [
+            0.00022396776603188722,
+            0.0013762787418383805
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 125112,
+          "difference_ci95": [
+            0.00022942143966639042,
+            0.0013492261786421057
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 125124,
+          "difference_ci95": [
+            0.0002308590567062948,
+            0.0013497879108327207
+          ]
+        }
+      ],
+      "gate": true
+    }
+  },
+  "numerical": true,
+  "advance": true,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}

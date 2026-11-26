@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P124_partial_persistence_failed",
+  "active_paper": "P125",
+  "active_stage": "incremental_avoidance_test_pending",
   "papers": [
     {
       "id": "P24",
@@ -762,6 +762,19 @@
         "p124_partial_001/results.json",
         "p124_partial_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P125",
+      "title": "Stock Returns and the Weekend Effect",
+      "status": "partial_weekday_effect_pass_incremental_test_pending",
+      "reproduction": "Publisher abstract hypothesis only; native full methods unresolved",
+      "signal": "Weekday contrast passes; actual avoidance payoff untested",
+      "evidence": [
+        "p125_audit/METHOD_AUDIT.txt",
+        "p125_partial_001/registration.json",
+        "p125_partial_001/results.json",
+        "p125_partial_001/DISPOSITION.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -778,5 +791,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Next paper; no seasonal tuning. Cost-library access held aside after second bounded-probe timeout."
+  "next_action_on_resume": "Register actual Monday avoidance incremental payoff versus buyhold with cash and costs; weekday contrast is not strategy alpha"
 }

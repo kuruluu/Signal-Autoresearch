@@ -1,0 +1,24 @@
+{
+  "id": "P125_partial_001",
+  "utc": "2026-11-26T16:34:06.895654+00:00",
+  "paper": "French1980 JFE March DOI10.1016/0304-405X(80)90021-5; publisher abstract only, full methods blocked",
+  "sample_end": "1977-12",
+  "windows": {
+    "original": [
+      "1953-01",
+      "1977-12"
+    ],
+    "post_publication": [
+      "1980-04",
+      "2020-12"
+    ]
+  },
+  "construction": "Hypothesis screen, not replication: CRSP aggregate total daily return; Monday weekday versus all other sessions including rare Saturdays. Month paired sums/counts. Native S&P price definition, dividend/holiday exclusions unaudited. No numeric match claim.",
+  "gate": "Monday negative and other sessions positive in both periods, all95percent3/12/24month10000stationary bootstrap CIs for Other-Monday positive in both; seeds125000+100*windowindex+block. No alternative weekday/holiday windows.",
+  "limits": "Partial abstract-defined mechanism only; no native full methods or S&P series replication, not independent, not executable strategy.",
+  "hashes": {
+    "researchlab\\p125_calendar.py": "b9427d37c28f81293ac52c820b1b940558dbdb8ae4bbeb73e04ec6f244d277cd",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74"
+  }
+}
