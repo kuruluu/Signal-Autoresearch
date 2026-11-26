@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P118",
-  "active_stage": "P118$10000quarterlyraw-accountscreenregisteredbeforeoutcomes;dividendpaytiminguncertaintyexplicit",
+  "active_paper": null,
+  "active_stage": "P118predictivemechanism supported butcost-awareeconomicgatefailed;preservefixedstrategyandmoveon",
   "papers": [
     {
       "id": "P24",
@@ -412,13 +412,15 @@
     {
       "id": "P118",
       "title": "The Day Destroys the Night, Night Extends the Day: A Clientele Perspective on Equity Premium Variation",
-      "status": "active_mechanism_supported_execution_pending",
+      "status": "set_aside_execution_economic_gate_failed",
       "version": "April2022workingpaper",
       "evidence": [
-        "p118_partial_001/registration.json",
         "p118_partial_001/results.json",
-        "p118_partial_001/INTERPRETATION.txt"
-      ]
+        "p118_strategy_001/results.json",
+        "p118_strategy_001/DISPOSITION.txt"
+      ],
+      "reason": "PredictiveMSEgatepass;rawaccountCAGRgain.4529pp<1pp,allCAGRgainCIsincludezero;DD20riskfails",
+      "reopen_condition": "Materialnewevidenceordemonstratedimplementationerror;preservefrozenfailedallocation"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -435,5 +437,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Implement/testwhole-sharecash/receivableledger,quarterlyprior-onlyallocationsanddelayedopenfills;freezecodehashbeforeoutcomes"
+  "next_action_on_resume": "Selectnextsinglepaperwithprimarymethods/presealedinputs;noP118parameterretuningororders"
 }

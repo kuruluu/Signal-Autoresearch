@@ -1,0 +1,6 @@
+{
+  "code_sha256": "8e8dee1500a1cba0dfe8870b55630cd0319eadbb37df098d9ee12c7bb743b19b",
+  "dependency_sha256": "7c1b086002555038ac664190cf0c2e499e892839693333522c51e9534ccbb76f",
+  "timing": "Before all P118 strategy outcomes;6 synthetic mechanism/account tests pass",
+  "assumptions": "Receivables included inNAV but cashlocked60/120days; hypotheticalsecond/thirdsessionopenandadversecosts. Exactpaydates/intradaydrawdowns/independentconfirmationnotvalidated."
+}

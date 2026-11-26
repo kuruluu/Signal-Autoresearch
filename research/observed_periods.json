@@ -48,5 +48,6 @@
   "P09_diversification": "YaleupdatedglobalVAL/MOM1972-Jan..2011-JulN475evaluated; corrected2invaliddaylabelswithoutreturnedit. Workbooksdatebounds2012-Decinspected, later2011-Aug..2012-Decnotusedforeffectestimation. Nosealedobservations.",
   "P09_original": "AQRexplicitoriginal1972-2011workbookacquired;globalfinitepairedJan1972-Jun2010N462evaluated;Jul2010-Jul2011globalcolumnsblank,assetcolumnsnotusedforreturntests. No sealedobservations.",
   "P118_inputs": "BoundedSPY1993-2019OHLC/adjustedcloseacquired6780sessions,dateboundscheckedonly. Noovernightpredictor/forecastoutcomesyet. No2024-2025observations.",
-  "P118_mechanism": "SPY1993-Feb..2019-Deccomponentinputsandquarterlytargets1993Q3-2019Q4N106evaluated;66prior-onlyforecasts2003Q3-2019Q4. All vieweddevelopment;no2024-2025observations."
+  "P118_mechanism": "SPY1993-Feb..2019-Deccomponentinputsandquarterlytargets1993Q3-2019Q4N106evaluated;66prior-onlyforecasts2003Q3-2019Q4. All vieweddevelopment;no2024-2025observations.",
+  "P118_strategy": "RawSPY1993-2023inputused;2003Q3-2023Q4executionledgersand2020-2023resetdiagnosticscomputed,includingmodeleddividendcashdelays. Allvieweddevelopment;no2024-2025observations."
 }

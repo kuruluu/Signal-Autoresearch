@@ -1,0 +1,130 @@
+{
+  "type": "Raw-share execution screen with modeled dividend payment dates and open fills",
+  "summary": {
+    "strategy": {
+      "net_cagr": 0.05909719687391113,
+      "daily_close_max_drawdown": 0.1852711084521601,
+      "ending_equity": 32439.439474670417,
+      "fills": 73,
+      "ending_cash": 11919.151579650887,
+      "ending_shares": 43,
+      "ending_receivable": 81.958
+    },
+    "control": {
+      "net_cagr": 0.054568363997067104,
+      "daily_close_max_drawdown": 0.2883247436861591,
+      "ending_equity": 29711.835742347717,
+      "fills": 54,
+      "ending_cash": 8714.331849769591,
+      "ending_shares": 44,
+      "ending_receivable": 83.86399999999999
+    },
+    "fixed50": {
+      "net_cagr": 0.05197425678406509,
+      "daily_close_max_drawdown": 0.3145651449889323,
+      "ending_equity": 28249.24848756027,
+      "fills": 62,
+      "ending_cash": 13455.552563243864,
+      "ending_shares": 31,
+      "ending_receivable": 59.086
+    },
+    "buyhold": {
+      "net_cagr": 0.08769899503513923,
+      "daily_close_max_drawdown": 0.5103833072622384,
+      "ending_equity": 56010.11720763779,
+      "fills": 1,
+      "ending_cash": 7811.301454219818,
+      "ending_shares": 101,
+      "ending_receivable": 192.506
+    },
+    "stress": {
+      "net_cagr": 0.05690618780119672,
+      "daily_close_max_drawdown": 0.1857843726291829,
+      "ending_equity": 31091.386736618042,
+      "fills": 73,
+      "ending_cash": 11460.6278367157,
+      "ending_shares": 41,
+      "ending_receivable": 143.04899999999998
+    },
+    "stress_control": {
+      "net_cagr": 0.05329257038921842,
+      "daily_close_max_drawdown": 0.2921549323383299,
+      "ending_equity": 28983.752059905997,
+      "fills": 57,
+      "ending_cash": 8396.978164886468,
+      "ending_shares": 43,
+      "ending_receivable": 148.44400000000002
+    },
+    "later_reset_strategy": {
+      "net_cagr": 0.10317707814765842,
+      "daily_close_max_drawdown": 0.112087543977484,
+      "ending_equity": 14794.963320541385,
+      "fills": 11,
+      "ending_cash": 5727.859366928104,
+      "ending_shares": 19,
+      "ending_receivable": 36.214
+    },
+    "later_reset_control": {
+      "net_cagr": 0.08484139145609437,
+      "daily_close_max_drawdown": 0.23112879140569598,
+      "ending_equity": 13838.138669692995,
+      "fills": 7,
+      "ending_cash": 4293.818718521119,
+      "ending_shares": 20,
+      "ending_receivable": 38.12
+    }
+  },
+  "bootstrap": [
+    {
+      "block_quarters": 4,
+      "paths": 10000,
+      "seed": 118104,
+      "cagr_advantage_ci95": [
+        -0.018225190383509567,
+        0.027235426292631332
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.033684116159385505,
+        0.0585751143844746
+      ],
+      "strategy_drawdown_95_percentile": 0.22707208324803985
+    },
+    {
+      "block_quarters": 8,
+      "paths": 10000,
+      "seed": 118108,
+      "cagr_advantage_ci95": [
+        -0.015902723513944898,
+        0.02414103960319254
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.033960536701584734,
+        0.05903045507538185
+      ],
+      "strategy_drawdown_95_percentile": 0.22162884493559226
+    },
+    {
+      "block_quarters": 12,
+      "paths": 10000,
+      "seed": 118112,
+      "cagr_advantage_ci95": [
+        -0.014254742168978008,
+        0.022178535541301985
+      ],
+      "strategy_cagr_5_50_percentile": [
+        0.0340740739671081,
+        0.05908934430053525
+      ],
+      "strategy_drawdown_95_percentile": 0.21426070912657394
+    }
+  ],
+  "primary_gate_pass": false,
+  "provisional_drawdown_compliance": {
+    "0.5": true,
+    "0.3": true,
+    "0.2": false
+  },
+  "independent_confirmation": false,
+  "trading_strategy_validated": false,
+  "leaderboard_admission": false
+}
