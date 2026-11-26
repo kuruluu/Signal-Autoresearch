@@ -856,3 +856,9 @@ Meaningful progress: True
 P79transferfailed:ERC.786,MV.680,EW.763allCIszero. Solverflagfixbeforeoutcomes,preserved.
 Evidence: p79_transfer_001/results.json, p79_transfer_001/DISPOSITION.txt
 Next step: Nextpaper.
+
+CYCLE 129 UPDATE
+Meaningful progress: True
+P120historicalmatches,postpublication3.26bpsdifferenceuncertain;gatefails.
+Evidence: p120_partial_001/registration.json, p120_partial_001/results.json, p120_partial_001/DISPOSITION.txt
+Next step: Nextpaper.

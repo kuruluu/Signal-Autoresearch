@@ -1,0 +1,28 @@
+{
+  "id": "P120_partial_001",
+  "utc": "2026-11-26T07:29:17.242029+00:00",
+  "paper": "McConnellXu2008,10.2469/faj.v64.n2.11,MarchAprilissue;workingJuly2006",
+  "sample_end": "2005-12",
+  "windows": {
+    "original": [
+      "1926-01",
+      "2005-12"
+    ],
+    "pre_publication": [
+      "2006-01",
+      "2008-02"
+    ],
+    "post_publication": [
+      "2008-03",
+      "2020-12"
+    ]
+  },
+  "construction": "DatedCRSPvwretd. TOMlastsessionandfirst3sessions,elseROM. Requirefullmonthandboundarycoverage. Rawreturns noRFsubtraction. Monthlevelpairednumerators/counts bootstrap;dailyweightedmeans,notmeanmonthlymeans.",
+  "gate": "OriginalTOMmeanwithin.0005of.0015andall3/12/24month10000CIpositiveforTOM-ROM inoriginalandpostpublication,seeds120000+100*windowindex+block. Prepublicationdiagnosticnotgate. Nootherdays/windows.",
+  "limits": "Dated2021teachingseriesnotpaperCRSPvintage;notindependent;notaccountcosts.",
+  "hashes": {
+    "researchlab\\p120_calendar.py": "836b3452ffd76220862488dc37cfdb33e4868531be57704cf87e76abb3f24de2",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p24_inputs\\author_daily_2021.csv": "0fd863ed7fbd60ca8a256c6a8e2551ec9f721d47f91cf70a3d6c7ec0bed3ae74"
+  }
+}

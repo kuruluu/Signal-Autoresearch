@@ -1,0 +1,116 @@
+{
+  "windows": {
+    "original": {
+      "months": 960,
+      "TOMmean": 0.001622143838410625,
+      "ROMmean": 0.00014630642616745082,
+      "difference": 0.001475837412243174,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 120003,
+          "difference_ci95": [
+            0.0011433923422999026,
+            0.0018017480305738234
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 120012,
+          "difference_ci95": [
+            0.0011704313323028038,
+            0.001776508300502038
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 120024,
+          "difference_ci95": [
+            0.0011874644538674617,
+            0.0017718642681737765
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "pre_publication": {
+      "months": 26,
+      "TOMmean": -0.00041306390605769244,
+      "ROMmean": 0.00045627835537813215,
+      "difference": -0.0008693422614358245,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 120103,
+          "difference_ci95": [
+            -0.00236601418515271,
+            0.000493605102017199
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 120112,
+          "difference_ci95": [
+            -0.0019460095983473177,
+            9.281595599116245e-05
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 120124,
+          "difference_ci95": [
+            -0.0017107931674952372,
+            -4.352891995135764e-05
+          ]
+        }
+      ],
+      "gate": false
+    },
+    "post_publication": {
+      "months": 154,
+      "TOMmean": 0.0007273522565422077,
+      "ROMmean": 0.00040093823739319835,
+      "difference": 0.0003264140191490094,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 120203,
+          "difference_ci95": [
+            -0.0005383138068765273,
+            0.0011881895081871348
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 120212,
+          "difference_ci95": [
+            -0.0003751176385919758,
+            0.0010752991894105834
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 120224,
+          "difference_ci95": [
+            -0.0003463432822199866,
+            0.0010195260141966506
+          ]
+        }
+      ],
+      "gate": false
+    }
+  },
+  "numerical": true,
+  "advance": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}
