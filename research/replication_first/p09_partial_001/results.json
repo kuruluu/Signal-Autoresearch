@@ -1,0 +1,57 @@
+{
+  "type": "Partial native aggregate diversification reconstruction; ex-post global weights",
+  "n_months": 475,
+  "missing_months": [],
+  "sharpe_value_momentum": [
+    0.5141536667733982,
+    0.6408049038358019
+  ],
+  "sharpe_combo": 1.27428989460305,
+  "correlation": -0.588129767405003,
+  "combo_sharpe_advantage": 0.6334849907672482,
+  "numerical_gate_pass": false,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 90303,
+      "correlation_ci95": [
+        -0.7256971740655812,
+        -0.4134531308208881
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.2897743954913123,
+        0.8294861945556194
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 90312,
+      "correlation_ci95": [
+        -0.7208600404709347,
+        -0.4116004113268593
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.31169128834633264,
+        0.8436914039346899
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 90324,
+      "correlation_ci95": [
+        -0.7055624077942174,
+        -0.433402550348121
+      ],
+      "combo_sharpe_advantage_ci95": [
+        0.334298577322853,
+        0.8806490552857611
+      ]
+    }
+  ],
+  "advance_to_causal_execution_audit": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

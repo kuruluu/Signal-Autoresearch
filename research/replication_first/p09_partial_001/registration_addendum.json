@@ -1,0 +1,6 @@
+{
+  "code_sha256": "890a8162edcd5d78bb8ca2e723c96d1b6f5e3b59cf800528bbf131aeb92a9077",
+  "timing": "Before effect calculations; original run failed date parser before estimates",
+  "correction": "Pinned source contains20100931/20101131. Explicitly map to20100930/20101130, preserving returns/months. All other invaliddates rejected. Original implementation preserved p09_diversification_v1.py and original analysis_freeze.json; synthetic typo tests pass.",
+  "criteria": "No changes to sample, weights, targets, uncertainty or gates"
+}

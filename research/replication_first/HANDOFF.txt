@@ -598,3 +598,9 @@ Meaningful progress: True
 P09authorpaperandYalefactor/testassetworkbooksrecovered,bounded2012. Nativeglobalvalue/momentumdiversificationeffectregisteredonoriginal1972-2011window; updatedvintage andprintedtable/narrativeSRdiscrepancyexplicitbeforeoutcomes. Noeffectcomputed.
 Evidence: p09_audit/METHOD_AUDIT.txt, p09_partial_001/registration.json
 Next step: Implementread-onlyworkbookparser,strictdate/pairedmissingchecks,fixed50/50combinationandpairedbootstrap;freezeimplementationhashbeforeresults. Preservelaterworkbookmonthsforseparateregistration.
+
+CYCLE 86 UPDATE
+Meaningful progress: True
+P09 revisedauthoraggregateeffecttested:475pairs,corr-.5881,comboSR1.2743vs.5142/.6408; allbootstrapCIs supportdiversification. PrintednumericalSRgatefails, version/vintageunresolved; noexecutionadvancement. Parserdate-typoscorrectedbeforeoutcomeswithpreservedv1and3tests. No sealeddata.
+Evidence: p09_partial_001/results.json, p09_partial_001/DISPOSITION.txt, p09_partial_001/registration_addendum.json, ../../tests/test_p09_diversification.py
+Next step: Selectnextsinglepaper; preserveP09supportiveeffectandnumericalmismatch. ReopenonlyactualoriginalAQRvintageorimplementationerror, notposthocthreshold/weightchanges.

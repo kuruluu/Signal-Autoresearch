@@ -88,3 +88,5 @@ P25 cycle79: positive factor-level evidence survives prior-data allocation: MOM 
 P25 cycle81: positive historical causal MOM result did not persist in fixed2017-Aug2020check: SRgain-.1811,CERgain-1.4276pp,CIs includezero. Adds evidence that historical numerical reproduction and causalparameter timing are necessary but insufficient for contemporary edge. Preserve both positive native evidence and failed latercheck; no successful executable-signal commonality yet.
 
 P07 cycle84: nativeportfolio baseline andconditionalbeta coefficients close tooriginal; robustnegativecrashinteractionat3/12months but24monthCIcrosseszero. Dependenceassumptionsmatterforrarecrashmechanisms. Concomitant reboundindicatorisnotforecast. No validatedexecutablesignal andno groundsforcommonalityamongsuccessfulsignalsyet.
+
+P09 cycle86: revisednativeaggregates shownegativevalue/momentumcorrelation-.588 and50/50SR1.274 exceedingstandalone.514/.641 withallbootstrapCIs supportingdiversification. OriginalSRtargetsmiss; source/vintageunresolved. Supporteddiversificationmechanismisnotvalidatedexecutableedge, especiallywithexpostglobalweights. Preserveevidencewithoutpromotingorretuning.

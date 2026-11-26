@@ -1,0 +1,6 @@
+P09 numerical replication gate FAILED; diversification effect supported in inspected revised dataset.
+1972-Jan..2011-Jul N475 completepairedmonths: SRvalue.514154,MOM.640805,50/50combo1.274290 versusfixedprintedtargets.72,.74,1.59. Corr-.588130 versus-.60. Value/comboSRoutside.10tolerance; neverretuneweights/scaling/endpoints toforcefit.
+All3/12/24month10000path bootstrap correlationCIsnegative andcomboSRadvantageCIspositive; advantage.633485 overbetterstandalonefactor. Effectsupportdoesnotresolvepaperdata/numericalmismatch. Authorworkbookexplicitlyupdated; originalAQRJuly2011vintageorprovenimplementationerrorwouldwarrantsourceaudit, notposthoccriteriarelaxation.
+Originalparserabortedbeforeestimationdue20100931/20101131invalidlabels. Preservedoriginalcode/hash; correctedonlythose2monthendsbeforeoutcomes, withnewhash/frozenaddendumandtests. No returnvalueedit.
+Nativeaggregatesincludeex-postglobalvolweightsandzero-investmentmultiassetpositions; absentholdings/funding/roll/borrow/costs. Fixedregisteredadvance requiresbothnumericalanduncertaintygates, so no causalexecutionpromotion, ranking or paperorder. No contemporaryindependentconfirmation.
+Setaside numerical/vintageunresolved, NOT evidence diversificationabsent. Reopen for actualoriginalvintage/identifiedimplementationerror only.
