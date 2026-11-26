@@ -1,0 +1,21 @@
+{
+  "id": "P123_external_001",
+  "utc": "2026-11-26T07:43:22.403962+00:00",
+  "scope": "External GP high-minus-low VW quintiles, annual June assignment, nextmonth return lag, nonfinancial SIC exclusion. Actual accounting releases/vintage and native breakpoint fidelity not reconstructed. No lagged or quarterly alternatives; no exact replication claim.",
+  "windows": {
+    "original": [
+      "1963-07",
+      "2010-12"
+    ],
+    "later": [
+      "2013-05",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds1230000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p123_external.py": "0d2bba851333225b415b5c52590c641360a169d3c9bb8a57f38f329ee66d59fe",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

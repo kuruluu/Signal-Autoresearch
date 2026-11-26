@@ -910,3 +910,9 @@ Meaningful progress: True
 P122 dated accounting availability audited and external accruals test preregistered. Historical-era8.2703%annual spread; postpublication1.9600%,allCIsspan zero. Persistence fails; no execution or filter rescue.
 Evidence: p122_audit/METHOD_AUDIT.txt, p122_external_001/registration.json, p122_external_001/results.json, p122_external_001/DISPOSITION.txt
 Next step: Next paper; preserve native-versus-external distinction.
+
+CYCLE 138 UPDATE
+Meaningful progress: True
+P123 gross profitability preliminary external test passes both windows. Original3.6262%annual spread marginal lower.0711%; later10.0950%,weakestlower.8671%. Not validated. User requested pause after this cycle.
+Evidence: p123_audit/METHOD_AUDIT.txt, p123_external_001/registration.json, p123_external_001/results.json, p123_external_001/DISPOSITION.txt
+Next step: Paused by user. On resume only: fixed size-screen GP test.
