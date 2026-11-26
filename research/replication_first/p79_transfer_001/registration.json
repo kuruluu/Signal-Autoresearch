@@ -1,0 +1,14 @@
+{
+  "id": "P79_transfer_001",
+  "type": "DistinctETFallocation",
+  "universe": [
+    "SPY",
+    "IEF",
+    "GLD"
+  ],
+  "reason": "Equity/Treasury/goldbroadclassesandexistingdata,notperformance",
+  "sample": "2008Jan-2023Decafter252daywarmup",
+  "methods": "Monthlyprior252dailycovariance. ERCpositiveweights,MVlongonly,EWthirds. Nextsessionapply;noexpectedreturnsfit.",
+  "gate": "ERCmustimproveSharpeversusEWandMVwithall3/12/24month10000pairedCIpositive. Noleverage. Atmechanismstageonly;passingrequiresseparatenominalledger/costs/searchconfirmation.",
+  "limits": "Notnative,notindependent;notyetfrozenimplementation.Nooutcomesuntilfreeze."
+}
