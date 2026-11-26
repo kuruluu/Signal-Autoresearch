@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P105",
-  "active_stage": "P105external_pass_execution_next",
+  "active_stage": "P105liquid_pass_originallinks_recovered",
   "papers": [
     {
       "id": "P24",
@@ -614,7 +614,11 @@
         "p105_audit/METHOD_AUDIT.txt",
         "p105_external_001/registration.json",
         "p105_external_001/results.json",
-        "p105_external_001/DISPOSITION.txt"
+        "p105_external_001/DISPOSITION.txt",
+        "p105_liquid_001/registration.json",
+        "p105_liquid_001/results.json",
+        "p105_liquid_001/AUDIT.txt",
+        "p105_audit/quality_summary.json"
       ]
     }
   ],
@@ -632,5 +636,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "AuditP105concentration/borrow/costs"
+  "next_action_on_resume": "P105costbudgetandweightsaudit;originallinksrecoveredbutreturns/borrowmissing"
 }

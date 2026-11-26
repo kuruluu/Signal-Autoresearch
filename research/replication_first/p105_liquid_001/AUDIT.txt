@@ -1,0 +1,4 @@
+P105SCREENPASS
+2009-2022mean9.01579%,SR.63707,allCIspositive. >=100stocksperleg,median113/112. Countsnotconcentration;VWweightsunknown. Nativeexecutionrequireshistoricalweights/turnover,prices,corporateactions,borrow.
+Recoveredoriginalauthorlinks,26krows,PERMNOidentifiers,fiscaldatesnotpublicationdates. No datedSECdisclosure timestamps;6monthlagassumptionnotproof. No executableaccount orpaperorders. CurrentAlpacaattributesnotpastborrow.
+Keepactiveforcostandinputaudit;donotrelabelmissingweightsasempiricalfailure.
