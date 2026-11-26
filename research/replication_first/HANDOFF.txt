@@ -694,3 +694,9 @@ Meaningful progress: True
 P28 original241month university decile/spread/equalweightbenchmark data andApril2007workingpaper recovered. Native loglocalexcessreturns and3yearweeklyvolatility audited. No aggregateoutcomes; rowpreview exposure recorded, journalfinal unverified.
 Evidence: p28_audit/METHOD_AUDIT.txt, p28_audit/quality_summary.json
 Next step: Freeze originalD1/Univ/D10 numerical and pairedbootstrap gates before aggregateoutcomes.
+
+CYCLE 102 UPDATE
+Meaningful progress: True
+P28firstfrozenstoredreturn test: lowSR.78985 vsmarket.48356,mean spread2.73326%annual,lowbeta.55708,lowalpha3.88396%,spreadalpha10.10893%. Allbootstrapqualitativebounds positive but numericalgatefails. Workbooklogconvention unverified; audit before correcting, no promotion. SyntheticOLS/batchvalidation and hashespass.
+Evidence: p28_partial_001/registration.json, p28_partial_001/results.json, p28_partial_001/DISPOSITION.txt
+Next step: Audit primary raw/logconvention, preserve initialfailure; register any documented correction separately.

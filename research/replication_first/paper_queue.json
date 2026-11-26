@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P28",
-  "active_stage": "original_global_decile_and_benchmark_inputs_recovered",
+  "active_stage": "P28qualitative_support_numerical_mismatch_return_convention_audit",
   "papers": [
     {
       "id": "P24",
@@ -477,12 +477,14 @@
     },
     {
       "id": "P28",
-      "status": "active_input_audit",
-      "reproduction": "Original241month globaldeciles+Univ andApril2007workingpaper recovered",
-      "signal": "Untested; nativeweights unavailable",
+      "status": "active_numerical_mismatch_audit",
+      "reproduction": "First frozenstoredreturn test supports qualitativeeffect but numericalgatefails; workbooklogconvention unverified",
+      "signal": "No promotion; audit raw/log convention before further execution work",
       "evidence": [
         "p28_audit/METHOD_AUDIT.txt",
-        "p28_audit/quality_summary.json"
+        "p28_partial_001/registration.json",
+        "p28_partial_001/results.json",
+        "p28_partial_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -500,5 +502,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Freeze P28originalD1/Univ/D10 numerical and pairedbootstrap protocol before aggregateoutcomes; preserve logexcessconvention"
+  "next_action_on_resume": "Audit P28workbook raw/simple versus paperlogexcess convention; preserve initial numericalfailure and require separate frozen protocol for any documented correction"
 }

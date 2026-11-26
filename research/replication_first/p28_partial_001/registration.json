@@ -1,0 +1,37 @@
+{
+  "id": "P28_partial_001",
+  "utc": "2026-11-26T06:31:19.971118+00:00",
+  "sample": "Original university global deciles1986Jan-2006Jan241months; April2007workingpaper. Initial5monthsD1-D5preview disclosed; no aggregate outcomes before registration.",
+  "construction": "Decimal log localexcessreturns as reported; D1low,D10high,Univ equalweightedglobalbenchmark. Recompute D1-D10 from rounded legs, storedspread tolerance1.6e-5. No RFsubtraction, expconversion, ETFsubstitution or accountCAGR.",
+  "metric_order": [
+    "low_SR",
+    "market_SR",
+    "annual_mean_spread",
+    "low_beta",
+    "annual_low_alpha",
+    "annual_spread_alpha"
+  ],
+  "targets": [
+    0.72,
+    0.4,
+    0.059,
+    0.56,
+    0.04,
+    0.12
+  ],
+  "tolerances": [
+    0.05,
+    0.05,
+    0.01,
+    0.05,
+    0.01,
+    0.015
+  ],
+  "inference": "10000pairedstationarybootstrap paths per3/12/24month expectedblock; seeds280000+block. Refit CAPM ineachdraw. Two-sided95percentileCI for lowSR-minus-marketSR and annualspreadalpha. Jointgate requires all numerical tolerances and positive lowerbounds for both quantities at all3blocks. Nootherdecile/window/blocksearch. Conditional aggregate-return sampling, notstockpanel reformation.",
+  "limits": "Original historical effect reproduction, notindependentconfirmation, executableaccount or costs. Native holdings/turnover/borrow absent. Gatepass permits feasibilityaudit only, no rankings or orders.",
+  "hashes": {
+    "researchlab\\p28_volatility.py": "20742b6c07ee854c67dd2fdad0292930eff9989d87c020200db4ae3c1196cda9",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p28_audit\\library.xls": "bacd49d6dd87197c70152cbf5e9cef76004065f3e91c3003f75fd3d61c9416f1"
+  }
+}
