@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P28",
-  "active_stage": "P28conditional_historical_effect_passed_execution_provenance_audit_next",
+  "active_stage": "P28distinctSPLVmechanismtransfer_registered_beforeinputs",
   "papers": [
     {
       "id": "P24",
@@ -479,7 +479,7 @@
       "id": "P28",
       "status": "active_conditional_effect_passed",
       "reproduction": "Inferredlogconvention matches6targets; lowSRadvantage andspreadalpha all3bootstrapintervalspositive. Partialconditional, notexact.",
-      "signal": "Not validated. Auditnativeexecution/provenance before distinct contemporarymechanism transfer.",
+      "signal": "DistinctSPLV-versus-priorbetaSPY mechanismregistered; noexecutionvalidation",
       "evidence": [
         "p28_audit/METHOD_AUDIT.txt",
         "p28_partial_001/registration.json",
@@ -490,7 +490,10 @@
         "p28_convention_001/DISPOSITION.txt",
         "p28_log_001/registration.json",
         "p28_log_001/results.json",
-        "p28_log_001/DISPOSITION.txt"
+        "p28_log_001/DISPOSITION.txt",
+        "p28_execution_audit/AUDIT.txt",
+        "p28_execution_audit/quality_summary.json",
+        "p28_transfer_001/registration.json"
       ]
     }
   ],
@@ -508,5 +511,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Audit P28nativeexecution/provenance; distinguish feasible longonlylowvol mechanismtransfer from originalglobalstockreplication before choosing protocol"
+  "next_action_on_resume": "Acquire boundedSPLV/SPYpre2024inputs, implementandfreezeP28transfercode/hashes, thenrunfixedmechanismtest"
 }

@@ -1,0 +1,13 @@
+{
+  "id": "P28_transfer_001",
+  "utc": "2026-11-26T06:35:15.741111+00:00",
+  "type": "DistinctUS ETF lowvolatility mechanismtransfer, notnativeP28replication or executableaccount",
+  "selection": "SPLV selected for explicitvolatilityranking and2011inception before downloading outcomehistory; oneinstrument, noETFsearch. SPYbaseline chosen for sameS&P500parentuniverse.",
+  "data": "Bounded2011May5-2023Dec31SPLV andSPYdailyclose/adjustedclose; currentmetadata discarded, no2024-2025observations. Monthlylastsessionadjustedclose totalreturns fromJune2011. Require completepairedmonthlyhistory throughDec2023; missingdataabort,nofill. Nooutcomesuntilcode/inputfreeze.",
+  "construction": "First36completepairedmonthlyreturnsJune2011-May2014warmup. ScoreJune2014-Dec2023. Eachmonth beta=cov(SPLV,SPY)/var(SPY) using strictlyprevious36months, clip[0,1]. Control=beta*SPYtotalreturn +remainingcashwithzero modeledyield. SPLVfulltotalreturn comparedcontrol; no leverage/short. SameperiodSPYfullpassive descriptive only.",
+  "metrics": "Annualarithmeticmean of paired SPLV-minus-causalbetaSPYcontrol returns and annualSharpeSPLV-minus-control (zero cashyield). NoCAGR/netalpha/accountDDclaims; no costs/rounding/paymentdate claims at thismechanismstage.",
+  "inference": "10000pairedstationarybootstrap paths at3/12/24months,seeds281000+block. ConditionalresamplefixedrealizedSPLV/controlmonthlyreturns together; notsyntheticbeta-reestimation.95%percentileCI for meanadvantage andSharpeadvantage. Jointadvancement requirespositivepointmeansandSharpeadvantage andall6lowerboundsgreaterzero. Nootherlookback/control/ETF/windowtuning.",
+  "limits": "Alreadyusedmarketperiods; newinstrumenthistoricaldata notindependentconfirmation. Originalnativelogmetrics and newETFsimpletotalreturn estimand differ explicitly. Passing permits separateexecutionregistration only, noleaderboards/order.",
+  "capital_usd": 10000,
+  "ranking_or_order_authorized_by_this_test": false
+}

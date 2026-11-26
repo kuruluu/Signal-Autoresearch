@@ -1,0 +1,11 @@
+{
+  "symbol": "SPLV",
+  "status": "active",
+  "tradable": true,
+  "marginable": true,
+  "shortable": true,
+  "easy_to_borrow": true,
+  "fractionable": true,
+  "exchange": "ARCA",
+  "limits": "Current metadata only, nothistorical eligibility. Noorders."
+}
