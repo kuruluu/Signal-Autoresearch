@@ -1,0 +1,12 @@
+{
+  "revision": "e9da46bdf1cbc05c3c55362b463fd8c7656d1fae",
+  "all_dates_last": "2022-12-30",
+  "P63_first": "1930-06-30",
+  "P63_last": "2022-12-30",
+  "P63_n": 1111,
+  "statistics_computed": false,
+  "hashes": {
+    "PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "SignalDoc.csv": "8eba88c95ed6a59e9ed6599674a1b4fb8f9d2cc40e04d8f2b095a434e82dc233"
+  }
+}

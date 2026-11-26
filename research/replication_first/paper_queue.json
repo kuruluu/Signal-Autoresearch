@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P63accepted_methods_recovered_nativeinputblocked",
+  "active_paper": "P63",
+  "active_stage": "P63dated_external_reconstruction_recovered",
   "papers": [
     {
       "id": "P24",
@@ -532,12 +532,14 @@
     },
     {
       "id": "P63",
-      "status": "set_aside_native_input_blocked",
+      "status": "reopened_external_input",
       "reproduction": "Acceptedmethodsrecovered,nativestockpanelmissing",
       "signal": "Untested",
       "evidence": [
         "p63_audit/METHOD_AUDIT.txt",
-        "p63_audit/quality_summary.json"
+        "p63_audit/quality_summary.json",
+        "p63_archive/INPUT_RECOVERY.txt",
+        "p63_archive/quality_summary.json"
       ]
     }
   ],
@@ -555,5 +557,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Nextcandidate; prioritizeboundeddateddata,notresidualizingexistingMOMproxy"
+  "next_action_on_resume": "AuditdatedOSAP P63code and freezeoneexternalreconstructiontest"
 }

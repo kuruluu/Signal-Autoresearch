@@ -1,0 +1,3 @@
+P63 REOPEN: materiallynewdatedsource
+OpenSourceAPHF2023.08 commit e9da46bdf1cbc05c3c55362b463fd8c7656d1fae. Entirewidearchive dates1926Jan-2022Dec verified; no2024-2025. Nooutcomestatisticscomputed; onlyP63columncoverage. Othercolumnsnotinspectedforperformance.
+This is independentresearcherreconstruction,notoriginalauthorsweights. SignalDocclassifiesgood, butdefinitionmaydiffer: rollingone-monthresidual then11monthaggregation versus refittingresidualwindow. Mustinspectdatedsource beforeequating. Nativeblockpreserved. NextoneP63testbeforeothers, noselectionbyperformance.
