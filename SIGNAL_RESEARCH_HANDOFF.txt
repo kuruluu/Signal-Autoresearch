@@ -886,3 +886,9 @@ Meaningful progress: True
 P44 published methods recovered. Core weekly Google ticker-search predictor and historical universe not recovered; Alpaca prices cannot replace attention measure. Paper remains untested, not rejected.
 Evidence: p44_audit/METHOD_AUDIT.txt, p44_audit/ACCESS_AUDIT.txt
 Next step: Next paper; revisit on dated SVI and historical identifiers/universe inputs.
+
+CYCLE 134 UPDATE
+Meaningful progress: True
+P121 annual asset-growth external effect passes preregistered original and postpublication gates. Later gross annual arithmetic9.1748%,SR.7278,weakest95%lower.7014%; not native replication or executable strategy.
+Evidence: p121_audit/METHOD_AUDIT.txt, p121_external_001/registration.json, p121_external_001/results.json, p121_external_001/DISPOSITION.txt
+Next step: Fixed NYSE20cap screen using same annual construction; no filter search.

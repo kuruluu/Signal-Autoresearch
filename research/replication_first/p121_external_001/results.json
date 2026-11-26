@@ -1,0 +1,78 @@
+{
+  "windows": {
+    "original": {
+      "n": 420,
+      "annual_mean": 0.17514566070114934,
+      "SR": 1.242481056816671,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 1210003,
+          "annual_mean_ci95": [
+            0.12630043867733715,
+            0.22997528802565112
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 1210012,
+          "annual_mean_ci95": [
+            0.1206809760771748,
+            0.23743818452903595
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 1210024,
+          "annual_mean_ci95": [
+            0.12044690215981158,
+            0.24061913102505733
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "later": {
+      "n": 172,
+      "annual_mean": 0.09174763242055904,
+      "SR": 0.7277583539767585,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 1210103,
+          "annual_mean_ci95": [
+            0.023130991717850127,
+            0.1674169194340414
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 1210112,
+          "annual_mean_ci95": [
+            0.012713993284613456,
+            0.17236630842197911
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 1210124,
+          "annual_mean_ci95": [
+            0.007014268099959076,
+            0.1772575507038855
+          ]
+        }
+      ],
+      "gate": true
+    }
+  },
+  "advance": true,
+  "native_replication": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}
