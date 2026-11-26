@@ -1,0 +1,2 @@
+Integrity note: registration/addendum and analysis assumptions were saved before outcomes. The analysis_freeze file omitted an implementation hash; do not claim pre-outcome code-hash verification. Code is now preserved in local commit e29ae65. Post-result SHA256: e75758e6275002416d48ec055c220d2d905b9b771baac09603acba3780696172
+This is a provenance limitation, not a reason to rerun or tune failed results.
