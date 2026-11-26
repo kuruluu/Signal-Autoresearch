@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "Select next single candidate by methods/data feasibility, preserving P117 failure",
+  "active_paper": "P11",
+  "active_stage": "Original published methods recovered; audit native inputs and causal monthly SPY test before registration",
   "papers": [
     {
       "id": "P24",
@@ -325,6 +325,16 @@
       ],
       "reason": "Fixed SPY 2016-2023 mechanism gate failed; bootstrap intervals include zero and recursive forecast MSE worse than expanding mean",
       "reopen_condition": "Material new native source or demonstrated implementation error; do not retune failed fixed test"
+    },
+    {
+      "id": "P11",
+      "status": "active_methods_audit",
+      "selection_reason": "Untested original monthly risk-reduction mechanism; published methods newly recovered; causal contemporary feasibility using available presealed SPY history",
+      "native_replication": "Blocked on original GFD total-return/cash series and vintages",
+      "prior_adaptation": "Earlier S19 daily200-session ETF experiment is separate and remains preserved",
+      "evidence": [
+        "p11_audit/METHOD_AUDIT.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -341,5 +351,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Audit untested catalog candidates for native or separately registered contemporary effect using available presealed data; do not retune P117"
+  "next_action_on_resume": "P11 timing/data audit; no outcomes until separate contemporary registration"
 }

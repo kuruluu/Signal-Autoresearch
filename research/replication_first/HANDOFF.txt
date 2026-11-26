@@ -508,3 +508,9 @@ Meaningful progress: True
 P117 fixed-window post-publication gate failed: N417 contrast .160059pp, all bootstrap CIs cross zero; recent N142 contrast -.022850pp, all CIs cross zero. Preserved strong historical partial reconstruction separately. No tuning or paper orders; set aside and select next candidate.
 Evidence: p117_persistence_001/registration.json, p117_persistence_001/results.json, p117_persistence_001/DISPOSITION.txt
 Next step: Choose next single untested candidate by methods/data feasibility using available presealed inputs. Preserve P117 failure and do not search calendar variants.
+
+CYCLE 71 UPDATE
+Meaningful progress: True
+Selected P11 single monthly trend/risk-reduction mechanism. Original11-page2007 publication recovered and distinguished from expanded updates. Native GFD total-return/cash inputs unavailable; same-close signal timing identified for causal audit. No P11 outcomes calculated.
+Evidence: p11_audit/METHOD_AUDIT.txt
+Next step: Audit available presealed SPY history, total-return/cash definitions and decision-to-execution latency; register one contemporary monthly10-month branch before outcomes. Preserve earlier daily200-session S19 failure.

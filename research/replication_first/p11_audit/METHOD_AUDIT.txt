@@ -1,0 +1,6 @@
+P11 selected after P117 persistence failed; one paper active.
+Recovered original 11-page Spring2007 JWM article, not the expanded2009/2013 updates. Source PDF hash retained locally. Author2009 announcement independently describes original11-page versus expanded50-page versions.
+Single effect for next audit: monthly10-month simple moving-average trend filter as risk reduction. Total-return index level above average => invested; below => cash. Equality treatment unspecified. Original signal-day closing execution requires separate availability audit.
+Original SP5001900-2005 uses GFD total-return reconstruction, including pre1971 reconstructed series. Native cash proxy90-day commercial paper. These exact series/vintages not recovered. Existing price-only Dow or monthly-average Shiller prices are not interchangeable native inputs.
+Original excludes taxes, commissions, slippage; broker-call financing relevant only leveraged variants, which are not selected. Do not reproduce same-close hindsight as executable market fills.
+Next: audit a single separately registered causal contemporary SPY translation using available presealed data, preserving native-data blocker and original risk-reduction objective. No modern effect or trading result calculated yet. Preserve failed earlier S19 daily200-session adaptation; monthly10-month rule is different and must be labeled.
