@@ -526,3 +526,9 @@ Meaningful progress: True
 P11 causal synthetic monthly screen completed with alignment/accounting tests. CAGR6.81%, DD25.85% vs buyhold9.74%/52.42%; stress passes but all bootstrap drawdown-reduction CIs cross zero. Primary gate fails, no raw-account advancement or paper order. Preserve descriptive risk reduction separately from robustness failure.
 Evidence: p11_contemporary_001/results.json, p11_contemporary_001/DISPOSITION.txt, ../../tests/test_p11_screen.py
 Next step: Select next single untested paper by methods/data feasibility. Preserve P11 frozen failure; no window/asset/cash-rate tuning. No leaderboard admission.
+
+CYCLE 74 UPDATE
+Meaningful progress: True
+P17 selected and original linear volume-return interaction audited. Native exchange turnover missing. Frozen contemporary SPY share-volume proxy with next-open-to-close target, weekday-return baseline,252-prior-session normalization, full-sample coefficient bootstrap and2016-2023 expanding forecast gate. No outcomes computed.
+Evidence: p17_audit/METHOD_AUDIT.txt, p17_contemporary_001/registration.json
+Next step: Implement causal normalization/target alignment and expanding regressions; test no current/future outcome leakage; freeze implementation hash before running fixed test.

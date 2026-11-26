@@ -1,0 +1,21 @@
+{
+  "id": "P17_contemporary_001",
+  "registered_utc": "2026-11-26T05:36:42.780712+00:00",
+  "type": "Contemporary proxy-transfer and executable-timing mechanism test; NOT native replication",
+  "paper": "Trading Volume and Serial Correlation in Stock Returns,1993",
+  "source": "research/fulltext/P17.pdf",
+  "data": "CachedSPY2007-2023; raw volume, adjusted close/open; no splits per existingmanifest",
+  "sample": "2007 warmup; 2008-2015 initial training; 2016-2023 chronological test, already viewed development",
+  "predictors": "r_t=adjustedclose_t/adjustedclose_t-1 -1. v_t=log(rawsharevolume_t)-mean(logvolume of252 preceding sessions t-252..t-1), excluding current from normalization. Five weekday(t) dummies each times r_t plus constant; candidate adds r_t*v_t. Novolume squared,volatility terms, alternative windows/assets or threshold search. ETF volume proxy change explicit.",
+  "target": "Next observed regular-session adjustedclose/adjustedopen -1, assigned predictor date t, only if target date<=2023-12-29. Data at t close become available before t+1 open; no same-close entry. Synthetic adjusted returns not actualfills.",
+  "estimation": "Full scored2008-2023 descriptive OLS candidate coefficient; chronological2016-2023 expanding daily refit using only outcomes completed before current target open; baseline identical intercept/weekday-return regressors without volume interaction. Fit initial outcomes through2015, update after each target close.",
+  "gate": "Negative candidate interaction coefficient AND stationary bootstrap95%CI entirely below0 at blocks5/20/60sessions,5000paths seeds17005/17020/17060; plus positive chronological MSE improvement over weekday-return baseline. No variants after failure.",
+  "inference": "Paired full-row stationary bootstrap for coefficient, preserving predictor-target rows; fixed chronological forecast error comparison, no independently fresh confirmation.",
+  "advance": "If all gates pass, separately register raw-account costs/availability/exposure/borrow/10k/threeDD-tier test before outcomes. No paper orders or leaderboard admission from this regression.",
+  "native_blocker": "Original1962-1987 NYSEturnover/CRSPVW inputvintage missing; SPYvolume and nextopen target change mechanism/estimand.",
+  "hashes": {
+    "research\\fulltext\\P17.pdf": "cc27550019281c472483607976f823f7db790985acf8109de1f5e2ce63af6238",
+    "research\\data\\SPY.csv": "7019af1ceeac8b4305fc321f882de1ec3669253f250793cdc941f93744432640"
+  },
+  "sealed": "No2024-2025 observations"
+}
