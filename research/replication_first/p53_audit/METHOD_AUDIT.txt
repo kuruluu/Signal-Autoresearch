@@ -1,0 +1,6 @@
+P53 TWO CENTURIES - INPUT/METHOD AUDIT
+Recovered arXiv1404.3274v1,April2014,17pages; notverifiedjournalfinal. All nativeprices fromGFD. 27futures(7commodity,7bond,7equity,6FX), plus historicalspotsback1800. GFDpanelunavailable. Existingp50Dowdata1885-2023differentfromnativeUSindexstarting1791.
+SignalEq1:previousprice minuslaggedEMAprice, dividedlaggedEMAabsolutepricechange; n=5months, priorpriceexcludedfromreference. Eq2 usesrisknormalizedsignsignal andfuturepricedifference, textindicesneedcare: do notsilentlyalignambiguous t/t+1 tofutureinformation. No costs and fictitiousP&L explicit, notaccountreturn. Driftadjustment essential.
+A boundedDowpartialtestcouldassessmechanism, notmultiassetreplication, afterfrozenEMAdecay/initialization/timing/driftprotocol. Source exactEMA convention notfullyspecifiedbyphrase decayrate5months; documentcausalinterpretationandlimit, no optimizedlambdas. HistoricalDJIApre1896notmodernDow; choosejustified1896startbeforeoutcomes,donotmix. DailySaturdays/closures retained,monthlylastobservation. Nohistoricalreturnscomputedthiscycle.
+Nextresolvevisuallyequationsanddriftcalculation beforefixedpartialtest. NoETFproxyoraccountclaim.
+Source:https://arxiv.org/abs/1404.3274

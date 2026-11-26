@@ -1,0 +1,8 @@
+{
+  "version": "arXiv1404.3274v1",
+  "pages": 17,
+  "paper_sha256": "b38cf16e2a07a136c727a232acc15c6510170e301d39e89ad4ef18a489635124",
+  "native_panel_available": false,
+  "candidate_partial_input": "p50_audit/DJIA.csv",
+  "outcomes_computed": false
+}
