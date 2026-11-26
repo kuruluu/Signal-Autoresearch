@@ -1,0 +1,7 @@
+P122 Sloan (1996), The Accounting Review 71(3), 289-315.
+Published university-hosted journal scan recovered from https://www.cuhk.edu.hk/acy2/workshop/June2009Wasley/1996TAR%29.pdf
+Native annual accrual formula is [change current assets - change cash - (change current liabilities - change short debt - change taxes payable) - depreciation] divided by average total assets.
+Native 40,679 firm-years 1962-1991; future annual buy-hold returns begin four months after fiscal year end. Delisting returns and reinvestment in size-matched portfolios are part of native measurement.
+Pinned v1.3.0 Accruals.do implements this formula, replaces missing taxes payable with zero, and keeps first duplicate firm-month. SignalDoc prose omits depreciation and misstates liability signs; use dated code, not metadata prose.
+External annual EW decile sort is not automatically equivalent to fiscal-year cohorts. Audit accounting availability and annual sort timing before registering a test. Native delisting conventions also require precise transcription before native replication.
+No return column inspected, no effect tested, no strategy claim. Sealed 2024-2025 untouched. Next: audit dated accounting availability and sorting timing, then preregister one interpretable external test or preserve blocker.

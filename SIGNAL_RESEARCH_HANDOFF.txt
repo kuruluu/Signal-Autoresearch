@@ -898,3 +898,9 @@ Meaningful progress: True
 P121 fixed size screen passes both windows. Later annual gross arithmetic 7.668954%, SR 0.7408; weakest lower 1.550479%. Weak-lower uniform monthly cost headroom 12.92bps. Execution remains unvalidated.
 Evidence: p121_liquid_001/registration.json, p121_liquid_001/results.json, p121_liquid_001/completion.json, p121_liquid_001/DISPOSITION.txt
 Next step: Next paper; require dated holdings/execution and project-wide confirmation before any ranking.
+
+CYCLE 136 UPDATE
+Meaningful progress: True
+P122 published accruals formula and fiscal-year timing recovered. Archive prose differs materially from dated implementation; no returns tested.
+Evidence: p122_audit/METHOD_AUDIT.txt
+Next step: Audit accounting availability and annual sort timing before external registration.
