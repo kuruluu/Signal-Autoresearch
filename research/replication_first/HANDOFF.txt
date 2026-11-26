@@ -664,3 +664,9 @@ Meaningful progress: True
 Recovered author dated2022 P19 liquidity and historical-beta decile series. Verified safe date coverage and identified July2002 manuscript version. Historical-beta portfolios cannot substitute for predicted-beta headline; no empirical outcomes computed.
 Evidence: p19_audit/INPUT_RECOVERY.txt, p19_audit/quality_summary.json
 Next step: Register a fixed historical-beta mechanism/persistence test before outcomes; exact predicted-beta replication remains separate.
+
+CYCLE 97 UPDATE
+Meaningful progress: True
+P19 fixed historical-beta spread test: annual arithmetic means3.80268%1968-1999 and2.33540%2003-2022 before costs. Both fail joint positive-mean bootstrap gate; later all intervals include zero. Preserve separate predicted-beta headline as untested, no alpha claim or executable validation. Frozen hashes verified.
+Evidence: p19_historical_001/registration.json, p19_historical_001/results.json, p19_historical_001/DISPOSITION.txt
+Next step: Move to next accessible paper; no window/decile/bootstrap tuning of P19.
