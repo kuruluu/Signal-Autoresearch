@@ -928,3 +928,9 @@ Meaningful progress: True
 Historical predictor schema inspected via bounded footer only; separate prices/returns/weights/name-history/delistings absent. Pinned downloader requires WRDS and current-year default must not be run. Concrete input recovery requirements recorded.
 Evidence: holdings_recovery_audit/ACCESS_AUDIT.txt
 Next step: Seek dated historical reference/return panel; no sealed period or unmodified current-year downloader.
+
+CYCLE 141 UPDATE
+Meaningful progress: True
+Primary market-source audit completed. Sharadar offers delisted coverage but not native PERMNO reconstruction. Public factor-library turnover/spread-cost source discovered; only docs/metadata inspected. Contains2024 and different construction, so bulk download prohibited and cost grafting invalid.
+Evidence: holdings_recovery_audit/RETURN_INPUT_AUDIT.txt
+Next step: Audit pinned factor-library metadata and sealed-safe bounded retrieval before any new observations; no construction grid search.
