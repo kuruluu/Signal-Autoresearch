@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P121_positive_effect_execution_blocked",
+  "active_stage": "P122_external_persistence_failed",
   "papers": [
     {
       "id": "P24",
@@ -720,6 +720,19 @@
         "p121_liquid_001/results.json",
         "p121_liquid_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P122",
+      "title": "Do Stock Prices Fully Reflect Information in Accruals and Cash Flows About Future Earnings?",
+      "status": "external_persistence_failed",
+      "reproduction": "Historical-era external effect positive; native decomposition/cohorts unreplicated",
+      "signal": "Postpublication confidence includes zero",
+      "evidence": [
+        "p122_audit/METHOD_AUDIT.txt",
+        "p122_external_001/registration.json",
+        "p122_external_001/results.json",
+        "p122_external_001/DISPOSITION.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -736,5 +749,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Next paper; prioritize input-recoverable executable mechanisms; preserve asset-growth positive evidence"
+  "next_action_on_resume": "Next paper; no posthoc accruals rescue"
 }

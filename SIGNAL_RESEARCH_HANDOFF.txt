@@ -904,3 +904,9 @@ Meaningful progress: True
 P122 published accruals formula and fiscal-year timing recovered. Archive prose differs materially from dated implementation; no returns tested.
 Evidence: p122_audit/METHOD_AUDIT.txt
 Next step: Audit accounting availability and annual sort timing before external registration.
+
+CYCLE 137 UPDATE
+Meaningful progress: True
+P122 dated accounting availability audited and external accruals test preregistered. Historical-era8.2703%annual spread; postpublication1.9600%,allCIsspan zero. Persistence fails; no execution or filter rescue.
+Evidence: p122_audit/METHOD_AUDIT.txt, p122_external_001/registration.json, p122_external_001/results.json, p122_external_001/DISPOSITION.txt
+Next step: Next paper; preserve native-versus-external distinction.

@@ -1,0 +1,21 @@
+{
+  "id": "P122_external_001",
+  "utc": "2026-11-26T07:42:07.179676+00:00",
+  "scope": "External low-minus-high Accruals EW annual June deciles. Assumed sixmonth accounting lag then nextmonth portfolio lag, price5 screen per metadata. Not native fourmonth fiscal-year buyhold/sizeadjusted returns; historical-era calendar1963-1992 is not exact native cohort. Postpublication begins August1996. No numerical native-match claim.",
+  "windows": {
+    "original": [
+      "1963-01",
+      "1992-12"
+    ],
+    "later": [
+      "1996-08",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds1220000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p122_external.py": "b594b5c4603cf89dd9f6966d523163c2a41306a0a12069c4392cd648d8560247",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}
