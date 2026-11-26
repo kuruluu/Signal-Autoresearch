@@ -922,3 +922,9 @@ Meaningful progress: True
 P123 fixed size-screen gross effect passes. Later annual arithmetic 8.801884%,SR0.8242,weakest annual lower1.280637%. Account inputs missing; not executable validation. User resumed active research.
 Evidence: p123_liquid_001/registration.json, p123_liquid_001/results.json, p123_liquid_001/completion.json, p123_liquid_001/DISPOSITION.txt
 Next step: Recover dated constituent/weight inputs for positive effects before further aggregate-only passes.
+
+CYCLE 140 UPDATE
+Meaningful progress: True
+Historical predictor schema inspected via bounded footer only; separate prices/returns/weights/name-history/delistings absent. Pinned downloader requires WRDS and current-year default must not be run. Concrete input recovery requirements recorded.
+Evidence: holdings_recovery_audit/ACCESS_AUDIT.txt
+Next step: Seek dated historical reference/return panel; no sealed period or unmodified current-year downloader.
