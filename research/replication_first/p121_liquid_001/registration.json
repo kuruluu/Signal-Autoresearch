@@ -1,0 +1,21 @@
+{
+  "id": "P121_liquid_001",
+  "utc": "2026-11-26T07:39:31.813830+00:00",
+  "scope": "Fixed NYSE20percent market capitalization screen, not direct liquidity measure. External annual AssetGrowth low-minus-high EW deciles. Annual June assignment and nextmonth return lag. Accounting table availability/vintage not reconstructed; not exact native replication. Annual signal selected before outcomes, no quarterly alternative.",
+  "windows": {
+    "original": [
+      "1968-07",
+      "2003-06"
+    ],
+    "later": [
+      "2008-09",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds1211000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p121_liquid.py": "641a3a7b9480b348ceb8dbcf4f7b4607cc0107a84b83908cac4a806e466a0c57",
+    "research\\replication_first\\p63_archive\\liquid.parquet": "62b41ba952b1744d52e22e7be23fa9e197ce38bd315fdf4bf7ea8e32ec8645db",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

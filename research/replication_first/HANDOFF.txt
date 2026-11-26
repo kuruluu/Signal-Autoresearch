@@ -892,3 +892,9 @@ Meaningful progress: True
 P121 annual asset-growth external effect passes preregistered original and postpublication gates. Later gross annual arithmetic9.1748%,SR.7278,weakest95%lower.7014%; not native replication or executable strategy.
 Evidence: p121_audit/METHOD_AUDIT.txt, p121_external_001/registration.json, p121_external_001/results.json, p121_external_001/DISPOSITION.txt
 Next step: Fixed NYSE20cap screen using same annual construction; no filter search.
+
+CYCLE 135 UPDATE
+Meaningful progress: True
+P121 fixed size screen passes both windows. Later annual gross arithmetic 7.668954%, SR 0.7408; weakest lower 1.550479%. Weak-lower uniform monthly cost headroom 12.92bps. Execution remains unvalidated.
+Evidence: p121_liquid_001/registration.json, p121_liquid_001/results.json, p121_liquid_001/completion.json, p121_liquid_001/DISPOSITION.txt
+Next step: Next paper; require dated holdings/execution and project-wide confirmation before any ranking.

@@ -1,0 +1,8 @@
+{
+  "type": "Algebraic uniform cost headroom, not net simulation",
+  "annual_gross_mean": 0.07668954207701636,
+  "weakest_annual_lower": 0.015504791836377435,
+  "point_monthly_bps": 63.90795173084697,
+  "weakest_lower_monthly_bps": 12.920659863647863,
+  "source_sha256": "0e84ba76dad905451864a4402d8d5c445b89ac34b2592eb302a478e0dd480b42"
+}
