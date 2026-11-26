@@ -880,3 +880,9 @@ Meaningful progress: True
 P02 fixed size-screen gross momentum persists: later13.5815% annual arithmetic spread, SR0.5326, all CIs positive; weakest annual lower3.2167%. Execution blocked on dated holdings and costs; fractional shorts unsupported.
 Evidence: p02_liquid_001/registration.json, p02_liquid_001/results.json, p02_liquid_001/completion.json, p02_liquid_001/DISPOSITION.txt
 Next step: Next paper; reopen P02 on dated constituent inputs.
+
+CYCLE 133 UPDATE
+Meaningful progress: True
+P44 published methods recovered. Core weekly Google ticker-search predictor and historical universe not recovered; Alpaca prices cannot replace attention measure. Paper remains untested, not rejected.
+Evidence: p44_audit/METHOD_AUDIT.txt, p44_audit/ACCESS_AUDIT.txt
+Next step: Next paper; revisit on dated SVI and historical identifiers/universe inputs.
