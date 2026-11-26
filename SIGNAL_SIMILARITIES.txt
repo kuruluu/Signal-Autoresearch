@@ -82,3 +82,5 @@ P11 cycle73: historical risk reduction passes descriptive thresholds but drawdow
 P17 cycle75: expected coefficient direction and tiny positive MSE change do not establish a signal when registered dependence-aware intervals cross zero. Keep native effect, instrument/volume transfer, entry timing and economic utility separate; no validated successful-signal commonality yet.
 
 P25 cycle78: one native-factor MOM volatility-scaling table closely reproduced with positive conditional SR-difference intervals. Preserve as historical effect, not successful executable signal. Fullsample normalization and factor implementation remain distinct from training-only allocation/capital/borrow validation.
+
+P25 cycle79: positive factor-level evidence survives prior-data allocation: MOM SR.91866 vscontrol.48656 andpositiveCERgain6.09162pp, bootstrap supportsboth. This is stronger than descriptive fullsample normalization but lacks executable10k holdings/borrow/costs and independent modern confirmation. Preserve it as a supported mechanism, not a validated trading signal. Do not infer success across103factors or use nativecap5 as broker authorization.

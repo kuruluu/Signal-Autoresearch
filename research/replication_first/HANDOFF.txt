@@ -556,3 +556,9 @@ Meaningful progress: True
 P25 native MOM Table1 partial reproduction matched: SR.48683 to.98384, difference.49700 vs.50; mean/SD/correlation gates pass, bootstrap intervals positive allblocks. N1080. Two synthetic lag/second-moment tests pass, codehash frozen before outcomes. Causal equations15-18 audited, not evaluated.
 Evidence: p25_partial_001/results.json, p25_partial_001/INTERPRETATION.txt, p25_audit/CONTROL_TIMING.txt, ../../tests/test_p25_reconstruction.py
 Next step: Register Table5 MOM causal120-month expanding combination/control test after numerical-target transcription. Native5x bound is methodological, not broker leverage authorization. No trades or ranking yet.
+
+CYCLE 79 UPDATE
+Meaningful progress: True
+P25 native MOM causal allocation partial reconstruction passed: SR.91866/.48656 vs.92/.49; CER8.398%/2.306% vs8.47%/2.29%; all3bootstrap intervals positive for SR/CERgains. Registered codehash before outcomes; two causal/boundary tests pass. Strong supported historical factor mechanism, not yet executable account.
+Evidence: p25_causal_001/registration.json, p25_causal_001/results.json, p25_causal_001/INTERPRETATION.txt, ../../tests/test_p25_causal.py
+Next step: Audit nativefactor instrument/holdings/borrow/10k feasibility and laterperiod inputs. If native unavailable, justify and separately register one executable momentumETF transfer with clear estimand change; no uncosted factor-return ranking.

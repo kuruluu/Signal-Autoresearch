@@ -1,0 +1,61 @@
+{
+  "type": "P25 Table5 MOM causal native-factor partial reconstruction; not executable account",
+  "n_months": 960,
+  "sharpe_combination_control": [
+    0.9186578463310131,
+    0.48656227377630124
+  ],
+  "cer_percent_combination_control": [
+    8.397973991699057,
+    2.306353189573343
+  ],
+  "sharpe_gain": 0.43209557255471187,
+  "cer_gain_pp": 6.091620802125715,
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 25503,
+      "sharpe_gain_ci95": [
+        0.17238152882539137,
+        0.6772507311104067
+      ],
+      "cer_gain_ci95_percent": [
+        2.3826093631566034,
+        9.573161547271507
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 25512,
+      "sharpe_gain_ci95": [
+        0.17214763213102505,
+        0.6693950058719315
+      ],
+      "cer_gain_ci95_percent": [
+        2.0884799895005624,
+        9.826612182126295
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 25524,
+      "sharpe_gain_ci95": [
+        0.15662222942700044,
+        0.6754641696180491
+      ],
+      "cer_gain_ci95_percent": [
+        1.5586475484368918,
+        10.21055271581766
+      ]
+    }
+  ],
+  "advance_to_execution_feasibility": true,
+  "exposure_min_max": -0.1487767042065391,
+  "exposure_max": 5.0,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

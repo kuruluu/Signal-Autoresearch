@@ -1,0 +1,20 @@
+{
+  "id": "P25_causal_001",
+  "registered_utc": "2026-11-26T05:44:13.894938+00:00",
+  "target": "Table5 PanelA MOM: combinationSR.92,controlSR.49; CER8.47%/2.29%; rounded differences.44/6.18pp",
+  "sample": "Jan1927-Dec2016 inputs; initial120months; Jan1937-Dec2016 scoring N960, alreadyvieweddevelopment",
+  "rules": "Eq15 training-only c_t equalizes sample variance; expanding mean/covariance of [c_t*f/lagvariance,f], unconstrained mean-variance weights inv(cov)*mean/gamma5. Eq16 collapse underlying exposure then clip[-5,5]. Control prior-only mean/(5*samplevariance),clip[-5,5]. Current return never included in estimates. No cov regularization/pseudoinverse/fallback; numerical failures block rather than impute.",
+  "metrics": "AnnualSRsqrt12*mean/sampleSD; annual excessCER12*(mean-5/2*samplevariance); no RF added to excess-return CER. Not accountCAGR or costs.",
+  "numerical_gate": "Both SR within.08 of targets and bothCERwithin1pp; report every deviation. No parameter tuning.",
+  "inference": "Paired fixed causal excess return rows,10000stationary paths,monthlyblocks3/12/24,seeds25503/25512/25524; CI for annualSR difference and annualCERgain. Fixedstreams not synthetic-history retraining.",
+  "advance": "Numerical gate plus both gain95%CIlower>0 allblocks permit feasibility audit of executable momentum instrument. No strategyranking/order without capital,borrow,costs,availability and independentconfirmation.",
+  "limits": "Native factor exposurecap5 not permission for broker5xleveraging. Originalfactor stock-universe/borrow/turnover not10kaccount. 2020data revision differs nativevintage. Onlyonefactor,not103strategyconclusion.",
+  "hashes": {
+    "researchlab\\p25_causal.py": "7775a64046c021ff3300ce56945aa5f30dd53125c6b0084f57a121f12521870c",
+    "researchlab\\p25_reconstruction.py": "d0afec2a24f25573e28dcd19ab2723a4a32fb0b50ae16e242a2969eb4d7a321c",
+    "research\\replication_first\\p25_audit\\published.pdf": "5f82689700a360bed1fd371637d4a62090c6715d0cc9bd85c36fc78bc6129919",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor.CSV": "a0cc4f421cfe771e5afc8bd4079cd3d520d7f5ea68bca3a1586f74f98360f65f",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor_daily.CSV": "92558f90228917110e5e7715992a89293ab48d4802b44f8649808852d3022897"
+  },
+  "sealed": "No2024-2025observations"
+}
