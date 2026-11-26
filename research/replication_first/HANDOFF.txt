@@ -514,3 +514,9 @@ Meaningful progress: True
 Selected P11 single monthly trend/risk-reduction mechanism. Original11-page2007 publication recovered and distinguished from expanded updates. Native GFD total-return/cash inputs unavailable; same-close signal timing identified for causal audit. No P11 outcomes calculated.
 Evidence: p11_audit/METHOD_AUDIT.txt
 Next step: Audit available presealed SPY history, total-return/cash definitions and decision-to-execution latency; register one contemporary monthly10-month branch before outcomes. Preserve earlier daily200-session S19 failure.
+
+CYCLE 72 UPDATE
+Meaningful progress: True
+P11 timing/data audit completed. Registered one SPY monthly10-month next-open contemporary risk-reduction screen for2008-2023 before outcomes. Explicit synthetic adjusted units/zero cash yield,5/10bps costs, paired monthly-path bootstrap, no ranking/paper-order admission without separate raw-account validation.
+Evidence: p11_contemporary_001/registration.json, p11_audit/INPUT_RECOVERY.txt
+Next step: Implement and synthetically test month-end alignment, next-open overnight accounting and paired month-path resampling; freeze analysis hash and run fixed screen without tuning.

@@ -1,0 +1,20 @@
+{
+  "id": "P11_contemporary_001",
+  "registered_utc": "2026-11-26T05:33:22.382766+00:00",
+  "type": "Contemporary mechanism/risk-reduction screen; NOT original replication or executable account backtest",
+  "asset": "SPY only; no alternative asset/window search",
+  "sample": "2007-01 through2007-12 warmup; 2008-01-02 through2023-12-29 scoring; all previously viewed development",
+  "signal": "At each completed calendar month last session, adjusted total-return close > arithmetic mean of last10 completed month-end adjusted closes =>1; below=>0; equality retains prior state. Decision available only after close. Hold previous target until next trading session open. Initial target based on Dec2007 signal. No future month-end information.",
+  "return_accounting": "Synthetic adjusted units; overnight prior close to next open earned by old position, open-to-close earned by new position, multiply segments. Cash return0, no leverage, shorts or financing. Cost5bps per side as adverse multiplicative price adjustment on exposure changes; stress10bps. Adjusted units include reinvestment; not actual dividend-cash accounting. No terminal sale required, mark to close.",
+  "comparators": "Same5bps initial-entry buy-and-hold; fixed50% SPY/50% zero-yield cash daily constant-mix control (control ignores fees, conservative). Cash diagnostic.",
+  "primary": "Risk reduction: at5bps realized maxDD <=75% buyhold maxDD, CAGR >=50% buyhold CAGR and >0; for stationary monthly blocks3/12/24, 5000 paired paths each seeds11003/11012/11024, lower95%CI for buyhold maxDD minus strategy maxDD >0. At10bps CAGR>0 and realizedDD reduction retained. No Sharpe/CAGR maximization/window choice.",
+  "monte_carlo": "Resample aligned whole calendar-month daily-return chunks jointly across strategy/control/buyhold; compute daily compounded path drawdown and CAGR each path. Conditional fixed causal return streams, not new signal generation on synthetic prices. Report median/5th CAGR,95th maxDD. No independence claim.",
+  "risk_tiers": "Report historical and resampled drawdown proxies for50/30/20 thresholds; no ranking admission from synthetic mechanism screen. Execution, independent confirmation and multiple-selection audit still required.",
+  "hashes": {
+    "research\\data\\SPY.csv": "7019af1ceeac8b4305fc321f882de1ec3669253f250793cdc941f93744432640",
+    "research\\replication_first\\p11_audit\\published.pdf": "54bf169b3196315a04d7ce0e257f554549d2ba144cfd11aa3079a8bc0b69a520"
+  },
+  "sealed": "No2024-2025 observations",
+  "native_blocker": "Original GFD total-return index and commercial-paper cash series not recovered; same-close original execution not reused",
+  "advance": "Only if primary and stress gates pass, register raw-share $10000 execution test with dividend pay timing, costs/eligibility/session constraints and risk control audit."
+}
