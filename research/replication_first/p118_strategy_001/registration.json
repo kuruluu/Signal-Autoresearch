@@ -1,0 +1,22 @@
+{
+  "id": "P118_strategy_001",
+  "registered_utc": "2026-11-26T06:06:59.161695+00:00",
+  "stage": "Cost-aware raw-account execution screen;NOTindependentvalidatedsignal",
+  "rule": "Prior-onlyquarterlyOLSconstant+overnightEWMA(unchangedlambda1/121,Feb1993zero-init). Atendquarterpredictnextquarterexcessreturn fromnativepartialpanel. DesiredSPYweight=clip(predictedexcess/(5*samplevarianceofpriorquarterexcessreturns),0,1). Identicalno-signalcontrol replacespredictedexcesswithpriorhistoricalmean. Initial40targetquarters; no alternate riskaversion/clipping/windows/assets.",
+  "training": "2003Q3-2019Q4scoreexpandingprior-onlyfits/variance. For2020Q1-2023Q4freezeOLScoef,trainingmeansandvarianceat2019Q4;onlyovernightEWMAsignalupdatesfromobservedprices. Avoidunavailablepost2020RFrefitting. Samefrozenno-signalcontrol. Later16quartersnotfreshindependentconfirmation.",
+  "capital": "10000USDinitialcashat2003Q3; rawwholeSPYshares,positivecashonly,noRFyield,borrow/financing0. Independentreset10000at2020Q1forlaterperioddiagnostic; combined2003-2023ledgerprimary.",
+  "execution": "Secondobservedtradingsessionopenafterquarterenddecision; thirdsessionstress. Netwhole-sharetargetatfillopenusingavailablecash+holdingsmark+receivableNAV. Buycannotspendreceivable/unsettledcash; floorandreducequantityforfees. One-sidednettrade, nointradayroundtrip. DailycloseNAVincludingreceivables,initial10000peak. No forcedterminalsale;marktoclose,discloseremainingpositions.",
+  "dividends": "Exdateholderfrompreviouscloseearnsrawamountpershare; receivableisNAVat exdate,availablecashafter60calendardays(firstsubsequentsession). Stress120days. No reinvestmentbeforemodeledpayment. Datesareassumptionsuntilverified,notexactaccounting. Rejectsplitsratherthansilentlymishandle.",
+  "costs": "Base5bpsadversefill+$1perfilledorder+$1perSELLregulatory-feereserve;stress10bps+$5perorder+$1SELLreserve. Hypotheticalconservativecurrentexecutioneconomics,notexacthistoricalfees. No expense-ratiodoublecharge.",
+  "comparators": "Sameaccount/cost/dividendtiming no-signalcontrolprimary;100%SPYbuyholdandfixed50%SPYquarterlyrebalancecontrolsreported. Strategycashandreceivablesearns0.",
+  "primary_gate": "Combined2003-2023netCAGR>0 and>=controlCAGR+1pp; pairedbootstrapCAGRadvantage95%CIlower>0allblock4/8/12quarters. Frozenlater2020-2023pointCAGRadvantage>0;stress10bps/120daypay/thirdopenstrategyCAGR>controlCAGR. No retrospectiveparameterrescue.",
+  "bootstrap": "10000pairedstationaryquarterblockpathsoffixeddailyrawaccountnetreturns,keepwithinquarterdailyorderinganddrawdowns;seeds118104/118108/118112. Report5th/medianCAGR,95thmaxDD,differenceCIs. Conditionalfixedreturnsnotfullsignalregeneration;smalllaterN16limitsinference.",
+  "tiers": "EvaluateonefixedstrategyagainstDD50/DD30/DD20,nooptimizedoverlays. HistoricaldailyclosemaxDDand95thbootstrapDDmust<=tierallblocksforprovisionalriskcompliance;onlyprimarygatepassandeventualexecution/independentconfirmationpermitrankingadmission. Historical/simulatedcapsnotfutureguarantees.",
+  "integrity": "Freezeimplementationhashaftermeaningfulsyntheticaccount/causalitytests,beforestrategyoutcomes. Preservefrozenpartialmechanismandallfailures. No2024-2025observationsorliveorders.",
+  "hashes": {
+    "research\\replication_first\\p118_partial_001\\registration.json": "76b469302e1580260b94c111e0824046747e2307b98db8bb2417f3f2e234c255",
+    "research\\replication_first\\p118_partial_001\\results.json": "6009b86df3c7b8ab76f4442dd0bb108bf98e498b9e22925806a0aa8cb1dacb98",
+    "research\\replication_first\\p118_execution_inputs\\SPY_1993_2023.csv": "d4284f173a1c43960b8e7ab8109a529e5ce113e015baa454548247b6018c4174",
+    "research\\replication_first\\p118_execution_inputs\\events.json": "e68ce157b6d085e5c7ee2e496f6a0f85c4dfa15f32db31b1268e7e27df5c9b4b"
+  }
+}

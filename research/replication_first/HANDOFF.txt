@@ -628,3 +628,9 @@ Meaningful progress: True
 P118fixedpartialmechanismpassed:N106quarterlyslope-9.2903,all4/8/12quarterbootstrapCIsnegative;66prior-onlyexpandingforecastsMSEimprovement2.9701%vsmean. Threecausal/identitytestspass,implementationhashfrozenbeforeoutcomes. Advancecost-awarestrategyregistration,nobrokerorder.
 Evidence: p118_partial_001/results.json, p118_partial_001/INTERPRETATION.txt, p118_partial_001/analysis_freeze.json, ../../tests/test_p118_forecast.py
 Next step: Auditandregisterone$10000raw-accountquarterlystrategywithprior-onlyallocation,benchmark/cost/dividendcash/nextopenexecutionconstraintsandthreeDDtiersbeforeoutcomes. Evaluatefrozenlater2020-2023withoutsealeddata;nostrategyadmissionyet.
+
+CYCLE 91 UPDATE
+Meaningful progress: True
+P118boundedrawSPY1993-2023and125dividendeventsrecovered,nosplits. Registeredone$10000longonlyquarterlyallocation,matchedno-signalcontrol,second-openfills,5/10bpsfees,60/120daydividendcashlags,3fixedDDtiers,prior-onlythenfrozen2019model. Actualpaydatesremainvalidationgap;no strategyoutcomes/order.
+Evidence: p118_strategy_001/registration.json, p118_execution_audit/AUDIT.txt
+Next step: Implement/testcausalallocation,rawwhole-sharecash/receivableaccounting,costs/latencyanddailymaxDD;freezecodehashbeforeallstrategyoutcomes. No silentpaydatelabelingasactual.
