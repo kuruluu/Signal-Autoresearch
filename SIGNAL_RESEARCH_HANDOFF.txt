@@ -784,3 +784,9 @@ Meaningful progress: True
 P18externalhistoricalpass,laterfail:.522%mean,SR.077,alllaterCIszero. Nativeuntested, noexecution.
 Evidence: p18_external_001/registration.json, p18_external_001/results.json, p18_external_001/DISPOSITION.txt
 Next step: Nextpaperwithouttuning.
+
+CYCLE 117 UPDATE
+Meaningful progress: True
+P30externalhistoricalpass,lateruncertain5.83%meanallCIscrosszero;gatefails.
+Evidence: p30_audit/METHOD_AUDIT.txt, p30_external_001/registration.json, p30_external_001/results.json, p30_external_001/DISPOSITION.txt
+Next step: Nextpaper,noP30tuning.
