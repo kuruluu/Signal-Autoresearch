@@ -1,0 +1,51 @@
+{
+  "type": "BTC original-period weekly momentum provider-transfer partial test",
+  "daily_rows": 2708,
+  "weekly_returns": 386,
+  "regression_rows": 385,
+  "target_first": "2011-01-16",
+  "target_last": "2018-05-27",
+  "weekly_mean_percent": 3.84440252794671,
+  "weekly_sd_percent": 16.68988876989164,
+  "slope": 0.19333956607412217,
+  "r_squared": 0.037276703356461494,
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_weeks": 4,
+      "paths": 10000,
+      "seed": 119004,
+      "slope_ci95": [
+        0.015891144888982738,
+        0.34081143863769875
+      ]
+    },
+    {
+      "block_weeks": 12,
+      "paths": 10000,
+      "seed": 119012,
+      "slope_ci95": [
+        0.0007626047507675429,
+        0.31706800112197037
+      ]
+    },
+    {
+      "block_weeks": 26,
+      "paths": 10000,
+      "seed": 119026,
+      "slope_ci95": [
+        0.0022823774664638193,
+        0.30367067384789237
+      ]
+    }
+  ],
+  "expanding_forecast": {
+    "n": 281,
+    "model_mse": 0.020593369207843885,
+    "mean_mse": 0.020421719291936927,
+    "mse_improvement": -0.008405262723140572
+  },
+  "gate_pass": false,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}
