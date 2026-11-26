@@ -1,0 +1,6 @@
+P20 LIQUIDITY AS INVESTMENT STYLE
+Recovered author2018update,February13,2018,39pages; notoriginal2013publication. Originalcfapubsrequest timedout. Preserveversiondistinction.
+Nativeupdate1972-2017,selection1971-2016. CRSP/CapitalIQ/WRDS. AnnualDecemberformation:excludeREIT,warrants,ADR,ETF,AmericusTrustComponents,closedend;12months completevolume,totalreturn,earnings,shares,price;yearendprice>=2,cap>5million andtop3500. Annualturnover=sum12monthlyvolume/sharesoutstanding,includingNASDAQoverreportingcorrection. Quartiles equalweighted atyearstart,passivehold;delistingsliquidatedtocashremainderofyear. Momentum12months(not12-1),E/Pearningslag2months.
+Requires PITshares/marketcap/exchange/securitytype,delistedreturns,earnings/reporting andNASDAQcorrection. AlpacaOHLCV alone notenough. Dollarvolumeorcurrentfloatnotvalidreplacement. P19liquiditybeta and P20turnoverlevel distinct. No empiricaltest/rejection. Aggregate authorreturnpanel notfound onpage; do notdigitizeannualgraphandclaimmonthlyreplication.
+Setasideinputblocked; reopennativeonnewdata. NoETFsubstitution,rankingororders.
+Sources:https://www.zebracapital.com/our-research/ ; https://www.zebracapital.com/wp-content/uploads/2019/06/Liquidity-as-an-Investment-Style-2018-Update.pdf
