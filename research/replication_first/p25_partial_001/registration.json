@@ -1,0 +1,18 @@
+{
+  "id": "P25_partial_001",
+  "registered_utc": "2026-11-26T05:41:28.884540+00:00",
+  "type": "One native factor/table partial reconstruction; not103-strategy replication",
+  "target": "Table1 MOM Jan1927-Dec2016; original annualmean7.94%,SD16.39%,SR.48; managedannualmean16.17%,SD16.39%,SR.99; Sharpe difference.50; correlation.48",
+  "construction": "Parse daily/monthly French factors as percent to decimal; prior calendar month daily22/J*sum squares; managed monthly=mom/laggedvariance then scale c so sampleSD(ddof1) equals monthlymomSD. Strict lag join, no missing imputation. July1926 daily warmup may needed; MOM monthly beginsJan1927, requireDec1926daily forfirstoutcome. Reject missing target months.",
+  "metrics": "annualmean12*monthlymean,annualSDsqrt12*sampleSD,SRannualmean/annualSD; fullsample c only descriptive.",
+  "numerical_gate": "Originalmean within.5pp andSDwithin.5pp; managedmeanwithin1pp; SRdifferencewithin.08; correlationwithin.05. Disclose every deviation and vintage mismatch; no tuning.",
+  "inference": "Paired monthly stationarybootstrap of fixed unmanaged/managed return rows,10000paths blocks3/12/24months seeds25303/25312/25324. Sharpe-difference CI, conditional realized streams; not portfolio recomputation or predictive validation.",
+  "advance": "Numerical match and positive Sharpe-difference CI at allblocks permit separate registration of original causal combination test only after exact optimization audit; no trading ranking/order from descriptive factor test.",
+  "limits": "Selected strong MOM counterexample cannot support systematic claims over103strategies; revised2020Frenchvintage differs from2016authorinput. Factor portfolio has borrow/turnover/capital constraints absent from table; not10k executable account.",
+  "hashes": {
+    "research\\replication_first\\p25_audit\\published.pdf": "5f82689700a360bed1fd371637d4a62090c6715d0cc9bd85c36fc78bc6129919",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor.CSV": "a0cc4f421cfe771e5afc8bd4079cd3d520d7f5ea68bca3a1586f74f98360f65f",
+    "research\\replication_first\\p08_audit\\F-F_Momentum_Factor_daily.CSV": "92558f90228917110e5e7715992a89293ab48d4802b44f8649808852d3022897"
+  },
+  "sealed": "No2024-2025observations"
+}

@@ -544,3 +544,9 @@ Meaningful progress: True
 P12 original43-page publication recovered. Native20 custom value-weighted SIC industry universe and overlapping6/6 strategy distinguished from public French industry groups and prior S03sector proxy. Methods blocker resolved; exact inputs still absent, no empirical test or rejection. Set aside and prioritize P25 native methods/package audit.
 Evidence: p12_audit/METHOD_AUDIT.txt
 Next step: P25 author methods/package audit; assess whether existing factor inputs support a native partial test. Do not retest P12 sector variants or label proxies as native replication.
+
+CYCLE 77 UPDATE
+Meaningful progress: True
+P25 author-hosted published article recovered. Selected and registered one native MOM Table1 target using dated French daily/monthly inputs. Clarified22/J sum-squares variance, lag, fullsample descriptive scale versus causal120month expanding combination. No outcomes yet; broader103strategy conclusions excluded.
+Evidence: p25_audit/METHOD_AUDIT.txt, p25_partial_001/registration.json
+Next step: Implement synthetic lag/variance/parse tests, freeze analysis hash, run fixed MOM partial reconstruction; recover exact real-time combination optimization before any causal strategy claim.
