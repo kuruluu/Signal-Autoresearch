@@ -1,0 +1,94 @@
+{
+  "windows": {
+    "original": {
+      "n": 570,
+      "long_count_min_median": [
+        125,
+        291.0
+      ],
+      "short_count_min_median": [
+        125,
+        297.0
+      ],
+      "annual_mean": 0.03649075547604065,
+      "SR": 0.337813434997469,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 1231003,
+          "annual_mean_ci95": [
+            0.004059574205837591,
+            0.06898354543900727
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 1231012,
+          "annual_mean_ci95": [
+            0.0007728758723935162,
+            0.0705749524468355
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 1231024,
+          "annual_mean_ci95": [
+            0.0012273592148390748,
+            0.07010530010548414
+          ]
+        }
+      ],
+      "gate": true
+    },
+    "later": {
+      "n": 116,
+      "long_count_min_median": [
+        400,
+        447.0
+      ],
+      "short_count_min_median": [
+        366,
+        437.0
+      ],
+      "annual_mean": 0.08801883632559991,
+      "SR": 0.824191325568716,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 1231103,
+          "annual_mean_ci95": [
+            0.012806374497906673,
+            0.1641880319336801
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 1231112,
+          "annual_mean_ci95": [
+            0.016899242335641152,
+            0.1561789966298842
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 1231124,
+          "annual_mean_ci95": [
+            0.023961533220061854,
+            0.14988206737457088
+          ]
+        }
+      ],
+      "gate": true
+    }
+  },
+  "advance": true,
+  "native_replication": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}

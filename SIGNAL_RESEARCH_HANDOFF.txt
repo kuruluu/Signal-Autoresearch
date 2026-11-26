@@ -916,3 +916,9 @@ Meaningful progress: True
 P123 gross profitability preliminary external test passes both windows. Original3.6262%annual spread marginal lower.0711%; later10.0950%,weakestlower.8671%. Not validated. User requested pause after this cycle.
 Evidence: p123_audit/METHOD_AUDIT.txt, p123_external_001/registration.json, p123_external_001/results.json, p123_external_001/DISPOSITION.txt
 Next step: Paused by user. On resume only: fixed size-screen GP test.
+
+CYCLE 139 UPDATE
+Meaningful progress: True
+P123 fixed size-screen gross effect passes. Later annual arithmetic 8.801884%,SR0.8242,weakest annual lower1.280637%. Account inputs missing; not executable validation. User resumed active research.
+Evidence: p123_liquid_001/registration.json, p123_liquid_001/results.json, p123_liquid_001/completion.json, p123_liquid_001/DISPOSITION.txt
+Next step: Recover dated constituent/weight inputs for positive effects before further aggregate-only passes.

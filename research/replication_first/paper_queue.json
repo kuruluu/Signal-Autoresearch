@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P123",
-  "active_stage": "paused_after_P123_external_test",
+  "active_paper": null,
+  "active_stage": "P123_positive_effect_execution_blocked",
   "papers": [
     {
       "id": "P24",
@@ -737,19 +737,22 @@
     {
       "id": "P123",
       "title": "The Other Side of Value: The Gross Profitability Premium",
-      "status": "external_preliminary_pass_pending_size_screen",
+      "status": "positive_external_effect_execution_blocked",
       "reproduction": "External gross mechanism only; accounting vintage and breakpoint fidelity unresolved",
-      "signal": "Both periods positive; no executable validation",
+      "signal": "Fixed size screen passes; account feasibility and search-aware confirmation unresolved",
       "evidence": [
         "p123_audit/METHOD_AUDIT.txt",
         "p123_external_001/registration.json",
         "p123_external_001/results.json",
-        "p123_external_001/DISPOSITION.txt"
+        "p123_external_001/DISPOSITION.txt",
+        "p123_liquid_001/registration.json",
+        "p123_liquid_001/results.json",
+        "p123_liquid_001/DISPOSITION.txt"
       ]
     }
   ],
-  "run_status": "paused_by_user_after_cycle",
-  "resume_condition": "Activeusergoal2026-11-26",
+  "run_status": "active_until_user_pause_or_stop",
+  "resume_condition": "User reactivated goal",
   "research_scope": "Find reproducible executable market edges across all instruments and horizons for10000USD initial capital. Maintain three independent risk-tier leaderboards: maximumdrawdown50%,30%,20%. DefaultbestmeanshighestrobustnetCAGR subjecttorisktier,evidenceandbenchmarkgates. Evaluate costs,financing,borrow,margin,liquidity andpath-dependentdrawdown uncertainty. PapertradingauthorizedonAlpacapaperendpointonly,with10000USDaggregatebudgetandregisteredstrategy/accountreconciliation. No liveorders. Sealed2024-2025observationsremainuntouched. Autonomous research active until user pauses or stops.",
   "alpaca_access": "Verifiedread-onlypaperaccount/calendar and historicalSIPdaily2016,minute/quotes/trades2023; smallsamplesonly",
   "research_mandate": "RESEARCH_MANDATE.json",
@@ -762,5 +765,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Only on user resume: fixed NYSE20cap GP robustness; no alternative construction search"
+  "next_action_on_resume": "Prioritize dated constituent and weight input recovery for positive mechanisms; no sealed observations"
 }

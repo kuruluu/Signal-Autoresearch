@@ -1,0 +1,21 @@
+{
+  "id": "P123_liquid_001",
+  "utc": "2026-11-26T16:25:51.999466+00:00",
+  "scope": "Fixed NYSE20percent market capitalization screen, not direct spread or impact measure. External GP high-minus-low VW quintiles, annual June assignment, nextmonth return lag, nonfinancial SIC exclusion. Actual accounting releases/vintage and native breakpoint fidelity not reconstructed. No lagged or quarterly alternatives; no exact replication claim.",
+  "windows": {
+    "original": [
+      "1963-07",
+      "2010-12"
+    ],
+    "later": [
+      "2013-05",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds1231000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p123_liquid.py": "eda232415ac816e8fa240de0660d34aa56fdc36a3be0f28c40d0b32302bfc653",
+    "research\\replication_first\\p63_archive\\liquid.parquet": "62b41ba952b1744d52e22e7be23fa9e197ce38bd315fdf4bf7ea8e32ec8645db",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

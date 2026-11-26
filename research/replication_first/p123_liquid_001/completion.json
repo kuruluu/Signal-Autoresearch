@@ -1,0 +1,8 @@
+{
+  "type": "Uniform monthly cost headroom, algebraic not account simulation",
+  "annual_gross_mean": 0.08801883632559991,
+  "weakest_annual_lower": 0.012806374497906673,
+  "point_monthly_bps": 73.34903027133326,
+  "weakest_lower_monthly_bps": 10.671978748255562,
+  "source_sha256": "9da4682186911c5ba0c357092b78dd3893e56e6d2dc581c9565ae6d6f3ee963a"
+}
