@@ -562,3 +562,9 @@ Meaningful progress: True
 P25 native MOM causal allocation partial reconstruction passed: SR.91866/.48656 vs.92/.49; CER8.398%/2.306% vs8.47%/2.29%; all3bootstrap intervals positive for SR/CERgains. Registered codehash before outcomes; two causal/boundary tests pass. Strong supported historical factor mechanism, not yet executable account.
 Evidence: p25_causal_001/registration.json, p25_causal_001/results.json, p25_causal_001/INTERPRETATION.txt, ../../tests/test_p25_causal.py
 Next step: Audit nativefactor instrument/holdings/borrow/10k feasibility and laterperiod inputs. If native unavailable, justify and separately register one executable momentumETF transfer with clear estimand change; no uncosted factor-return ranking.
+
+CYCLE 80 UPDATE
+Meaningful progress: True
+P25 executionfeasibility clarified: nativefactor holdings/borrow/costmissing; AlpacaMTUM currentlytradable but longonlyproxy differs. Issuerinception2013means native120month warmup leaves7testmonths before2024, insufficient. Future2026split creates rawprice-vintage audit requirement. No silentshortertraining, no orders. Native later-sample2017-2020 data available for next preregistered check.
+Evidence: p25_execution_audit/AUDIT.txt
+Next step: Register same-rule nativeMOM2017-Aug2020 later-sample persistence before outcomes, label outsideauthorsample but prepublication and alreadyviewedperiod. Audit any ETF adaptation separately; no currentedge claim.
