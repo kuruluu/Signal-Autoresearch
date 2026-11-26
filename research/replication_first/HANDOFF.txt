@@ -592,3 +592,9 @@ Meaningful progress: True
 P07 partialTable3numericalgatepassed,N1017,bBU-.79249versus-.815. PairedbootstrapCInegativeat3/12months,includeszeroat24; registeredjointrobustnessgatefails. Strictstate/parser synthetic tests pass. No predictiveTable5promotion; preserveclosehistoricalcoefficientmatch, no signal/order.
 Evidence: p07_optionality_001/registration.json, p07_optionality_001/results.json, p07_optionality_001/DISPOSITION.txt, ../../tests/test_p07_optionality.py
 Next step: Selectnextsinglepaperwithavailableprimarymethods/presealedinputs. PreserveP07partialmatchandfailedrobustness; do notretuneblocksorusecurrentupmarketindicatorforentry.
+
+CYCLE 85 UPDATE
+Meaningful progress: True
+P09authorpaperandYalefactor/testassetworkbooksrecovered,bounded2012. Nativeglobalvalue/momentumdiversificationeffectregisteredonoriginal1972-2011window; updatedvintage andprintedtable/narrativeSRdiscrepancyexplicitbeforeoutcomes. Noeffectcomputed.
+Evidence: p09_audit/METHOD_AUDIT.txt, p09_partial_001/registration.json
+Next step: Implementread-onlyworkbookparser,strictdate/pairedmissingchecks,fixed50/50combinationandpairedbootstrap;freezeimplementationhashbeforeresults. Preservelaterworkbookmonthsforseparateregistration.

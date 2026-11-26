@@ -1,0 +1,16 @@
+{
+  "id": "P09_partial_001",
+  "registered_utc": "2026-11-26T05:55:24.307140+00:00",
+  "type": "Partialnativeaggregate diversificationeffect, updatedauthorvintage",
+  "sample": "1972-Jan..2011-Jul; useonlyfinitepairedglobalVAL/MOMrows, disclosemissingdates,minimum450pairs. Laterworkbookdatesnotused.",
+  "construction": "AMPVMEFactors headerDATE,VAL,MOM,rawdecimalexcessreturns; fixedcombo=.5VAL+.5MOM. Globalaggregatesalreadyincludeauthorfullsamplevolatilityweights; notcausalexecution.",
+  "targets": "PrintedTableIglobalallasset factorSRVAL.72,MOM.74,COMBO1.59; correlation-.60. Narrative1.45notprimary.",
+  "numerical_gate": "EachSRwithin.10andcorrelationwithin.05; allcomparisondeviationsdisclosed, no scaling/weight/endpointtuning.",
+  "inference": "Pairedstationarymonthlybootstrap10000pathsblocks3/12/24,seeds90303/90312/90324; CIforcorrelation and SRcombo-minus-max(SRval,SRmom) eachresample. Gate requires correlationupper<0 andSRadvantagelower>0 allblocks. Fixedglobalaggregates,notunderlyingportfolio reconstruction.",
+  "advance": "Numerical/inferencegatespermitlaterdatavintage/causalglobalweight/executableinstrumentaudit,notpaperordersorstrategyranking. Selectionacrosspriorpapers means noindependentconfirmation.",
+  "hashes": {
+    "research\\replication_first\\p09_audit\\published.pdf": "400da98388d426c97172ddbff80630de6fcee6d54510243a139504486d317393",
+    "research\\replication_first\\p09_audit\\VME_Factors.xlsx": "606b7651105aebcdbad18854bff3ac65ebeb6904c39efd8cc53058f4b3d0e57f"
+  },
+  "sealed": "No2024-2025observations"
+}

@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P07 nativebaseline/conditionalbetapartial match; jointbootstrapgate failed, setaside fixedbranch",
+  "active_paper": "P09",
+  "active_stage": "P09authorpublishedpaper/updated2012datarecovered, globaldiversificationeffectregisteredbeforeoutcomes",
   "papers": [
     {
       "id": "P24",
@@ -384,6 +384,15 @@
       "native_input": "Authorarchive daily/monthlyall-firmmomentumdeciles throughMarch2013recovered",
       "reason": "NativebaselineandTable3coefficientsmatch;24monthblockinteractionCIcrosszero,registeredjointgatefails. Dynamicstrategyuntested.",
       "reopen_condition": "Materialnewevidence orimplementationerror; do notretune fixedbranch"
+    },
+    {
+      "id": "P09",
+      "status": "active_registered_partial",
+      "evidence": [
+        "p09_audit/METHOD_AUDIT.txt",
+        "p09_partial_001/registration.json"
+      ],
+      "vintage": "Yaleauthor2012updatedseries,notcertifiedoriginalJuly2011file"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -400,5 +409,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Select next singlepaper by primarymethods and presealedinputfeasibility; preserveP07mixednumerical/robustnessoutcome, no blocklengthtuning"
+  "next_action_on_resume": "Parse/testpairednativeglobalfactorsandfixedcombo,freezeanalysiscodehash,runoriginal1972-2011sampleonly"
 }
