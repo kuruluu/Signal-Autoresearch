@@ -1,0 +1,59 @@
+{
+  "n_months": 241,
+  "metrics": {
+    "low_SR": 0.7198541269193225,
+    "market_SR": 0.3961991736042511,
+    "annual_mean_spread": 0.05914357046840562,
+    "low_beta": 0.5610701985926182,
+    "annual_low_alpha": 0.03957407036790318,
+    "annual_spread_alpha": 0.12000460340058862
+  },
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 280003,
+      "SR_advantage_ci95": [
+        0.040474786485391115,
+        0.6797452426135104
+      ],
+      "annual_spread_alpha_ci95": [
+        0.03455553976302589,
+        0.21618657376123696
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 280012,
+      "SR_advantage_ci95": [
+        0.02541681679785875,
+        0.7051969251399111
+      ],
+      "annual_spread_alpha_ci95": [
+        0.02525850752709005,
+        0.22734859470998417
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 280024,
+      "SR_advantage_ci95": [
+        0.05002040637192317,
+        0.6901521346982464
+      ],
+      "annual_spread_alpha_ci95": [
+        0.030996869287242323,
+        0.22254742605402827
+      ]
+    }
+  ],
+  "conditional_robustness_gate_pass": true,
+  "source_convention_confirmed": false,
+  "exact_replication": false,
+  "strategy_validated": false,
+  "independent_confirmation": false,
+  "execution_promotion": false
+}

@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P28",
-  "active_stage": "P28singlelogconversion_matches_alltargets_convention_inferred_not_confirmed",
+  "active_stage": "P28conditional_historical_effect_passed_execution_provenance_audit_next",
   "papers": [
     {
       "id": "P24",
@@ -477,9 +477,9 @@
     },
     {
       "id": "P28",
-      "status": "active_convention_diagnostic_matched",
-      "reproduction": "Single preregistered log1pdiagnostic matches allsixworkingpaper targets; sourceconvention inferred not explicitlyconfirmed; originalfailurepreserved",
-      "signal": "No promotion; audit raw/log convention before further execution work",
+      "status": "active_conditional_effect_passed",
+      "reproduction": "Inferredlogconvention matches6targets; lowSRadvantage andspreadalpha all3bootstrapintervalspositive. Partialconditional, notexact.",
+      "signal": "Not validated. Auditnativeexecution/provenance before distinct contemporarymechanism transfer.",
       "evidence": [
         "p28_audit/METHOD_AUDIT.txt",
         "p28_partial_001/registration.json",
@@ -487,7 +487,10 @@
         "p28_partial_001/DISPOSITION.txt",
         "p28_convention_001/registration.json",
         "p28_convention_001/results.json",
-        "p28_convention_001/DISPOSITION.txt"
+        "p28_convention_001/DISPOSITION.txt",
+        "p28_log_001/registration.json",
+        "p28_log_001/results.json",
+        "p28_log_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -505,5 +508,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Freeze pairedbootstrap for P28same inferredlog1p convention; preserve scope aspartial source reconstruction, notexact/independent/executable"
+  "next_action_on_resume": "Audit P28nativeexecution/provenance; distinguish feasible longonlylowvol mechanismtransfer from originalglobalstockreplication before choosing protocol"
 }

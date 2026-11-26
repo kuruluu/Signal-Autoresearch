@@ -1,0 +1,38 @@
+{
+  "id": "P28_log_001",
+  "utc": "2026-11-26T06:33:41.701978+00:00",
+  "scope": "Same241month1986Jan-2006Jan originalglobaldata; inferred simple-to-log convention. Prior stored-as-log and diagnosticresults known. Conditional robustness, not independent evidence.",
+  "transform": "log1p separately D1,D10,Univ; use unchangedmeasures, targets,tolerances fromfirstregistration.",
+  "targets": [
+    0.72,
+    0.4,
+    0.059,
+    0.56,
+    0.04,
+    0.12
+  ],
+  "tolerances": [
+    0.05,
+    0.05,
+    0.01,
+    0.05,
+    0.01,
+    0.015
+  ],
+  "metric_order": [
+    "low_SR",
+    "market_SR",
+    "annual_mean_spread",
+    "low_beta",
+    "annual_low_alpha",
+    "annual_spread_alpha"
+  ],
+  "inference": "10000pairedstationarybootstrap paths per3/12/24month expectedblock; seeds280000+block. Refit CAPM ineachdraw. Two-sided95percentileCI for lowSR-minus-marketSR and annualspreadalpha. Jointgate requires all numerical tolerances and positive lowerbounds for both quantities at all3blocks. Nootherdecile/window/blocksearch. Conditional aggregate-return sampling, notstockpanel reformation.",
+  "decision": "Allnumerical and both lowerboundsgreaterzero atall3blocks required for conditionalrobustnesspass. Passing DOESNOT establish sourceconvention, exactreplication, or permit executionpromotion without independent provenance/reconstruction. Failure preserves positivepointestimates but stops this fixed branch; no block/window/transformtuning.",
+  "hashes": {
+    "researchlab\\p28_log.py": "d4dba9e4d90e7efd3ff916e382bdc32258825402f6fffcc9fa30fca7d103ae2c",
+    "researchlab\\p28_volatility.py": "20742b6c07ee854c67dd2fdad0292930eff9989d87c020200db4ae3c1196cda9",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p28_audit\\library.xls": "bacd49d6dd87197c70152cbf5e9cef76004065f3e91c3003f75fd3d61c9416f1"
+  }
+}
