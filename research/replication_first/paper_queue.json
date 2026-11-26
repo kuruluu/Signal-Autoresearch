@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": null,
-  "active_stage": "P04liquid_filter_failed",
+  "active_stage": "P15methods_recovered_nativeblocked",
   "papers": [
     {
       "id": "P24",
@@ -594,6 +594,16 @@
         "p04_liquid_001/results.json",
         "p04_liquid_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P15",
+      "status": "set_aside_native_input_blocked",
+      "reproduction": "1998workingmethodsrecovered",
+      "signal": "Untested,futurefilterrisk",
+      "evidence": [
+        "p15_audit/METHOD_AUDIT.txt",
+        "p15_audit/quality_summary.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -610,5 +620,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Nextpaper,noP04filtersearch"
+  "next_action_on_resume": "Nextcandidate;preserveP15futurefilterdistinction"
 }

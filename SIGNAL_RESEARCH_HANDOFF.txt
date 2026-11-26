@@ -802,3 +802,9 @@ Meaningful progress: True
 P04capscreen4.32%meanallCIscrosszero,hundredsperleg;stopbranch.
 Evidence: p04_liquid_001/registration.json, p04_liquid_001/analysis_freeze.json, p04_liquid_001/results.json, p04_liquid_001/DISPOSITION.txt
 Next step: Nextpaper,nootherscreens.
+
+CYCLE 120 UPDATE
+Meaningful progress: True
+P15workingmethodsrecovered,eventcalendar/corporateactionsandfuturefilterriskaudited. Noarchiveproxy,nativeblockedunrejected.
+Evidence: p15_audit/METHOD_AUDIT.txt, p15_audit/quality_summary.json
+Next step: Nextcandidate.
