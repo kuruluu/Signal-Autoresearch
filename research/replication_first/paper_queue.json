@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P10publishedmethodsrecovered,native67marketinputblocked",
+  "active_paper": "P19",
+  "active_stage": "dated_author_historical_beta_inputs_recovered_no_outcomes_yet",
   "papers": [
     {
       "id": "P24",
@@ -447,6 +447,16 @@
       ],
       "prior_adaptation": "S21ETFadaptationpreserved,notreplication",
       "reopen_condition": "Matchingnativeunderlyinginputsorcertifiedboundednativeportfolioreturnfile;noautomaticretunedETFvariant"
+    },
+    {
+      "id": "P19",
+      "status": "active_input_audit",
+      "reproduction": "July2002 manuscript recovered; predicted-beta headline not replicated",
+      "signal": "Untested; historical-beta author portfolio is a distinct mechanism branch",
+      "evidence": [
+        "p19_audit/INPUT_RECOVERY.txt",
+        "p19_audit/quality_summary.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -463,5 +473,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Auditnextuntestedcandidatewithaccessibleprimarymethods/nativepresealeddata;prefersmall-inputpredictiveeffectswithfeasibleexecution,notautomaticETFproxies"
+  "next_action_on_resume": "Freeze P19 historical-beta mean/alpha persistence protocol before computing outcomes; preserve predicted-beta distinction and execution limitations"
 }

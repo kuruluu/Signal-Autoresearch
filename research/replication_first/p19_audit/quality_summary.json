@@ -1,0 +1,15 @@
+{
+  "source_base": "https://faculty.chicagobooth.edu/-/media/faculty/lubos-pastor/data/",
+  "inputs": {
+    "liq_data_1962_2022.txt": "70dc857000a7a2d5a336e80b543c9825be721a0086be2a7489624a6137cfd13a",
+    "liq_vw_hist_deciles_1968_2022.txt": "fb7f2cca72c82d837e2b5adb1c6eff3743b9bb6ab4d8529e1c00bc42e18e0db7"
+  },
+  "checks": {
+    "factor_first": 196208,
+    "factor_last": 202212,
+    "factor_rows": 725,
+    "decile_rows": 660,
+    "decile_columns": 11
+  },
+  "outcomes_computed": false
+}

@@ -658,3 +658,9 @@ Meaningful progress: True
 P10published2017methodsrecoveredandversionaudited. Native1/3/12month67markettrendvoltargetrequiresroll/financing/universeinputsabsent;noequivalentboundedportfoliodatarecovered. PriorS21ETFproxyretainedseparately;noempiricalrejectionornewtest/order.
 Evidence: p10_audit/METHOD_AUDIT.txt
 Next step: Selectnextsinglepaperbyprimarymethods/nativepresealeddataandexecutionfeasibility. AvoidrepeatingETFproxiesorblindcurrentfactorfiledownloadswithsealedyears.
+
+CYCLE 96 UPDATE
+Meaningful progress: True
+Recovered author dated2022 P19 liquidity and historical-beta decile series. Verified safe date coverage and identified July2002 manuscript version. Historical-beta portfolios cannot substitute for predicted-beta headline; no empirical outcomes computed.
+Evidence: p19_audit/INPUT_RECOVERY.txt, p19_audit/quality_summary.json
+Next step: Register a fixed historical-beta mechanism/persistence test before outcomes; exact predicted-beta replication remains separate.

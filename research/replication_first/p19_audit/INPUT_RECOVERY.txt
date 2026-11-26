@@ -1,0 +1,5 @@
+P19 INPUT RECOVERY
+Author manuscript is July 11 2002 revision, not verified published version.
+Recovered author dated 2022 liquidity factors and historical-beta decile returns. Factors span August1962-December2022; deciles have 660 monthly rows, January1968-December2022 per header, 11 columns. No outcome statistics calculated in this cycle.
+Historical-beta sorts differ from headline predicted-beta portfolios; do not compare their mean/alpha directly to the headline 7.5% figure. Dated files do not contain sealed2024-2025 observations. Current2025 files were not downloaded.
+Native predicted-beta replication still requires stock panel and portfolio construction. Next branch is a dated-author historical-beta mechanism/persistence test, not exact headline replication or an executable strategy.
