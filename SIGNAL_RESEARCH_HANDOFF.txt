@@ -550,3 +550,9 @@ Meaningful progress: True
 P25 author-hosted published article recovered. Selected and registered one native MOM Table1 target using dated French daily/monthly inputs. Clarified22/J sum-squares variance, lag, fullsample descriptive scale versus causal120month expanding combination. No outcomes yet; broader103strategy conclusions excluded.
 Evidence: p25_audit/METHOD_AUDIT.txt, p25_partial_001/registration.json
 Next step: Implement synthetic lag/variance/parse tests, freeze analysis hash, run fixed MOM partial reconstruction; recover exact real-time combination optimization before any causal strategy claim.
+
+CYCLE 78 UPDATE
+Meaningful progress: True
+P25 native MOM Table1 partial reproduction matched: SR.48683 to.98384, difference.49700 vs.50; mean/SD/correlation gates pass, bootstrap intervals positive allblocks. N1080. Two synthetic lag/second-moment tests pass, codehash frozen before outcomes. Causal equations15-18 audited, not evaluated.
+Evidence: p25_partial_001/results.json, p25_partial_001/INTERPRETATION.txt, p25_audit/CONTROL_TIMING.txt, ../../tests/test_p25_reconstruction.py
+Next step: Register Table5 MOM causal120-month expanding combination/control test after numerical-target transcription. Native5x bound is methodological, not broker leverage authorization. No trades or ranking yet.

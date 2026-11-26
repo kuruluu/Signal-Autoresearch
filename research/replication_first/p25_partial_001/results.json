@@ -1,0 +1,52 @@
+{
+  "type": "P25 Table1 MOM partial native-factor reconstruction; ex-post normalized",
+  "n_months": 1080,
+  "scale": 0.0004592033041847341,
+  "annual_mean_percent": [
+    7.981222222222222,
+    16.129188238128535
+  ],
+  "annual_sd_percent": [
+    16.39418481932626,
+    16.39418481932626
+  ],
+  "sharpe_original_managed": [
+    0.4868325147105558,
+    0.9838359403582337
+  ],
+  "sharpe_difference": 0.49700342564767797,
+  "correlation": 0.47577454600965,
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 25303,
+      "sharpe_difference_ci95": [
+        0.21774711371478195,
+        0.7475480067998738
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 25312,
+      "sharpe_difference_ci95": [
+        0.21109526105898557,
+        0.7379475487588623
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 25324,
+      "sharpe_difference_ci95": [
+        0.21651197442618705,
+        0.7235846921703033
+      ]
+    }
+  ],
+  "advance_to_causal_methods_audit": true,
+  "independent_confirmation": false,
+  "trading_strategy_validated": false
+}

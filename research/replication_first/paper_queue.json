@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P25",
-  "active_stage": "Published P25 methods recovered; Table1 MOM partial reconstruction registered",
+  "active_stage": "P25 Table1 MOM partial reconstruction passed; audit/register native causal Table5 combination",
   "papers": [
     {
       "id": "P24",
@@ -384,5 +384,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Implement/test realized-variance lag and daily/monthly parsing, freeze code hash, run P25 fixed native-factor target"
+  "next_action_on_resume": "Transcribe Table5 MOM/control targets; separately register120-month expanding combination and leverage-bound method test before outcomes"
 }

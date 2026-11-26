@@ -1,0 +1,5 @@
+P25 Table1 MOM partial reconstruction passes registered numerical and conditional bootstrap gates.
+Jan1927-Dec2016 N1080 months: annual unmanaged mean7.98122%, SD16.39418%, SR0.48683; managed mean16.12919%, sameSD, SR0.98384. Published7.94%,16.39%,.48 and16.17%,16.39%,.99. Sharpe difference0.49700 versus.50; correlation0.47577 versus.48.
+All3/12/24-month 10000path paired bootstrap95% Sharpe-difference intervals strictly positive, lower bounds0.21775,0.21110,0.21651.
+This is strong numerical implementation evidence for ONE historical factor comparison, not all103strategies and not independent confirmation. Full-sample volatility scaling constant uses future sample observations; managed return stream is descriptive. Do not interpret Sharpe difference as an executable10k strategy or validate P08 by attribution.
+Advance only to separately registered causal P25 combination test after Table5 targets/optimization audit. Native factor's original stock/borrow/turnover/capital and practical availability require further execution work; no order or leaderboard admission.
