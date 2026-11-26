@@ -1,0 +1,21 @@
+{
+  "id": "P16_external_001",
+  "utc": "2026-11-26T07:21:59.679900+00:00",
+  "scope": "ExternalMomVol:monthlyvolumevsnativedailyturnover;5lagreturns,missingzero,24rowfilter. Notexact,cannotisolatevolumeincrement;onlygrossconditionedpremium.",
+  "windows": {
+    "original": [
+      "1965-01",
+      "1995-12"
+    ],
+    "later": [
+      "2001-01",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds160000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p16_external.py": "5f2a3a7b0081c3a269c3ea41aeeec468fd50d02da5eb1ea59b81ea2001d32a9e",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

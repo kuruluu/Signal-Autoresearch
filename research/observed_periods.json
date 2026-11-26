@@ -45,7 +45,8 @@
     "P04_external": "LRreversal1929-1982and1986-2022evaluated,60000conditionaldraws;noothercolumns,sealeduntouched.",
     "P04_liquid": "Archivedliquiditypanelacquiredending2022;onlyLRreversal1986-2022evaluated,30000draws;othersunexamined,sealeduntouched.",
     "P105_external": "CustomerMomentum1980-2004and2009-2022evaluated,60000draws.Noothercolumns,sealeduntouched.",
-    "P105_liquid": "2009-2022filteredCustomerMomentum30000draws,authorlinksdateschecked,none2024-2025."
+    "P105_liquid": "2009-2022filteredCustomerMomentum30000draws,authorlinksdateschecked,none2024-2025.",
+    "P16_external": "MomVol1965-1995/2001-2022,60000draws.Noothers,sealeduntouched."
   },
   "incidental_public_page_context": "2026-11-25 official French data-library landing page displayed current 2026 summary returns including trailing aggregates. Not used for selection, fitting or evaluation. No 2024-2025 daily/monthly input file was downloaded; avoid current landing-page numeric summaries in further source discovery.",
   "P49_source_context": "Published historical effects and qualitative follow-up disappearance after2015 viewed. Search engine also unsolicitedly displayed a 2025 news snippet including a December market decline; not used in analysis. No sealed market-data file acquired. Restrict further search to primary source domains.",
