@@ -1,0 +1,26 @@
+{
+  "id": "P126_transfer_001",
+  "utc": "2026-11-26T16:46:39.791567+00:00",
+  "windows": {
+    "pre_issue_diagnostic": [
+      "2017-01",
+      "2019-10"
+    ],
+    "post_issue": [
+      "2019-11",
+      "2023-12"
+    ]
+  },
+  "clock": "Nominal scheduled dates; retain cancelled March18,2020 mechanically. This is a prospective adaptation, not actual-meeting causal replication. Reset minus6 weekdays; even weeks0/2/4/6. No holiday/COVID removal or alternate clock.",
+  "effect": "SPY adjusted-close total daily returns, zero on weekdays without sessions. Even-minus-odd mean daily return, exclude beyond33 only for this descriptive comparison. Cash benchmark0, no RF-subtracted native claim.",
+  "payoff": "At each prior exchange-session close target full SPY for next session return if that date is even week, else cash with zero interest; beyond33 cash. Perfect fractional sizing, no fees/spread/slippage, idealized rejection hurdle only. Benchmark always SPY. Include all actual sessions and beyond33. Return-series division yields exact log growth difference. No10k accounting or strategy-validation claim.",
+  "gate": "Post_issue effect contrast and annual log-growth advantage must have all95percent lower bounds>0 for3/12/24month stationary paired bootstrap10000paths seeds126300+100*windowindex+block. Diagnostic not admission gate. No parameter/window search after failure. If pass, separate observed-cost account test and project-wide confirmation required.",
+  "hashes": {
+    "researchlab\\p126_transfer.py": "792dfbae9000d0a1b831a5f9639ed78d0c999c8c1db83887c6b4e194cb2b682b",
+    "research\\data\\SPY.csv": "7019af1ceeac8b4305fc321f882de1ec3669253f250793cdc941f93744432640",
+    "research\\replication_first\\p126_later_audit\\completion.json": "76bc6729f328c28e3417a997a20364924833192e420186bcecd5ce67d3d65fc3",
+    "researchlab\\p126_calendar.py": "6e2360f829691f98890cc3256d822fb7ee8f760c9a212393c9ace2365c424ec7",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  },
+  "limits": "Already viewed development years. Not independent confirmation or final2019paper replication. Sealed financial observations2024-2025 untouched;2024boundary schedule metadata only."
+}

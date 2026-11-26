@@ -1,0 +1,106 @@
+{
+  "windows": {
+    "pre_issue_diagnostic": {
+      "months": 34,
+      "daily_contrast": -0.0010061316212834875,
+      "annual_log_advantage": -0.1326175661438063,
+      "position_changes_including_entry": 139,
+      "fractional_zero_cost_only": true,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 126303,
+          "daily_contrast_ci95": [
+            -0.001987089264157429,
+            -9.750834350315087e-05
+          ],
+          "annual_log_advantage_ci95": [
+            -0.1853204479589542,
+            -0.08144682210381189
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 126312,
+          "daily_contrast_ci95": [
+            -0.0016652898025950678,
+            -0.0003523311050662973
+          ],
+          "annual_log_advantage_ci95": [
+            -0.16817050917627563,
+            -0.09945900775501613
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 126324,
+          "daily_contrast_ci95": [
+            -0.0015505046234389574,
+            -0.0004917887864593533
+          ],
+          "annual_log_advantage_ci95": [
+            -0.1608487004176953,
+            -0.10498128027482029
+          ]
+        }
+      ],
+      "gate": false
+    },
+    "post_issue": {
+      "months": 50,
+      "daily_contrast": -0.00018794461766181834,
+      "annual_log_advantage": -0.07508162230440558,
+      "position_changes_including_entry": 209,
+      "fractional_zero_cost_only": true,
+      "bootstrap": [
+        {
+          "block": 3,
+          "paths": 10000,
+          "seed": 126403,
+          "daily_contrast_ci95": [
+            -0.0014489614251555088,
+            0.0010338812164299553
+          ],
+          "annual_log_advantage_ci95": [
+            -0.20705274643358004,
+            0.05917881511577083
+          ]
+        },
+        {
+          "block": 12,
+          "paths": 10000,
+          "seed": 126412,
+          "daily_contrast_ci95": [
+            -0.0013391620042506986,
+            0.0008940008630583517
+          ],
+          "annual_log_advantage_ci95": [
+            -0.20647333478008095,
+            0.0500227926830603
+          ]
+        },
+        {
+          "block": 24,
+          "paths": 10000,
+          "seed": 126424,
+          "daily_contrast_ci95": [
+            -0.0011907811173625105,
+            0.0007936326199612784
+          ],
+          "annual_log_advantage_ci95": [
+            -0.19168126909644362,
+            0.038301002566905946
+          ]
+        }
+      ],
+      "gate": false
+    }
+  },
+  "advance": false,
+  "strategy_validated": false,
+  "independent_confirmation": false,
+  "capital_account_simulated": false
+}

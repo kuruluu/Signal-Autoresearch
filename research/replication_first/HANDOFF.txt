@@ -994,3 +994,9 @@ Meaningful progress: True
 P126 official later calendar recovered:56nominal dates2017-2023,2020March18cancelled preserved distinctly. Original scheduled date evidenced before cancellation; later clock treatment must freeze before outcomes. Only schedule metadata accessed for2024boundary.
 Evidence: p126_later_audit/completion.json, p126_later_audit/CONTROL_TIMING.txt
 Next step: Register one nominal-calendar contemporary effect/payoff adaptation or obtain schedule-revision timestamps; no COVID deletion or clock search.
+
+CYCLE 152 UPDATE
+Meaningful progress: True
+P126 later nominal-clock SPY test failed:postissue even-minus-odd-1.8794bps/day,idealized annual log-growth advantage-7.5082%,allCIsincludezero. Historical replication preserved; no timing/clock rescue.
+Evidence: p126_transfer_001/registration.json, p126_transfer_001/results.json, p126_transfer_001/DISPOSITION.txt
+Next step: Next paper; preserve historical replication and failed later economic adaptation separately.
