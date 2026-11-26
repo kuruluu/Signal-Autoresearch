@@ -1,0 +1,21 @@
+{
+  "id": "P02_external_001",
+  "utc": "2026-11-26T07:34:42.383754+00:00",
+  "scope": "External Mom6m EW deciles: five lagged returns at signal month, missing returns zero, then portfolio lag one month; quarterly March/June/September/December signal updates from June start. Not overlapping native six/six, no exact numerical match claim. Chosen from paper six-month emphasis before outcomes, not best-performing twelve-month specification.",
+  "windows": {
+    "original": [
+      "1965-01",
+      "1989-12"
+    ],
+    "later": [
+      "1993-04",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds20000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p02_external.py": "c1bce91528aca599b42fc8cee777cb79e549b7a02af5daf5fbd3c03a5e93b1cc",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

@@ -868,3 +868,9 @@ Meaningful progress: True
 P02 original methods recovered visually. Archived momentum timing differs from native; construction audit required before any outcome. P40 duplicate avoided using preserved failed gate.
 Evidence: p02_audit/METHOD_AUDIT.txt, p02_audit/INPUT_RECOVERY.txt
 Next step: Inspect pinned Mom6m and portfolio construction; preregister one justified mechanism test.
+
+CYCLE 131 UPDATE
+Meaningful progress: True
+P02 archived Mom6m construction audited, preregistered and tested. Preliminary gross momentum effect passes original and postpublication windows; later annual arithmetic spread12.1833%,SR.4266,weakest95%lower2.74085%. Not native replication or executable signal.
+Evidence: p02_audit/METHOD_AUDIT.txt, p02_external_001/registration.json, p02_external_001/results.json, p02_external_001/DISPOSITION.txt
+Next step: Fixed NYSE20cap liquidity robustness, then execution/confirmation only if justified.

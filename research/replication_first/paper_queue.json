@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P02",
-  "active_stage": "construction_audit",
+  "active_stage": "fixed_liquidity_robustness_next",
   "papers": [
     {
       "id": "P24",
@@ -682,13 +682,15 @@
     },
     {
       "id": "P02",
-      "status": "methods_audited_pending_construction",
+      "status": "external_mechanism_preliminary_pass",
       "evidence": [
         "p02_audit/METHOD_AUDIT.txt",
-        "p02_audit/INPUT_RECOVERY.txt"
+        "p02_external_001/registration.json",
+        "p02_external_001/results.json",
+        "p02_external_001/DISPOSITION.txt"
       ],
-      "reproduction": "Native timing differs from archived replication",
-      "signal": "Not tested"
+      "reproduction": "Native timing not replicated",
+      "signal": "Gross effect passes; liquidity and execution unvalidated"
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -705,5 +707,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Inspect dated Mom6m predictor and portfolio code before registration; no outcome-based horizon choice"
+  "next_action_on_resume": "P02 fixed NYSE20cap robustness; no alternative filter search"
 }
