@@ -1,0 +1,17 @@
+{
+  "id": "P119_partial_001",
+  "registered_utc": "2026-11-26T06:13:09.278938+00:00",
+  "type": "PartialoriginalperiodBTCweeklymomentum/source-transfertest,notexactCoinDeskvintage",
+  "input": "CoinMetricsPriceUSD1dUTC2011-01-01..2018-05-31;validateeverycalendardayuniquefinitepositive,noimputation,no2024-2025",
+  "construction": "SundayEODweeklyprices;simplepctreturnsSundaytoSunday;discardfirstpartialweekandlastpartialweek. Predictorcurrentweeklyreturn,targetnextweeklyreturn,alltargetSundayswithin2018-05-31. Constant+oneOLSfeature,nocoin/horizon/transformsearch.",
+  "targets": "Table14PanelBcol1positivecoef.19,R2.03;Table1weeklymean3.79%,SD16.64%. NativeCoinDeskversusCoinMetricsdifferenceexplicit.",
+  "numerical_gate": "Slopewithin.08of.19,weeklymeanwithin1percentagepointof3.79%,SDwithin2ppof16.64%;R2reporteddescriptive,notindependentadditionalgate. No baselineforcing.",
+  "inference": "10000pairedstationaryweeklyrowresamplesblocks4/12/26weeks,seeds119004/119012/119026;95%slopeCIlower>0allblocks. First104targetweekstraining,subsequentexpandingOLSpriorcompletedweeksonly;MSEimprovement>0versusexpandingmeanrequired.",
+  "advance": "Allnumerical/sign/bootstrap/forecastgatesmustpassbeforeseparatelyregisteredlaterperiodpersistenceandcost-aware$10000cryptoaccounttest. No papertradesorrankingfromregression.",
+  "limits": "Originalperiodbutprovider/weeklypriceconstructionvintagechange;workingpaperversion,shortearlycryptosample,selection/marketmicrostructure. Aggregatepricepublishingnotexecutablevenuefill.",
+  "hashes": {
+    "research\\replication_first\\p119_audit\\working_2018.pdf": "c59ede546d32c6c2d5215cf7600c6f8642406083fc37952b27d6ee5fa9f364f2",
+    "research\\replication_first\\p119_audit\\coinmetrics_btc_2011_2018.json": "d2c805f40c645f840587e5d04351053d6c9a32444dd575a4771527b70c79f070"
+  },
+  "sealed": "No2024-2025observations"
+}

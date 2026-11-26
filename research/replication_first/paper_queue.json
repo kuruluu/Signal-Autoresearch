@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P118predictivemechanism supported butcost-awareeconomicgatefailed;preservefixedstrategyandmoveon",
+  "active_paper": "P119",
+  "active_stage": "P1192018primarymethodsandboundedBTCinputrecovered,weeklymomentumtestregisteredbeforeoutcomes",
   "papers": [
     {
       "id": "P24",
@@ -421,6 +421,20 @@
       ],
       "reason": "PredictiveMSEgatepass;rawaccountCAGRgain.4529pp<1pp,allCAGRgainCIsincludezero;DD20riskfails",
       "reopen_condition": "Materialnewevidenceordemonstratedimplementationerror;preservefrozenfailedallocation"
+    },
+    {
+      "id": "P119",
+      "title": "Risks and Returns of Cryptocurrency",
+      "authors": [
+        "Yukun Liu",
+        "Aleh Tsyvinski"
+      ],
+      "version": "NBER24877August2018workingpaper",
+      "status": "active_registered_partial",
+      "evidence": [
+        "p119_audit/METHOD_AUDIT.txt",
+        "p119_partial_001/registration.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -437,5 +451,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Selectnextsinglepaperwithprimarymethods/presealedinputs;noP118parameterretuningororders"
+  "next_action_on_resume": "ValidateCoinMetricsdailycalendar/prices,implement/testSundayweeklyalignmentandprior-onlyforecast;freezeanalysiscodehashbeforeoutcomes"
 }

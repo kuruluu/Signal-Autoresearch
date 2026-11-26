@@ -640,3 +640,9 @@ Meaningful progress: True
 P118$10000whole-shareeconomicruncomplete:5.91%CAGR/18.53%DDvs5.46%/28.83%control;later/stresspointgainspositive,butprimary1ppCAGRminimumfailsandallgainCIsincludezero. Risk-onlyDD30/50pass,DD20failsresampleduncertainty;noadmission/order. Sixsynthetictestspass,hashesverified.
 Evidence: p118_strategy_001/results.json, p118_strategy_001/DISPOSITION.txt, p118_strategy_001/analysis_freeze.json, ../../tests/test_p118_strategy.py
 Next step: Selectnextsinglepaperusingprimarymethods/datafeasibility;preserveP118predictivemechanismandfailedfixedallocation. No lambda/weight/cost/trainingretuning,paperordersorleaderboardadmission.
+
+CYCLE 93 UPDATE
+Meaningful progress: True
+SelectednewP119cryptoassetmechanismunderbroadmandate. Dated2018NBERmethodsrecovered;boundedCoinMetrics2708dailyBTCprices2011-2018availablewithoutcredentials. RegisteredoneSundayweeklymomentumregression/source-transfertest,beforeoutcomes;CoinDeskvintagechangeandpricepublicationlimitsdocumented.
+Evidence: p119_audit/METHOD_AUDIT.txt, p119_partial_001/registration.json
+Next step: ValidatefullcalendardailyBTCinput,syntheticallytestSundayalignment/causalforecast,freezeanalysiscodehashandrunfixedweeklyregression/bootstrap/MSEgate. No othercoin/horizonsearchororders.
