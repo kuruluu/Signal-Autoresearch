@@ -988,3 +988,9 @@ Meaningful progress: True
 P1262018draft partialnative headline reproduced:even-minus-odd11.9823bps/dayvs12;weeks246-minus-odd10.9435vs10.9,all3/12/24monthCIspositive. No causal/strategy or later-persistence validation.
 Evidence: p126_native_001/registration.json, p126_native_001/results.json, p126_native_001/DISPOSITION.txt
 Next step: Recover later official dates and preregister contemporary persistence and incremental payoff; sealed years stay closed.
+
+CYCLE 151 UPDATE
+Meaningful progress: True
+P126 official later calendar recovered:56nominal dates2017-2023,2020March18cancelled preserved distinctly. Original scheduled date evidenced before cancellation; later clock treatment must freeze before outcomes. Only schedule metadata accessed for2024boundary.
+Evidence: p126_later_audit/completion.json, p126_later_audit/CONTROL_TIMING.txt
+Next step: Register one nominal-calendar contemporary effect/payoff adaptation or obtain schedule-revision timestamps; no COVID deletion or clock search.

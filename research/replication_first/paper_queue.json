@@ -2,7 +2,7 @@
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
   "active_paper": "P126",
-  "active_stage": "later_calendar_and_payoff_registration",
+  "active_stage": "later_clock_registration_pending",
   "papers": [
     {
       "id": "P24",
@@ -794,7 +794,9 @@
         "p126_audit/CONTROL_TIMING.txt",
         "p126_native_001/registration.json",
         "p126_native_001/results.json",
-        "p126_native_001/DISPOSITION.txt"
+        "p126_native_001/DISPOSITION.txt",
+        "p126_later_audit/completion.json",
+        "p126_later_audit/CONTROL_TIMING.txt"
       ]
     }
   ],
@@ -812,5 +814,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Recover2017-2023official scheduled meetings; register separate contemporary effect and incremental payoff, no cycle-window search"
+  "next_action_on_resume": "Freeze one causal nominal-schedule adaptation or recover revision timestamps; do not drop cancelled2020 or choose clock by returns"
 }
