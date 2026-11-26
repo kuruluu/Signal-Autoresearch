@@ -958,3 +958,9 @@ Meaningful progress: True
 P125 registered incremental Monday avoidance fails later confidence hurdle even under zero fees/perfect closes. Annual log advantage1.0010%idlecash/1.7629%theoreticalrf,allCIsincludezero. Synthetic compounding/timing/invalid-input checks passed.
 Evidence: p125_avoidance_001/registration.json, p125_avoidance_001/results.json, p125_avoidance_001/DISPOSITION.txt
 Next step: Next paper; preserve contrast-versus-executable-advantage distinction.
+
+CYCLE 146 UPDATE
+Meaningful progress: True
+Synthesized positive gross effects and failed payoff tests into similarities file. Added prospective incremental-payoff and access-reopening safeguards; no signal/ranking promotion or new outcomes.
+Evidence: ../../SIGNAL_SIMILARITIES.txt, TESTING_SCHEME.md
+Next step: Select next paper on native input recoverability and explicit payoff path; preserve blocked positives and avoid cost-service retry without changed evidence.

@@ -104,3 +104,15 @@ P28 conditional native aggregate effect: lowvolatility longportfolio Sharpe impr
 P28 transfer failure: nativeconditionalhistoricaleffect didnotcarry intooneUS ETF test. SPLVSharpe.7205vspriorbetaSPYcontrol.7980,meanadvantage.51ppuncertain. NootherETF/windowsearch. Like othernative-to-ETFfailures, implementation/universe/benchmark distinctions matter; no successfultradingsignal inferred.
 
 P105 positiveexternalcustomerleadlag survivescapscreen;executionblocked,costheadroomconditional22bps/month. Notvalidatededge,notcommonrulewithpricetrends.
+
+CYCLE146 EVIDENCE SYNTHESIS — NOT A STRATEGY RANKING
+Positive fixed-size-screen external mechanisms, different samples; figures below are annual arithmetic long-short gross spreads, NOT CAGR or account returns. No pooling or ranking across unequal windows.
+Price momentum: p02_liquid_001/results.json; later gross annual spread 13.5815%; weakest conditional95percent annual lower 3.2167%. Execution unvalidated.
+Customer momentum: p105_liquid_001/results.json; later gross annual spread 9.0158%; weakest conditional95percent annual lower 2.6511%. Execution unvalidated.
+Asset growth: p121_liquid_001/results.json; later gross annual spread 7.6690%; weakest conditional95percent annual lower 1.5505%. Execution unvalidated.
+Gross profitability: p123_liquid_001/results.json; later gross annual spread 8.8019%; weakest conditional95percent annual lower 1.2806%. Execution unvalidated.
+Shared evidence: these are cross-sectional stock-level relative-return effects that survived one fixed cap screen. This does not establish common economic cause, independence, complementary portfolio value or net account profit. Customer momentum uses business links, price momentum past returns, asset growth balance-sheet expansion, GP operating profitability; do not equate them.
+Shared unresolved requirement: dated security identifiers, weights, prices/delistings, turnover, availability, borrow/financing, account allocation and executable sizing. Cap screen is not a spread or capacity test. Common data/market periods create dependence. Project-wide confirmation still required.
+Counterexamples: P122 accruals historical gross effect failed later persistence; P124 seasonal contrast failed later; P125 weekday contrast passed but registered avoidance-versus-holding log-growth hurdle failed even before costs. A conditional contrast is not an incremental trading payoff.
+Research priority: one paper at a time. Prefer candidates with recoverable native inputs and a direct predeclared path from effect to payoff. Positive execution-blocked papers remain preserved; reopen only on actual new fields/access, not another aggregate resample. Cost-library bounded access timed out twice; no bulk/sealed fallback or construction-grid search.
+No validated successful-signal similarities or strategy-tier admissions established.
