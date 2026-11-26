@@ -1000,3 +1000,9 @@ Meaningful progress: True
 P126 later nominal-clock SPY test failed:postissue even-minus-odd-1.8794bps/day,idealized annual log-growth advantage-7.5082%,allCIsincludezero. Historical replication preserved; no timing/clock rescue.
 Evidence: p126_transfer_001/registration.json, p126_transfer_001/results.json, p126_transfer_001/DISPOSITION.txt
 Next step: Next paper; preserve historical replication and failed later economic adaptation separately.
+
+CYCLE 153 UPDATE
+Meaningful progress: True
+P127 original author carry factors and explicitlyJuly2021update recovered, safe dates verified. NBER2013method recovered. COM one-month curve signal selected before outcomes; units/construction/native-support audit pending.
+Evidence: p127_audit/METHOD_AUDIT.txt, p127_audit/completion.json
+Next step: Audit units and common construction, register one commoditycarry persistence test; no assetclass/timing selection from outcomes.

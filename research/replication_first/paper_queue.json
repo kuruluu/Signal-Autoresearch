@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P126_later_transfer_failed",
+  "active_paper": "P127",
+  "active_stage": "commodity_carry_unit_and_scope_audit",
   "papers": [
     {
       "id": "P24",
@@ -801,6 +801,17 @@
         "p126_transfer_001/results.json",
         "p126_transfer_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P127",
+      "title": "Carry",
+      "status": "author_original_and_update_recovered_methods_pending",
+      "reproduction": "NBER2013working methods, author factor files through2021",
+      "signal": "Not tested",
+      "evidence": [
+        "p127_audit/METHOD_AUDIT.txt",
+        "p127_audit/completion.json"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -817,5 +828,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Next paper; no reversed rule or nominal-clock rescue"
+  "next_action_on_resume": "P127 single COM one-month carry method/unit audit then preregistration; no assetclass performance selection"
 }
