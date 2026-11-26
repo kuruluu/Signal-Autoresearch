@@ -1,0 +1,21 @@
+{
+  "id": "P105_external_001",
+  "utc": "2026-11-26T07:18:35.474606+00:00",
+  "scope": "ExternalCustomerMomentumVWquintile,price5screen. Sixmonthlinkdelay,meanrecentcustomerreturns,imperfectmatching. Notexactpaper;notalpha. Nootherhorizons.",
+  "windows": {
+    "original": [
+      "1980-01",
+      "2004-12"
+    ],
+    "later": [
+      "2009-01",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds1050000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p105_external.py": "d31d1e45e6e0320d7c0adbc9de7f85b4d1f896139d191b86837b2ea7bbcb4146",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}
