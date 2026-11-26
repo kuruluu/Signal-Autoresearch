@@ -1,0 +1,11 @@
+{
+  "clarification": "Only250returnsby2007end. StartFeb2008afterfirsteligibleJanendestimate. Applyonnextsessionclose,thenearnfollowingreturn;zeroRFSharpe,notnativeFedfundSharpe. Nooutcomesyet.",
+  "hashes": {
+    "researchlab\\p79_allocation.py": "e70729ddbf54f1a8f4699dbb5078da47d3f754cbb99a26caa4abb4f5755525bc",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p79_transfer_001\\registration.json": "87e1d750134ec99286a5300fbef24733c766db474ef026f721b122cb0f2e0d95",
+    "research\\data\\SPY.csv": "7019af1ceeac8b4305fc321f882de1ec3669253f250793cdc941f93744432640",
+    "research\\data\\IEF.csv": "3e4508996a0ff3149e272c881e20db43f3f8971aef0c7ba3a244a97ec3fc119e",
+    "research\\data\\GLD.csv": "8f9f02839a3a327530c176e31a787ead97bb132093540e5adcb342eba4b0ed7f"
+  }
+}

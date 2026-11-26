@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P79",
-  "active_stage": "P79methods_and_transfer_registered",
+  "active_paper": null,
+  "active_stage": "P79transfer_failed",
   "papers": [
     {
       "id": "P24",
@@ -656,12 +656,16 @@
     },
     {
       "id": "P79",
-      "status": "active",
+      "status": "set_aside_transfer_failed",
       "reproduction": "Workingmethodsrecovered,nativepanelsmissing",
-      "signal": "Transferregistered",
+      "signal": "Sharpeadvantagesuncertain",
       "evidence": [
         "p79_audit/METHOD_AUDIT.txt",
-        "p79_transfer_001/registration.json"
+        "p79_transfer_001/registration.json",
+        "p79_transfer_001/analysis_freeze.json",
+        "p79_transfer_001/registration_addendum.json",
+        "p79_transfer_001/results.json",
+        "p79_transfer_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -679,5 +683,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "ImplementandfreezecausalP79solver/inputs"
+  "next_action_on_resume": "Nextpaper,noP79retuning"
 }
