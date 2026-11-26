@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": null,
-  "active_stage": "P30external_persistence_failed",
+  "active_paper": "P04",
+  "active_stage": "P04external_pass_execution_audit",
   "papers": [
     {
       "id": "P24",
@@ -578,6 +578,18 @@
         "p30_external_001/results.json",
         "p30_external_001/DISPOSITION.txt"
       ]
+    },
+    {
+      "id": "P04",
+      "status": "active_external_pass",
+      "reproduction": "Nativenotreplicated,distantproxy",
+      "signal": "Grosspassonly",
+      "evidence": [
+        "p04_audit/METHOD_AUDIT.txt",
+        "p04_external_001/registration.json",
+        "p04_external_001/results.json",
+        "p04_external_001/DISPOSITION.txt"
+      ]
     }
   ],
   "run_status": "active_until_user_pause_or_stop",
@@ -594,5 +606,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Nextpaper;noP30retuning"
+  "next_action_on_resume": "AuditP04costs,weights,borrowandconcentration;do notcallnative"
 }

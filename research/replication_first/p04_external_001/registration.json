@@ -1,0 +1,21 @@
+{
+  "id": "P04_external_001",
+  "utc": "2026-11-26T07:14:49.580753+00:00",
+  "scope": "OSAP24monthreturnskipping12months,monthlyrebalance,missingreturnzero. Notnative3yearmarketadjustedCARwinnerloser. Signedloser-minuswinner;externalonly. Nootherhorizon.",
+  "windows": {
+    "original": [
+      "1929-01",
+      "1982-12"
+    ],
+    "later": [
+      "1986-01",
+      "2022-12"
+    ]
+  },
+  "gate": "Positiveannualarithmeticmean andall95%lowerbounds>0 at3/12/24month10000stationarypaths,seeds400000+windowindex100+block,bothwindows. Noalpha/CAGR/accountclaim. Percentdivide100,zero-investmentnoRFsubtraction. Noothersignal/endpointsearch. Passonlyexecutionaudit.",
+  "hashes": {
+    "researchlab\\p04_external.py": "786e34e552066801c75a15fea39f2c112a666ec0e43c53b3622917a101a4817c",
+    "research\\replication_first\\p63_archive\\PredictorLSretWide.parquet": "4835ee1ed7740cb4bd59d62bac9a2f0ea58ced855e6c1ef7c3efc8a2441958e0",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7"
+  }
+}

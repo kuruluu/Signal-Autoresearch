@@ -790,3 +790,9 @@ Meaningful progress: True
 P30externalhistoricalpass,lateruncertain5.83%meanallCIscrosszero;gatefails.
 Evidence: p30_audit/METHOD_AUDIT.txt, p30_external_001/registration.json, p30_external_001/results.json, p30_external_001/DISPOSITION.txt
 Next step: Nextpaper,noP30tuning.
+
+CYCLE 118 UPDATE
+Meaningful progress: True
+P04distantOSAPreversalpassesbothperiods:later7.465%mean,SR.413,weaklower.0179%annual. Notnative,notnetedge.
+Evidence: p04_audit/METHOD_AUDIT.txt, p04_external_001/registration.json, p04_external_001/results.json, p04_external_001/DISPOSITION.txt
+Next step: Auditcosts/weights/borrow/concentration.
