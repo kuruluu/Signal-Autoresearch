@@ -718,3 +718,9 @@ Meaningful progress: True
 P28nativeexecutioninputs absent; auditeddistinctSPLVtransfermethoddifferences andcurrentAlpacaassetmetadata. RegisteredoneUSlowvolETF versuscausal36monthbetaSPYcontrol before outcomeacquisition, explicitmechanismstage notaccount. Noorders orrankings.
 Evidence: p28_execution_audit/AUDIT.txt, p28_execution_audit/quality_summary.json, p28_transfer_001/registration.json
 Next step: Acquire boundedpre2024ETFdata, freezeimplementationandinputs, rununchangedmechanismgate.
+
+CYCLE 106 UPDATE
+Meaningful progress: True
+P28SPLVtransfer failed115months:annualmeanadvantage.5102pp,Sharpeadvantage-.0775;all6bootstrapCIsincludezero. Prioronlycontrolsynthetics andhashespass. Nativepositiveeffectpreserved, norescue/leaderboard/order.
+Evidence: p28_transfer_001/registration.json, p28_transfer_001/analysis_freeze.json, p28_transfer_001/results.json, p28_transfer_001/DISPOSITION.txt
+Next step: Move to nextpaper; preservefailures and do nottuneSPLVbranch.

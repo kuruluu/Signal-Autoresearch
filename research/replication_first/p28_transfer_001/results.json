@@ -1,0 +1,66 @@
+{
+  "type": "DistinctlowvolETFmechanismtransfer",
+  "months": 115,
+  "first": "2014-06",
+  "last": "2023-12",
+  "annual_mean_advantage": 0.005101975359034724,
+  "sharpe_advantage": -0.07749902931009589,
+  "annual_arithmetic_means": {
+    "SPLV": 0.09103233999595443,
+    "control": 0.0859303646369197,
+    "SPY": 0.12489933331011498
+  },
+  "annual_sharpes": {
+    "SPLV": 0.7205198069740102,
+    "control": 0.7980188362841061,
+    "SPY": 0.8124896904070477
+  },
+  "beta_min_max": [
+    0.5037355903446901,
+    0.7800249337785674
+  ],
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 281003,
+      "annual_mean_advantage_ci95": [
+        -0.0425242297177109,
+        0.051271397121548
+      ],
+      "sharpe_advantage_ci95": [
+        -0.48497849796178,
+        0.35415142227594576
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 281012,
+      "annual_mean_advantage_ci95": [
+        -0.039921790177357294,
+        0.04610376290286484
+      ],
+      "sharpe_advantage_ci95": [
+        -0.46793519499442426,
+        0.31879343643584745
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 281024,
+      "annual_mean_advantage_ci95": [
+        -0.03253522975649917,
+        0.03974347488657905
+      ],
+      "sharpe_advantage_ci95": [
+        -0.4006655922825346,
+        0.26948700784519664
+      ]
+    }
+  ],
+  "gate_pass": false,
+  "strategy_validated": false,
+  "independent_confirmation": false
+}

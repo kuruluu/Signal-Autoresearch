@@ -1,8 +1,8 @@
 {
   "updated_on": "2026-11-26",
   "selection_basis": "Existing handoff priority, considered sequentially; not ranked by observed backtest performance",
-  "active_paper": "P28",
-  "active_stage": "P28distinctSPLVmechanismtransfer_registered_beforeinputs",
+  "active_paper": null,
+  "active_stage": "P28historical_support_ETFtransfer_failed",
   "papers": [
     {
       "id": "P24",
@@ -477,9 +477,9 @@
     },
     {
       "id": "P28",
-      "status": "active_conditional_effect_passed",
+      "status": "set_aside_transfer_failed",
       "reproduction": "Inferredlogconvention matches6targets; lowSRadvantage andspreadalpha all3bootstrapintervalspositive. Partialconditional, notexact.",
-      "signal": "DistinctSPLV-versus-priorbetaSPY mechanismregistered; noexecutionvalidation",
+      "signal": "SPLV causalbetaSPYtransfer failed; negativeSharpeadvantage andallbootstrapCIsincludezero. Nativeconditionalhistoricaleffect preserved.",
       "evidence": [
         "p28_audit/METHOD_AUDIT.txt",
         "p28_partial_001/registration.json",
@@ -493,7 +493,10 @@
         "p28_log_001/DISPOSITION.txt",
         "p28_execution_audit/AUDIT.txt",
         "p28_execution_audit/quality_summary.json",
-        "p28_transfer_001/registration.json"
+        "p28_transfer_001/registration.json",
+        "p28_transfer_001/analysis_freeze.json",
+        "p28_transfer_001/results.json",
+        "p28_transfer_001/DISPOSITION.txt"
       ]
     }
   ],
@@ -511,5 +514,5 @@
   "paper_trading_authorized": true,
   "live_trading_authorized": false,
   "access_revisit_audit": "ALPACA_REVISIT_AUDIT.json",
-  "next_action_on_resume": "Acquire boundedSPLV/SPYpre2024inputs, implementandfreezeP28transfercode/hashes, thenrunfixedmechanismtest"
+  "next_action_on_resume": "Move to nextpaper; do not tune P28transfer. Preserve nativeeffect and inferredsourceconvention limitations"
 }

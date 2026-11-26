@@ -1,0 +1,9 @@
+{
+  "hashes": {
+    "researchlab\\p28_transfer.py": "0412f460ad9cd85cde844994de45e8cad9839c4b283cf98623b6b12cea24c89d",
+    "researchlab\\reality_check.py": "c519f8e3399bfcffc47c60a0fd208c0c626f54f47c58fc229639d850b7ff27c7",
+    "research\\replication_first\\p28_transfer_001\\registration.json": "96c2d1455d1600febd1dfbc8f108e33094e15e34af3330f9ec2bf6a28e1255ad",
+    "research\\replication_first\\p28_transfer_inputs\\SPLV.csv": "e934b826c8fd41124504935e415ccb67f0a4645e8ac00f9c0bd0a3b382e8fe02",
+    "research\\replication_first\\p28_transfer_inputs\\SPY.csv": "8dca82f2a8fa9de3ce8340909aa1ae1efe2d1fc704ee35edea2f6ef0370ffda8"
+  }
+}
