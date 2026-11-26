@@ -1,0 +1,2 @@
+Source PDF SHA256 5d77f1db5f10f9dfd04be6cab551c1fc643c349c8163d17d161f77295411c55b
+Visual method inspection: page-04.png, page-05.png, page-06.png. Source scan and rendered pages local only.

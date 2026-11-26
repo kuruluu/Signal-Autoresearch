@@ -1,0 +1,9 @@
+P02 METHOD AND INPUT AUDIT
+Paper: Jegadeesh and Titman (1993), Journal of Finance 48(1), 65-91.
+DOI: 10.1111/j.1540-6261.1993.tb04702.x
+Published scan recovered from https://sabercapitalmgt.com/wp-content/uploads/2013/01/Buying-Winners-and-Selling-Losers-research-paper.pdf
+28 PDF pages. Text extraction empty; visually inspected PDF pages 4-6, printed pages 67-69.
+Original sample 1965-1989, NYSE/AMEX. CRSP daily input vintage July1962-December1989. Formation and holding periods 3/6/9/12 months; equal-weight deciles, overlapping cohorts, reported monthly rebalanced returns. Separate no-gap and one-week-gap variants. Paper emphasizes six/six no-gap for detailed analysis. Twelve/three no-gap reported 1.31 percent monthly; one-week-gap 1.49 percent.
+Pinned OpenSourceAP SignalDoc Mom12m/Mom6m are not exact reproductions: metadata explicitly substitutes skipping a month for the paper timing. Mom12m metadata points to Table1A twelve/three but this reference alone does not establish exact construction. Must inspect dated predictor and portfolio construction code before registering a single external mechanism test. Do not select Mom12m versus Mom6m by observed returns. Native six/six would require constituent daily data including historical universe and delistings, currently unavailable locally.
+No return column inspected in this audit. No outcome, cost, executable-edge, or leaderboard claim. Existing momentum-related tests are dependent evidence, not independent confirmation. Sealed 2024-2025 data untouched.
+Next: inspect pinned v1.3.0 Mom6m and portfolio code, choose one construction based on paper emphasis and available input fidelity, register before outcomes. If materially incompatible, preserve blocker and move on.

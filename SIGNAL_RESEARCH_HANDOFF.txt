@@ -862,3 +862,9 @@ Meaningful progress: True
 P120historicalmatches,postpublication3.26bpsdifferenceuncertain;gatefails.
 Evidence: p120_partial_001/registration.json, p120_partial_001/results.json, p120_partial_001/DISPOSITION.txt
 Next step: Nextpaper.
+
+CYCLE 130 UPDATE
+Meaningful progress: True
+P02 original methods recovered visually. Archived momentum timing differs from native; construction audit required before any outcome. P40 duplicate avoided using preserved failed gate.
+Evidence: p02_audit/METHOD_AUDIT.txt, p02_audit/INPUT_RECOVERY.txt
+Next step: Inspect pinned Mom6m and portfolio construction; preregister one justified mechanism test.
