@@ -1,0 +1,70 @@
+{
+  "type": "Partial native-period reconstruction; third-party index vintage",
+  "n_months": 1067,
+  "published_n_each": 1052,
+  "count_matches": false,
+  "position_means_percent": {
+    "minus1": 0.12268845797264395,
+    "plus1": 0.0929051428292494,
+    "plus2": 0.1331778109751849,
+    "plus3": 0.14613861745033044
+  },
+  "four_day_sum_mean_percent": 0.4949100292274087,
+  "contrast_percent": 0.48940901086407856,
+  "numerical_gate_pass": true,
+  "bootstrap": [
+    {
+      "block_months": 3,
+      "paths": 10000,
+      "seed": 117003,
+      "mean_ci95_percent": [
+        0.37826249153442176,
+        0.6078303100376466
+      ],
+      "contrast_ci95_percent": [
+        0.3699066999076465,
+        0.6110151390891322
+      ]
+    },
+    {
+      "block_months": 12,
+      "paths": 10000,
+      "seed": 117012,
+      "mean_ci95_percent": [
+        0.38312445713361776,
+        0.6049518773157515
+      ],
+      "contrast_ci95_percent": [
+        0.3712637090362395,
+        0.6048944417954253
+      ]
+    },
+    {
+      "block_months": 24,
+      "paths": 10000,
+      "seed": 117024,
+      "mean_ci95_percent": [
+        0.38124659849969433,
+        0.6046785182614014
+      ],
+      "contrast_ci95_percent": [
+        0.36435003824613565,
+        0.6098387745719336
+      ]
+    }
+  ],
+  "advance_to_separately_registered_later_test": true,
+  "exact_replication": false,
+  "trading_strategy_validated": false,
+  "boundary_policy": "Group by receiving month. Omit first/last sample months and months without preceding recorded calendar month. Non-TOM baseline days4 through penultimate of receiving month, resampled jointly with that month TOM vector.",
+  "splits": {
+    "before_June1952": {
+      "n": 659,
+      "sum_mean_percent": 0.514294828580492
+    },
+    "June1952_onward": {
+      "n": 408,
+      "sum_mean_percent": 0.4635997773311296
+    }
+  }
+}

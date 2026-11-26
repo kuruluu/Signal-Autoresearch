@@ -496,3 +496,9 @@ Meaningful progress: True
 Recovered original P117 scan methods visually. Fixed one last-plus-first-three-session effect, transcribed Table5 means and count. Registered partial reconstruction before outcomes, with explicit historical-calendar/vintage and 1052-month count discrepancy audit.
 Evidence: p117_audit/METHOD_AUDIT.txt, p117_partial_001/registration.json
 Next step: Audit historical DJIA session dates and partial boundaries; implement/test position alignment, then execute frozen P117 reconstruction and monthly-block inference.
+
+CYCLE 69 UPDATE
+Meaningful progress: True
+P117 original-window reconstruction passed fixed numerical/robustness gates: four-day mean 0.49491% vs 0.473%, contrast 0.48941pp with all three bootstrap CIs positive. N1067 vs published1052 prevents exact replication claim. Two synthetic calendar tests pass; source and analysis hashes verified. No trading validation.
+Evidence: p117_partial_001/results.json, p117_partial_001/INTERPRETATION.txt, p117_partial_001/analysis_freeze.json, ../../tests/test_p117_reconstruction.py
+Next step: Register post-publication fixed-window persistence test on existing presealed Dow history, then assess executable ETF translation only if registered persistence gates pass.

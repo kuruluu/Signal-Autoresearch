@@ -1,0 +1,6 @@
+P117 partial native-period reconstruction passed its registered numerical and bootstrap gates.
+Average four-day sum 0.49491% versus published 0.473%; individual position means 0.12269%, 0.09291%, 0.13318%, 0.14614% versus 0.122%, 0.084%, 0.127%, 0.140%.
+Monthly resampled contrast versus four times non-TOM daily mean 0.48941 percentage points; all 3/12/24-month 10000-path stationary bootstrap 95% intervals positive (lower bounds 0.36991, 0.37126, 0.36435 pp).
+Historical file has 1067 usable monthly vectors versus published 1052: exact original vintage/calendar exclusions unresolved. This is partial reconstruction, not exact replication. Preserve Saturdays and historical closures; do not remove months to force counts.
+Native-period evidence supports a separately registered later-period persistence test. It does not establish a current executable strategy. Daily price-index returns omit dividends, costs, financing and actual closing fills. No tier ranking or paper order yet.
+All sample observations development/viewed; no sealed 2024-2025 observations accessed.

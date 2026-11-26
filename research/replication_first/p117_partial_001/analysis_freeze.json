@@ -1,0 +1,6 @@
+{
+  "code_sha256": "c4c20d957cb483dee855e205083c0b51a45b7bc69ce96235adb297674e95cbc4",
+  "timing": "Before effect calculation",
+  "baseline": "Joint monthly bootstrap of TOM sum, non-TOM sum and non-TOM count; aggregate baseline is four times pooled non-TOM mean",
+  "boundaries": "First and last sample months omitted; receiving month requires preceding calendar month; no bridging across 1914 closure"
+}
