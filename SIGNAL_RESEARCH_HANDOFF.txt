@@ -970,3 +970,9 @@ Meaningful progress: True
 P126 author2018methods recovered. Critical calendar-weekday/holidayzero and nextmeetingminus1 rules identified. Publisher replication zip403;184scheduled meeting calendar pending. No outcomes tested.
 Evidence: p126_audit/METHOD_AUDIT.txt
 Next step: Recover complete official historical FOMC calendar and reconcile target version before registration.
+
+CYCLE 148 UPDATE
+Meaningful progress: True
+P126 official184scheduled announcement dates recovered;8peryear and138/138P49overlap exact. September15,2003 communication discussion distinguished from September16policy meeting. No outcomes used; boundary/weekday counts pending.
+Evidence: p126_audit/completion.json, p126_audit/INPUT_RECOVERY.txt
+Next step: Recover boundary meetings and synthetic/calendar alignment; preregister outcome after target version/sample reconciliation.

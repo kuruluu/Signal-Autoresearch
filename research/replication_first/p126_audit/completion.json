@@ -1,0 +1,1138 @@
+{
+  "scope": "Scheduled policy announcement last day, 1994-2016",
+  "exclusion": {
+    "date": "2003-09-15",
+    "reason": "Evening communication-policy discussion, preceding scheduled September16 decision; official transcript FOMC20030915meeting.pdf"
+  },
+  "rows": [
+    {
+      "heading": "February 3-4 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-02-04",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "March 22 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-03-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "May 17 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-05-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "July 5-6 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-07-06",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "August 16 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-08-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "September 27 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-09-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "November 15 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-11-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "December 20 Meeting - 1994",
+      "year": 1994,
+      "date": "1994-12-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm"
+    },
+    {
+      "heading": "January 31-February 1 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-02-01",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "March 28 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-03-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "May 23 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-05-23",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "July 5-6 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-07-06",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "August 22 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-08-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "September 26 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-09-26",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "November 15 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-11-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "December 19 Meeting - 1995",
+      "year": 1995,
+      "date": "1995-12-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm"
+    },
+    {
+      "heading": "January 30-31 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-01-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "March 26 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-03-26",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "May 21 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-05-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "July 2-3 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-07-03",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "August 20 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-08-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "September 24 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-09-24",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "November 13 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-11-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "December 17 Meeting - 1996",
+      "year": 1996,
+      "date": "1996-12-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm"
+    },
+    {
+      "heading": "February 4-5 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-02-05",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "March 25 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-03-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "May 20 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-05-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "July 1-2 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-07-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "August 19 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-08-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "September 30 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-09-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "November 12 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-11-12",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "December 16 Meeting - 1997",
+      "year": 1997,
+      "date": "1997-12-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1997.htm"
+    },
+    {
+      "heading": "February 3-4 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-02-04",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "March 31 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-03-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "May 19 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-05-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "June 30-July 1 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-07-01",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "August 18 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-08-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "September 29 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-09-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "November 17 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-11-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "December 22 Meeting - 1998",
+      "year": 1998,
+      "date": "1998-12-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm"
+    },
+    {
+      "heading": "February 2-3 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-02-03",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "March 30 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-03-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "May 18 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-05-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "June 29-30 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-06-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "August 24 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-08-24",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "October 5 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-10-05",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "November 16 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-11-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "December 21 Meeting - 1999",
+      "year": 1999,
+      "date": "1999-12-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm"
+    },
+    {
+      "heading": "February 1-2 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-02-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "March 21 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-03-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "May 16 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-05-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "June 27-28 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-06-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "August 22 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-08-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "October 3 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-10-03",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "November 15 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-11-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "December 19 Meeting - 2000",
+      "year": 2000,
+      "date": "2000-12-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm"
+    },
+    {
+      "heading": "January 30-31 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-01-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "March 20 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-03-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "May 15 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-05-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "June 26-27 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-06-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "August 21 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-08-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "October 2 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-10-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "November 6 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-11-06",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "December 11 Meeting - 2001",
+      "year": 2001,
+      "date": "2001-12-11",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm"
+    },
+    {
+      "heading": "January 29-30 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-01-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "March 19 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-03-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "May 7 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-05-07",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "June 25-26 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-06-26",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "August 13 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-08-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "September 24 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-09-24",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "November 6 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-11-06",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "December 10 Meeting - 2002",
+      "year": 2002,
+      "date": "2002-12-10",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm"
+    },
+    {
+      "heading": "January 28-29 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-01-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "March 18 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-03-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "May 6 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-05-06",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "June 24-25 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-06-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "August 12 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-08-12",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "September 16 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-09-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "October 28 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-10-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "December 9 Meeting - 2003",
+      "year": 2003,
+      "date": "2003-12-09",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm"
+    },
+    {
+      "heading": "January 27-28 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-01-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "March 16 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-03-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "May 4 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-05-04",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "June 29-30 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-06-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "August 10 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-08-10",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "September 21 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-09-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "November 10 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-11-10",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "December 14 Meeting - 2004",
+      "year": 2004,
+      "date": "2004-12-14",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm"
+    },
+    {
+      "heading": "February 1-2 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-02-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "March 22 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-03-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "May 3 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-05-03",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "June 29-30 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-06-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "August 9 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-08-09",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "September 20 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-09-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "November 1 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-11-01",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "December 13 Meeting - 2005",
+      "year": 2005,
+      "date": "2005-12-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm"
+    },
+    {
+      "heading": "January 31 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-01-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "March 27-28 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-03-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "May 10 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-05-10",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "June 28-29 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-06-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "August 8 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-08-08",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "September 20 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-09-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "October 24-25 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-10-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "December 12 Meeting - 2006",
+      "year": 2006,
+      "date": "2006-12-12",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm"
+    },
+    {
+      "heading": "January 30-31 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-01-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "March 20-21 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-03-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "May 9 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-05-09",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "June 27-28 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-06-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "August 7 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-08-07",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "September 18 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-09-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "October 30-31 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-10-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "December 11 Meeting - 2007",
+      "year": 2007,
+      "date": "2007-12-11",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm"
+    },
+    {
+      "heading": "January 29-30 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-01-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "March 18 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-03-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "April 29-30 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-04-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "June 24-25 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-06-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "August 5 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-08-05",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "September 16 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-09-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "October 28-29 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-10-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "December 15-16 Meeting - 2008",
+      "year": 2008,
+      "date": "2008-12-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm"
+    },
+    {
+      "heading": "January 27-28 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-01-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "March 17-18 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-03-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "April 28-29 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-04-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "June 23-24 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-06-24",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "August 11-12 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-08-12",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "September 22-23 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-09-23",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "November 3-4 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-11-04",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "December 15-16 Meeting - 2009",
+      "year": 2009,
+      "date": "2009-12-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2009.htm"
+    },
+    {
+      "heading": "January 26-27 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-01-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "March 16 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-03-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "April 27-28 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-04-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "June 22-23 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-06-23",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "August 10 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-08-10",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "September 21 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-09-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "November 2-3 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-11-03",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "December 14 Meeting - 2010",
+      "year": 2010,
+      "date": "2010-12-14",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2010.htm"
+    },
+    {
+      "heading": "January 25-26 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-01-26",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "March 15 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-03-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "April 26-27 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-04-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "June 21-22 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-06-22",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "August 9 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-08-09",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "September 20-21 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-09-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "November 1-2 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-11-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "December 13 Meeting - 2011",
+      "year": 2011,
+      "date": "2011-12-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm"
+    },
+    {
+      "heading": "January 24-25 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-01-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "March 13 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-03-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "April 24-25 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-04-25",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "June 19-20 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-06-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "July 31-August 1 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-08-01",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "September 12-13 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-09-13",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "October 23-24 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-10-24",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "December 11-12 Meeting - 2012",
+      "year": 2012,
+      "date": "2012-12-12",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2012.htm"
+    },
+    {
+      "heading": "January 29-30 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-01-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "March 19-20 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-03-20",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "April/May 30-1 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-05-01",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "June 18-19 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-06-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "July 30-31 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-07-31",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "September 17-18 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-09-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "October 29-30 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-10-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "December 17-18 Meeting - 2013",
+      "year": 2013,
+      "date": "2013-12-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm"
+    },
+    {
+      "heading": "January 28-29 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-01-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "March 18-19 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-03-19",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "April 29-30 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-04-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "June 17-18 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-06-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "July 29-30 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-07-30",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "September 16-17 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-09-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "October 28-29 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-10-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "December 16-17 Meeting - 2014",
+      "year": 2014,
+      "date": "2014-12-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm"
+    },
+    {
+      "heading": "January 27-28 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-01-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "March 17-18 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-03-18",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "April 28-29 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-04-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "June 16-17 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-06-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "July 28-29 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-07-29",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "September 16-17 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-09-17",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "October 27-28 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-10-28",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "December 15-16 Meeting - 2015",
+      "year": 2015,
+      "date": "2015-12-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm"
+    },
+    {
+      "heading": "January 26-27 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-01-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "March 15-16 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-03-16",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "April 26-27 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-04-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "June 14-15 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-06-15",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "July 26-27 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-07-27",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "September 20-21 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-09-21",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "November 1-2 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-11-02",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    },
+    {
+      "heading": "December 13-14 Meeting - 2016",
+      "year": 2016,
+      "date": "2016-12-14",
+      "source": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm"
+    }
+  ],
+  "counts": {
+    "1994": 8,
+    "1995": 8,
+    "1996": 8,
+    "1997": 8,
+    "1998": 8,
+    "1999": 8,
+    "2000": 8,
+    "2001": 8,
+    "2002": 8,
+    "2003": 8,
+    "2004": 8,
+    "2005": 8,
+    "2006": 8,
+    "2007": 8,
+    "2008": 8,
+    "2009": 8,
+    "2010": 8,
+    "2011": 8,
+    "2012": 8,
+    "2013": 8,
+    "2014": 8,
+    "2015": 8,
+    "2016": 8
+  }
+}
