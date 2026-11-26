@@ -1,0 +1,13 @@
+{
+  "paper_pages": 25,
+  "workbook_sheet": "BAB factors",
+  "US_header": "U.S. Equities",
+  "US_first": 192904,
+  "US_last": 201203,
+  "US_nonmissing": 996,
+  "outcomes_computed": false,
+  "hashes": {
+    "original.xlsx": "b660025cafe439d1d7ea282e37caab0426a25a0c14330a0914e1c01f549023c1",
+    "paper.pdf": "037989a17e89d3977cc11b7de8d568a66482d92b3505b2644c53a3fb1f699968"
+  }
+}

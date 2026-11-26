@@ -670,3 +670,9 @@ Meaningful progress: True
 P19 fixed historical-beta spread test: annual arithmetic means3.80268%1968-1999 and2.33540%2003-2022 before costs. Both fail joint positive-mean bootstrap gate; later all intervals include zero. Preserve separate predicted-beta headline as untested, no alpha claim or executable validation. Frozen hashes verified.
 Evidence: p19_historical_001/registration.json, p19_historical_001/results.json, p19_historical_001/DISPOSITION.txt
 Next step: Move to next accessible paper; no window/decile/bootstrap tuning of P19.
+
+CYCLE 98 UPDATE
+Meaningful progress: True
+P27 published25page methods and explicitly original AQR2012workbook recovered. USfactor startsApril1929, unlike narrative1926; identified discrepancy before computing outcomes. Native leverage/short and beta estimation documented; no automaticETFsubstitution.
+Evidence: p27_audit/METHOD_AUDIT.txt, p27_audit/quality_summary.json
+Next step: Resolve UScoverage against Table3 then freeze a faithful partial reconstruction protocol.
